@@ -1,0 +1,140 @@
+
+ Possible matches for unknown subsection 
+
+ FIXED_ATOMS
+
+   subsection GEO_OPT in section %__ROOT__%MOTION score:  102
+   subsection CELL_OPT in section %__ROOT__%MOTION score:  101
+   subsection SHELL_OPT in section %__ROOT__%MOTION score:  101
+   subsection FREE_ENERGY in section %__ROOT__%MOTION score:  101
+   subsection TMC in section %__ROOT__%MOTION score:  101
+
+ *******************************************************************************
+ *   ___                                                                       *
+ *  /   \                                                                      *
+ * [ABORT]                                                                     *
+ *  \___/            unknown subsection FIXED_ATOMS of section MOTION          *
+ *    |                                                                        *
+ *  O/|                                                                        *
+ * /| |                                                                        *
+ * / \                                                     input_parsing.F:185 *
+ *******************************************************************************
+
+
+ ===== Routine Calling Stack ===== 
+
+            3 section_vals_parse
+            2 section_vals_parse
+            1 read_input
+
+ Possible matches for unknown subsection 
+
+ FIXED_ATOMS
+
+   subsection GEO_OPT in section %__ROOT__%MOTION score:  102
+   subsection CELL_OPT in section %__ROOT__%MOTION score:  101
+   subsection SHELL_OPT in section %__ROOT__%MOTION score:  101
+   subsection FREE_ENERGY in section %__ROOT__%MOTION score:  101
+   subsection TMC in section %__ROOT__%MOTION score:  101
+
+ *******************************************************************************
+ *   ___                                                                       *
+ *  /   \                                                                      *
+ * [ABORT]                                                                     *
+ *  \___/            unknown subsection FIXED_ATOMS of section MOTION          *
+ *    |                                                                        *
+ *  O/|                                                                        *
+ * /| |                                                                        *
+ * / \                                                     input_parsing.F:185 *
+ *******************************************************************************
+
+
+ ===== Routine Calling Stack ===== 
+
+            3 section_vals_parse
+            2 section_vals_parse
+            1 read_input
+
+ Possible matches for unknown subsection 
+
+ FIXED_ATOMS
+
+   subsection GEO_OPT in section %__ROOT__%MOTION score:  102
+   subsection CELL_OPT in section %__ROOT__%MOTION score:  101
+   subsection SHELL_OPT in section %__ROOT__%MOTION score:  101
+   subsection FREE_ENERGY in section %__ROOT__%MOTION score:  101
+   subsection TMC in section %__ROOT__%MOTION score:  101
+
+ *******************************************************************************
+ *   ___                                                                       *
+ *  /   \                                                                      *
+ * [ABORT]                                                                     *
+ *  \___/            unknown subsection FIXED_ATOMS of section MOTION          *
+ *    |                                                                        *
+ *  O/|                                                                        *
+ * /| |                                                                        *
+ * / \                                                     input_parsing.F:185 *
+ *******************************************************************************
+
+
+ ===== Routine Calling Stack ===== 
+
+            3 section_vals_parse
+            2 section_vals_parse
+            1 read_input
+
+ Possible matches for unknown subsection 
+
+ FIXED_ATOMS
+
+   subsection GEO_OPT in section %__ROOT__%MOTION score:  102
+   subsection CELL_OPT in section %__ROOT__%MOTION score:  101
+   subsection SHELL_OPT in section %__ROOT__%MOTION score:  101
+   subsection FREE_ENERGY in section %__ROOT__%MOTION score:  101
+   subsection TMC in section %__ROOT__%MOTION score:  101
+
+ *******************************************************************************
+ *   ___                                                                       *
+ *  /   \                                                                      *
+ * [ABORT]                                                                     *
+ *  \___/            unknown subsection FIXED_ATOMS of section MOTION          *
+ *    |                                                                        *
+ *  O/|                                                                        *
+ * /| |                                                                        *
+ * / \                                                     input_parsing.F:185 *
+ *******************************************************************************
+
+
+ ===== Routine Calling Stack ===== 
+
+            3 section_vals_parse
+            2 section_vals_parse
+            1 read_input
+
+ Possible matches for unknown subsection 
+
+ FIXED_ATOMS
+
+   subsection GEO_OPT in section %__ROOT__%MOTION score:  102
+   subsection CELL_OPT in section %__ROOT__%MOTION score:  101
+   subsection SHELL_OPT in section %__ROOT__%MOTION score:  101
+   subsection FREE_ENERGY in section %__ROOT__%MOTION score:  101
+   subsection TMC in section %__ROOT__%MOTION score:  101
+
+ *******************************************************************************
+ *   ___                                                                       *
+ *  /   \                                                                      *
+ * [ABORT]                                                                     *
+ *  \___/            unknown subsection FIXED_ATOMS of section MOTION          *
+ *    |                                                                        *
+ *  O/|                                                                        *
+ * /| |                                                                        *
+ * / \                                                     input_parsing.F:185 *
+ *******************************************************************************
+
+
+ ===== Routine Calling Stack ===== 
+
+            3 section_vals_parse
+            2 section_vals_parse
+            1 read_input
