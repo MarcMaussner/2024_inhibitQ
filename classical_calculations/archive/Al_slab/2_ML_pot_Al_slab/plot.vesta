@@ -1,0 +1,2 @@
+LoadStructure "FILENAME"
+ExportImage "FILENAME.png"
