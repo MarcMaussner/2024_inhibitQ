@@ -1,0 +1,50 @@
+&GLOBAL
+  PROJECT_NAME test
+  RUN_TYPE ENERGY
+  PRINT_LEVEL LOW
+&END GLOBAL
+
+&FORCE_EVAL
+  METHOD Quickstep
+  &DFT
+    BASIS_SET_FILE_NAME /opt/homebrew/share/cp2k/data/BASIS_MOLOPT
+    POTENTIAL_FILE_NAME /opt/homebrew/share/cp2k/data/GTH_POTENTIALS
+    &MGRID
+      CUTOFF 400
+    &END MGRID
+    &QS
+      EPS_DEFAULT 1.0E-12
+    &END QS
+    &SCF
+      SCF_GUESS ATOMIC
+      MAX_SCF 50
+      EPS_SCF 1.0E-6
+      &OT
+        MINIMIZER DIIS
+        PRECONDITIONER FULL_SINGLE_INVERSE
+      &END OT
+    &END SCF
+    &XC
+      &XC_FUNCTIONAL PBE
+      &END XC_FUNCTIONAL
+    &END XC
+  &END DFT
+  &SUBSYS
+    &CELL
+      ABC 10.0 10.0 10.0
+    &END CELL
+    &COORD
+      O     0.000000     0.000000     0.000000
+      H     0.757000     0.586000     0.000000
+      H    -0.757000     0.586000     0.000000
+    &END COORD
+    &KIND H
+      BASIS_SET DZVP-MOLOPT-SR-GTH
+      POTENTIAL GTH-PBE-q1
+    &END KIND
+    &KIND O
+      BASIS_SET DZVP-MOLOPT-SR-GTH
+      POTENTIAL GTH-PBE-q6
+    &END KIND
+  &END SUBSYS
+&END FORCE_EVAL
