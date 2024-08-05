@@ -1,0 +1,112 @@
+&global
+  project      Al111
+  print_level  medium
+  run_type     energy !geo_opt
+&end global
+
+&force_eval
+  method         quickstep
+  stress_tensor  analytical
+  
+  &subsys
+    &cell
+      abc                8.591347391416553  7.440325093703902  27.014805770653954
+      alpha_beta_gamma   90.000000  90.000000  90.000000
+      periodic           xyz
+    &end cell
+
+    &topology
+      coord_file_name    Al111.xyz
+      coord_file_format  xyz
+    &end topology
+    
+    &kind Al
+      basis_set  DZVP-MOLOPT-SR-GTH
+      potential  GTH-PBE-q3
+    &end kind
+  &end subsys
+  
+  &dft
+    basis_set_file_name    /usr/local/cp2k/data/BASIS_MOLOPT
+    potential_file_name    /usr/local/cp2k/data/GTH_POTENTIALS
+    multiplicity  1
+    uks           false
+    charge        0
+
+    &qs
+      method       gpw
+      eps_default  1.0e-12
+    &end qs
+
+    &xc
+      &xc_functional pbe
+      &end xc_functional
+    &end xc
+
+    &poisson
+      poisson_solver  periodic
+      periodic        xyz
+    &end poisson
+
+    &mgrid
+      cutoff      400
+      rel_cutoff  50
+    &end mgrid
+
+    &scf 
+      scf_guess  atomic
+      eps_scf    1.0e-6
+      max_scf    50
+
+      &outer_scf
+        max_scf  20
+        eps_scf  1.0e-6
+      &end outer_scf
+
+      &ot
+        minimizer  DIIS
+        preconditioner  FULL_SINGLE_INVERSE
+      &end ot
+
+      &print 
+        &restart on
+        &end restart
+        &restart_history off
+        &end restart_history
+      &end print
+
+    &end scf
+ 
+    &print
+      &mo_molden off
+      &end mo_molden
+      &pdos off
+      &end pdos
+    &end print
+
+  &end dft
+
+  &print
+    &forces on
+    &end forces
+  &end print
+&end force_eval
+
+! &motion
+!   &geo_opt
+!     optimizer  BFGS
+!     max_iter   200
+!     max_dr     1.0e-3
+!     max_force  1.0e-4
+!   &end geo_opt
+! 
+!   &print
+!     &trajectory on
+!     &end trajectory
+!     &restart_history
+!       &each
+!         geo_opt 1
+!       &end each
+!     &end restart_history
+!   &end print
+! &end motion
