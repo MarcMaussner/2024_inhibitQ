@@ -91,3 +91,5 @@ docker pull nvcr.io/nvidia/nightly/cuda-quantum:latest
 There is an example for running Water Molecule with Active Space (CPU vs. GPU) available at [this link](https://nvidia.github.io/cuda-quantum/latest/examples/python/tutorials/vqe_water_active_space.html).
 ```
 
+note: package to visualize the results of the simulations
+https://www.ovito.org/
