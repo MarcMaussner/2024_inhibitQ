@@ -1,0 +1,86 @@
+&global
+  project      Al111
+  print_level  medium
+  run_type     energy
+&end global
+
+&force_eval
+  method         quickstep
+  stress_tensor  analytical
+  
+  &subsys
+    &cell
+      a    5.664822893438226  -4.640872005035482e-09  1.7246988531260337e-08
+      b    2.8324114427       4.905880631537895      1.3092858946684748e-09
+      c    8.100982170454669  -4.164273509435463e-08  26.945636060583993
+      periodic           xyz
+    &end cell
+
+    &topology
+      coord_file_name    Al111_optimized_extended.xyz
+      coord_file_format  xyz
+    &end topology
+    
+    &kind Al
+      basis_set  DZVP-MOLOPT-SR-GTH
+      potential  GTH-PBE-q3
+    &end kind
+  &end subsys
+  
+  &dft
+    multiplicity  1
+    uks           false
+    charge        0
+    potential_file_name /usr/local/cp2k/data/GTH_POTENTIALS
+    basis_set_file_name /usr/local/cp2k/data/BASIS_MOLOPT
+
+    &qs
+      method       gpw
+      eps_default  1.0e-10
+    &end qs
+
+    &xc
+      &xc_functional pbe
+      &end xc_functional
+    &end xc
+
+    &poisson
+      poisson_solver  periodic
+      periodic        xyz
+    &end poisson
+
+    &mgrid
+      cutoff      300
+      rel_cutoff  40
+    &end mgrid
+
+    &scf 
+      scf_guess  atomic
+      eps_scf    1.0e-6
+      max_scf    100
+      added_mos  10
+
+      &print 
+        &restart on
+        &end restart
+        &restart_history off
+        &end restart_history
+      &end print
+    &end scf
+ 
+    &print
+      &mo_molden
+      &end mo_molden
+      &mo
+        energies  true
+        occnums   true
+        &each
+          qs_scf  0
+        &end each
+      &end mo
+      &pdos
+        nlumo  10
+      &end pdos
+    &end print
+  &end dft
+&end force_eval
