@@ -1,54 +1,55 @@
-# pylint: disable=invalid-name #test from container
+# pylint: disable=invalid-name
 """CP2K + Qiskit Nature embedding.
 
 Usage:
-    python client-vqe-ucc.py
+    python dft-emb-client.py
 """
 
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 
 import numpy as np
-from qiskit_algorithms.optimizers import L_BFGS_B
+from qiskit.algorithms.optimizers import L_BFGS_B
+from qiskit.circuit.library import EvolvedOperatorAnsatz
 from qiskit.primitives import Estimator
 from qiskit.quantum_info import SparsePauliOp
 from qiskit_aer.primitives import Estimator as AerEstimator
-
+from qiskit_nature.logging import logging as nature_logging
 from qiskit_nature.second_q.algorithms import GroundStateEigensolver
-from qiskit_nature.second_q.algorithms.excited_states_solvers import QEOM, EvaluationRule
+from qiskit_nature.second_q.algorithms.excited_states_solvers import (
+    QEOM, EvaluationRule)
 from qiskit_nature.second_q.circuit.library import UCC, HartreeFock
+from qiskit_nature.second_q.circuit.library.ansatzes.utils import \
+    generate_fermionic_excitations
 from qiskit_nature.second_q.mappers import ParityMapper
-from qiskit_nature.second_q.operators import FermionicOp
-from qiskit_nature.second_q.problems import ElectronicStructureProblem
 
 from qiskit_nature_cp2k.cp2k_integration import CP2KIntegration
-
-# Custom implementation of StatefulVQE and StatefulAdaptVQE
-class StatefulVQE:
-    def __init__(self, estimator, ansatz, optimizer):
-        self.estimator = estimator
-        self.ansatz = ansatz
-        self.optimizer = optimizer
-        self.initial_point = None
-
-class StatefulAdaptVQE:
-    def __init__(self, solver, eigenvalue_threshold, gradient_threshold, max_iterations):
-        self.solver = solver
-        self.eigenvalue_threshold = eigenvalue_threshold
-        self.gradient_threshold = gradient_threshold
-        self.max_iterations = max_iterations
+from qiskit_nature_cp2k.stateful_adapt_vqe import StatefulAdaptVQE
+from qiskit_nature_cp2k.stateful_vqe import StatefulVQE
 
 np.set_printoptions(linewidth=500, precision=6, suppress=True)
 
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
+
+level = logging.DEBUG
+
+nature_logging.set_levels_for_names(
+    {
+        __name__: level,
+        "qiskit": level,
+        "qiskit_nature": level,
+        "qiskit_nature_cp2k": level,
+    }
+)
+
 
 if __name__ == "__main__":
     HOST = "embedding_socket"
     PORT = 12345
-    UNIX = False
+    UNIX = True
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--nalpha", type=int, default=None)
@@ -70,19 +71,18 @@ if __name__ == "__main__":
     else:
         mapper = ParityMapper()
 
-    # Create a dummy problem for initialization
-    dummy_problem = ElectronicStructureProblem(num_spatial_orbitals=num_orbs, num_particles=(num_alpha, num_beta))
-
     initial_state = HartreeFock(
-        dummy_problem.num_spatial_orbitals,
-        dummy_problem.num_particles,
+        num_orbs,
+        (num_alpha, num_beta),
         mapper,
     )
     ansatz = UCC(
-        dummy_problem.num_spatial_orbitals,
-        dummy_problem.num_particles,
+        num_orbs,
+        (num_alpha, num_beta),
         "sd",
         mapper,
+        # generalized=True,
+        # preserve_spin=False,
         initial_state=initial_state,
     )
 
@@ -129,8 +129,13 @@ if __name__ == "__main__":
     problem = integ.construct_problem()
 
     def my_generator(num_spatial_orbitals, num_particles):
-        singles = FermionicOp.gen_excitation_list(1, num_spatial_orbitals, num_particles, preserve_spin=False)
+        singles = generate_fermionic_excitations(
+            1, num_spatial_orbitals, num_particles, preserve_spin=False
+        )
         doubles = []
+        # doubles = generate_fermionic_excitations(
+        #     2, num_spatial_orbitals, num_particles, preserve_spin=False
+        # )
         return singles + doubles
 
     if isinstance(integ.algo.solver, StatefulAdaptVQE):
@@ -164,3 +169,4 @@ if __name__ == "__main__":
         logger.info(key)
         for name, val in values.items():
             logger.info(f"\t{name}: {val[0]}")
+
