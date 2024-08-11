@@ -19,18 +19,15 @@ RUN git clone -b fix-package-metadata https://github.com/KarimElgammal/qiskit-na
 # Set working directory
 WORKDIR /workspace
 
-# Copy your scripts and input files
-COPY MgO.inp ./
-COPY MgO.xyz ./
-COPY client-vqe-ucc.py ./
-COPY run_experiment.sh ./
+# Create a script to keep the container running
+RUN echo '#!/bin/bash\ntail -f /dev/null' > /keep_alive.sh && chmod +x /keep_alive.sh
 
-# Create keep_alive.sh in the container
-RUN echo '#!/bin/bash\ntail -f /dev/null' > /keep_alive.sh && \
-    chmod +x /keep_alive.sh
-
-# Make sure the scripts are executable
-RUN chmod +x run_experiment.sh
-
-# Set the entry point
+# Set the entry point to the keep-alive script
 ENTRYPOINT ["/keep_alive.sh"]
+
+# Copy your scripts and input files (commented out)
+# COPY MgO.inp ./
+# COPY MgO.xyz ./
+# COPY client-vqe-ucc.py ./
+# COPY run_experiment.sh ./
+

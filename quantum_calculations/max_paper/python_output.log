@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/workspace/client-vqe-ucc.py", line 74, in <module>
+    dummy_problem = ElectronicStructureProblem(num_spatial_orbitals=num_orbs, num_particles=(num_alpha, num_beta))
+TypeError: ElectronicStructureProblem.__init__() got an unexpected keyword argument 'num_spatial_orbitals'

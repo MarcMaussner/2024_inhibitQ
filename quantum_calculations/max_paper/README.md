@@ -22,3 +22,7 @@ docker run -d --name cp2k-qiskit-container --gpus all -v ${PWD}:/workspace cp2k-
 docker run -d --name cp2k-qiskit-container --gpus all -v ${PWD}:/workspace cp2k-qiskit #if you want to attach it to vs code
 ```
 
+you can also do it in just one line:
+```sh
+docker build --no-cache -t cp2k-qiskit . && docker run -d --name cp2k-qiskit-container --gpus all -v ${PWD}:/workspace cp2k-qiskit
+```
