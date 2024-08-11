@@ -3,11 +3,11 @@ FROM nvcr.io/hpc/cp2k:v2023.2
 # Install Python, pip, and git
 RUN apt-get update && apt-get install -y python3 python3-pip git
 
-# Install Qiskit and other required packages
-RUN pip3 install qiskit qiskit-aer qiskit-nature
+# Install specific versions of Qiskit and other required packages
+RUN pip3 install qiskit==0.44.0 qiskit-aer==0.12.0 qiskit-nature==0.6.0
 
-# Install latest qiskit-algorithms from GitHub
-RUN git clone https://github.com/qiskit-community/qiskit-algorithms.git && \
+# Install specific version of qiskit-algorithms from GitHub
+RUN git clone -b 0.3.0 https://github.com/qiskit-community/qiskit-algorithms.git && \
     cd qiskit-algorithms && \
     pip3 install .
 
