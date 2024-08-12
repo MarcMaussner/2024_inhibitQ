@@ -18,3 +18,6 @@ pgrep -fl cp2k
 - working Al111 hybrid calculation but stuck after connection in active space (AS)
 ### hybrid calculation advanced:
 - for step-by-step doing HF and other things as in MgO example in the respective subfolder hybrid-calculation-MgO
+
+
+# All Al111 trrials are under cp2k 2024.1 version CPU and working partially
