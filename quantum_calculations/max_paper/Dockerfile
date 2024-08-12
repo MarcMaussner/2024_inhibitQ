@@ -7,12 +7,13 @@ RUN apt-get update && apt-get install -y python3 python3-pip git
 RUN pip3 install qiskit qiskit-aer qiskit-nature
 
 # Install latest qiskit-algorithms from GitHub
-RUN git clone https://github.com/qiskit-community/qiskit-algorithms.git && \
-    cd qiskit-algorithms && \
-    pip3 install .
+RUN pip3 install git+https://github.com/qiskit-community/qiskit-algorithms.git
+# RUN git clone https://github.com/qiskit-community/qiskit-algorithms.git && \
+#     cd qiskit-algorithms && \
+#     pip3 install .
 
 # Clone and install your forked qiskit-nature-cp2k
-RUN git clone -b fix-package-metadata https://github.com/KarimElgammal/qiskit-nature-cp2k.git && \
+RUN git clone -b fix-qiskit1.x-compatibility https://github.com/KarimElgammal/qiskit-nature-cp2k.git && \
     cd qiskit-nature-cp2k && \
     pip3 install .
 
