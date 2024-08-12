@@ -1,0 +1,136 @@
+&GLOBAL
+  PROJECT      Al111
+  PRINT_LEVEL  MEDIUM
+  RUN_TYPE     ENERGY
+&END GLOBAL
+
+&FORCE_EVAL
+  METHOD         QUICKSTEP
+  STRESS_TENSOR  ANALYTICAL
+  
+  &SUBSYS
+    &CELL
+      ABC                5.664822893438226  4.905880631537895  46.945636060583993
+      ALPHA_BETA_GAMMA   90.0  90.0  60.0
+      PERIODIC           XYZ
+    &END CELL
+
+    &TOPOLOGY
+      COORD_FILE_NAME    Al111.xyz
+      COORD_FILE_FORMAT  XYZ
+    &END TOPOLOGY
+    
+    &KIND Al
+      BASIS_SET  DZVP-MOLOPT-SR-GTH
+      POTENTIAL  GTH-LDA-q3
+    &END KIND
+  &END SUBSYS
+  
+  &DFT
+    BASIS_SET_FILE_NAME  /opt/cp2k/data/BASIS_MOLOPT
+    POTENTIAL_FILE_NAME  /opt/cp2k/data/GTH_POTENTIALS
+
+    MULTIPLICITY  1
+    UKS           FALSE
+    CHARGE        0
+
+    &QS
+      METHOD       GPW
+      EPS_DEFAULT  1.0E-12
+      EXTRAPOLATION USE_PREV_P
+      EXTRAPOLATION_ORDER 3
+    &END QS
+
+    &XC
+      &XC_FUNCTIONAL LDA
+      &END XC_FUNCTIONAL
+    &END XC
+
+    &POISSON
+      POISSON_SOLVER  PERIODIC
+      PERIODIC        XYZ
+    &END
+
+    &MGRID
+      CUTOFF      400
+      REL_CUTOFF  60
+      NGRIDS      5
+    &END MGRID
+
+    &SCF 
+      SCF_GUESS  ATOMIC
+      EPS_SCF    1.0E-6
+      MAX_SCF    100
+      ADDED_MOS  10
+
+      &DIAGONALIZATION
+        ALGORITHM STANDARD
+      &END DIAGONALIZATION
+
+      &MIXING
+        METHOD BROYDEN_MIXING
+        ALPHA   0.4
+        NBROYDEN 8
+      &END MIXING
+
+      &PRINT
+        &RESTART OFF
+        &END
+        &RESTART_HISTORY OFF
+        &END
+      &END
+    &END SCF
+
+    &PRINT
+      &MO
+        ADD_LAST NUMERIC
+        EIGENVALUES .TRUE.
+        OCCUPATION_NUMBERS .TRUE.
+!        ENERGIES .TRUE.
+        NDIGITS 8
+!        EIGENVECTORS .TRUE.
+        &EACH
+          QS_SCF 1
+        &END EACH
+      &END MO
+      &PDOS
+        NLUMO 10
+        &EACH
+          QS_SCF 1
+        &END EACH
+      &END PDOS
+      &MO_CUBES
+        NHOMO 3
+        NLUMO 3
+      &END MO_CUBES
+    &END PRINT
+
+!    &ACTIVE_SPACE ON
+!      ACTIVE_ELECTRONS    2
+!      ACTIVE_ORBITALS     5
+!      SCF_EMBEDDING       TRUE
+!      EPS_ITER            1E-8
+!      AS_SOLVER           QISKIT
+!      ORBITAL_SELECTION   MANUAL
+!      ACTIVE_ORBITAL_INDICES  13 14 15 16 17
+!      &ERI
+!        METHOD            FULL_GPW
+!        PERIODICITY       1 1 1
+!      &END ERI
+!      &ERI_GPW
+!        CUTOFF            1000
+!        REL_CUTOFF        50
+!      &END ERI_GPW
+!      &FCIDUMP
+!      &END FCIDUMP
+!    &END ACTIVE_SPACE
+
+  &END DFT
+  
+  &PRINT
+    &FORCES ON
+    &END
+    &STRESS_TENSOR ON
+    &END
+  &END PRINT
+&END FORCE_EVAL

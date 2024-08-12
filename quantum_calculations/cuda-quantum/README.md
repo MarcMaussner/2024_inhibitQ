@@ -20,8 +20,6 @@ watch -d -n 1 nvidia-smi
 For cuQuantum, you can do the following:
 ```sh
 docker pull nvcr.io/nvidia/cuquantum-appliance:24.03-cuda12.2.2-devel-ubuntu22.04-x86_64
-
 docker run --gpus all -it --name cuQuantum24.03 -v $(pwd):/workspace nvcr.io/nvidia/cuquantum-appliance:24.03-cuda12.2.2-devel-ubuntu22.04-x86_64
-
 ```
 

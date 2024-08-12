@@ -4,3 +4,6 @@
 *.restart
 *.restart.bak-1
 *BFGS.Hessian
+*.cube
+*.pdos
+*.log
