@@ -120,30 +120,6 @@
       &END
     &END SCF
  
-    &ACTIVE_SPACE
-      SECTION_PARAMETERS  .TRUE.    # Activate the section
-      ACTIVE_ELECTRONS    2
-      ACTIVE_ORBITALS     5
-      SCF_EMBEDDING       TRUE
-      EPS_ITER            1E-8
-      AS_SOLVER           QISKIT
-      ORBITAL_SELECTION   MANUAL
-      ACTIVE_ORBITAL_INDICES  253 254 255 256 257
-      &ERI
-        METHOD            FULL_GPW
-        PERIODICITY       1 1 1
-        OPERATOR          <erf(a*r)/r>
-        OPERATOR_PARAMETER ${omega}
-        POISSON_SOLVER    PERIODIC
-      &END ERI
-      &ERI_GPW
-        CUTOFF            1000
-        REL_CUTOFF        50
-      &END ERI_GPW
-      &FCIDUMP
-      &END FCIDUMP
-    &END ACTIVE_SPACE
-
     &PRINT
       &MO_CUBES
         HOMO_LIST  253 254 255 256 257
@@ -158,8 +134,53 @@
       &PDOS
         NLUMO  10
       &END
-    &END PRINT
+    &END
+    &ACTIVE_SPACE
+      ACTIVE_ELECTRONS   2
+      ACTIVE_ORBITALS    5
+      SCF_EMBEDDING      TRUE
+      EPS_ITER           1E-8
+      AS_SOLVER          QISKIT
+      ORBITAL_SELECTION  MANUAL
+      ACTIVE_ORBITAL_INDICES  253 254 255 256 257
+      &ERI
+        METHOD       FULL_GPW
+        PERIODICITY  1 1 1
+        OPERATOR     <erf(a*r)/r>
+        OPERATOR_PARAMETER  ${omega}
+        POISSON_SOLVER      PERIODIC
+      &END ERI
+      &ERI_GPW
+        CUTOFF      1000
+        REL_CUTOFF  50
+      &END ERI_GPW
+      &FCIDUMP
+      &END FCIDUMP
+    &END ACTIVE_SPACE
   &END DFT
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
   &PRINT
     &EXTERNAL_POTENTIAL
