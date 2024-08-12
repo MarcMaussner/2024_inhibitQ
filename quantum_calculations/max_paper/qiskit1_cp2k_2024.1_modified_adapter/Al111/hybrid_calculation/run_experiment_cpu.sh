@@ -5,9 +5,8 @@ export OMP_NUM_THREADS=2
 export CP2K_DATA_DIR=/opt/cp2k/data
 rm *.log *.pdos *.cube embedding_socket || true
 echo "Starting CP2K..."
-#mpiexec -np 8 cp2k -i MgO.inp > cp2k_output.log 2>&1 &
-#mpiexec -np 18 cp2k -i supp.inp > cp2k_output.log 2>&1 &
-mpiexec -np 12 cp2k -i Al111.inp > cp2k_output.log 2>&1 &
+
+mpiexec -np 4 cp2k -i Al111.inp > cp2k_output.log 2>&1 &
 CP2K_PID=$!
 
 echo "Waiting for CP2K to initialize..."
