@@ -1,0 +1,27 @@
+
+ *** Local logger file of MPI task 3 in communicator 1140850688 ***
+ *** PID      = 136364
+ *** Hostname = 0369ef120528                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+ ===== Routine Calling Stack ===== 
+
+            6 read_mo_set_from_restart
+            5 calculate_first_density_matrix
+            4 scf_env_initial_rho_setup
+            3 init_scf_run
+            2 qs_energies
+            1 CP2K
+  READ RESTART : WARNING : DIFFERENT natom, returning            0       30791
+
+ *** Local logger file of MPI task 3 in communicator 1140850688 ***
+ *** PID      = 139309
+ *** Hostname = 0369ef120528                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+ ===== Routine Calling Stack ===== 
+
+            6 read_mo_set_from_restart
+            5 calculate_first_density_matrix
+            4 scf_env_initial_rho_setup
+            3 init_scf_run
+            2 qs_energies
+            1 CP2K

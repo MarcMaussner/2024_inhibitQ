@@ -58,7 +58,9 @@
 
     &QS
       METHOD       GPW
-      EPS_DEFAULT  1.0E-10
+      EPS_DEFAULT  1.0E-12
+      EXTRAPOLATION USE_PREV_P
+      EXTRAPOLATION_ORDER 3
       MIN_PAIR_LIST_RADIUS -1
     &END QS
 
@@ -78,7 +80,6 @@
 
       &HF
         FRACTION  1.0
-
         &SCREENING
           EPS_SCHWARZ          1.0E-10
         &END SCREENING
@@ -87,7 +88,8 @@
           POTENTIAL_TYPE  MIX_CL_TRUNC
           CUTOFF_RADIUS   ${hfcut}
           OMEGA           ${omega}
-          SCALE_COULOMB   0.0
+          T_C_G_DATA      /opt/cp2k/data/t_c_g.dat
+          !SCALE_COULOMB   0.0
         &END
         
         &MEMORY
@@ -102,8 +104,9 @@
     &END
 
     &MGRID
-      CUTOFF      1000
-      REL_CUTOFF  50
+      CUTOFF      400
+      REL_CUTOFF  60
+      NGRIDS      5
     &END MGRID
 
     &SCF 
@@ -111,6 +114,16 @@
       EPS_SCF    1.0E-6
       MAX_SCF    100
       ADDED_MOS  10
+
+      &DIAGONALIZATION
+        ALGORITHM STANDARD
+      &END DIAGONALIZATION
+
+      &MIXING
+        METHOD BROYDEN_MIXING
+        ALPHA   0.4
+        NBROYDEN 8
+      &END MIXING
 
       &PRINT 
         &RESTART OFF

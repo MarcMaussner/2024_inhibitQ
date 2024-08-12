@@ -6,3 +6,5 @@ To run the container:
 ```bash
 docker run -d --name cp2k-qiskit-cpu-container -v ${PWD}:/workspace cp2k-qiskit-cpu
 ```
+
+nohup ./run_experiment_cpu.sh >> run_outcome.log 2>&1 &
