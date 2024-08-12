@@ -1,0 +1,194 @@
+@set omega 0.14
+@set hfcut 4.25
+
+&GLOBAL
+  PROJECT      MgO
+  PRINT_LEVEL  MEDIUM
+  RUN_TYPE     ENERGY
+&END GLOBAL
+
+&FORCE_EVAL
+  METHOD         QUICKSTEP
+  STRESS_TENSOR  ANALYTICAL
+  
+  &SUBSYS
+    &CELL
+      ABC                8.548054   8.548054   8.548054
+      ALPHA_BETA_GAMMA  90.000000  90.000000  90.000000
+      PERIODIC          XYZ
+    &END CELL
+
+    &TOPOLOGY
+      COORD_FILE_NAME    MgO.xyz
+      COORD_FILE_FORMAT  XYZ
+    &END TOPOLOGY
+    
+    &KIND Mg
+      BASIS_SET  CCGRB-D-Q10
+      POTENTIAL  GTH-HYB-Q10
+    &END KIND
+    
+    &KIND Mg1
+      BASIS_SET  CCGRB-T-Q10
+      POTENTIAL  GTH-HYB-Q10
+    &END KIND
+    
+    &KIND O
+      BASIS_SET  CCGRB-D-Q6
+      POTENTIAL  GTH-HYB-Q6
+    &END KIND
+    
+    &KIND OX
+      GHOST
+      ELEMENT    O
+      BASIS_SET  CCGRB-T-Q6
+      POTENTIAL  GTH-HYB-Q6
+    &END KIND
+  &END SUBSYS
+  
+  &DFT
+    MULTIPLICITY  1
+    UKS           FALSE
+    CHARGE        0
+
+    RESTART_FILE_NAME   MgO-RESTART.wfn
+
+    POTENTIAL_FILE_NAME POTENTIAL_UZH
+    BASIS_SET_FILE_NAME BASIS_ccGRB_UZH
+
+    &QS
+      METHOD       GPW
+      EPS_DEFAULT  1.0E-10
+      MIN_PAIR_LIST_RADIUS -1
+    &END QS
+
+    &XC
+      &XC_FUNCTIONAL
+        &LDA_X_ERF
+          _omega ${omega}
+          SCALE   1.0
+        &END
+        &LDA_C_PMGB06
+          _omega ${omega}
+          SCALE  -1.0
+        &END
+        &LDA_C_PW
+        &END
+      &END XC_FUNCTIONAL
+
+      &HF
+        FRACTION  1.0
+
+        &SCREENING
+          EPS_SCHWARZ          1.0E-10
+        &END SCREENING
+
+        &INTERACTION_POTENTIAL
+          POTENTIAL_TYPE  MIX_CL_TRUNC
+          CUTOFF_RADIUS   ${hfcut}
+          omega           ${omega}
+          SCALE_COULOMB   0.0
+        &END
+        
+        &MEMORY
+          MAX_MEMORY 6000
+        &END
+      &END
+    &END
+
+    &POISSON
+      POISSON_SOLVER  PERIODIC
+      PERIODIC        XYZ
+    &END
+
+    &MGRID
+      CUTOFF      1000
+      REL_CUTOFF  50
+    &END MGRID
+
+    &SCF 
+      SCF_GUESS  ATOMIC   #RESTART
+      EPS_SCF    1.0E-6
+      MAX_SCF    100
+      ADDED_MOS  10
+
+      &PRINT 
+        &RESTART OFF
+        &END
+        &RESTART_HISTORY OFF
+        &END
+      &END
+    &END SCF
+ 
+    &PRINT
+      &MO_CUBES
+        HOMO_LIST  253 254 255 256 257
+      &END
+      &MO
+        ENERGIES  TRUE
+        OCCNUMS   TRUE
+        &EACH
+          QS_SCF  0
+        &END
+      &END
+      &PDOS
+        NLUMO  10
+      &END
+    &END
+    &ACTIVE_SPACE
+      ACTIVE_ELECTRONS   2
+      ACTIVE_ORBITALS    5
+      SCF_EMBEDDING      TRUE
+      EPS_ITER           1E-8
+      AS_SOLVER          QISKIT
+      ORBITAL_SELECTION  MANUAL
+      ACTIVE_ORBITAL_INDICES  253 254 255 256 257
+      &ERI
+        METHOD       FULL_GPW
+        PERIODICITY  1 1 1
+        OPERATOR     <erf(a*r)/r>
+        OPERATOR_PARAMETER  ${omega}
+        POISSON_SOLVER      PERIODIC
+      &END ERI
+      &ERI_GPW
+        CUTOFF      1000
+        REL_CUTOFF  50
+      &END ERI_GPW
+      &FCIDUMP
+      &END FCIDUMP
+    &END ACTIVE_SPACE
+  &END DFT
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+  &PRINT
+    &EXTERNAL_POTENTIAL
+      &SOLVER
+        INPUT_FILE_NAME  embedding_socket
+        USE_SOCKET       TRUE
+        USE_UNIX_SOCKET  TRUE
+      &END SOLVER
+    &END EXTERNAL_POTENTIAL
+  &END PRINT
+&END FORCE_EVAL
