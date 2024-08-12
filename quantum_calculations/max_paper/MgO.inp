@@ -1,195 +1,172 @@
 @set omega 0.14
 @set hfcut 4.25
 
-&global
-  project      MgO
-  print_level  medium
-  run_type     energy
-&end global
+&GLOBAL
+  PROJECT      MgO
+  PRINT_LEVEL  MEDIUM
+  RUN_TYPE     ENERGY
+&END GLOBAL
 
-&force_eval
-  method         quickstep
-  stress_tensor  analytical
+&FORCE_EVAL
+  METHOD         QUICKSTEP
+  STRESS_TENSOR  ANALYTICAL
   
-  &subsys
-    &cell
-      abc                8.548054   8.548054   8.548054
-      alpha_beta_gamma  90.000000  90.000000  90.000000
-      periodic          xyz
-    &end cell
+  &SUBSYS
+    &CELL
+      ABC                8.548054   8.548054   8.548054
+      ALPHA_BETA_GAMMA  90.000000  90.000000  90.000000
+      PERIODIC          XYZ
+    &END CELL
 
-    &topology
-      coord_file_name    MgO.xyz
-      coord_file_format  xyz
-    &end topology
+    &TOPOLOGY
+      COORD_FILE_NAME    MgO.xyz
+      COORD_FILE_FORMAT  XYZ
+    &END TOPOLOGY
     
-    &kind Mg
-      basis_set  ccgrb-d-q10
-      potential  gth-hyb-q10
-      !basis_set  aux_fit cpfit3
-    &end kind
+    &KIND Mg
+      BASIS_SET  CCGRB-D-Q10
+      POTENTIAL  GTH-HYB-Q10
+    &END KIND
     
-    &kind Mg1
-      basis_set  ccgrb-t-q10
-      potential  gth-hyb-q10
-      !basis_set  aux_fit cpfit3
-    &end kind
+    &KIND Mg1
+      BASIS_SET  CCGRB-T-Q10
+      POTENTIAL  GTH-HYB-Q10
+    &END KIND
     
-    &kind O
-      basis_set  ccgrb-d-q6
-      potential  gth-hyb-q6
-      !basis_set  aux_fit cpfit3
-    &end kind
+    &KIND O
+      BASIS_SET  CCGRB-D-Q6
+      POTENTIAL  GTH-HYB-Q6
+    &END KIND
     
-    &kind OX
-      ghost
-      element    O
-      basis_set  ccgrb-t-q6
-      potential  gth-hyb-q6
-      !basis_set  aux_fit cpfit3
-    &end kind
-  &end subsys
+    &KIND OX
+      GHOST
+      ELEMENT    O
+      BASIS_SET  CCGRB-T-Q6
+      POTENTIAL  GTH-HYB-Q6
+    &END KIND
+  &END SUBSYS
   
-  &dft
-    multiplicity  1
-    uks           false
-    charge        0
+  &DFT
+    MULTIPLICITY  1
+    UKS           FALSE
+    CHARGE        0
 
-    restart_file_name   MgO-RESTART.wfn
+    RESTART_FILE_NAME   MgO-RESTART.wfn
 
-    potential_file_name POTENTIAL_UZH
-    basis_set_file_name BASIS_ccGRB_UZH
-    !basis_set_file_name BASIS_ADMM
+    POTENTIAL_FILE_NAME POTENTIAL_UZH
+    BASIS_SET_FILE_NAME BASIS_ccGRB_UZH
 
-    &qs
-      method       gpw
-      eps_default  1.0e-10
-      min_pair_list_radius -1
-    &end qs
+    &QS
+      METHOD       GPW
+      EPS_DEFAULT  1.0E-10
+      MIN_PAIR_LIST_RADIUS -1
+    &END QS
 
-    !&auxiliary_density_matrix_method
-    !  admm_purification_method none
-    !  method charge_constrained_projection
-    !  exch_scaling_model  merlot
-    !&end
+    &XC
+      &XC_FUNCTIONAL
+        &LDA_X_ERF
+          OMEGA ${omega}
+          SCALE   1.0
+        &END
+        &LDA_C_PMGB06
+          OMEGA ${omega}
+          SCALE  -1.0
+        &END
+        &LDA_C_PW
+        &END
+      &END XC_FUNCTIONAL
 
-    &xc
-      &xc_functional
-        &lda_x_erf
-          _omega ${omega}
-          scale   1.0
-        &end
-        &lda_c_pmgb06
-          _omega ${omega}
-          scale  -1.0
-        &end
-        &lda_c_pw
-        &end
-      &end xc_functional
+      &HF
+        FRACTION  1.0
 
-      &hf
-        fraction  1.0
+        &SCREENING
+          EPS_SCHWARZ          1.0E-10
+        &END SCREENING
 
-        &screening
-          eps_schwarz          1.0e-10
-        &end screening
-
-        &interaction_potential
-          potential_type  mix_cl_trunc
-          cutoff_radius   ${hfcut}
-          omega           ${omega}
-          scale_coulomb   0.0
-        &end
+        &INTERACTION_POTENTIAL
+          POTENTIAL_TYPE  MIX_CL_TRUNC
+          CUTOFF_RADIUS   ${hfcut}
+          OMEGA           ${omega}
+          SCALE_COULOMB   0.0
+        &END
         
-        &memory
-          max_memory 6000
-        &end
-      &end
-    &end
+        &MEMORY
+          MAX_MEMORY 6000
+        &END
+      &END
+    &END
 
-    &poisson
-      poisson_solver  periodic
-      periodic        xyz
-    &end
+    &POISSON
+      POISSON_SOLVER  PERIODIC
+      PERIODIC        XYZ
+    &END
 
-    &mgrid
-      cutoff      1000
-      rel_cutoff  50
-    &end mgrid
+    &MGRID
+      CUTOFF      1000
+      REL_CUTOFF  50
+    &END MGRID
 
-    &scf 
-      scf_guess  restart
-      eps_scf    1.0e-6
-      max_scf    100
-      added_mos  10
-      !eps_diis   1.0e-2
+    &SCF 
+      SCF_GUESS  ATOMIC   #RESTART
+      EPS_SCF    1.0E-6
+      MAX_SCF    100
+      ADDED_MOS  10
 
-      !&outer_scf
-      !  max_scf  20
-      !&end
-
-      !&mixing
-      !  method    broyden_mixing
-      !  alpha     0.3
-      !  nbroyden  5
-      !&end mixing
-
-      !&ot
-      !  minimizer       diis
-      !  preconditioner  full_all
-      !  energy_gap      0.2
-      !&end
-
-      &print 
-        &restart off
-        &end
-        &restart_history off
-        &end
-      &end
-
-    &end scf
+      &PRINT 
+        &RESTART OFF
+        &END
+        &RESTART_HISTORY OFF
+        &END
+      &END
+    &END SCF
  
-    &print
-      !&mo_molden
-      !&end
-      &mo_cubes
-        homo_list  253 254 255 256 257
-      &end
-      &mo
-        !mo_range  240 270
-        energies  true
-        occnums   true
-        &each
-          qs_scf  0
-        &end
-      &end
-      &pdos
-        nlumo  10
-      &end
-    &end
+    &PRINT
+      &MO_CUBES
+        HOMO_LIST  253 254 255 256 257
+      &END
+      &MO
+        ENERGIES  TRUE
+        OCCNUMS   TRUE
+        &EACH
+          QS_SCF  0
+        &END
+      &END
+      &PDOS
+        NLUMO  10
+      &END
+    &END
+  &END DFT
 
-    &active_space
-      active_electrons   2
-      active_orbitals    5
-      scf_embedding      true
-      eps_iter           1e-8
-      as_solver          qiskit
-      orbital_selection  manual
-      active_orbital_indices  253 254 255 256 257
-      &eri
-        method       full_gpw
-        periodicity  1 1 1
-        operator     <erf(a*r)/r>
-        operator_parameter  ${omega}
-        poisson_solver      periodic
-      &end eri
-      &eri_gpw
-        cutoff      1000
-        rel_cutoff  50
-      &end eri_gpw
-      &fcidump on
-      &end fcidump
-    &end active_space
-  &end dft
-&end force_eval
+  &ACTIVE_SPACE
+    ACTIVE_ELECTRONS   2
+    ACTIVE_ORBITALS    5
+    SCF_EMBEDDING      TRUE
+    EPS_ITER           1E-8
+    AS_SOLVER          QISKIT
+    ORBITAL_SELECTION  MANUAL
+    ACTIVE_ORBITAL_INDICES  253 254 255 256 257
+    &ERI
+      METHOD       FULL_GPW
+      PERIODICITY  1 1 1
+      OPERATOR     <erf(a*r)/r>
+      OPERATOR_PARAMETER  ${omega}
+      POISSON_SOLVER      PERIODIC
+    &END ERI
+    &ERI_GPW
+      CUTOFF      1000
+      REL_CUTOFF  50
+    &END ERI_GPW
+    &FCIDUMP
+    &END FCIDUMP
+  &END ACTIVE_SPACE
 
+  &PRINT
+    &EXTERNAL_POTENTIAL
+      &SOLVER
+        INPUT_FILE_NAME  embedding_socket
+        USE_SOCKET       TRUE
+        USE_UNIX_SOCKET  TRUE
+      &END SOLVER
+    &END EXTERNAL_POTENTIAL
+  &END PRINT
+&END FORCE_EVAL

@@ -12,7 +12,7 @@ import json
 import logging
 
 import numpy as np
-from qiskit.algorithms.optimizers import L_BFGS_B
+from qiskit_algorithms.optimizers import L_BFGS_B
 from qiskit.circuit.library import EvolvedOperatorAnsatz
 from qiskit.primitives import Estimator
 from qiskit.quantum_info import SparsePauliOp
@@ -22,8 +22,11 @@ from qiskit_nature.second_q.algorithms import GroundStateEigensolver
 from qiskit_nature.second_q.algorithms.excited_states_solvers import (
     QEOM, EvaluationRule)
 from qiskit_nature.second_q.circuit.library import UCC, HartreeFock
-from qiskit_nature.second_q.circuit.library.ansatzes.utils import \
-    generate_fermionic_excitations
+# Modified: Removed import of generate_fermionic_excitations
+# from qiskit_nature.second_q.circuit.library.ansatzes.utils import \
+#     generate_fermionic_excitations
+# Added: Import FermionicOp for generating excitations
+from qiskit_nature.second_q.operators import FermionicOp
 from qiskit_nature.second_q.mappers import ParityMapper
 
 from qiskit_nature_cp2k.cp2k_integration import CP2KIntegration
@@ -128,14 +131,22 @@ if __name__ == "__main__":
     integ.run()
     problem = integ.construct_problem()
 
+    # Modified: Updated the my_generator function to use FermionicOp
     def my_generator(num_spatial_orbitals, num_particles):
-        singles = generate_fermionic_excitations(
-            1, num_spatial_orbitals, num_particles, preserve_spin=False
-        )
-        doubles = []
+        # Old implementation:
+        # singles = generate_fermionic_excitations(
+        #     1, num_spatial_orbitals, num_particles, preserve_spin=False
+        # )
+        # doubles = []
         # doubles = generate_fermionic_excitations(
         #     2, num_spatial_orbitals, num_particles, preserve_spin=False
         # )
+        # return singles + doubles
+        
+        # New implementation:
+        singles = FermionicOp.s_excitations(num_spatial_orbitals, num_particles, 1)
+        doubles = []  # Uncomment the next line if you want to include doubles
+        # doubles = FermionicOp.s_excitations(num_spatial_orbitals, num_particles, 2)
         return singles + doubles
 
     if isinstance(integ.algo.solver, StatefulAdaptVQE):
@@ -169,4 +180,3 @@ if __name__ == "__main__":
         logger.info(key)
         for name, val in values.items():
             logger.info(f"\t{name}: {val[0]}")
-
