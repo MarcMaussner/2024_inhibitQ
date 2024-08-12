@@ -12,16 +12,16 @@
  DBCSR| Use Communication thread                                               T (U)
  DBCSR| Communication thread load                                             83 (D)
  DBCSR| MPI: My process id                                                     0
- DBCSR| MPI: Number of processes                                               8
+ DBCSR| MPI: Number of processes                                               4
  DBCSR| OMP: Current number of threads                                         2
  DBCSR| OMP: Max number of threads                                             2
  DBCSR| Split modifier for TAS multiplication algorithm                  1.0E+00 (U)
 
 
-  **** **** ******  **  PROGRAM STARTED AT               2024-08-12 14:23:39.171
+  **** **** ******  **  PROGRAM STARTED AT               2024-08-12 15:44:31.426
  ***** ** ***  *** **   PROGRAM STARTED ON                          0369ef120528
  **    ****   ******    PROGRAM STARTED BY                             <unknown>
- ***** **    ** ** **   PROGRAM PROCESS ID                                139306
+ ***** **    ** ** **   PROGRAM PROCESS ID                                152125
   **** **  *******  **  PROGRAM STARTED IN                            /workspace
 
  CP2K| version string:                                       CP2K version 2024.1
@@ -55,7 +55,7 @@
  GLOBAL| Grid backend                                                       AUTO
  GLOBAL| Global print level                                               MEDIUM
  GLOBAL| MPI I/O enabled                                                       T
- GLOBAL| Total number of message passing processes                             8
+ GLOBAL| Total number of message passing processes                             4
  GLOBAL| Number of threads for this process                                    2
  GLOBAL| This output is from process                                           0
  GLOBAL| Stack size for threads created by OpenMP (OMP_STACKSIZE)        default
@@ -72,12 +72,12 @@
  MEMORY| system memory details [Kb]
  MEMORY|                        rank 0           min           max       average
  MEMORY| MemTotal            197536456     197536456     197536456     197536456
- MEMORY| MemFree             152199804     152199804     152199804     152199804
- MEMORY| Buffers               1206460       1206460       1206460       1206460
- MEMORY| Cached               26950540      26950540      26950540      26950540
- MEMORY| Slab                  2841904       2841904       2841904       2841904
- MEMORY| SReclaimable          2102792       2102792       2102792       2102792
- MEMORY| MemLikelyFree       182459596     182459596     182459596     182459596
+ MEMORY| MemFree             145925280     145925280     145925280     145925280
+ MEMORY| Buffers               1219792       1219792       1219792       1219792
+ MEMORY| Cached               26685364      26685364      26685364      26685364
+ MEMORY| Slab                  2820892       2820892       2820892       2820892
+ MEMORY| SReclaimable          2098528       2098528       2098528       2098528
+ MEMORY| MemLikelyFree       175928964     175928964     175928964     175928964
 
 
  *** Fundamental physical constants (SI units) ***
@@ -853,8 +853,8 @@
                         No outer SCF
 
  PW_GRID| Information for grid number                                          1
- PW_GRID| Grid distributed over                                     8 processors
- PW_GRID| Real space group dimensions                                     8    1
+ PW_GRID| Grid distributed over                                     4 processors
+ PW_GRID| Real space group dimensions                                     4    1
  PW_GRID| the grid is blocked:                                                NO
  PW_GRID| Cutoff [a.u.]                                                    500.0
  PW_GRID| spherical cutoff:                                                   NO
@@ -864,14 +864,14 @@
  PW_GRID| Volume element (a.u.^3)  0.7227E-03     Volume (a.u.^3)      4215.0078
  PW_GRID| Grid span                                                    FULLSPACE
  PW_GRID|   Distribution                         Average         Max         Min
- PW_GRID|   G-Vectors                           729000.0      729000      729000
- PW_GRID|   G-Rays                                4050.0        4050        4050
- PW_GRID|   Real Space Points                   729000.0      745200      712800
+ PW_GRID|   G-Vectors                          1458000.0     1458000     1458000
+ PW_GRID|   G-Rays                                8100.0        8100        8100
+ PW_GRID|   Real Space Points                  1458000.0     1458000     1458000
 
  PW_GRID| Information for grid number                                          2
  PW_GRID| Number of the reference grid                                         1
- PW_GRID| Grid distributed over                                     8 processors
- PW_GRID| Real space group dimensions                                     8    1
+ PW_GRID| Grid distributed over                                     4 processors
+ PW_GRID| Real space group dimensions                                     4    1
  PW_GRID| the grid is blocked:                                                NO
  PW_GRID| Cutoff [a.u.]                                                    166.7
  PW_GRID| spherical cutoff:                                                   NO
@@ -881,14 +881,14 @@
  PW_GRID| Volume element (a.u.^3)  0.4764E-02     Volume (a.u.^3)      4215.0078
  PW_GRID| Grid span                                                    FULLSPACE
  PW_GRID|   Distribution                         Average         Max         Min
- PW_GRID|   G-Vectors                           110592.0      110688      110496
- PW_GRID|   G-Rays                                1152.0        1153        1151
- PW_GRID|   Real Space Points                   110592.0      110592      110592
+ PW_GRID|   G-Vectors                           221184.0      221280      221088
+ PW_GRID|   G-Rays                                2304.0        2305        2303
+ PW_GRID|   Real Space Points                   221184.0      221184      221184
 
  PW_GRID| Information for grid number                                          3
  PW_GRID| Number of the reference grid                                         1
- PW_GRID| Grid distributed over                                     8 processors
- PW_GRID| Real space group dimensions                                     8    1
+ PW_GRID| Grid distributed over                                     4 processors
+ PW_GRID| Real space group dimensions                                     4    1
  PW_GRID| the grid is blocked:                                                NO
  PW_GRID| Cutoff [a.u.]                                                     55.6
  PW_GRID| spherical cutoff:                                                   NO
@@ -898,14 +898,14 @@
  PW_GRID| Volume element (a.u.^3)  0.1951E-01     Volume (a.u.^3)      4215.0078
  PW_GRID| Grid span                                                    FULLSPACE
  PW_GRID|   Distribution                         Average         Max         Min
- PW_GRID|   G-Vectors                            27000.0       27120       26940
- PW_GRID|   G-Rays                                 450.0         452         449
- PW_GRID|   Real Space Points                    27000.0       28800       25200
+ PW_GRID|   G-Vectors                            54000.0       54180       53880
+ PW_GRID|   G-Rays                                 900.0         903         898
+ PW_GRID|   Real Space Points                    54000.0       54000       54000
 
  PW_GRID| Information for grid number                                          4
  PW_GRID| Number of the reference grid                                         1
- PW_GRID| Grid distributed over                                     8 processors
- PW_GRID| Real space group dimensions                                     8    1
+ PW_GRID| Grid distributed over                                     4 processors
+ PW_GRID| Real space group dimensions                                     4    1
  PW_GRID| the grid is blocked:                                                NO
  PW_GRID| Cutoff [a.u.]                                                     18.5
  PW_GRID| spherical cutoff:                                                   NO
@@ -915,9 +915,9 @@
  PW_GRID| Volume element (a.u.^3)  0.1286         Volume (a.u.^3)      4215.0078
  PW_GRID| Grid span                                                    FULLSPACE
  PW_GRID|   Distribution                         Average         Max         Min
- PW_GRID|   G-Vectors                             4096.0        4128        4064
- PW_GRID|   G-Rays                                 128.0         129         127
- PW_GRID|   Real Space Points                     4096.0        4096        4096
+ PW_GRID|   G-Vectors                             8192.0        8224        8160
+ PW_GRID|   G-Rays                                 256.0         257         255
+ PW_GRID|   Real Space Points                     8192.0        8192        8192
 
  POISSON| Solver                                                        PERIODIC
  POISSON| Periodicity                                                        XYZ
@@ -926,11 +926,8 @@
  RS_GRID|   Bounds   1            -90      89                Points:         180
  RS_GRID|   Bounds   2            -90      89                Points:         180
  RS_GRID|   Bounds   3            -90      89                Points:         180
- RS_GRID| Real space distribution over                                  8 groups
- RS_GRID| Real space distribution along direction                              3
- RS_GRID| Border size                                                         23
- RS_GRID|   Distribution                         Average         Max         Min
- RS_GRID|   Planes                                  68.5          69          68
+ RS_GRID| Real space fully replicated
+ RS_GRID| Group size                                                           1
 
  RS_GRID| Information for grid number                                          2
  RS_GRID|   Bounds   1            -48      47                Points:          96
@@ -967,160 +964,59 @@
   HFX_INFO| Number of periodic cells considered:                             179
 
 
- Number of electrons:                                                        506
- Number of occupied orbitals:                                                253
- Number of molecular orbitals:                                               263
+Program received signal SIGBUS: Access to an undefined portion of a memory object.
 
- Number of orbital functions:                                                976
- Number of independent orbital functions:                                    976
+Backtrace for this error:
 
- Extrapolation method: initial_guess
-  READ RESTART : WARNING : DIFFERENT natom, returning           64           7
+Program received signal SIGBUS: Access to an undefined portion of a memory object.
 
- Atomic guess: The first density matrix is obtained in terms of atomic orbitals
-               and electronic configurations assigned to each atomic kind
+Backtrace for this error:
+#0  0x75780aa1f960 in ???
+#1  0x75780aa1eac5 in ???
+#2  0x75780a5c851f in ???
+#3  0x75780a734f0c in ???
+#4  0x75782344b7c5 in ???
+#5  0x757823494e00 in ???
+#6  0x757823469b89 in ???
+#7  0x75782347e538 in ???
+#8  0x75782333e86c in ???
+#9  0x75782588e7ce in ???
+#10  0x63522f655f61 in __message_passing_MOD_mp_sendrecv_dv
+	at /opt/cp2k/src/mpiwrap/message_passing.fypp:3348
+#11  0x63522f655f61 in transfer_rs2pw_replicated
+	at /opt/cp2k/src/pw/realspace_grid_types.F:880
+#12  0x63522f655f61 in __realspace_grid_types_MOD_transfer_rs2pw
+	at /opt/cp2k/src/pw/realspace_grid_types.F:679
+#13  0x63522e5c0b8c in __qs_collocate_density_MOD_calculate_rho_core
+	at /opt/cp2k/src/qs_collocate_density.F:907
+#14  0x63522e51a326 in __qs_update_s_mstruct_MOD_qs_env_update_s_mstruct
+	at /opt/cp2k/src/qs_update_s_mstruct.F:107
+#15  0x63522eb41ff1 in qs_energies_init_hamiltonians
+	at /opt/cp2k/src/qs_energy_init.F:316
+#16  0x63522eb41ff1 in __qs_energy_init_MOD_qs_energies_init
+	at /opt/cp2k/src/qs_energy_init.F:111
+#17  0x63522d71048f in __qs_energy_MOD_qs_energies
+	at /opt/cp2k/src/qs_energy.F:92
+#18  0x63522e957715 in __qs_force_MOD_qs_calc_energy_force
+	at /opt/cp2k/src/qs_force.F:115
+#19  0x63522e957715 in __force_env_methods_MOD_force_env_calc_energy_force
+	at /opt/cp2k/src/force_env_methods.F:255
+#20  0x63522f963475 in __cp2k_runs_MOD_cp2k_run.constprop.0
+	at /opt/cp2k/src/start/cp2k_runs.F:359
+#21  0x63522f963b52 in __cp2k_runs_MOD_run_input.constprop.0
+	at /opt/cp2k/src/start/cp2k_runs.F:983
+#22  0x63522d2022e7 in cp2k
+	at /opt/cp2k/src/start/cp2k.F:379
+#23  0x63522cead9ee in main
+	at /opt/cp2k/src/start/cp2k.F:44
 
- Guess for atomic kind: Mg
-
- Electronic structure
-    Total number of core electrons                                          2.00
-    Total number of valence electrons                                      10.00
-    Total number of electrons                                              12.00
-    Multiplicity                                                   not specified
-    S   [  2.00] 2.00  2.00
-    P      6.00
-
-
- *******************************************************************************
-                  Iteration          Convergence                     Energy [au]
- *******************************************************************************
-                          1        0.763051                     -62.962613695390
-                          2        0.267229                     -62.996282658486
-                          3        0.591937E-02                 -63.002639720298
-                          4        0.702405E-04                 -63.002646427653
-                          5        0.103396E-05                 -63.002646429389
-                          6        0.515945E-06                 -63.002646429389
-
- Energy components [Hartree]           Total Energy ::          -63.002646429389
-                                        Band Energy ::          -16.042080367604
-                                     Kinetic Energy ::           51.690322487476
-                                   Potential Energy ::         -114.692968916865
-                                      Virial (-V/T) ::            2.218848004762
-                                        Core Energy ::         -104.316773923026
-                                          XC Energy ::           -8.258509752522
-                                     Coulomb Energy ::           49.572637246159
-                       Total Pseudopotential Energy ::         -156.065010676511
-                       Local Pseudopotential Energy ::         -155.050396037686
-                    Nonlocal Pseudopotential Energy ::           -1.014614638825
-                                        Confinement ::            0.579142660084
-
- Orbital energies  State     L     Occupation   Energy[a.u.]          Energy[eV]
-
-                       1     0          2.000      -2.877479          -78.300173
-                       2     0          2.000      -0.135425           -3.685102
-
-                       1     1          6.000      -1.669379          -45.426110
-
-
- Total Electron Density at R=0:                                         0.000281
-
- Guess for atomic kind: Mg1
-
- Electronic structure
-    Total number of core electrons                                          2.00
-    Total number of valence electrons                                      10.00
-    Total number of electrons                                              12.00
-    Multiplicity                                                   not specified
-    S   [  2.00] 2.00  2.00
-    P      6.00
-
-
- *******************************************************************************
-                  Iteration          Convergence                     Energy [au]
- *******************************************************************************
-                          1        0.878121                     -62.946425078397
-                          2        0.439891                     -62.992833180193
-                          3        0.104869E-01                 -63.013981390941
-                          4        0.134483E-03                 -63.014001327919
-                          5        0.172914E-05                 -63.014001353563
-                          6        0.208332E-07                 -63.014001353564
-
- Energy components [Hartree]           Total Energy ::          -63.014001353564
-                                        Band Energy ::          -16.110741187134
-                                     Kinetic Energy ::           51.612183625498
-                                   Potential Energy ::         -114.626184979062
-                                      Virial (-V/T) ::            2.220913298511
-                                        Core Energy ::         -104.277015876418
-                                          XC Energy ::           -8.249430436679
-                                     Coulomb Energy ::           49.512444959533
-                       Total Pseudopotential Energy ::         -155.948388520872
-                       Local Pseudopotential Energy ::         -154.918038662157
-                    Nonlocal Pseudopotential Energy ::           -1.030349858716
-                                        Confinement ::            0.591890189565
-
- Orbital energies  State     L     Occupation   Energy[a.u.]          Energy[eV]
-
-                       1     0          2.000      -2.885281          -78.512498
-                       2     0          2.000      -0.137719           -3.747529
-
-                       1     1          6.000      -1.677457          -45.645918
-
-
- Total Electron Density at R=0:                                         0.000424
-
- Guess for atomic kind: O
-
- Electronic structure
-    Total number of core electrons                                          2.00
-    Total number of valence electrons                                       6.00
-    Total number of electrons                                               8.00
-    Multiplicity                                                   not specified
-    S   [  2.00] 2.00
-    P      4.00
-
-
- *******************************************************************************
-                  Iteration          Convergence                     Energy [au]
- *******************************************************************************
-                          1        0.661461                     -15.576563080119
-                          2        0.534590                     -15.593188232917
-                          3        0.869454E-02                 -15.652745852041
-                          4        0.365093E-03                 -15.652760334242
-                          5        0.197340E-03                 -15.652760352367
-                          6        0.136152E-03                 -15.652760356287
-                          7        0.109119E-07                 -15.652760359849
-
- Energy components [Hartree]           Total Energy ::          -15.652760359849
-                                        Band Energy ::           -2.964094566012
-                                     Kinetic Energy ::           11.760508493335
-                                   Potential Energy ::          -27.413268853184
-                                      Virial (-V/T) ::            2.330959487740
-                                        Core Energy ::          -26.164019707870
-                                          XC Energy ::           -3.160708169958
-                                     Coulomb Energy ::           13.671967517980
-                       Total Pseudopotential Energy ::          -37.958826153740
-                       Local Pseudopotential Energy ::          -39.257159095280
-                    Nonlocal Pseudopotential Energy ::            1.298332941540
-                                        Confinement ::            0.342979525346
-
- Orbital energies  State     L     Occupation   Energy[a.u.]          Energy[eV]
-
-                       1     0          2.000      -0.857283          -23.327856
-
-                       1     1          4.000      -0.312382           -8.500351
-
-
- Total Electron Density at R=0:                                         0.000594
-
- Guess for atomic kind: OX
- Re-scaling the density matrix to get the right number of electrons
-                  # Electrons              Trace(P)               Scaling factor
-                          506               506.023                        1.000
-
-
- SCF WAVEFUNCTION OPTIMIZATION
-
-  Step     Update method      Time    Convergence         Total energy    Change
-  ------------------------------------------------------------------------------
-
-  HFX_MEM_INFO| Est. max. program size before HFX [MiB]:                     570
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 152125 RUNNING AT 0369ef120528
+=   EXIT CODE: 135
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Terminated (signal 15)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions

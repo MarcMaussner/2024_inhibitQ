@@ -5,7 +5,7 @@ export CP2K_DATA_DIR=/opt/cp2k/data
 rm *.log || true
 echo "Starting CP2K..."
 #mpiexec -np 8 cp2k -i MgO.inp > cp2k_output.log 2>&1 &
-mpiexec -np 8 cp2k -i supp.inp > cp2k_output.log 2>&1 &
+mpiexec -np 18 cp2k -i supp.inp > cp2k_output.log 2>&1 &
 CP2K_PID=$!
 
 echo "Waiting for CP2K to initialize..."

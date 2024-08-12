@@ -141,7 +141,7 @@
       !&end
 
       &print 
-        &restart on
+        &restart off
         &end
         &restart_history off
         &end
@@ -150,11 +150,11 @@
     &end scf
  
     &print
-      &mo_molden
-      &end
-      !&mo_cubes
-      !  homo_list  509 510 511 512 513
+      !&mo_molden
       !&end
+      &mo_cubes
+        homo_list  253 254 255 256 257
+      &end
       &mo
         !mo_range  240 270
         energies  true
@@ -168,28 +168,28 @@
       &end
     &end
 
-    !&active_space
-    !  active_electrons   2
-    !  active_orbitals    5
-    !  scf_embedding      true
-    !  eps_iter           1e-8
-    !  as_solver          qiskit
-    !  orbital_selection  manual
-    !  active_orbital_indices  509 510 511 512 513
-    !  &eri
-    !    method       full_gpw
-    !    periodicity  1 1 1
-    !    operator     <erf(a*r)/r>
-    !    operator_parameter  ${omega}
-    !    poisson_solver      periodic
-    !  &end eri
-    !  &eri_gpw
-    !    cutoff      1000
-    !    rel_cutoff  50
-    !  &end eri_gpw
-    !  &fcidump on
-    !  &end fcidump
-    !&end active_space
+    &active_space
+      active_electrons   2
+      active_orbitals    5
+      scf_embedding      true
+      eps_iter           1e-8
+      as_solver          qiskit
+      orbital_selection  manual
+      active_orbital_indices  253 254 255 256 257
+      &eri
+        method       full_gpw
+        periodicity  1 1 1
+        operator     <erf(a*r)/r>
+        operator_parameter  ${omega}
+        !poisson_solver      periodic
+      &end eri
+      &eri_gpw
+        cutoff      1000
+        rel_cutoff  50
+      &end eri_gpw
+      &fcidump on
+      &end fcidump
+    &end active_space
   &end dft
 &end force_eval
 
