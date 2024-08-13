@@ -1,9 +1,10 @@
-FROM cp2k/cp2k:2024.1
+FROM cp2k/cp2k:2024.2_openmpi_generic_psmp
 
 # Install Python, pip, and git
 RUN apt-get update && apt-get install -y python3 python3-pip git
 
-# Install Qiskit and other required packages
+# Upgrade pip and install Qiskit and other required packages
+RUN pip3 install --upgrade pip
 RUN pip3 install qiskit qiskit-aer qiskit-nature
 
 # Install latest qiskit-algorithms from GitHub
