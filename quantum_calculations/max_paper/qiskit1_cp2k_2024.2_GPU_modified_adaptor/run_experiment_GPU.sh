@@ -3,7 +3,7 @@ set -e
 export OMP_NUM_THREADS=1
 export CP2K_DATA_DIR=/usr/local/cp2k/data
 export CUDA_VISIBLE_DEVICES=0
-
+rm *.log || true
 echo "Starting CP2K..."
 mpirun -np 4 cp2k.psmp -i MgO.inp > cp2k_output.log 2>&1 &
 CP2K_PID=$!
