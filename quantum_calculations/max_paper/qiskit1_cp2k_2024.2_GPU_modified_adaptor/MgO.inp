@@ -1,0 +1,194 @@
+@set omega 0.14
+@set hfcut 4.25
+
+&global
+  project      MgO
+  print_level  medium
+  run_type     energy
+&end global
+
+&force_eval
+  method         quickstep
+  stress_tensor  analytical
+  
+  &subsys
+    &cell
+      abc                8.548054   8.548054   8.548054
+      alpha_beta_gamma  90.000000  90.000000  90.000000
+      periodic          xyz
+    &end cell
+
+    &topology
+      coord_file_name    MgO.xyz
+      coord_file_format  xyz
+    &end topology
+    
+    &kind Mg
+      basis_set  ccgrb-d-q10
+      potential  gth-hyb-q10
+      !basis_set  aux_fit cpfit3
+    &end kind
+    
+    &kind Mg1
+      basis_set  ccgrb-t-q10
+      potential  gth-hyb-q10
+      !basis_set  aux_fit cpfit3
+    &end kind
+    
+    &kind O
+      basis_set  ccgrb-d-q6
+      potential  gth-hyb-q6
+      !basis_set  aux_fit cpfit3
+    &end kind
+    
+    &kind OX
+      ghost
+      element    O
+      basis_set  ccgrb-t-q6
+      potential  gth-hyb-q6
+      !basis_set  aux_fit cpfit3
+    &end kind
+  &end subsys
+  
+  &dft
+    multiplicity  1
+    uks           false
+    charge        0
+
+    restart_file_name   MgO-RESTART.wfn
+
+    potential_file_name POTENTIAL_UZH
+    basis_set_file_name BASIS_ccGRB_UZH
+    !basis_set_file_name BASIS_ADMM
+
+    &qs
+      method       gpw
+      eps_default  1.0e-10
+      min_pair_list_radius -1
+    &end qs
+
+    !&auxiliary_density_matrix_method
+    !  admm_purification_method none
+    !  method charge_constrained_projection
+    !  exch_scaling_model  merlot
+    !&end
+
+    &xc
+      &xc_functional
+        &lda_x_erf
+          _omega ${omega}
+          scale   1.0
+        &end
+        &lda_c_pmgb06
+          _omega ${omega}
+          scale  -1.0
+        &end
+        &lda_c_pw
+        &end
+      &end xc_functional
+
+      &hf
+        fraction  1.0
+
+        &screening
+          eps_schwarz          1.0e-10
+        &end screening
+
+        &interaction_potential
+          potential_type  mix_cl_trunc
+          cutoff_radius   ${hfcut}
+          omega           ${omega}
+          scale_coulomb   0.0
+        &end
+        
+        &memory
+          max_memory 6000
+        &end
+      &end
+    &end
+
+    &poisson
+      poisson_solver  periodic
+      periodic        xyz
+    &end
+
+    &mgrid
+      cutoff      1000
+      rel_cutoff  50
+    &end mgrid
+
+    &scf 
+      scf_guess  restart
+      eps_scf    1.0e-6
+      max_scf    100
+      added_mos  10
+      !eps_diis   1.0e-2
+
+      !&outer_scf
+      !  max_scf  20
+      !&end
+
+      !&mixing
+      !  method    broyden_mixing
+      !  alpha     0.3
+      !  nbroyden  5
+      !&end mixing
+
+      !&ot
+      !  minimizer       diis
+      !  preconditioner  full_all
+      !  energy_gap      0.2
+      !&end
+
+      &print 
+        &restart off
+        &end
+        &restart_history off
+        &end
+      &end
+
+    &end scf
+ 
+    &print
+      !&mo_molden
+      !&end
+      &mo_cubes
+        homo_list  253 254 255 256 257
+      &end
+      &mo
+        !mo_range  240 270
+        energies  true
+        occnums   true
+        &each
+          qs_scf  0
+        &end
+      &end
+      &pdos
+        nlumo  10
+      &end
+    &end
+
+    &active_space
+      active_electrons   2
+      active_orbitals    5
+      scf_embedding      true
+      eps_iter           1e-8
+      as_solver          qiskit
+      orbital_selection  manual
+      active_orbital_indices  253 254 255 256 257
+      &eri
+        method       full_gpw
+        periodicity  1 1 1
+        operator     <erf(a*r)/r>
+        operator_parameter  ${omega}
+        poisson_solver      periodic
+      &end eri
+      &eri_gpw
+        cutoff      1000
+        rel_cutoff  50
+      &end eri_gpw
+      &fcidump on
+      &end fcidump
+    &end active_space
+  &end dft
+&end force_eval
