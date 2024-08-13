@@ -25,6 +25,8 @@ docker run -d --name cp2k-qiskit-container --gpus all -v ${PWD}:/workspace cp2k-
 you can also do it in just one line:
 ```sh
 docker build --no-cache -t cp2k-qiskit-gpu . && docker run -d --name cp2k-qiskit-gpu-container --gpus all -v ${PWD}:/workspace cp2k-qiskit-gpu
+
+docker build --no-cache -t cp2k-qiskit-cpu . && docker run -d --name cp2k-qiskit-cpu-container --gpus all -v ${PWD}:/workspace cp2k-qiskit-cpu
 ```
 
 ## important note: the GPU version is 2023.2 which doesn't have active space well implemented, switch to CPU only image and make sure to be 2024.1 or 2024.2
