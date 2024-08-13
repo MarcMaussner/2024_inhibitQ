@@ -17,12 +17,12 @@ The python scripts provide the utilities for and set up the fermion-to-qubit map
 To run the container and be able to attach it to vs code
 ```sh
 docker build --no-cache -t cp2k-qiskit . #you can remove no-cache for faster execution
-docker build -t cp2k-qiskit . # for faster build
+docker build -t cp2k-qiskit-GPU . # for faster build
 docker run -d --name cp2k-qiskit-container --gpus all -v ${PWD}:/workspace cp2k-qiskit ./run_experiment.sh
 docker run -d --name cp2k-qiskit-container --gpus all -v ${PWD}:/workspace cp2k-qiskit #if you want to attach it to vs code
 ```
 
 you can also do it in just one line:
 ```sh
-docker build --no-cache -t cp2k-qiskit . && docker run -d --name cp2k-qiskit-container --gpus all -v ${PWD}:/workspace cp2k-qiskit
+docker build --no-cache -t cp2k-qiskit-GPU . && docker run -d --name cp2k-qiskit-gpu-container --gpus all -v ${PWD}:/workspace cp2k-qiskit
 ```

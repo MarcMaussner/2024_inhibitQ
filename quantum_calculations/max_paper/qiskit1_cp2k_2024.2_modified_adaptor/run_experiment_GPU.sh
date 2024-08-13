@@ -12,7 +12,7 @@ echo "Waiting for CP2K to initialize..."
 sleep 30
 
 echo "Starting Python client..."
-python3 -u client-vqe-ucc.py --nalpha 1 --nbeta 1 --norbs 5
+python3 -u client-vqe-ucc.py --nalpha 1 --nbeta 1 --norbs 5 2>&1 | tee python_output.log
 
 echo "Waiting for CP2K to finish..."
 wait $CP2K_PID
@@ -20,3 +20,5 @@ wait $CP2K_PID
 echo "Experiment completed"
 echo "CP2K output:"
 cat cp2k_output.log
+echo "Python output:"
+cat python_output.log
