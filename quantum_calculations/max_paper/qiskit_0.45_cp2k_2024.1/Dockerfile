@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
 RUN pip3 install --no-cache-dir --upgrade pip
 
 # Install qiskit-nature-cp2k after changing from 'qiskit.algorithms' to 'qiskit_algorithms'
-RUN git clone -b fix-qiskit1.x-compatibility https://github.com/KarimElgammal/qiskit-nature-cp2k.git && \
+RUN git clone -b qiskit_0.45_cp2k_2024.1 https://github.com/KarimElgammal/qiskit-nature-cp2k.git && \
     cd qiskit-nature-cp2k && \
     pip3 install .
 
