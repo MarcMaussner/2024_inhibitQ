@@ -3,7 +3,7 @@
 
 &global
   project      MgO
-  print_level  medium
+  print_level  high
   run_type     energy
 &end global
 
@@ -118,9 +118,9 @@
     &end mgrid
 
     &scf 
-      scf_guess  restart
+      scf_guess  ATOMIC
       eps_scf    1.0e-6
-      max_scf    100
+      max_scf    30
       added_mos  10
       !eps_diis   1.0e-2
 
@@ -128,11 +128,11 @@
       !  max_scf  20
       !&end
 
-      !&mixing
-      !  method    broyden_mixing
-      !  alpha     0.3
-      !  nbroyden  5
-      !&end mixing
+      &mixing
+        method    broyden_mixing
+        alpha     0.3
+        nbroyden  5
+      &end mixing
 
       !&ot
       !  minimizer       diis
@@ -141,10 +141,15 @@
       !&end
 
       &print 
-        &restart off
+        &restart on
         &end
-        &restart_history off
+        &restart_history on
         &end
+        &PROGRAM_RUN_INFO ON
+          &EACH
+            QS_SCF 1
+          &END EACH
+        &END
       &end
 
     &end scf
@@ -181,7 +186,7 @@
         periodicity  1 1 1
         operator     <erf(a*r)/r>
         operator_parameter  ${omega}
-        poisson_solver      periodic
+!        poisson_solver      periodic
       &end eri
       &eri_gpw
         cutoff      1000
