@@ -7,3 +7,5 @@
   - example of runnign local and aws/SV1 bell from https://aws.amazon.com/de/blogs/quantum-computing/setting-up-your-local-development-environment-in-amazon-braket/
 - hybrid_hob:
   - example for hybrid job from https://docs.aws.amazon.com/braket/latest/developerguide/braket-hybrid-job-decorator.html
+- track_costs:
+  - example for ising model vqe and cost calculation (runnign local simulator) taken from: https://github.com/amazon-braket/amazon-braket-examples/blob/main/examples/hybrid_quantum_algorithms/VQE_Transverse_Ising/VQE_Transverse_Ising_Model.ipynb
