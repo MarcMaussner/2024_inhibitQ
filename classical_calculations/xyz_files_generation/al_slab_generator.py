@@ -48,5 +48,5 @@ def create_al_slabs(sizes, layers=4, vacuum=10.0, a=4.05):
         print(f"Saved visualization as {png_filename}")
 
 # Example usage
-sizes_to_create = [(2,2), (3,3)]
-create_al_slabs(sizes_to_create, layers=4, vacuum=10.0)
+sizes_to_create = [(4,4)]  #[(2,2), (3,3)]
+create_al_slabs(sizes_to_create, layers=6, vacuum=10.0)

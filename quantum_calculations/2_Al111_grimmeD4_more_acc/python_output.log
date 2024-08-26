@@ -1,0 +1,64 @@
+2024-08-22 09:47:48,324:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Gathering excitation generators...
+2024-08-22 09:47:48,324:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Generating excitation list...
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single alpha excitations: [(0, 1), (0, 2), (0, 3), (0, 4)]
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single beta excitations: [(5, 6), (5, 7), (5, 8), (5, 9)]
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (1,))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (2,))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (3,))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (4,))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (6,))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (7,))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (8,))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (9,))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single alpha excitations: [(0, 1), (0, 2), (0, 3), (0, 4)]
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single beta excitations: [(5, 6), (5, 7), (5, 8), (5, 9)]
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 6))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 7))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 8))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 9))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 6))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 7))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 8))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 9))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 6))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 7))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 8))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 9))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 6))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 7))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 8))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 9))
+2024-08-22 09:47:48,325:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Checking excitation list...
+2024-08-22 09:47:48,326:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Converting excitations into SparseLabelOps...
+2024-08-22 09:47:48,326:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Converting second-quantized into qubit operators...
+/home/ubuntu/data/Al111_as_better/client-vqe-ucc.py:110: DeprecationWarning: The class ``qiskit.primitives.estimator.Estimator`` is deprecated as of qiskit 1.2. It will be removed no earlier than 3 months after the release date. All implementations of the `BaseEstimatorV1` interface have been deprecated in favor of their V2 counterparts. The V2 alternative for the `Estimator` class is `StatevectorEstimator`.
+  estimator = Estimator()
+2024-08-22 09:47:48,372:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ---------- STARTING CP2K INTEGRATION ----------
+
+2024-08-22 09:47:48,372:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: connecting to socket
+2024-08-22 09:47:48,372:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: connected
+2024-08-22 09:47:47,817:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-08-22 09:47:47,817:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'TWOBODY     '
+2024-08-22 09:47:47,817:qiskit_nature_cp2k.cp2k_integration:INFO: nspins = 1
+2024-08-22 09:47:47,818:qiskit_nature_cp2k.cp2k_integration:INFO: nmo_active = 5
+2024-08-22 09:47:47,818:qiskit_nature_cp2k.cp2k_integration:INFO: nelec_active = 2
+2024-08-22 09:47:47,818:qiskit_nature_cp2k.cp2k_integration:INFO: multiplicity = 1
+2024-08-22 09:47:47,818:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-08-22 09:47:47,818:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-08-22 09:47:47,818:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -32.81219844877434
+2024-08-22 09:47:47,818:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.356128 -0.       -0.       -0.        0.      ]
+ [-0.       -0.545571 -0.       -0.       -0.000012]
+ [-0.       -0.       -0.545571  0.        0.000006]
+ [-0.       -0.        0.       -0.545571  0.00002 ]
+ [ 0.       -0.000012  0.000006  0.00002  -0.571199]]
+2024-08-22 09:47:47,819:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-08-22 09:47:47,819:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-08-22 09:47:47,819:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-08-22 09:47:47,819:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-08-22 09:47:47,819:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
