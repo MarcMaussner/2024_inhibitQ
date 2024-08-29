@@ -10,3 +10,5 @@
   - hybrid_job_vqe take from https://qiskit-community.github.io/qiskit-braket-provider/tutorials/2_tutorial_hybrid_jobs.html
 - track_costs:
   - example for ising model vqe and cost calculation (runnign local simulator) taken from: https://github.com/amazon-braket/amazon-braket-examples/blob/main/examples/hybrid_quantum_algorithms/VQE_Transverse_Ising/VQE_Transverse_Ising_Model.ipynb
+- estimate_resources:
+  - Notebooks created for resource esimtation of our workflow for requesting further AWS credits
