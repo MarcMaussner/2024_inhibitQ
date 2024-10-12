@@ -1,0 +1,982 @@
+2024-10-11 21:28:17,470:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Gathering excitation generators...
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Generating excitation list...
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single alpha excitations: [(0, 1), (0, 2), (0, 3), (0, 4)]
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single beta excitations: [(5, 6), (5, 7), (5, 8), (5, 9)]
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (1,))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (2,))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (3,))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (4,))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (6,))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (7,))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (8,))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (9,))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single alpha excitations: [(0, 1), (0, 2), (0, 3), (0, 4)]
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single beta excitations: [(5, 6), (5, 7), (5, 8), (5, 9)]
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 6))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 7))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 8))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 9))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 6))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 7))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 8))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 9))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 6))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 7))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 8))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 9))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 6))
+2024-10-11 21:28:17,471:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 7))
+2024-10-11 21:28:17,472:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 8))
+2024-10-11 21:28:17,472:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 9))
+2024-10-11 21:28:17,472:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Checking excitation list...
+2024-10-11 21:28:17,472:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Converting excitations into SparseLabelOps...
+2024-10-11 21:28:17,473:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Converting second-quantized into qubit operators...
+/home/ubuntu/data/7_Al4x4_grimme/client-vqe-ucc.py:110: DeprecationWarning: The class ``qiskit.primitives.estimator.Estimator`` is deprecated as of qiskit 1.2. It will be removed no earlier than 3 months after the release date. All implementations of the `BaseEstimatorV1` interface have been deprecated in favor of their V2 counterparts. The V2 alternative for the `Estimator` class is `StatevectorEstimator`.
+  estimator = Estimator()
+2024-10-11 21:28:17,517:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ---------- STARTING CP2K INTEGRATION ----------
+
+2024-10-11 21:28:17,517:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: connecting to socket
+2024-10-11 21:28:17,517:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: connected
+2024-10-11 21:28:17,518:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-11 21:28:17,519:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'TWOBODY     '
+2024-10-11 21:28:17,519:qiskit_nature_cp2k.cp2k_integration:INFO: nspins = 1
+2024-10-11 21:28:17,519:qiskit_nature_cp2k.cp2k_integration:INFO: nmo_active = 5
+2024-10-11 21:28:17,519:qiskit_nature_cp2k.cp2k_integration:INFO: nelec_active = 2
+2024-10-11 21:28:17,519:qiskit_nature_cp2k.cp2k_integration:INFO: multiplicity = 1
+2024-10-11 21:28:17,519:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-11 21:28:17,520:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-11 21:28:17,520:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -199.36791859192064
+2024-10-11 21:28:17,520:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.047426  0.000108 -0.000057 -0.000035  0.000084]
+ [ 0.000108 -0.091819 -0.        0.000104  0.000249]
+ [-0.000057 -0.       -0.091868  0.000404 -0.000035]
+ [-0.000035  0.000104  0.000404 -0.091727 -0.      ]
+ [ 0.000084  0.000249 -0.000035 -0.       -0.091904]]
+2024-10-11 21:28:17,520:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-11 21:28:17,520:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-11 21:28:17,520:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-11 21:28:17,520:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-11 21:28:17,521:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-11 21:40:57,873:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 758.4690108299255 seconds.
+Found optimal point [-0.00219  -0.001927  0.000056 -0.001543 -0.001865 -0.000171 -0.003408 -0.001613 -3.137892 -0.194524  0.714786 -0.00612   0.280759 -3.138675  0.035672  0.339909  1.578981  1.955146 -2.572792 -0.25786   1.174349 -0.121371 -0.037916 -2.824317]
+2024-10-11 21:41:13,717:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-11 21:41:13,737:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-11 21:41:13,764:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-11 21:41:13,764:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-11 21:41:13,766:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.13482928811
+  - computed part:      -0.13482928811
+~ Nuclear repulsion energy (Hartree): -199.367918591921
+> Total ground state energy (Hartree): -199.50274788003
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.981 S^2: 1.942 M: -0.000
+
+2024-10-11 21:41:13,767:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000029, -0.002599,  0.000516, -0.000111,  0.000467],
+       [-0.002599,  0.943044, -0.018646, -0.006323, -0.048414],
+       [ 0.000516, -0.018646,  0.136469, -0.261892,  0.001736],
+       [-0.000111, -0.006323, -0.261892,  0.864157,  0.002074],
+       [ 0.000467, -0.048414,  0.001736,  0.002074,  0.0563  ]])
+
+2024-10-11 21:41:13,767:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-11 21:41:14,424:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-11 21:41:14,424:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-11 21:41:14,424:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -199.3382943559939
+2024-10-11 21:41:14,425:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.093795 -0.000257  0.000172 -0.000163  0.000194]
+ [-0.000257 -0.072068 -0.000489 -0.000004 -0.00067 ]
+ [ 0.000172 -0.000489 -0.09296  -0.005991 -0.000076]
+ [-0.000163 -0.000004 -0.005991 -0.074073  0.000057]
+ [ 0.000194 -0.00067  -0.000076  0.000057 -0.09505 ]]
+2024-10-11 21:41:14,425:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-11 21:41:14,425:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-11 21:41:14,425:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-11 21:41:14,425:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-11 21:41:14,425:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-11 21:56:12,104:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 895.8473575115204 seconds.
+Found optimal point [ 0.030775 -0.757069 -0.261966  1.454582 -0.035722 -1.295758 -1.923393 -0.042562 -3.118535  0.280846 -0.204408  0.262339  0.335493 -1.557165 -0.260118  1.553729  1.577035  1.503982 -2.878469  1.561108  0.853738 -0.100245  0.281355 -2.363973]
+2024-10-11 21:56:28,001:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-11 21:56:28,020:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-11 21:56:28,052:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-11 21:56:28,052:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-11 21:56:28,054:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.140795570294
+  - computed part:      -0.140795570294
+~ Nuclear repulsion energy (Hartree): -199.338294355994
+> Total ground state energy (Hartree): -199.479089926288
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.998 S^2: 1.995 M: -0.000
+
+2024-10-11 21:56:28,054:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.015276, -0.005245, -0.043946, -0.011562, -0.103793],
+       [-0.005245,  0.002012,  0.012272,  0.003184,  0.041268],
+       [-0.043946,  0.012272,  0.925692,  0.254102, -0.003573],
+       [-0.011562,  0.003184,  0.254102,  0.069833, -0.005531],
+       [-0.103793,  0.041268, -0.003573, -0.005531,  0.987187]])
+
+2024-10-11 21:56:28,055:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-11 21:56:28,822:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-11 21:56:28,822:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-11 21:56:28,822:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -199.3408138039221
+2024-10-11 21:56:28,822:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.093404 -0.000202 -0.001089 -0.000137 -0.00276 ]
+ [-0.000202 -0.096346  0.000327  0.000202  0.00176 ]
+ [-0.001089  0.000327 -0.0726    0.007068 -0.000242]
+ [-0.000137  0.000202  0.007068 -0.094576 -0.000168]
+ [-0.00276   0.00176  -0.000242 -0.000168 -0.071045]]
+2024-10-11 21:56:28,823:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-11 21:56:28,823:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-11 21:56:28,823:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-11 21:56:28,823:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-11 21:56:28,823:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-11 22:12:18,038:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 947.2838232517242 seconds.
+Found optimal point [-2.320039 -1.686276  0.754221  1.686662 -0.04082  -2.795113 -1.586247 -1.274712 -4.663331  0.581431 -0.056751  0.059693  1.101104 -1.290251 -1.914242  0.044233  1.586332  1.410702 -4.41525   1.621149  0.79591  -0.278877 -0.04518  -2.440631]
+2024-10-11 22:12:33,976:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-11 22:12:33,995:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-11 22:12:34,025:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-11 22:12:34,025:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-11 22:12:34,027:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.144148175647
+  - computed part:      -0.144148175647
+~ Nuclear repulsion energy (Hartree): -199.340813803922
+> Total ground state energy (Hartree): -199.48496197957
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+
+2024-10-11 22:12:34,027:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000065, -0.004255,  0.000724, -0.0023  ,  0.000323],
+       [-0.004255,  0.993227, -0.014989, -0.004072, -0.079903],
+       [ 0.000724, -0.014989,  0.074192, -0.261543,  0.000673],
+       [-0.0023  , -0.004072, -0.261543,  0.926034,  0.002214],
+       [ 0.000323, -0.079903,  0.000673,  0.002214,  0.006482]])
+
+2024-10-11 22:12:34,028:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-11 22:12:34,618:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-11 22:12:34,618:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-11 22:12:34,618:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -199.3408679257957
+2024-10-11 22:12:34,618:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.093796 -0.00032   0.000201 -0.000226  0.000195]
+ [-0.00032  -0.07077  -0.000396  0.000056 -0.001466]
+ [ 0.000201 -0.000396 -0.094563 -0.005984 -0.000102]
+ [-0.000226  0.000056 -0.005984 -0.072477  0.000064]
+ [ 0.000195 -0.001466 -0.000102  0.000064 -0.096335]]
+2024-10-11 22:12:34,619:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-11 22:12:34,619:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-11 22:12:34,619:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-11 22:12:34,619:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-11 22:12:34,619:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-11 22:26:52,200:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 855.666209936142 seconds.
+Found optimal point [-3.095271 -3.912928  1.563622  1.331893 -0.013481 -0.010513  0.523639 -1.566083 -4.628884  0.150858 -2.07489   1.383886  2.102381  0.255638 -1.617717  2.59545   1.454745  0.750996 -4.683585  1.858115  0.014536  1.808364 -1.5755   -0.960927]
+2024-10-11 22:27:07,762:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-11 22:27:07,780:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-11 22:27:07,807:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-11 22:27:07,807:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-11 22:27:07,808:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.14347874758
+  - computed part:      -0.14347874758
+~ Nuclear repulsion energy (Hartree): -199.340867925796
+> Total ground state energy (Hartree): -199.484346673375
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.999 S^2: 1.998 M: -0.000
+
+2024-10-11 22:27:07,809:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000024, -0.000091, -0.000724, -0.00016 , -0.001588],
+       [-0.000091,  0.002418,  0.014878,  0.003476,  0.034156],
+       [-0.000724,  0.014878,  0.944429,  0.228371,  0.0003  ],
+       [-0.00016 ,  0.003476,  0.228371,  0.055427, -0.003818],
+       [-0.001588,  0.034156,  0.0003  , -0.003818,  0.997702]])
+
+2024-10-11 22:27:07,809:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-11 22:27:08,395:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'QUIT        '
+2024-10-11 22:27:08,395:__main__:INFO: Removing the ElectronicDensity property before starting QEOM
+2024-10-11 22:27:20,331:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 8.257181406021118 seconds.
+Found optimal point [-3.095271 -3.912928  1.563622  1.331893 -0.013481 -0.010513  0.523639 -1.566083 -4.628884  0.150858 -2.07489   1.383886  2.102381  0.255638 -1.617717  2.59545   1.454745  0.750996 -4.683585  1.858115  0.014536  1.808364 -1.5755   -0.960927]
+2024-10-11 22:27:21,475:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-11 22:27:21,494:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-11 22:27:21,521:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-11 22:27:21,521:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-11 22:27:21,521:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: Building expansion basis data...
+2024-10-11 22:27:21,521:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Gathering excitation generators...
+2024-10-11 22:27:21,521:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Generating excitation list...
+2024-10-11 22:27:21,521:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(1),))
+2024-10-11 22:27:21,521:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(2),))
+2024-10-11 22:27:21,521:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(3),))
+2024-10-11 22:27:21,521:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(4),))
+2024-10-11 22:27:21,522:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(6),))
+2024-10-11 22:27:21,522:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(7),))
+2024-10-11 22:27:21,522:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(8),))
+2024-10-11 22:27:21,522:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(9),))
+2024-10-11 22:27:21,522:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(1),))
+2024-10-11 22:27:21,522:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(2),))
+2024-10-11 22:27:21,522:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(3),))
+2024-10-11 22:27:21,522:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(4),))
+2024-10-11 22:27:21,522:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(6),))
+2024-10-11 22:27:21,522:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(7),))
+2024-10-11 22:27:21,522:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(8),))
+2024-10-11 22:27:21,522:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(9),))
+2024-10-11 22:27:21,522:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Checking excitation list...
+2024-10-11 22:27:21,522:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Converting excitations into SparseLabelOps...
+2024-10-11 22:27:21,522:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Converting second-quantized into qubit operators...
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Gathering excitation generators...
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Generating excitation list...
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(1),))
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(2),))
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(3),))
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(4),))
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(6),))
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(7),))
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(8),))
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(9),))
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(1),))
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(2),))
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(3),))
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(4),))
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(6),))
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(7),))
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(8),))
+2024-10-11 22:27:21,538:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(9),))
+2024-10-11 22:27:21,770:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: Build qEOM pseudoeigenvalue problem...
+2024-10-11 22:27:21,770:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:INFO: Building all commutators:
+2024-10-11 22:30:31,924:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: 
+Q:=========================
+[[ 0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.       -0.       -0.        0.       -0.      ]
+ [ 0.        0.       -0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.       -0.000001 -0.000003]
+ [ 0.       -0.       -0.       -0.        0.        0.        0.        0.        0.        0.        0.        0.       -0.000001  0.       -0.       -0.      ]
+ [ 0.        0.       -0.        0.        0.        0.        0.        0.        0.        0.        0.        0.       -0.000001  0.000003 -0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.       -0.       -0.        0.       -0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.       -0.        0.        0.        0.000002  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.       -0.000001 -0.       -0.        0.000001  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.       -0.       -0.000001 -0.000001  0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.       -0.       -0.       -0.000001 -0.        0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.       -0.        0.       -0.       -0.000001  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.       -0.       -0.000001  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.       -0.        0.000002  0.000001  0.        0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [-0.        0.       -0.000001 -0.000001  0.        0.        0.        0.        0.        0.        0.        0.        0.       -0.       -0.        0.      ]
+ [-0.        0.        0.        0.000003  0.        0.        0.        0.        0.        0.        0.        0.       -0.       -0.        0.000001  0.      ]
+ [ 0.       -0.000001 -0.       -0.        0.        0.        0.        0.        0.        0.        0.        0.       -0.        0.000001  0.        0.      ]
+ [-0.       -0.000003 -0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.000001]]
+2024-10-11 22:30:31,925:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: 
+W:=========================
+[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+2024-10-11 22:30:31,926:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: 
+M:=========================
+[[ 0.000005  0.000028  0.000005  0.000434  0.        0.        0.        0.        0.        0.        0.        0.       -0.       -0.000014 -0.000003  0.000001]
+ [ 0.000028  0.001877  0.000452  0.000047  0.        0.        0.        0.        0.        0.        0.        0.       -0.000011 -0.000794 -0.000191  0.000013]
+ [ 0.000005  0.000452  0.00011   0.000009  0.        0.        0.        0.        0.        0.        0.        0.       -0.000003 -0.00019  -0.000046  0.000006]
+ [ 0.000434  0.000047  0.000009  0.001932  0.        0.        0.        0.        0.        0.        0.        0.       -0.000043  0.000023  0.000008 -0.00072 ]
+ [ 0.        0.        0.        0.        0.000007  0.000018  0.000004  0.000084  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.000018  0.001038  0.000247  0.000052  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.000004  0.000247  0.000059  0.000005  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.000084  0.000052  0.000005  0.001301  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.000005  0.000013  0.000001  0.000434  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.000013  0.001066  0.000258  0.000048  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.000001  0.000258  0.000064  0.000012  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.000434  0.000048  0.000012  0.001232  0.        0.        0.        0.      ]
+ [-0.       -0.000011 -0.000003 -0.000043  0.        0.        0.        0.        0.        0.        0.        0.        0.00001   0.000028  0.000006  0.000128]
+ [-0.000014 -0.000794 -0.00019   0.000023  0.        0.        0.        0.        0.        0.        0.        0.        0.000028  0.001818  0.000434  0.000016]
+ [-0.000003 -0.000191 -0.000046  0.000008  0.        0.        0.        0.        0.        0.        0.        0.        0.000006  0.000434  0.000105 -0.000005]
+ [ 0.000001  0.000013  0.000006 -0.00072   0.        0.        0.        0.        0.        0.        0.        0.        0.000128  0.000016 -0.000005  0.002042]]
+2024-10-11 22:30:31,927:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: 
+V:=========================
+[[-0.000282 -0.008516 -0.002044 -0.002254  0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [-0.008516 -0.486509 -0.117508 -0.011111  0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [-0.002044 -0.117508 -0.02844  -0.000657  0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [-0.002254 -0.011111 -0.000657 -0.484747  0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.       -0.002127 -0.006362 -0.001432 -0.031902  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.       -0.006362 -0.457912 -0.110863  0.010812  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.       -0.001432 -0.110863 -0.026979  0.004474  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.       -0.031902  0.010812  0.004474 -0.512946  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.       -0.000267 -0.008516 -0.002044 -0.002254  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.       -0.008516 -0.486494 -0.117508 -0.011111  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.       -0.002044 -0.117508 -0.028425 -0.000657  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.       -0.002254 -0.011111 -0.000657 -0.484732  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.       -0.002112 -0.006362 -0.001432 -0.031902]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.       -0.006362 -0.457896 -0.110863  0.010812]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.       -0.001432 -0.110863 -0.026964  0.004474]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.       -0.031902  0.010812  0.004474 -0.512931]]
+2024-10-11 22:30:31,929:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: Diagonalizing qeom matrices for excited states...
+2024-10-11 22:30:31,938:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: ... [ 0.10021 +0.j -0.10021 +0.j  0.050945+0.j  0.058699+0.j -0.058699+0.j -0.050945+0.j -0.024174+0.j  0.024174+0.j -0.010443+0.j  0.010443+0.j -0.005481+0.j -0.002205+0.j -0.003993+0.j  0.005481+0.j  0.003993+0.j  0.002205+0.j -0.053739+0.j -0.033168+0.j  0.064814+0.j  0.041738+0.j -0.002912+0.j -0.001653+0.j -0.002323+0.j  0.002192+0.j -0.064814+0.j -0.041738+0.j  0.053739+0.j  0.033168+0.j -0.002192+0.j  0.001653+0.j  0.002912+0.j  0.002323+0.j]
+2024-10-11 22:30:31,940:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: Sorted real parts [-0.001653 -0.002192 -0.002205 -0.002323 -0.002912 -0.003993 -0.005481 -0.010443 -0.024174 -0.033168 -0.041738 -0.050945 -0.053739 -0.058699 -0.064814 -0.10021 ]
+2024-10-11 22:30:31,940:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:INFO: Gamma square = [0.000204 0.24748  0.033914 0.001298 0.000407 0.0424   0.004916 0.000109 0.000044 0.000031 0.00003  0.000237 0.000217 0.000235 0.000167 0.000018]
+2024-10-11 22:35:40,629:__main__:INFO: QEOM result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.14347874758
+  - computed part:      -0.14347874758
+~ Nuclear repulsion energy (Hartree): -199.340867925796
+> Total ground state energy (Hartree): -199.484346673375
+ 
+=== EXCITED STATE ENERGIES ===
+ 
+  1: 
+* Electronic excited state energy (Hartree): -0.141825465549
+> Total excited state energy (Hartree): -199.482693391345
+  2: 
+* Electronic excited state energy (Hartree): -0.141287173098
+> Total excited state energy (Hartree): -199.482155098894
+  3: 
+* Electronic excited state energy (Hartree): -0.141274003933
+> Total excited state energy (Hartree): -199.482141929729
+  4: 
+* Electronic excited state energy (Hartree): -0.141155848395
+> Total excited state energy (Hartree): -199.482023774191
+  5: 
+* Electronic excited state energy (Hartree): -0.140566448503
+> Total excited state energy (Hartree): -199.481434374298
+  6: 
+* Electronic excited state energy (Hartree): -0.139486227754
+> Total excited state energy (Hartree): -199.48035415355
+  7: 
+* Electronic excited state energy (Hartree): -0.137997706246
+> Total excited state energy (Hartree): -199.478865632042
+  8: 
+* Electronic excited state energy (Hartree): -0.133035830449
+> Total excited state energy (Hartree): -199.473903756245
+  9: 
+* Electronic excited state energy (Hartree): -0.119305165721
+> Total excited state energy (Hartree): -199.460173091517
+ 10: 
+* Electronic excited state energy (Hartree): -0.110310463197
+> Total excited state energy (Hartree): -199.451178388993
+ 11: 
+* Electronic excited state energy (Hartree): -0.101740916595
+> Total excited state energy (Hartree): -199.442608842391
+ 12: 
+* Electronic excited state energy (Hartree): -0.092534050078
+> Total excited state energy (Hartree): -199.433401975874
+ 13: 
+* Electronic excited state energy (Hartree): -0.089739759894
+> Total excited state energy (Hartree): -199.43060768569
+ 14: 
+* Electronic excited state energy (Hartree): -0.084779995843
+> Total excited state energy (Hartree): -199.425647921638
+ 15: 
+* Electronic excited state energy (Hartree): -0.078664660698
+> Total excited state energy (Hartree): -199.419532586494
+ 16: 
+* Electronic excited state energy (Hartree): -0.043268951603
+> Total excited state energy (Hartree): -199.384136877399
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.999 S^2: 1.998 M: -0.000
+  1:  # Particles: 2.044 S: 1.015 S^2: 2.044 M: 1.022
+  2:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: -1.000
+  3:  # Particles: 2.001 S: 0.999 S^2: 1.997 M: -0.000
+  4:  # Particles: 2.007 S: 1.002 S^2: 2.007 M: 1.004
+  5:  # Particles: 2.022 S: 1.007 S^2: 2.022 M: 1.011
+  6:  # Particles: 2.001 S: 0.614 S^2: 0.990 M: -0.000
+  7:  # Particles: 2.008 S: 0.013 S^2: 0.013 M: -0.000
+  8:  # Particles: 2.386 S: 0.774 S^2: 1.372 M: -0.000
+  9:  # Particles: 2.063 S: 0.408 S^2: 0.574 M: 0.000
+ 10:  # Particles: 2.116 S: 1.038 S^2: 2.116 M: 1.058
+ 11:  # Particles: 2.294 S: 1.095 S^2: 2.294 M: -1.147
+ 12:  # Particles: 0.081 S: 0.036 S^2: 0.037 M: -0.000
+ 13:  # Particles: 0.214 S: 0.181 S^2: 0.214 M: 0.107
+ 14:  # Particles: 2.022 S: 0.639 S^2: 1.048 M: 0.000
+ 15:  # Particles: 2.186 S: 1.061 S^2: 2.186 M: -1.093
+ 16:  # Particles: 3.943 S: 0.961 S^2: 1.883 M: -0.000
+
+2024-10-11 22:35:40,630:__main__:INFO: Excitation Energies:
+
+[0.001653 0.002192 0.002205 0.002323 0.002912 0.003993 0.005481 0.010443 0.024174 0.033168 0.041738 0.050945 0.053739 0.058699 0.064814 0.10021 ]
+
+2024-10-11 22:35:40,631:__main__:INFO: Transition Amplitudes
+2024-10-11 22:35:40,631:__main__:INFO: (np.int64(0), np.int64(1))
+2024-10-11 22:35:40,631:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,631:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,631:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,631:__main__:INFO: (np.int64(0), np.int64(2))
+2024-10-11 22:35:40,631:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,631:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,631:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,631:__main__:INFO: (np.int64(0), np.int64(3))
+2024-10-11 22:35:40,631:__main__:INFO: 	AngularMomentum: (-0.00013187364670265583+1.7605218430906082e-16j)
+2024-10-11 22:35:40,631:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,631:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,631:__main__:INFO: (np.int64(0), np.int64(4))
+2024-10-11 22:35:40,631:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,631:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,631:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,631:__main__:INFO: (np.int64(0), np.int64(5))
+2024-10-11 22:35:40,631:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,631:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,631:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,631:__main__:INFO: (np.int64(0), np.int64(6))
+2024-10-11 22:35:40,631:__main__:INFO: 	AngularMomentum: (0.0020996718410092857+2.792368215718101e-16j)
+2024-10-11 22:35:40,631:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,631:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,631:__main__:INFO: (np.int64(0), np.int64(7))
+2024-10-11 22:35:40,631:__main__:INFO: 	AngularMomentum: (-0.0014445770987366107-2.9008568969192405e-17j)
+2024-10-11 22:35:40,631:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,631:__main__:INFO: 	ParticleNumber: -0j
+2024-10-11 22:35:40,631:__main__:INFO: (np.int64(0), np.int64(8))
+2024-10-11 22:35:40,631:__main__:INFO: 	AngularMomentum: (-0.0010121877007632225-4.1074522666986337e-16j)
+2024-10-11 22:35:40,631:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,631:__main__:INFO: 	ParticleNumber: -0j
+2024-10-11 22:35:40,631:__main__:INFO: (np.int64(0), np.int64(9))
+2024-10-11 22:35:40,631:__main__:INFO: 	AngularMomentum: (0.004838734484513987+3.791089459714039e-16j)
+2024-10-11 22:35:40,631:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,631:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,631:__main__:INFO: (np.int64(0), np.int64(10))
+2024-10-11 22:35:40,631:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,631:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,631:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,631:__main__:INFO: (np.int64(0), np.int64(11))
+2024-10-11 22:35:40,631:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,631:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,631:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,631:__main__:INFO: (np.int64(0), np.int64(12))
+2024-10-11 22:35:40,632:__main__:INFO: 	AngularMomentum: (0.0004200243551380857-1.5002123644171188e-16j)
+2024-10-11 22:35:40,632:__main__:INFO: 	Magnetization: -0j
+2024-10-11 22:35:40,632:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,632:__main__:INFO: (np.int64(0), np.int64(13))
+2024-10-11 22:35:40,632:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,632:__main__:INFO: (np.int64(0), np.int64(14))
+2024-10-11 22:35:40,632:__main__:INFO: 	AngularMomentum: (-0.0008770716258910603-3.222385069174614e-16j)
+2024-10-11 22:35:40,632:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	ParticleNumber: -0j
+2024-10-11 22:35:40,632:__main__:INFO: (np.int64(0), np.int64(15))
+2024-10-11 22:35:40,632:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,632:__main__:INFO: (np.int64(0), np.int64(16))
+2024-10-11 22:35:40,632:__main__:INFO: 	AngularMomentum: (-0.005725761955167584+1.6454764594223931e-16j)
+2024-10-11 22:35:40,632:__main__:INFO: 	Magnetization: -0j
+2024-10-11 22:35:40,632:__main__:INFO: 	ParticleNumber: (-0+0j)
+2024-10-11 22:35:40,632:__main__:INFO: (np.int64(1), np.int64(2))
+2024-10-11 22:35:40,632:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,632:__main__:INFO: (np.int64(1), np.int64(3))
+2024-10-11 22:35:40,632:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,632:__main__:INFO: (np.int64(1), np.int64(4))
+2024-10-11 22:35:40,632:__main__:INFO: 	AngularMomentum: (-0.01782869284524342+1.4859239057431107e-14j)
+2024-10-11 22:35:40,632:__main__:INFO: 	Magnetization: (-0.00891434639511634+7.429619528715597e-15j)
+2024-10-11 22:35:40,632:__main__:INFO: 	ParticleNumber: (-0.017828693034909696+1.485923905743133e-14j)
+2024-10-11 22:35:40,632:__main__:INFO: (np.int64(1), np.int64(5))
+2024-10-11 22:35:40,632:__main__:INFO: 	AngularMomentum: (-0.031092803234091457-1.288197421754252e-14j)
+2024-10-11 22:35:40,632:__main__:INFO: 	Magnetization: (-0.015546401558023728-6.440987108771275e-15j)
+2024-10-11 22:35:40,632:__main__:INFO: 	ParticleNumber: (-0.031092803542013787-1.2881974217542541e-14j)
+2024-10-11 22:35:40,632:__main__:INFO: (np.int64(1), np.int64(6))
+2024-10-11 22:35:40,632:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,632:__main__:INFO: (np.int64(1), np.int64(7))
+2024-10-11 22:35:40,632:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,632:__main__:INFO: (np.int64(1), np.int64(8))
+2024-10-11 22:35:40,632:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,632:__main__:INFO: (np.int64(1), np.int64(9))
+2024-10-11 22:35:40,632:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,632:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,633:__main__:INFO: (np.int64(1), np.int64(10))
+2024-10-11 22:35:40,633:__main__:INFO: 	AngularMomentum: (0.021467006670793397-1.5639751159225942e-14j)
+2024-10-11 22:35:40,633:__main__:INFO: 	Magnetization: (0.010733503348825573-7.819875579610492e-15j)
+2024-10-11 22:35:40,633:__main__:INFO: 	ParticleNumber: (0.021467006610265887-1.563975115921948e-14j)
+2024-10-11 22:35:40,633:__main__:INFO: (np.int64(1), np.int64(11))
+2024-10-11 22:35:40,633:__main__:INFO: 	AngularMomentum: -0j
+2024-10-11 22:35:40,633:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,633:__main__:INFO: 	ParticleNumber: -0j
+2024-10-11 22:35:40,633:__main__:INFO: (np.int64(1), np.int64(12))
+2024-10-11 22:35:40,633:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,633:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,633:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,633:__main__:INFO: (np.int64(1), np.int64(13))
+2024-10-11 22:35:40,633:__main__:INFO: 	AngularMomentum: (0.24933643226769076-7.772094411943898e-15j)
+2024-10-11 22:35:40,633:__main__:INFO: 	Magnetization: (0.12466821612878831-3.8860472059716295e-15j)
+2024-10-11 22:35:40,633:__main__:INFO: 	ParticleNumber: (0.24933643229478886-7.772094411942841e-15j)
+2024-10-11 22:35:40,633:__main__:INFO: (np.int64(1), np.int64(14))
+2024-10-11 22:35:40,633:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,633:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,633:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,633:__main__:INFO: (np.int64(1), np.int64(15))
+2024-10-11 22:35:40,633:__main__:INFO: 	AngularMomentum: (-0+0j)
+2024-10-11 22:35:40,633:__main__:INFO: 	Magnetization: -0j
+2024-10-11 22:35:40,633:__main__:INFO: 	ParticleNumber: -0j
+2024-10-11 22:35:40,633:__main__:INFO: (np.int64(1), np.int64(16))
+2024-10-11 22:35:40,633:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,633:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,633:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,633:__main__:INFO: (np.int64(2), np.int64(3))
+2024-10-11 22:35:40,633:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,633:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,633:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,633:__main__:INFO: (np.int64(2), np.int64(4))
+2024-10-11 22:35:40,633:__main__:INFO: 	AngularMomentum: -0j
+2024-10-11 22:35:40,633:__main__:INFO: 	Magnetization: -0j
+2024-10-11 22:35:40,633:__main__:INFO: 	ParticleNumber: -0j
+2024-10-11 22:35:40,633:__main__:INFO: (np.int64(2), np.int64(5))
+2024-10-11 22:35:40,633:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,633:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,633:__main__:INFO: 	ParticleNumber: -0j
+2024-10-11 22:35:40,633:__main__:INFO: (np.int64(2), np.int64(6))
+2024-10-11 22:35:40,633:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,633:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,633:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,633:__main__:INFO: (np.int64(2), np.int64(7))
+2024-10-11 22:35:40,633:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,633:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,633:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,633:__main__:INFO: (np.int64(2), np.int64(8))
+2024-10-11 22:35:40,633:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,633:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,633:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,633:__main__:INFO: (np.int64(2), np.int64(9))
+2024-10-11 22:35:40,634:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,634:__main__:INFO: (np.int64(2), np.int64(10))
+2024-10-11 22:35:40,634:__main__:INFO: 	AngularMomentum: (-0+0j)
+2024-10-11 22:35:40,634:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	ParticleNumber: (-0+0j)
+2024-10-11 22:35:40,634:__main__:INFO: (np.int64(2), np.int64(11))
+2024-10-11 22:35:40,634:__main__:INFO: 	AngularMomentum: (0.00201922412381711+2.1430231862625887e-14j)
+2024-10-11 22:35:40,634:__main__:INFO: 	Magnetization: (-0.001009612065551309-1.0715115931312893e-14j)
+2024-10-11 22:35:40,634:__main__:INFO: 	ParticleNumber: (0.0020192241028927902+2.1430231862625786e-14j)
+2024-10-11 22:35:40,634:__main__:INFO: (np.int64(2), np.int64(12))
+2024-10-11 22:35:40,634:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,634:__main__:INFO: (np.int64(2), np.int64(13))
+2024-10-11 22:35:40,634:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	ParticleNumber: (-0+0j)
+2024-10-11 22:35:40,634:__main__:INFO: (np.int64(2), np.int64(14))
+2024-10-11 22:35:40,634:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,634:__main__:INFO: (np.int64(2), np.int64(15))
+2024-10-11 22:35:40,634:__main__:INFO: 	AngularMomentum: (0.0010817107163713473+3.518075306019399e-15j)
+2024-10-11 22:35:40,634:__main__:INFO: 	Magnetization: (-0.0005408553574327053-1.7590376530097007e-15j)
+2024-10-11 22:35:40,634:__main__:INFO: 	ParticleNumber: (0.001081710720646781+3.5180753060194286e-15j)
+2024-10-11 22:35:40,634:__main__:INFO: (np.int64(2), np.int64(16))
+2024-10-11 22:35:40,634:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,634:__main__:INFO: (np.int64(3), np.int64(4))
+2024-10-11 22:35:40,634:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,634:__main__:INFO: (np.int64(3), np.int64(5))
+2024-10-11 22:35:40,634:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,634:__main__:INFO: (np.int64(3), np.int64(6))
+2024-10-11 22:35:40,634:__main__:INFO: 	AngularMomentum: (0.05825829145092202-1.0763344399436273e-15j)
+2024-10-11 22:35:40,634:__main__:INFO: 	Magnetization: -0j
+2024-10-11 22:35:40,634:__main__:INFO: 	ParticleNumber: (0.0007375936555481036-1.4198449910984069e-15j)
+2024-10-11 22:35:40,634:__main__:INFO: (np.int64(3), np.int64(7))
+2024-10-11 22:35:40,634:__main__:INFO: 	AngularMomentum: (0.0056759896117049+1.3124185926978679e-16j)
+2024-10-11 22:35:40,634:__main__:INFO: 	Magnetization: -0j
+2024-10-11 22:35:40,634:__main__:INFO: 	ParticleNumber: (0.002855938670378738-3.415511691447911e-16j)
+2024-10-11 22:35:40,634:__main__:INFO: (np.int64(3), np.int64(8))
+2024-10-11 22:35:40,634:__main__:INFO: 	AngularMomentum: (-0.003985819907609306+8.433376303808954e-16j)
+2024-10-11 22:35:40,634:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,634:__main__:INFO: 	ParticleNumber: (0.019766662489783295+8.910585226652731e-17j)
+2024-10-11 22:35:40,634:__main__:INFO: (np.int64(3), np.int64(9))
+2024-10-11 22:35:40,634:__main__:INFO: 	AngularMomentum: (-0.0250158755253921-1.2300514771712081e-14j)
+2024-10-11 22:35:40,635:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,635:__main__:INFO: 	ParticleNumber: (-0.0007818165859570132-1.1797118704770836e-14j)
+2024-10-11 22:35:40,635:__main__:INFO: (np.int64(3), np.int64(10))
+2024-10-11 22:35:40,635:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,635:__main__:INFO: (np.int64(3), np.int64(11))
+2024-10-11 22:35:40,635:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,635:__main__:INFO: (np.int64(3), np.int64(12))
+2024-10-11 22:35:40,635:__main__:INFO: 	AngularMomentum: (-0.013148825612961563+5.386918016555607e-16j)
+2024-10-11 22:35:40,635:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	ParticleNumber: (-0.017844835239991766+7.042448505354893e-16j)
+2024-10-11 22:35:40,635:__main__:INFO: (np.int64(3), np.int64(13))
+2024-10-11 22:35:40,635:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,635:__main__:INFO: (np.int64(3), np.int64(14))
+2024-10-11 22:35:40,635:__main__:INFO: 	AngularMomentum: (0.03583424638195325+3.885356844556274e-15j)
+2024-10-11 22:35:40,635:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	ParticleNumber: (-0.0005149872507822792+3.913888650380973e-15j)
+2024-10-11 22:35:40,635:__main__:INFO: (np.int64(3), np.int64(15))
+2024-10-11 22:35:40,635:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,635:__main__:INFO: (np.int64(3), np.int64(16))
+2024-10-11 22:35:40,635:__main__:INFO: 	AngularMomentum: (-0.004985388711487942-3.968870792081122e-15j)
+2024-10-11 22:35:40,635:__main__:INFO: 	Magnetization: -0j
+2024-10-11 22:35:40,635:__main__:INFO: 	ParticleNumber: (0.002382728493601466-5.405213307465063e-15j)
+2024-10-11 22:35:40,635:__main__:INFO: (np.int64(4), np.int64(5))
+2024-10-11 22:35:40,635:__main__:INFO: 	AngularMomentum: (0.012551455780048557+1.598582399235931e-14j)
+2024-10-11 22:35:40,635:__main__:INFO: 	Magnetization: (0.006275727868964679+7.992911996179635e-15j)
+2024-10-11 22:35:40,635:__main__:INFO: 	ParticleNumber: (0.012551455901336305+1.5985823992359255e-14j)
+2024-10-11 22:35:40,635:__main__:INFO: (np.int64(4), np.int64(6))
+2024-10-11 22:35:40,635:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,635:__main__:INFO: (np.int64(4), np.int64(7))
+2024-10-11 22:35:40,635:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,635:__main__:INFO: (np.int64(4), np.int64(8))
+2024-10-11 22:35:40,635:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,635:__main__:INFO: (np.int64(4), np.int64(9))
+2024-10-11 22:35:40,635:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,635:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,635:__main__:INFO: (np.int64(4), np.int64(10))
+2024-10-11 22:35:40,635:__main__:INFO: 	AngularMomentum: (-0.009769194556008921+4.057257046042285e-14j)
+2024-10-11 22:35:40,635:__main__:INFO: 	Magnetization: (-0.0048845972732559405+2.0286285230212582e-14j)
+2024-10-11 22:35:40,636:__main__:INFO: 	ParticleNumber: (-0.009769194582709898+4.0572570460424854e-14j)
+2024-10-11 22:35:40,636:__main__:INFO: (np.int64(4), np.int64(11))
+2024-10-11 22:35:40,636:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	Magnetization: -0j
+2024-10-11 22:35:40,636:__main__:INFO: 	ParticleNumber: (-0+0j)
+2024-10-11 22:35:40,636:__main__:INFO: (np.int64(4), np.int64(12))
+2024-10-11 22:35:40,636:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,636:__main__:INFO: (np.int64(4), np.int64(13))
+2024-10-11 22:35:40,636:__main__:INFO: 	AngularMomentum: (-0.10293342871727904+4.457531046606937e-15j)
+2024-10-11 22:35:40,636:__main__:INFO: 	Magnetization: (-0.05146671435642649+2.228765523303423e-15j)
+2024-10-11 22:35:40,636:__main__:INFO: 	ParticleNumber: (-0.10293342873016044+4.457531046606651e-15j)
+2024-10-11 22:35:40,636:__main__:INFO: (np.int64(4), np.int64(14))
+2024-10-11 22:35:40,636:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,636:__main__:INFO: (np.int64(4), np.int64(15))
+2024-10-11 22:35:40,636:__main__:INFO: 	AngularMomentum: -0j
+2024-10-11 22:35:40,636:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	ParticleNumber: (-0+0j)
+2024-10-11 22:35:40,636:__main__:INFO: (np.int64(4), np.int64(16))
+2024-10-11 22:35:40,636:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,636:__main__:INFO: (np.int64(5), np.int64(6))
+2024-10-11 22:35:40,636:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,636:__main__:INFO: (np.int64(5), np.int64(7))
+2024-10-11 22:35:40,636:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,636:__main__:INFO: (np.int64(5), np.int64(8))
+2024-10-11 22:35:40,636:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,636:__main__:INFO: (np.int64(5), np.int64(9))
+2024-10-11 22:35:40,636:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,636:__main__:INFO: (np.int64(5), np.int64(10))
+2024-10-11 22:35:40,636:__main__:INFO: 	AngularMomentum: (-0.014676362414541802-1.039359106552147e-14j)
+2024-10-11 22:35:40,636:__main__:INFO: 	Magnetization: (-0.0073381812228190514-5.196795532757117e-15j)
+2024-10-11 22:35:40,636:__main__:INFO: 	ParticleNumber: (-0.014676362335122052-1.039359106551469e-14j)
+2024-10-11 22:35:40,636:__main__:INFO: (np.int64(5), np.int64(11))
+2024-10-11 22:35:40,636:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	Magnetization: -0j
+2024-10-11 22:35:40,636:__main__:INFO: 	ParticleNumber: (-0+0j)
+2024-10-11 22:35:40,636:__main__:INFO: (np.int64(5), np.int64(12))
+2024-10-11 22:35:40,636:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,636:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,636:__main__:INFO: (np.int64(5), np.int64(13))
+2024-10-11 22:35:40,637:__main__:INFO: 	AngularMomentum: (-0.17691747389511597+5.0516594270700355e-15j)
+2024-10-11 22:35:40,637:__main__:INFO: 	Magnetization: (-0.08845873694461832+2.5258297135349594e-15j)
+2024-10-11 22:35:40,637:__main__:INFO: 	ParticleNumber: (-0.1769174739124227+5.051659427069647e-15j)
+2024-10-11 22:35:40,637:__main__:INFO: (np.int64(5), np.int64(14))
+2024-10-11 22:35:40,637:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,637:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,637:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,637:__main__:INFO: (np.int64(5), np.int64(15))
+2024-10-11 22:35:40,637:__main__:INFO: 	AngularMomentum: -0j
+2024-10-11 22:35:40,637:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,637:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,637:__main__:INFO: (np.int64(5), np.int64(16))
+2024-10-11 22:35:40,637:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,637:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,637:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,637:__main__:INFO: (np.int64(6), np.int64(7))
+2024-10-11 22:35:40,637:__main__:INFO: 	AngularMomentum: (0.017625956778246413+1.5535601983592053e-15j)
+2024-10-11 22:35:40,637:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,637:__main__:INFO: 	ParticleNumber: (0.0023159592378319783+3.4727433187090038e-15j)
+2024-10-11 22:35:40,637:__main__:INFO: (np.int64(6), np.int64(8))
+2024-10-11 22:35:40,637:__main__:INFO: 	AngularMomentum: (0.012231379038676271+1.2557891087661586e-14j)
+2024-10-11 22:35:40,637:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,637:__main__:INFO: 	ParticleNumber: (0.014798916068168959+2.5897773707861484e-14j)
+2024-10-11 22:35:40,637:__main__:INFO: (np.int64(6), np.int64(9))
+2024-10-11 22:35:40,637:__main__:INFO: 	AngularMomentum: (-0.001696972536372264+3.269735390297945e-15j)
+2024-10-11 22:35:40,637:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,637:__main__:INFO: 	ParticleNumber: (0.0009548438657941416+1.6288659867108988e-15j)
+2024-10-11 22:35:40,637:__main__:INFO: (np.int64(6), np.int64(10))
+2024-10-11 22:35:40,637:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,637:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,637:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,637:__main__:INFO: (np.int64(6), np.int64(11))
+2024-10-11 22:35:40,637:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,637:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,637:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,637:__main__:INFO: (np.int64(6), np.int64(12))
+2024-10-11 22:35:40,637:__main__:INFO: 	AngularMomentum: (-0.01655644761392864-1.5352354612832715e-15j)
+2024-10-11 22:35:40,637:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,637:__main__:INFO: 	ParticleNumber: (-0.014951261949430333-3.1455454268342314e-15j)
+2024-10-11 22:35:40,637:__main__:INFO: (np.int64(6), np.int64(13))
+2024-10-11 22:35:40,637:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,637:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,637:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,637:__main__:INFO: (np.int64(6), np.int64(14))
+2024-10-11 22:35:40,637:__main__:INFO: 	AngularMomentum: (-0.7100997125613259+3.7276724692541774e-15j)
+2024-10-11 22:35:40,637:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,637:__main__:INFO: 	ParticleNumber: (0.00028831100681318833-1.4275422499373945e-15j)
+2024-10-11 22:35:40,637:__main__:INFO: (np.int64(6), np.int64(15))
+2024-10-11 22:35:40,637:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,637:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,637:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,637:__main__:INFO: (np.int64(6), np.int64(16))
+2024-10-11 22:35:40,638:__main__:INFO: 	AngularMomentum: (0.02437931651377301+2.697580417115262e-14j)
+2024-10-11 22:35:40,638:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,638:__main__:INFO: 	ParticleNumber: (0.00021169213120986186+5.4927803862990635e-14j)
+2024-10-11 22:35:40,638:__main__:INFO: (np.int64(7), np.int64(8))
+2024-10-11 22:35:40,638:__main__:INFO: 	AngularMomentum: (0.1307832167692878+1.7708450986545362e-16j)
+2024-10-11 22:35:40,638:__main__:INFO: 	Magnetization: -0j
+2024-10-11 22:35:40,638:__main__:INFO: 	ParticleNumber: (0.05510231257879106-7.95621569990839e-16j)
+2024-10-11 22:35:40,638:__main__:INFO: (np.int64(7), np.int64(9))
+2024-10-11 22:35:40,638:__main__:INFO: 	AngularMomentum: (-0.08211005570846548+4.89598295971211e-16j)
+2024-10-11 22:35:40,638:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,638:__main__:INFO: 	ParticleNumber: (-0.0013422169511821778+1.3736544652851277e-14j)
+2024-10-11 22:35:40,638:__main__:INFO: (np.int64(7), np.int64(10))
+2024-10-11 22:35:40,638:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,638:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,638:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,638:__main__:INFO: (np.int64(7), np.int64(11))
+2024-10-11 22:35:40,638:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,638:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,638:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,638:__main__:INFO: (np.int64(7), np.int64(12))
+2024-10-11 22:35:40,638:__main__:INFO: 	AngularMomentum: (-0.019772515829469258+3.5819956229665874e-16j)
+2024-10-11 22:35:40,638:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,638:__main__:INFO: 	ParticleNumber: (-0.05208602548273502+1.0047834265190242e-15j)
+2024-10-11 22:35:40,638:__main__:INFO: (np.int64(7), np.int64(13))
+2024-10-11 22:35:40,638:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,638:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,638:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,638:__main__:INFO: (np.int64(7), np.int64(14))
+2024-10-11 22:35:40,638:__main__:INFO: 	AngularMomentum: (-0.018715160318437316+1.0174154961702808e-15j)
+2024-10-11 22:35:40,638:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,638:__main__:INFO: 	ParticleNumber: (0.00016312003745117858-3.515873973962517e-15j)
+2024-10-11 22:35:40,638:__main__:INFO: (np.int64(7), np.int64(15))
+2024-10-11 22:35:40,638:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,638:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,638:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,638:__main__:INFO: (np.int64(7), np.int64(16))
+2024-10-11 22:35:40,638:__main__:INFO: 	AngularMomentum: (0.0059511971713812825+1.7656266402784536e-15j)
+2024-10-11 22:35:40,638:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,638:__main__:INFO: 	ParticleNumber: (0.0037636767356734897+3.0508769533004403e-16j)
+2024-10-11 22:35:40,638:__main__:INFO: (np.int64(8), np.int64(9))
+2024-10-11 22:35:40,638:__main__:INFO: 	AngularMomentum: (-0.8679489044036275+5.093539625982662e-15j)
+2024-10-11 22:35:40,638:__main__:INFO: 	Magnetization: (1.387223669269133e-12+4.948869585097441e-28j)
+2024-10-11 22:35:40,638:__main__:INFO: 	ParticleNumber: (-0.022248449703976415+8.041461676847485e-15j)
+2024-10-11 22:35:40,638:__main__:INFO: (np.int64(8), np.int64(10))
+2024-10-11 22:35:40,638:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,638:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,638:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,638:__main__:INFO: (np.int64(8), np.int64(11))
+2024-10-11 22:35:40,638:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,638:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,638:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,638:__main__:INFO: (np.int64(8), np.int64(12))
+2024-10-11 22:35:40,639:__main__:INFO: 	AngularMomentum: (-0.2029523878829091+3.898471383721857e-15j)
+2024-10-11 22:35:40,639:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,639:__main__:INFO: 	ParticleNumber: (-0.3912760594613814+7.381018439086567e-15j)
+2024-10-11 22:35:40,639:__main__:INFO: (np.int64(8), np.int64(13))
+2024-10-11 22:35:40,639:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,639:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,639:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,639:__main__:INFO: (np.int64(8), np.int64(14))
+2024-10-11 22:35:40,639:__main__:INFO: 	AngularMomentum: (-0.050789186474938526+8.61831830280037e-15j)
+2024-10-11 22:35:40,639:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,639:__main__:INFO: 	ParticleNumber: (-0.009242150146795452+4.4904237883511965e-15j)
+2024-10-11 22:35:40,639:__main__:INFO: (np.int64(8), np.int64(15))
+2024-10-11 22:35:40,639:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,639:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,639:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,639:__main__:INFO: (np.int64(8), np.int64(16))
+2024-10-11 22:35:40,639:__main__:INFO: 	AngularMomentum: (0.013113775185568083+1.208266732113417e-14j)
+2024-10-11 22:35:40,639:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,639:__main__:INFO: 	ParticleNumber: (0.017892491605859706+2.6816421856544928e-14j)
+2024-10-11 22:35:40,639:__main__:INFO: (np.int64(9), np.int64(10))
+2024-10-11 22:35:40,639:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,639:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,639:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,639:__main__:INFO: (np.int64(9), np.int64(11))
+2024-10-11 22:35:40,639:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,639:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,639:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,639:__main__:INFO: (np.int64(9), np.int64(12))
+2024-10-11 22:35:40,639:__main__:INFO: 	AngularMomentum: (0.1228465567235251-1.9500412660180698e-15j)
+2024-10-11 22:35:40,639:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,639:__main__:INFO: 	ParticleNumber: (-0.054561468793232995+1.8628392365681307e-15j)
+2024-10-11 22:35:40,639:__main__:INFO: (np.int64(9), np.int64(13))
+2024-10-11 22:35:40,639:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,639:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,639:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,639:__main__:INFO: (np.int64(9), np.int64(14))
+2024-10-11 22:35:40,639:__main__:INFO: 	AngularMomentum: (-0.041064260484913656-3.865768051904143e-15j)
+2024-10-11 22:35:40,639:__main__:INFO: 	Magnetization: -0j
+2024-10-11 22:35:40,639:__main__:INFO: 	ParticleNumber: (0.007125261866401764-2.5564173283934636e-14j)
+2024-10-11 22:35:40,639:__main__:INFO: (np.int64(9), np.int64(15))
+2024-10-11 22:35:40,639:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,639:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,639:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,639:__main__:INFO: (np.int64(9), np.int64(16))
+2024-10-11 22:35:40,639:__main__:INFO: 	AngularMomentum: (0.12268594296920678+4.192230419702973e-15j)
+2024-10-11 22:35:40,639:__main__:INFO: 	Magnetization: -0j
+2024-10-11 22:35:40,639:__main__:INFO: 	ParticleNumber: (0.03085759250588327-6.968089608681358e-15j)
+2024-10-11 22:35:40,639:__main__:INFO: (np.int64(10), np.int64(11))
+2024-10-11 22:35:40,639:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,639:__main__:INFO: 	Magnetization: (-0+0j)
+2024-10-11 22:35:40,639:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,639:__main__:INFO: (np.int64(10), np.int64(12))
+2024-10-11 22:35:40,639:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,639:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,640:__main__:INFO: (np.int64(10), np.int64(13))
+2024-10-11 22:35:40,640:__main__:INFO: 	AngularMomentum: (0.1949461602415278+4.8968970612430185e-15j)
+2024-10-11 22:35:40,640:__main__:INFO: 	Magnetization: (0.09747308008780728+2.4484485306214765e-15j)
+2024-10-11 22:35:40,640:__main__:INFO: 	ParticleNumber: (0.19494616042089957+4.896897061242959e-15j)
+2024-10-11 22:35:40,640:__main__:INFO: (np.int64(10), np.int64(14))
+2024-10-11 22:35:40,640:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,640:__main__:INFO: (np.int64(10), np.int64(15))
+2024-10-11 22:35:40,640:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,640:__main__:INFO: (np.int64(10), np.int64(16))
+2024-10-11 22:35:40,640:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,640:__main__:INFO: (np.int64(11), np.int64(12))
+2024-10-11 22:35:40,640:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,640:__main__:INFO: (np.int64(11), np.int64(13))
+2024-10-11 22:35:40,640:__main__:INFO: 	AngularMomentum: -0j
+2024-10-11 22:35:40,640:__main__:INFO: 	Magnetization: -0j
+2024-10-11 22:35:40,640:__main__:INFO: 	ParticleNumber: -0j
+2024-10-11 22:35:40,640:__main__:INFO: (np.int64(11), np.int64(14))
+2024-10-11 22:35:40,640:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,640:__main__:INFO: (np.int64(11), np.int64(15))
+2024-10-11 22:35:40,640:__main__:INFO: 	AngularMomentum: (-0.05210994960251204+1.339111816061479e-14j)
+2024-10-11 22:35:40,640:__main__:INFO: 	Magnetization: (0.026054974702046638-6.695559080305129e-15j)
+2024-10-11 22:35:40,640:__main__:INFO: 	ParticleNumber: (-0.0521099501117047+1.3391118160609516e-14j)
+2024-10-11 22:35:40,640:__main__:INFO: (np.int64(11), np.int64(16))
+2024-10-11 22:35:40,640:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,640:__main__:INFO: (np.int64(12), np.int64(13))
+2024-10-11 22:35:40,640:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,640:__main__:INFO: (np.int64(12), np.int64(14))
+2024-10-11 22:35:40,640:__main__:INFO: 	AngularMomentum: (0.042331039050379306-1.3421193578344835e-15j)
+2024-10-11 22:35:40,640:__main__:INFO: 	Magnetization: -0j
+2024-10-11 22:35:40,640:__main__:INFO: 	ParticleNumber: (0.021540430245851505+6.237058448571866e-17j)
+2024-10-11 22:35:40,640:__main__:INFO: (np.int64(12), np.int64(15))
+2024-10-11 22:35:40,640:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,640:__main__:INFO: (np.int64(12), np.int64(16))
+2024-10-11 22:35:40,640:__main__:INFO: 	AngularMomentum: (-0.04948335105784324-1.1604381973659788e-15j)
+2024-10-11 22:35:40,640:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,640:__main__:INFO: 	ParticleNumber: (-0.07708856345662518-2.0288490105691695e-15j)
+2024-10-11 22:35:40,641:__main__:INFO: (np.int64(13), np.int64(14))
+2024-10-11 22:35:40,641:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,641:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,641:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,641:__main__:INFO: (np.int64(13), np.int64(15))
+2024-10-11 22:35:40,641:__main__:INFO: 	AngularMomentum: -0j
+2024-10-11 22:35:40,641:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,641:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,641:__main__:INFO: (np.int64(13), np.int64(16))
+2024-10-11 22:35:40,641:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,641:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,641:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,641:__main__:INFO: (np.int64(14), np.int64(15))
+2024-10-11 22:35:40,641:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,641:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,641:__main__:INFO: 	ParticleNumber: 0j
+2024-10-11 22:35:40,641:__main__:INFO: (np.int64(14), np.int64(16))
+2024-10-11 22:35:40,641:__main__:INFO: 	AngularMomentum: (-1.0204138424882436-1.1684610963510023e-14j)
+2024-10-11 22:35:40,641:__main__:INFO: 	Magnetization: -0j
+2024-10-11 22:35:40,641:__main__:INFO: 	ParticleNumber: (-0.05479174771060613-2.864261573613587e-16j)
+2024-10-11 22:35:40,641:__main__:INFO: (np.int64(15), np.int64(16))
+2024-10-11 22:35:40,641:__main__:INFO: 	AngularMomentum: 0j
+2024-10-11 22:35:40,641:__main__:INFO: 	Magnetization: 0j
+2024-10-11 22:35:40,641:__main__:INFO: 	ParticleNumber: 0j
