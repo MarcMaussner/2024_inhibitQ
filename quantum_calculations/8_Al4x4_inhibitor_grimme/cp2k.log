@@ -1802,3 +1802,339 @@
      1    P_Mix     ****        -0.0968361735      -241.4991679545     -9.68E-02
      2    P_Mix     ****        -0.0834359064      -241.4857676873      1.34E-02
      3    P_Mix     ****        -0.1120945287      -241.5144263096     -2.87E-02
+     4    P_Mix     ****        -0.0834665714      -241.4857983523      2.86E-02
+     5    P_Mix     ****        -0.1120499973      -241.5143817782     -2.86E-02
+     6    P_Mix     ****        -0.0644008212      -241.4667326021      4.76E-02
+     7    P_Mix     ****        -0.0851702078      -241.4875019887     -2.08E-02
+     8    P_Mix     ****        -0.0644557345      -241.4667875155      2.07E-02
+     9    P_Mix     ****        -0.0851385203      -241.4874703013     -2.07E-02
+    10    P_Mix     ****        -0.0835279032      -241.4858596842      1.61E-03
+    11    P_Mix     ****        -0.1118982168      -241.5142299977     -2.84E-02
+    12    P_Mix     ****        -0.0644136209      -241.4667454018      4.75E-02
+    13    P_Mix     ****        -0.0852384435      -241.4875702245     -2.08E-02
+    14    P_Mix     ****        -0.0834702840      -241.4858020649      1.77E-03
+    15    P_Mix     ****        -0.1120535889      -241.5143853699     -2.86E-02
+    16    P_Mix     ****        -0.0644219702      -241.4667537512      4.76E-02
+    17    P_Mix     ****        -0.0851186389      -241.4874504198     -2.07E-02
+    18    P_Mix     ****        -0.0646771626      -241.4670089436      2.04E-02
+    19    P_Mix     ****        -0.0844335068      -241.4867652878     -1.98E-02
+    20    P_Mix     ****        -0.0662882613      -241.4686200422      1.81E-02
+    21    P_Mix     ****        -0.0813439861      -241.4836757671     -1.51E-02
+    22    P_Mix     ****        -0.0698405834      -241.4721723643      1.15E-02
+    23    P_Mix     ****        -0.0800699604      -241.4824017414     -1.02E-02
+    24    P_Mix     ****        -0.1101312751      -241.5124630561     -3.01E-02
+    25    P_Mix     ****        -0.0804149441      -241.4827467250      2.97E-02
+    26    P_Mix     ****        -0.1095071810      -241.5118389620     -2.91E-02
+    27    P_Mix     ****        -0.0861979172      -241.4885296982      2.33E-02
+    28    P_Mix     ****        -0.1093453700      -241.5116771509     -2.31E-02
+    29    P_Mix     ****        -0.0876898596      -241.4900216405      2.17E-02
+    30    P_Mix     ****        -0.1083321262      -241.5106639071     -2.06E-02
+    31    P_Mix     ****        -0.1119832139      -241.5143149949     -3.65E-03
+    32    P_Mix     ****        -0.0835228603      -241.4858546412      2.85E-02
+    33    P_Mix     ****        -0.1119009868      -241.5142327678     -2.84E-02
+    34    P_Mix     ****        -0.0644176036      -241.4667493846      4.75E-02
+    35    P_Mix     ****        -0.0852546791      -241.4875864600     -2.08E-02
+    36    P_Mix     ****        -0.0644795320      -241.4668113130      2.08E-02
+    37    P_Mix     ****        -0.0850757862      -241.4874075672     -2.06E-02
+    38    P_Mix     ****        -0.0650220016      -241.4673537826      2.01E-02
+    39    P_Mix     ****        -0.0835705949      -241.4859023758     -1.85E-02
+    40    P_Mix     ****        -0.0675439570      -241.4698757380      1.60E-02
+    41    P_Mix     ****        -0.0800983418      -241.4824301227     -1.26E-02
+    42    P_Mix     ****        -0.1064286397      -241.5087604207     -2.63E-02
+    43    P_Mix     ****        -0.0803866928      -241.4827184737      2.60E-02
+    44    P_Mix     ****        -0.1111923226      -241.5135241036     -3.08E-02
+    45    P_Mix     ****        -0.0803848671      -241.4827166481      3.08E-02
+    46    P_Mix     ****        -0.1112048300      -241.5135366110     -3.08E-02
+    47    P_Mix     ****        -0.0804224378      -241.4827542187      3.08E-02
+    48    P_Mix     ****        -0.1111786711      -241.5135104520     -3.08E-02
+    49    P_Mix     ****        -0.0805365989      -241.4828683799      3.06E-02
+    50    P_Mix     ****        -0.1083658577      -241.5106976387     -2.78E-02
+
+  *** rsDFT embedding did not converged after    50 iteration(s) ***
+
+   FCIDUMP| Checksum:                                            242.51971217
+
+ !-------------------- End of Active Space Interface --------------------------!
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy [a.u.]:             -241.510697638678693
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                DBCSR STATISTICS                             -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ COUNTER                                    TOTAL       BLAS       SMM       ACC
+ flops     5 x     5 x     1                30000       0.0%    100.0%      0.0%     
+ flops     5 x     1 x     5                69300       0.0%    100.0%      0.0%     
+ flops    65 x     1 x   109                85020       0.0%    100.0%      0.0%     
+ flops    65 x     1 x   104               108160       0.0%    100.0%      0.0%     
+ flops    65 x     1 x   117               152100       0.0%    100.0%      0.0%     
+ flops    32 x     1 x   109               251136       0.0%    100.0%      0.0%     
+ flops    32 x     1 x   104               319488       0.0%    100.0%      0.0%     
+ flops    32 x     1 x   117               449280       0.0%    100.0%      0.0%     
+ flops    13 x     5 x     1              1963000       0.0%    100.0%      0.0%     
+ flops     5 x    13 x     1              1976000       0.0%    100.0%      0.0%     
+ flops    13 x     1 x     5              6066060       0.0%    100.0%      0.0%     
+ flops     5 x     1 x    13              6066060       0.0%    100.0%      0.0%     
+ flops     5 x     5 x    32              6211200       0.0%    100.0%      0.0%     
+ flops     5 x    32 x     5             11174400       0.0%    100.0%      0.0%     
+ flops    65 x    32 x   109             21765120       0.0%    100.0%      0.0%     
+ flops    65 x    32 x   104             27688960       0.0%    100.0%      0.0%     
+ flops    65 x    32 x   117             38937600       0.0%    100.0%      0.0%     
+ flops    32 x    32 x   109             64290816       0.0%    100.0%      0.0%     
+ flops    32 x    32 x   104             81788928       0.0%    100.0%      0.0%     
+ flops    32 x    32 x   117            115015680       0.0%    100.0%      0.0%     
+ flops    13 x    13 x     1            172447600       0.0%    100.0%      0.0%     
+ flops    13 x     5 x    32            406419520       0.0%    100.0%      0.0%     
+ flops     5 x    13 x    32            409111040       0.0%    100.0%      0.0%     
+ flops    13 x     1 x    13            525881356       0.0%    100.0%      0.0%     
+ flops    13 x    32 x     5            978132480       0.0%    100.0%      0.0%     
+ flops     5 x    32 x    13            978132480       0.0%    100.0%      0.0%     
+ flops    13 x    13 x    32          35703551104       0.0%    100.0%      0.0%     
+ flops    13 x    32 x    13          84796661248       0.0%    100.0%      0.0%     
+ flops inhomo. stacks                           0       0.0%      0.0%      0.0%
+ flops total                       124.354745E+09       0.0%    100.0%      0.0%
+ flops max/rank                      5.424231E+09       0.0%    100.0%      0.0%
+ matmuls inhomo. stacks                         0       0.0%      0.0%      0.0%
+ matmuls total                           14011269       0.0%    100.0%      0.0%
+ number of processed stacks                273735       0.0%    100.0%      0.0%
+ average stack size                                     0.0      51.2       0.0
+ marketing flops                   153.373606E+09
+ -------------------------------------------------------------------------------
+ # multiplications                            272
+ max memory usage/rank             846.323712E+06
+ # max total images/rank                        3
+ # max 3D layers                                1
+ # MPI messages exchanged                  261120
+ MPI messages size (bytes):
+  total size                        28.235807E+09
+  min size                           0.000000E+00
+  max size                         328.536000E+03
+  average size                     108.133453E+03
+ MPI breakdown and total messages size (bytes):
+             size <=      128               80640                        0
+       128 < size <=     8192               13792                 20124592
+      8192 < size <=    32768               52508               1479221248
+     32768 < size <=   131072               31284               2599522816
+    131072 < size <=  4194304               82896              24136855952
+   4194304 < size <= 16777216                   0                        0
+  16777216 < size                               0                        0
+ -------------------------------------------------------------------------------
+
+ *** WARNING in dbcsr_mm.F:301 :: Using a non-square number of MPI ranks ***
+ *** might lead to poor performance. Used ranks: 48 Suggested: 49 100    ***
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                      DBCSR MESSAGE PASSING PERFORMANCE                      -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ ROUTINE             CALLS      AVE VOLUME [Bytes]
+ MP_Bcast               29                     12.
+ MP_Allreduce         1317                      9.
+ MP_Alltoall          5608                  42559.
+ MP_ISend            12966                  50085.
+ MP_IRecv            12966                  49228.
+ -------------------------------------------------------------------------------
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                DBM STATISTICS                               -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+    M  x    N  x    K                                          COUNT     PERCENT
+ -------------------------------------------------------------------------------
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                GRID STATISTICS                              -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ LP    KERNEL             BACKEND                              COUNT     PERCENT
+ 4     integrate general  CPU                               15305578      55.25%
+ 4     collocate general  CPU                               10272200      37.08%
+ 3     integrate general  CPU                                1163690       4.20%
+ 3     collocate general  CPU                                 781000       2.82%
+ 2     integrate general  CPU                                  96999       0.35%
+ 2     collocate general  CPU                                  67195       0.24%
+ 0     collocate general  CPU                                   9984       0.04%
+ 0     integrate general  CPU                                   4992       0.02%
+ 1     collocate general  CPU                                    105       0.00%
+ -------------------------------------------------------------------------------
+
+ MEMORY| Estimated peak process memory [MiB]                                 808
+
+ -------------------------------------------------------------------------------
+ ----                             MULTIGRID INFO                            ----
+ -------------------------------------------------------------------------------
+ count for grid        1:        1170483          cutoff [a.u.]          250.00
+ count for grid        2:         834662          cutoff [a.u.]           83.33
+ count for grid        3:         619777          cutoff [a.u.]           27.78
+ count for grid        4:         394021          cutoff [a.u.]            9.26
+ count for grid        5:          75924          cutoff [a.u.]            3.09
+ total gridlevel count  :        3094867
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                         MESSAGE PASSING PERFORMANCE                         -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+
+ ROUTINE             CALLS      AVE VOLUME [Bytes]
+ MP_Group               10
+ MP_Bcast              535                1412331.
+ MP_Allreduce         1787                   8404.
+ MP_Sync               316
+ MP_Alltoall          3024                6958979.
+ MP_SendRecv         14805                  52496.
+ MP_ISendRecv        21009                  52496.
+ MP_Wait             54466
+ MP_comm_split           1
+ MP_ISend            30140                 204332.
+ MP_IRecv            30140                 204587.
+ -------------------------------------------------------------------------------
+
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                           R E F E R E N C E S                               -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ 
+ CP2K version 2024.2, the CP2K developers group (2024).
+ CP2K is freely available from https://www.cp2k.org/ .
+ 
+ T. D. Kuehne, M. Iannuzzi, M. Del Ben, V. V. Rybkin, P. Seewald, F. Stein, T. 
+ Laino, R. Z. Khaliullin, O. Schuett, F. Schiffmann, D. Golze, J. Wilhelm, S. 
+ Chulkov, M. H. Bani-Hashemian, V. Weber, U. Borstnik, M. Taillefumier, A. S. 
+ Jakobovits, A. Lazzaro, H. Pabst, T. Mueller, R. Schade, M. Guidon, S. 
+ Andermatt, N. Holmberg, G. K. Schenter, A. Hehn, A. Bussy, F. Belleflamme, G. 
+ Tabacchi, A. Gloess, M. Lass, I. Bethune, C. J. Mundy, C. Plessl, M. Watkins, 
+ J. VandeVondele, M. Krack, J. Hutter.
+ J. Chem. Phys. 152, 194103 (2020).
+ CP2K: An electronic structure and molecular dynamics software package - 
+ Quickstep: Efficient and accurate electronic structure calculations.
+ https://doi.org/10.1063/5.0007045
+
+ L. Goerigk, A. Hansen, C. Bauer, S. Ehrlich, A. Najibi, S. Grimme.
+ Phys. Chem. Chem. Phys. 19, 32184-32215 (2017).
+ A look at the density functional theory zoo with the advanced GMTKN55 database 
+ for general main group thermochemistry, kinetics and noncovalent interactions.
+ https://doi.org/10.1039/C7CP04913G
+
+ O. Schuett, P. Messmer, J. Hutter, J. VandeVondele.
+ Electronic Structure Calculations on Graphics Processing Units, 173-190 (2016).
+ GPU-Accelerated Sparse Matrix-Matrix Multiplication for Linear Scaling Density 
+ Functional Theory.
+ https://doi.org/10.1002/9781118670712.ch8
+
+ A. Heinecke, G. Henry, M. Hutchinson, H. Pabst.
+ Proceedings of Intl. Supercomputing Conference, 981-991 (2016).
+ LIBXSMM: Accelerating Small Matrix Multiplications by Runtime Code Generation.
+ https://doi.org/10.1109/SC.2016.83
+
+ J. Hutter, M. Iannuzzi, F. Schiffmann, J. VandeVondele.
+ WIREs Comput Mol Sci. 4, 15-25 (2014).
+ CP2K: atomistic simulations of condensed matter systems.
+ https://doi.org/10.1002/wcms.1159
+
+ U. Borstnik, J. VandeVondele, V. Weber, J. Hutter.
+ Parallel Comput. 40, 47-58 (2014).
+ Sparse matrix multiplication: The distributed block-compressed sparse row 
+ library.
+ https://doi.org/10.1016/j.parco.2014.03.012
+
+ A. Marek, V. Blum, R. Johanni, V. Havu, B. Lang, T. Auckenthaler, A. Heinecke, 
+ H. Bungartz, H. Lederer.
+ J. Phys. Condens. Matter 26, 213201 (2014).
+ The ELPA library: scalable parallel eigenvalue solutions for electronic 
+ structure theory and computational science.
+ https://doi.org/10.1088/0953-8984/26/21/213201
+
+ S. Grimme, S. Ehrlich, L. Goerigk.
+ J. Comput. Chem. 32, 1456 (2011).
+ Effect of the damping function in dispersion corrected density functional 
+ theory.
+ https://doi.org/10.1002/jcc.21759
+
+ S. Grimme, J. Antony, S. Ehrlich, H. Krieg.
+ J. Chem. Phys. 132, 154104 (2010).
+ A consistent and accurate ab initio parametrization of density functional 
+ dispersion correction (DFT-D) for the 94 elements H-Pu.
+ https://doi.org/10.1063/1.3382344
+
+ J. VandeVondele, J. Hutter.
+ J. Chem. Phys. 127, 114105 (2007).
+ Gaussian basis sets for accurate calculations on molecular systems in gas and 
+ condensed phases.
+ https://doi.org/10.1063/1.2770708
+
+ J. VandeVondele, M. Krack, F. Mohamed, M. Parrinello, T. Chassaing, J. Hutter.
+ Comput. Phys. Commun. 167, 103-128 (2005).
+ QUICKSTEP: Fast and accurate density functional calculations using a mixed 
+ Gaussian and plane waves approach.
+ https://doi.org/10.1016/j.cpc.2004.12.014
+
+ M. Krack.
+ Theor. Chem. Acc. 114, 145-152 (2005).
+ Pseudopotentials for H to Kr optimized for gradient-corrected 
+ exchange-correlation functionals.
+ https://doi.org/10.1007/s00214-005-0655-y
+
+ M. Frigo, S. G. Johnson.
+ Proc. IEEE 93, 216-231 (2005).
+ The design and implementation of FFTW3.
+ https://doi.org/10.1109/JPROC.2004.840301
+
+ J. VandeVondele, J. Hutter.
+ J. Chem. Phys. 118, 4365-4369 (2003).
+ An efficient orbital transformation method for electronic structure 
+ calculations.
+ https://doi.org/10.1063/1.1543154
+
+ C. Hartwigsen, S. Goedecker, J. Hutter.
+ Phys. Rev. B 58, 3641-3662 (1998).
+ Relativistic separable dual-space Gaussian pseudopotentials from H to Rn.
+ https://doi.org/10.1103/PhysRevB.58.3641
+
+ G. Lippert, J. Hutter, M. Parrinello.
+ Mol. Phys. 92, 477-487 (1997).
+ A hybrid Gaussian and plane wave density functional scheme.
+ https://doi.org/10.1080/002689797170220
+
+ S. Goedecker, M. Teter, J. Hutter.
+ Phys. Rev. B 54, 1703-1710 (1996).
+ Separable dual-space Gaussian pseudopotentials.
+ https://doi.org/10.1103/PhysRevB.54.1703
+
+ J. P. Perdew, K. Burke, M. Ernzerhof.
+ Phys. Rev. Lett. 77, 3865-3868 (1996).
+ Generalized gradient approximation made simple.
+ https://doi.org/10.1103/PhysRevLett.77.3865
+
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                T I M I N G                                  -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+ CP2K                                 1  1.0     0.02     0.03 25600.64 25600.82
+ qs_energies                          1  2.0     0.00     0.00 25600.35 25600.54
+ active_space_main                    1  3.0     0.12     0.12 25515.51 25515.70
+ rsdft_embedding                      1  4.0     3.99     4.00 25511.92 25512.11
+ send_fock_to_client                 50  5.0     0.01     0.01 25448.62 25448.80
+ mp_bcast_av                        630  1.8     0.00     0.00 24918.42 25448.79
+ mp_bcast_i                         631  2.8 24918.42 25448.78 24918.42 25448.78
+ readbuffer_s                       102  6.0   530.18 25448.59   530.18 25448.59
+ -------------------------------------------------------------------------------
+
+ The number of warnings for this run is : 51
+ 
+ -------------------------------------------------------------------------------
+  **** **** ******  **  PROGRAM ENDED AT                 2024-10-14 02:01:34.885
+ ***** ** ***  *** **   PROGRAM RAN ON                              5faf3853afd4
+ **    ****   ******    PROGRAM RAN BY                                 <unknown>
+ ***** **    ** ** **   PROGRAM PROCESS ID                                   587
+  **** **  *******  **  PROGRAM STOPPED IN                                  /mnt
