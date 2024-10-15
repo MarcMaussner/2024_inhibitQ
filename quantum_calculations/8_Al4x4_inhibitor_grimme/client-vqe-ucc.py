@@ -13,8 +13,10 @@ import logging
 
 import numpy as np
 from qiskit_algorithms.optimizers import L_BFGS_B
+from qiskit_algorithms import NumPyMinimumEigensolver
 from qiskit.circuit.library import EvolvedOperatorAnsatz
 from qiskit.primitives import Estimator
+from qiskit.primitives import StatevectorEstimator
 from qiskit.quantum_info import SparsePauliOp
 from qiskit_aer.primitives import Estimator as AerEstimator
 from qiskit_nature.logging import logging as nature_logging
@@ -58,6 +60,8 @@ if __name__ == "__main__":
     parser.add_argument("--two-qubit-reduce", action="store_true")
     parser.add_argument("--adapt", action="store_true")
     parser.add_argument("--aer", action="store_true")
+    parser.add_argument("--sv_estimator", action="store_true")
+    parser.add_argument("--numpy", action="store_true")
     args = parser.parse_args()
 
     if args.nalpha is None or args.nbeta is None or args.norbs is None:
@@ -107,7 +111,10 @@ if __name__ == "__main__":
     if args.aer:
         estimator = AerEstimator(approximation=True)
     else:
-        estimator = Estimator()
+        if args.sv_estimator:
+            estimator=StatevectorEstimator()
+        else:
+            estimator = Estimator()
 
     optimizer = L_BFGS_B()
     solver = StatefulVQE(estimator, ansatz, optimizer)
@@ -120,6 +127,9 @@ if __name__ == "__main__":
             gradient_threshold=1e-4,
             max_iterations=1,
         )
+
+    if args.numpy:
+        solver = NumPyMinimumEigensolver()
 
     algo = GroundStateEigensolver(mapper, solver)
 
