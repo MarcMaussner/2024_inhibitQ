@@ -1,0 +1,3 @@
+chmod: changing permissions of '/home/ubuntu/calculations/11_Al4x4_inhibitor_grimme/Al111_4x4_active_space_adsorbate-1_0.fcidump': Operation not permitted
+chmod: changing permissions of '/home/ubuntu/calculations/11_Al4x4_inhibitor_grimme/Al111_4x4_active_space_adsorbate-RESTART.wfn': Operation not permitted
+chmod: changing permissions of '/home/ubuntu/calculations/11_Al4x4_inhibitor_grimme/Al111_4x4_active_space_adsorbate-RESTART.wfn.bak-1': Operation not permitted

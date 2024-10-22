@@ -1,0 +1,2872 @@
+2024-10-21 22:51:23,344:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Gathering excitation generators...
+2024-10-21 22:51:23,344:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Generating excitation list...
+2024-10-21 22:51:23,344:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single alpha excitations: [(0, 1), (0, 2), (0, 3), (0, 4)]
+2024-10-21 22:51:23,344:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single beta excitations: [(5, 6), (5, 7), (5, 8), (5, 9)]
+2024-10-21 22:51:23,344:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (1,))
+2024-10-21 22:51:23,344:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (2,))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (3,))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (4,))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (6,))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (7,))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (8,))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (9,))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single alpha excitations: [(0, 1), (0, 2), (0, 3), (0, 4)]
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single beta excitations: [(5, 6), (5, 7), (5, 8), (5, 9)]
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 6))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 7))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 8))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 9))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 6))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 7))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 8))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 9))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 6))
+2024-10-21 22:51:23,345:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 7))
+2024-10-21 22:51:23,346:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 8))
+2024-10-21 22:51:23,346:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 9))
+2024-10-21 22:51:23,346:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 6))
+2024-10-21 22:51:23,346:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 7))
+2024-10-21 22:51:23,346:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 8))
+2024-10-21 22:51:23,346:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 9))
+2024-10-21 22:51:23,346:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Checking excitation list...
+2024-10-21 22:51:23,346:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Converting excitations into SparseLabelOps...
+2024-10-21 22:51:23,347:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Converting second-quantized into qubit operators...
+/home/ubuntu/calculations/11_Al4x4_inhibitor_grimme/client-vqe-ucc.py:117: DeprecationWarning: The class ``qiskit.primitives.estimator.Estimator`` is deprecated as of qiskit 1.2. It will be removed no earlier than 3 months after the release date. All implementations of the `BaseEstimatorV1` interface have been deprecated in favor of their V2 counterparts. The V2 alternative for the `Estimator` class is `StatevectorEstimator`.
+  estimator = Estimator()
+2024-10-21 22:51:23,389:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ---------- STARTING CP2K INTEGRATION ----------
+
+2024-10-21 22:51:23,389:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: connecting to socket
+2024-10-21 22:52:44,285:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: connected
+2024-10-21 22:52:44,285:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-21 22:52:44,286:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'TWOBODY     '
+2024-10-21 22:52:44,286:qiskit_nature_cp2k.cp2k_integration:INFO: nspins = 1
+2024-10-21 22:52:44,286:qiskit_nature_cp2k.cp2k_integration:INFO: nmo_active = 5
+2024-10-21 22:52:44,286:qiskit_nature_cp2k.cp2k_integration:INFO: nelec_active = 2
+2024-10-21 22:52:44,286:qiskit_nature_cp2k.cp2k_integration:INFO: multiplicity = 1
+2024-10-21 22:52:44,286:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-21 22:52:44,286:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-21 22:52:44,286:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.32177242300398
+2024-10-21 22:52:44,287:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.077968 -0.000202 -0.000087  0.000033  0.000001]
+ [-0.000202 -0.143326 -0.000076 -0.00088  -0.000004]
+ [-0.000087 -0.000076 -0.143014  0.000076  0.000772]
+ [ 0.000033 -0.00088   0.000076 -0.122318 -0.000143]
+ [ 0.000001 -0.000004  0.000772 -0.000143 -0.122985]]
+2024-10-21 22:52:44,288:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-21 22:52:44,288:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-21 22:52:44,288:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-21 22:52:44,288:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 22:52:44,288:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 22:59:55,757:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 429.59644198417664 seconds.
+Found optimal point [ 0.001583 -0.00101   0.000241 -0.001597 -0.001465  0.000953 -0.000338  0.001474 -3.14109   2.351553  0.001364  0.042571  1.570704 -1.657816  0.070212 -0.12031   0.212749  0.074356 -1.197014 -0.183064  0.023816 -0.135353 -0.182707 -1.447425]
+2024-10-21 23:00:12,301:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-21 23:00:12,321:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-21 23:00:12,348:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-21 23:00:12,349:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-21 23:00:12,350:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.21707159792
+  - computed part:      -0.21707159792
+~ Nuclear repulsion energy (Hartree): -241.321772423004
+> Total ground state energy (Hartree): -241.538844020924
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 1.999 M: 0.000
+
+2024-10-21 23:00:12,351:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000011,  0.001344,  0.002155, -0.000002, -0.000047],
+       [ 0.001344,  0.999993,  0.000001,  0.000001, -0.000019],
+       [ 0.002155,  0.000001,  0.999092, -0.000683, -0.021275],
+       [-0.000002,  0.000001, -0.000683,  0.000001,  0.000028],
+       [-0.000047, -0.000019, -0.021275,  0.000028,  0.000902]])
+
+2024-10-21 23:00:12,351:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-21 23:00:13,889:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-21 23:00:13,890:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-21 23:00:13,890:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29318901716653
+2024-10-21 23:00:13,890:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148813  0.000027  0.00002   0.000089  0.000169]
+ [ 0.000027 -0.111827  0.000268 -0.000483  0.000061]
+ [ 0.00002   0.000268 -0.111262  0.000065 -0.000378]
+ [ 0.000089 -0.000483  0.000065 -0.12296  -0.000214]
+ [ 0.000169  0.000061 -0.000378 -0.000214 -0.123321]]
+2024-10-21 23:00:13,890:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-21 23:00:13,890:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-21 23:00:13,891:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-21 23:00:13,891:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:00:13,891:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:02:46,955:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 151.1582145690918 seconds.
+Found optimal point [-0.00079   0.001087  0.003962 -1.57881   0.000624 -0.002848 -0.004124  1.562808 -3.129314  2.543025  0.106779  0.708876  1.591612 -1.674025  0.064688 -0.100285  0.20626   0.069552 -1.194365 -0.163985  0.07512  -0.095942 -0.152311 -1.601765]
+2024-10-21 23:03:03,319:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-21 23:03:03,338:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-21 23:03:03,366:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-21 23:03:03,366:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-21 23:03:03,367:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.222306535256
+  - computed part:      -0.222306535256
+~ Nuclear repulsion energy (Hartree): -241.293189017167
+> Total ground state energy (Hartree): -241.515495552423
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.000 S^2: 0.000 M: 0.000
+
+2024-10-21 23:03:03,368:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 1.998067, -0.000021,  0.000062,  0.000127, -0.015523],
+       [-0.000021,  0.000001, -0.000002, -0.000005, -0.000035],
+       [ 0.000062, -0.000002,  0.000009,  0.000015,  0.000112],
+       [ 0.000127, -0.000005,  0.000015,  0.000031,  0.000229],
+       [-0.015523, -0.000035,  0.000112,  0.000229,  0.001893]])
+
+2024-10-21 23:03:03,368:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-21 23:03:04,918:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-21 23:03:04,918:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-21 23:03:04,918:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.32937284106015
+2024-10-21 23:03:04,918:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.077143  0.000271 -0.000003  0.000055 -0.000398]
+ [ 0.000271 -0.147367  0.000352 -0.000579  0.000028]
+ [-0.000003  0.000352 -0.146587  0.00007   0.000461]
+ [ 0.000055 -0.000579  0.00007  -0.123193 -0.000016]
+ [-0.000398  0.000028  0.000461 -0.000016 -0.123275]]
+2024-10-21 23:03:04,919:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-21 23:03:04,919:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-21 23:03:04,919:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-21 23:03:04,919:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:03:04,919:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:08:17,156:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 310.44336557388306 seconds.
+Found optimal point [-1.575028  0.746334 -0.280923 -1.451649 -1.032674 -0.439317  0.049806  1.57188  -4.711526  2.463863  0.043998  0.739075  1.566264 -1.528109  0.064885 -0.093332 -0.009329  0.076864 -1.233819 -0.118315 -0.718298 -0.098224 -0.12017  -8.474206]
+2024-10-21 23:08:33,615:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-21 23:08:33,634:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-21 23:08:33,662:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-21 23:08:33,662:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-21 23:08:33,663:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.224673652298
+  - computed part:      -0.224673652298
+~ Nuclear repulsion energy (Hartree): -241.32937284106
+> Total ground state energy (Hartree): -241.554046493358
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+
+2024-10-21 23:08:33,663:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000008,  0.000055,  0.00014 ,  0.      , -0.000007],
+       [ 0.000055,  0.999993, -0.000018,  0.000093, -0.000631],
+       [ 0.00014 , -0.000018,  0.99972 , -0.000765, -0.013105],
+       [ 0.      ,  0.000093, -0.000765,  0.000001,  0.000007],
+       [-0.000007, -0.000631, -0.013105,  0.000007,  0.000277]])
+
+2024-10-21 23:08:33,664:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-21 23:08:35,117:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-21 23:08:35,117:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-21 23:08:35,117:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29320233150557
+2024-10-21 23:08:35,117:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148813 -0.000019 -0.000052  0.000088  0.000171]
+ [-0.000019 -0.111826  0.000267 -0.000479  0.000041]
+ [-0.000052  0.000267 -0.11124   0.000063 -0.000097]
+ [ 0.000088 -0.000479  0.000063 -0.12296  -0.000215]
+ [ 0.000171  0.000041 -0.000097 -0.000215 -0.123342]]
+2024-10-21 23:08:35,118:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-21 23:08:35,118:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-21 23:08:35,118:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-21 23:08:35,118:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:08:35,118:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:12:39,027:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 242.1027593612671 seconds.
+Found optimal point [-3.141335  0.000459  0.003912 -1.578119 -3.135537 -0.001833 -0.002689  1.563549 -4.697403  3.732744  0.116044  2.556597  1.575485 -1.551945  0.064702 -0.135407 -0.015999  0.073166 -1.32928   0.023754 -1.436948 -0.15239  -0.230227 -7.878429]
+2024-10-21 23:12:55,241:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-21 23:12:55,261:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-21 23:12:55,289:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-21 23:12:55,289:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-21 23:12:55,290:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.222305169114
+  - computed part:      -0.222305169114
+~ Nuclear repulsion energy (Hartree): -241.293202331506
+> Total ground state energy (Hartree): -241.515507500619
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.000 S^2: 0.000 M: -0.000
+
+2024-10-21 23:12:55,291:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 1.998094, -0.000049,  0.00004 ,  0.000105, -0.014134],
+       [-0.000049,  0.000001, -0.000002, -0.000004, -0.000027],
+       [ 0.00004 , -0.000002,  0.000008,  0.000012,  0.000093],
+       [ 0.000105, -0.000004,  0.000012,  0.000031,  0.000229],
+       [-0.014134, -0.000027,  0.000093,  0.000229,  0.001867]])
+
+2024-10-21 23:12:55,291:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-21 23:12:56,682:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-21 23:12:56,682:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-21 23:12:56,682:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.32937339689585
+2024-10-21 23:12:56,682:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.077142  0.00027  -0.000004  0.000054 -0.00035 ]
+ [ 0.00027  -0.147367  0.000352 -0.000579  0.000028]
+ [-0.000004  0.000352 -0.146587  0.00007   0.000461]
+ [ 0.000054 -0.000579  0.00007  -0.123193 -0.000017]
+ [-0.00035   0.000028  0.000461 -0.000017 -0.123275]]
+2024-10-21 23:12:56,683:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-21 23:12:56,683:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-21 23:12:56,683:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-21 23:12:56,683:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:12:56,683:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:19:01,441:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 362.9358489513397 seconds.
+Found optimal point [ -1.636598  -4.695586   6.881543  -0.500281   1.814117  -6.417389   1.612976   1.489665  -4.71327    3.99252    0.344926   3.150498   1.660758  -1.547939   0.011311  -0.228852  -0.948261   0.14982   -1.383496  -0.952652   7.492556  -6.298597   0.122015 -10.220947]
+2024-10-21 23:19:17,783:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-21 23:19:17,803:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-21 23:19:17,830:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-21 23:19:17,830:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-21 23:19:17,831:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.224679030964
+  - computed part:      -0.224679030964
+~ Nuclear repulsion energy (Hartree): -241.329373396896
+> Total ground state energy (Hartree): -241.554052427859
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 1.999 M: 0.000
+
+2024-10-21 23:19:17,831:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000001,  0.000056, -0.001122, -0.000001,  0.000014],
+       [ 0.000056,  0.999754, -0.000003,  0.011153, -0.000083],
+       [-0.001122, -0.000003,  0.999727,  0.001661, -0.011731],
+       [-0.000001,  0.011153,  0.001661,  0.000252, -0.000003],
+       [ 0.000014, -0.000083, -0.011731, -0.000003,  0.000265]])
+
+2024-10-21 23:19:17,832:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-21 23:19:19,322:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-21 23:19:19,322:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-21 23:19:19,322:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29319659134867
+2024-10-21 23:19:19,322:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148814 -0.000019 -0.000098  0.000088  0.000171]
+ [-0.000019 -0.111835  0.000267 -0.000096  0.000059]
+ [-0.000098  0.000267 -0.111239  0.000146 -0.000049]
+ [ 0.000088 -0.000096  0.000146 -0.122951 -0.000215]
+ [ 0.000171  0.000059 -0.000049 -0.000215 -0.123342]]
+2024-10-21 23:19:19,323:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-21 23:19:19,323:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-21 23:19:19,323:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-21 23:19:19,323:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:19:19,323:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:24:47,556:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 326.35304045677185 seconds.
+Found optimal point [ -3.161313  -6.28275    8.095012  -1.575045   3.143924  -6.27842    3.131527   0.002192  -4.648675   4.309517  -0.90569    7.613609   1.67697   -1.477642   0.109151  -0.427694  -0.665115   0.259711  -1.537912  -0.787503   7.459706  -6.384795   0.315399 -10.210836]
+2024-10-21 23:25:04,006:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-21 23:25:04,025:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-21 23:25:04,053:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-21 23:25:04,053:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-21 23:25:04,054:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.203082058557
+  - computed part:      -0.203082058557
+~ Nuclear repulsion energy (Hartree): -241.293196591349
+> Total ground state energy (Hartree): -241.496278649906
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.618 S^2: 1.000 M: -0.000
+
+2024-10-21 23:25:04,054:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.999865,  0.002991,  0.004923,  0.000608, -0.008   ],
+       [ 0.002991,  0.000421,  0.000005, -0.019128, -0.004721],
+       [ 0.004923,  0.000005,  0.000024,  0.000426,  0.000064],
+       [ 0.000608, -0.019128,  0.000426,  0.942632,  0.231688],
+       [-0.008   , -0.004721,  0.000064,  0.231688,  0.057057]])
+
+2024-10-21 23:25:04,055:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-21 23:25:05,607:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-21 23:25:05,607:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-21 23:25:05,607:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29216024828855
+2024-10-21 23:25:05,607:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.11324   0.000317  0.00015   0.000097 -0.000143]
+ [ 0.000317 -0.147442  0.000289 -0.0011   -0.000121]
+ [ 0.00015   0.000289 -0.146882  0.00007   0.000381]
+ [ 0.000097 -0.0011    0.00007  -0.091382  0.007809]
+ [-0.000143 -0.000121  0.000381  0.007809 -0.121268]]
+2024-10-21 23:25:05,608:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-21 23:25:05,608:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-21 23:25:05,608:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-21 23:25:05,608:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:25:05,608:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:30:18,671:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 311.23330450057983 seconds.
+Found optimal point [ -4.70937   -6.270725   6.749233  -1.732906   2.562206  -5.631721   0.90535   -1.575592  -4.713668   4.287923  -1.148928   6.922644   1.572938  -1.490676   0.105576  -0.428032  -0.663654   0.259793  -1.544009  -0.766219   7.448939  -6.374126   0.312125 -10.211314]
+2024-10-21 23:30:34,979:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-21 23:30:34,998:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-21 23:30:35,026:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-21 23:30:35,026:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-21 23:30:35,027:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.225041314383
+  - computed part:      -0.225041314383
+~ Nuclear repulsion energy (Hartree): -241.292160248289
+> Total ground state energy (Hartree): -241.517201562671
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: -0.000
+
+2024-10-21 23:30:35,028:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000004,  0.000158, -0.001227, -0.000003,  0.000025],
+       [ 0.000158,  0.99999 , -0.000002,  0.000392, -0.000812],
+       [-0.001227, -0.000002,  0.999813,  0.001728, -0.009827],
+       [-0.000003,  0.000392,  0.001728,  0.000008, -0.000022],
+       [ 0.000025, -0.000812, -0.009827, -0.000022,  0.000184]])
+
+2024-10-21 23:30:35,028:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-21 23:30:36,454:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-21 23:30:36,454:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-21 23:30:36,454:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29320327026966
+2024-10-21 23:30:36,454:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148813 -0.000015 -0.000101  0.000087  0.000172]
+ [-0.000015 -0.111826  0.000267 -0.000469  0.000035]
+ [-0.000101  0.000267 -0.111236  0.000148  0.000016]
+ [ 0.000087 -0.000469  0.000148 -0.12296  -0.000216]
+ [ 0.000172  0.000035  0.000016 -0.000216 -0.123345]]
+2024-10-21 23:30:36,455:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-21 23:30:36,455:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-21 23:30:36,455:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-21 23:30:36,455:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:30:36,455:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:38:44,822:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 486.56271719932556 seconds.
+Found optimal point [-3.143313 -6.254853  6.266854 -1.573834  2.08881  -5.500569  2.957694 -1.547626 -4.650105  4.437428 -0.887444  8.650147  1.555792 -1.443708  0.01816  -0.844266 -0.607722  0.313819 -1.565484 -0.808837  7.847974 -6.662614 -0.064303 -9.804863]
+2024-10-21 23:39:01,141:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-21 23:39:01,161:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-21 23:39:01,188:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-21 23:39:01,188:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-21 23:39:01,189:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.22236889502
+  - computed part:      -0.22236889502
+~ Nuclear repulsion energy (Hartree): -241.29320327027
+> Total ground state energy (Hartree): -241.51557216529
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.000 S^2: 0.000 M: -0.000
+
+2024-10-21 23:39:01,190:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 1.996247, -0.002651,  0.001272,  0.000086, -0.006751],
+       [-0.002651,  0.000017, -0.000043, -0.000059, -0.000038],
+       [ 0.001272, -0.000043,  0.001099, -0.000121,  0.000276],
+       [ 0.000086, -0.000059, -0.000121,  0.000994,  0.000346],
+       [-0.006751, -0.000038,  0.000276,  0.000346,  0.001644]])
+
+2024-10-21 23:39:01,190:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-21 23:39:02,575:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-21 23:39:02,575:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-21 23:39:02,575:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.32923506870998
+2024-10-21 23:39:02,575:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.077208  0.000177  0.000038  0.000053 -0.000095]
+ [ 0.000177 -0.147366  0.00035  -0.000581  0.000027]
+ [ 0.000038  0.00035  -0.146549  0.000064  0.000467]
+ [ 0.000053 -0.000581  0.000064 -0.12316  -0.000013]
+ [-0.000095  0.000027  0.000467 -0.000013 -0.123283]]
+2024-10-21 23:39:02,576:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-21 23:39:02,576:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-21 23:39:02,576:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-21 23:39:02,576:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:39:02,576:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:45:57,801:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 413.42766761779785 seconds.
+Found optimal point [ -3.932064  -1.566313   2.838721  -1.821406   1.57604   -5.64193    2.693197  -1.556856  -4.712482   4.783234  -0.020775   9.049373   3.215287  -1.005502   0.210907  -0.881375  -0.647331   0.237083  -1.549892  -0.857463   8.57471   -6.891259   0.320843 -11.87437 ]
+2024-10-21 23:46:14,533:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-21 23:46:14,552:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-21 23:46:14,579:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-21 23:46:14,579:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-21 23:46:14,581:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.22463464577
+  - computed part:      -0.22463464577
+~ Nuclear repulsion energy (Hartree): -241.32923506871
+> Total ground state energy (Hartree): -241.55386971448
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+
+2024-10-21 23:46:14,581:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000004,  0.000026, -0.000553,  0.000001,  0.000002],
+       [ 0.000026,  0.999977,  0.00001 ,  0.000592,  0.000029],
+       [-0.000553,  0.00001 ,  0.999714, -0.000617, -0.013218],
+       [ 0.000001,  0.000592, -0.000617,  0.000014,  0.000009],
+       [ 0.000002,  0.000029, -0.013218,  0.000009,  0.000291]])
+
+2024-10-21 23:46:14,582:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-21 23:46:15,964:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-21 23:46:15,964:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-21 23:46:15,965:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29320162325175
+2024-10-21 23:46:15,965:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148813 -0.00002  -0.000077  0.000088  0.000171]
+ [-0.00002  -0.111827  0.000268 -0.000462  0.000064]
+ [-0.000077  0.000268 -0.11124   0.000068 -0.000101]
+ [ 0.000088 -0.000462  0.000068 -0.12296  -0.000215]
+ [ 0.000171  0.000064 -0.000101 -0.000215 -0.123341]]
+2024-10-21 23:46:15,965:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-21 23:46:15,965:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-21 23:46:15,965:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-21 23:46:15,965:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:46:15,965:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:56:23,738:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 605.9712491035461 seconds.
+Found optimal point [ -3.165493  -0.021649   3.124011  -1.562012   3.161481  -6.305888   3.12233   -1.562498  -4.525369   6.841086  -0.09316    7.832959   3.17315   -1.370366  -0.37078   -1.491216   0.011087   0.088626  -1.697866  -1.146925   8.596219  -7.07285    0.401519 -11.062768]
+2024-10-21 23:56:40,298:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-21 23:56:40,318:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-21 23:56:40,345:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-21 23:56:40,345:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-21 23:56:40,347:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.222370205542
+  - computed part:      -0.222370205542
+~ Nuclear repulsion energy (Hartree): -241.293201623252
+> Total ground state energy (Hartree): -241.515571828794
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.000 S^2: 0.000 M: 0.000
+
+2024-10-21 23:56:40,347:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 1.996166,  0.000014,  0.000413, -0.000234, -0.016569],
+       [ 0.000014,  0.000002,  0.000005, -0.000015, -0.000032],
+       [ 0.000413,  0.000005,  0.001125, -0.000031,  0.000254],
+       [-0.000234, -0.000015, -0.000031,  0.000973,  0.000422],
+       [-0.016569, -0.000032,  0.000254,  0.000422,  0.001735]])
+
+2024-10-21 23:56:40,348:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-21 23:56:41,755:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-21 23:56:41,755:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-21 23:56:41,755:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.32923741461676
+2024-10-21 23:56:41,755:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.077211  0.000272  0.000009  0.000042 -0.000434]
+ [ 0.000272 -0.147367  0.000352 -0.000579  0.000028]
+ [ 0.000009  0.000352 -0.146548  0.000069  0.000466]
+ [ 0.000042 -0.000579  0.000069 -0.123161 -0.00001 ]
+ [-0.000434  0.000028  0.000466 -0.00001  -0.12328 ]]
+2024-10-21 23:56:41,756:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-21 23:56:41,756:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-21 23:56:41,756:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-21 23:56:41,756:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-21 23:56:41,756:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 00:00:56,953:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 253.33939790725708 seconds.
+Found optimal point [ -5.49624   -1.563008   3.883385  -1.521099   1.560827  -4.807361   3.68835   -1.587469  -4.708813   7.887157  -0.075897   7.752149   3.140731  -1.564245  -0.368335  -1.419484  -0.02822    0.102168  -1.698542  -1.137244   8.66522   -7.096166   0.384331 -13.268626]
+2024-10-22 00:01:13,476:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 00:01:13,495:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 00:01:13,523:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 00:01:13,523:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 00:01:13,524:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.224635964818
+  - computed part:      -0.224635964818
+~ Nuclear repulsion energy (Hartree): -241.329237414617
+> Total ground state energy (Hartree): -241.553873379435
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: -0.000
+
+2024-10-22 00:01:13,524:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000004,  0.000005,  0.000149, -0.000001, -0.000001],
+       [ 0.000005,  0.999948,  0.000097,  0.002158,  0.002915],
+       [ 0.000149,  0.000097,  0.999695, -0.001459, -0.013606],
+       [-0.000001,  0.002158, -0.001459,  0.00003 , -0.000001],
+       [-0.000001,  0.002915, -0.013606, -0.000001,  0.000323]])
+
+2024-10-22 00:01:13,525:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 00:01:14,897:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 00:01:14,898:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 00:01:14,898:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29320068504813
+2024-10-22 00:01:14,898:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148813 -0.000021 -0.000052  0.000088  0.000171]
+ [-0.000021 -0.111828  0.000271 -0.000408  0.000163]
+ [-0.000052  0.000271 -0.11124   0.000039 -0.000114]
+ [ 0.000088 -0.000408  0.000039 -0.122959 -0.000215]
+ [ 0.000171  0.000163 -0.000114 -0.000215 -0.12334 ]]
+2024-10-22 00:01:14,898:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 00:01:14,898:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 00:01:14,898:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 00:01:14,898:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 00:01:14,898:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 00:26:49,510:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 1532.7083637714386 seconds.
+Found optimal point [ -6.253324   0.022561   3.153944  -1.569151   2.258366  -6.210034   3.057446  -1.584113  -6.178308  11.878187   0.015941   7.969653   2.414337  -1.984376   0.153195  -2.258897  -0.388873   0.057705  -1.458605  -1.03936    7.862533  -6.346651  -0.073786 -13.276029]
+2024-10-22 00:27:05,732:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 00:27:05,751:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 00:27:05,779:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 00:27:05,779:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 00:27:05,780:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.222409601024
+  - computed part:      -0.222409601024
+~ Nuclear repulsion energy (Hartree): -241.293200685048
+> Total ground state energy (Hartree): -241.515610286072
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.000 S^2: 0.000 M: 0.000
+
+2024-10-22 00:27:05,781:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 1.995366, -0.001489, -0.00009 ,  0.000212, -0.007148],
+       [-0.001489,  0.001064,  0.000002, -0.000175, -0.000077],
+       [-0.00009 ,  0.000002,  0.001167,  0.000007,  0.000227],
+       [ 0.000212, -0.000175,  0.000007,  0.000798,  0.000431],
+       [-0.007148, -0.000077,  0.000227,  0.000431,  0.001605]])
+
+2024-10-22 00:27:05,781:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 00:27:07,167:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 00:27:07,168:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 00:27:07,168:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.32917233861107
+2024-10-22 00:27:07,168:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.07724   0.000218 -0.00001   0.000058 -0.000108]
+ [ 0.000218 -0.147329  0.000352 -0.000585  0.000025]
+ [-0.00001   0.000352 -0.146546  0.000069  0.000465]
+ [ 0.000058 -0.000585  0.000069 -0.123167 -0.000011]
+ [-0.000108  0.000025  0.000465 -0.000011 -0.123284]]
+2024-10-22 00:27:07,168:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 00:27:07,168:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 00:27:07,168:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 00:27:07,168:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 00:27:07,169:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 00:30:21,607:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 192.60365867614746 seconds.
+Found optimal point [  1.569478   4.711993   5.172542  -1.024597  -3.141705  -5.414882   3.152851  -1.569836  -5.738627  12.184589   0.024649   8.292154   1.569348  -1.406517   0.148868  -2.637262  -0.581399   0.122637  -1.281978  -1.093779   8.339337  -6.813899  -0.63945  -18.54438 ]
+2024-10-22 00:30:37,842:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 00:30:37,862:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 00:30:37,889:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 00:30:37,890:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 00:30:37,891:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.224594117783
+  - computed part:      -0.224594117783
+~ Nuclear repulsion energy (Hartree): -241.329172338611
+> Total ground state energy (Hartree): -241.553766456394
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+
+2024-10-22 00:30:37,891:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.      ,  0.000001,  0.00044 , -0.      , -0.00001 ],
+       [ 0.000001,  0.999997, -0.00002 ,  0.00016 , -0.000906],
+       [ 0.00044 , -0.00002 ,  0.999728,  0.000044, -0.01172 ],
+       [-0.      ,  0.00016 ,  0.000044,  0.000001,  0.000004],
+       [-0.00001 , -0.000906, -0.01172 ,  0.000004,  0.000274]])
+
+2024-10-22 00:30:37,892:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 00:30:39,315:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 00:30:39,315:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 00:30:39,316:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29320165438406
+2024-10-22 00:30:39,316:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148813 -0.000021 -0.000042  0.000088  0.000171]
+ [-0.000021 -0.111826  0.000267 -0.000477  0.000032]
+ [-0.000042  0.000267 -0.111239  0.00009  -0.00005 ]
+ [ 0.000088 -0.000477  0.00009  -0.12296  -0.000215]
+ [ 0.000171  0.000032 -0.00005  -0.000215 -0.123342]]
+2024-10-22 00:30:39,316:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 00:30:39,316:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 00:30:39,316:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 00:30:39,316:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 00:30:39,316:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 00:39:09,826:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 508.68529295921326 seconds.
+Found optimal point [  0.007261   3.138223   4.943231  -1.574897  -3.138187  -6.280714   3.130491  -0.0043    -5.492599  13.667613  -0.059618   9.815431   1.576195  -1.421176   0.167165  -2.66497   -0.615507   0.12716   -1.408088  -1.139582   8.425149  -6.836567  -0.640819 -18.53947 ]
+2024-10-22 00:39:25,986:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 00:39:26,005:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 00:39:26,033:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 00:39:26,033:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 00:39:26,034:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.203085849645
+  - computed part:      -0.203085849645
+~ Nuclear repulsion energy (Hartree): -241.293201654384
+> Total ground state energy (Hartree): -241.496287504029
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.618 S^2: 1.000 M: 0.000
+
+2024-10-22 00:39:26,034:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.999848,  0.004127,  0.003282, -0.000741, -0.00832 ],
+       [ 0.004127,  0.000105,  0.000053,  0.007093,  0.001636],
+       [ 0.003282,  0.000053,  0.000029,  0.003295,  0.000753],
+       [-0.000741,  0.007093,  0.003295,  0.947541,  0.222701],
+       [-0.00832 ,  0.001636,  0.000753,  0.222701,  0.052477]])
+
+2024-10-22 00:39:26,035:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 00:39:27,494:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 00:39:27,494:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 00:39:27,494:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.2921549016634
+2024-10-22 00:39:27,494:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.113243  0.000359  0.000092  0.000052 -0.000157]
+ [ 0.000359 -0.147452  0.000291 -0.000193  0.000096]
+ [ 0.000092  0.000291 -0.146883  0.00017   0.000407]
+ [ 0.000052 -0.000193  0.00017  -0.091216  0.007505]
+ [-0.000157  0.000096  0.000407  0.007505 -0.121422]]
+2024-10-22 00:39:27,495:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 00:39:27,495:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 00:39:27,495:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 00:39:27,495:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 00:39:27,495:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 00:42:58,355:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 209.02879071235657 seconds.
+Found optimal point [  1.57758    2.73425    2.914047  -1.80745   -4.717167  -5.454044   1.158776  -3.899055  -4.713866  13.356156   0.004873   9.445378   1.574539  -1.430766   0.167787  -2.664417  -0.621877   0.126087  -1.411147  -1.10437    8.453563  -6.874329  -0.642969 -18.53486 ]
+2024-10-22 00:43:14,583:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 00:43:14,602:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 00:43:14,630:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 00:43:14,630:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 00:43:14,631:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.225054328461
+  - computed part:      -0.225054328461
+~ Nuclear repulsion energy (Hartree): -241.292154901663
+> Total ground state energy (Hartree): -241.517209230124
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+
+2024-10-22 00:43:14,632:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000022,  0.000003, -0.001669, -0.000002,  0.000017],
+       [ 0.000003,  0.999977, -0.000011, -0.000091, -0.001941],
+       [-0.001669, -0.000011,  0.999779,  0.001156, -0.011989],
+       [-0.000002, -0.000091,  0.001156,  0.000009, -0.000014],
+       [ 0.000017, -0.001941, -0.011989, -0.000014,  0.000213]])
+
+2024-10-22 00:43:14,632:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 00:43:16,012:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 00:43:16,012:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 00:43:16,012:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.2932032425842
+2024-10-22 00:43:16,012:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148812 -0.000021 -0.000117  0.000088  0.000172]
+ [-0.000021 -0.111827  0.000267 -0.000485 -0.000004]
+ [-0.000117  0.000267 -0.111238  0.000129 -0.000059]
+ [ 0.000088 -0.000485  0.000129 -0.12296  -0.000215]
+ [ 0.000172 -0.000004 -0.000059 -0.000215 -0.123344]]
+2024-10-22 00:43:16,013:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 00:43:16,013:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 00:43:16,013:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 00:43:16,013:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 00:43:16,013:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 00:57:37,648:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 859.8105573654175 seconds.
+Found optimal point [ 12.542854   3.164751   3.162232  -1.565162  -4.547536  -5.289093   1.694088  -3.829292  -6.380694  13.114067  -1.254861  15.896941   1.674389  -1.834697   0.558926  -2.900628  -1.219127   0.227768  -1.223211  -0.960929   7.851319  -6.424424  -0.093064 -18.869734]
+2024-10-22 00:57:54,251:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 00:57:54,271:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 00:57:54,298:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 00:57:54,298:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 00:57:54,300:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.222407318464
+  - computed part:      -0.222407318464
+~ Nuclear repulsion energy (Hartree): -241.293203242584
+> Total ground state energy (Hartree): -241.515610561048
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.000 S^2: 0.000 M: 0.000
+
+2024-10-22 00:57:54,300:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 1.995365, -0.005614,  0.000578,  0.000676, -0.008302],
+       [-0.005614,  0.001133, -0.000138, -0.000343, -0.000058],
+       [ 0.000578, -0.000138,  0.001061, -0.000067,  0.000077],
+       [ 0.000676, -0.000343, -0.000067,  0.000853,  0.000387],
+       [-0.008302, -0.000058,  0.000077,  0.000387,  0.001588]])
+
+2024-10-22 00:57:54,301:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 00:57:55,677:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 00:57:55,677:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 00:57:55,677:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.32917297269398
+2024-10-22 00:57:55,677:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.07724   0.000071  0.000014  0.000073 -0.000148]
+ [ 0.000071 -0.147326  0.000347 -0.00059   0.000026]
+ [ 0.000014  0.000347 -0.14655   0.000066  0.00046 ]
+ [ 0.000073 -0.00059   0.000066 -0.123165 -0.000012]
+ [-0.000148  0.000026  0.00046  -0.000012 -0.123285]]
+2024-10-22 00:57:55,678:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 00:57:55,678:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 00:57:55,678:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 00:57:55,678:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 00:57:55,678:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 01:04:13,466:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 375.96072721481323 seconds.
+Found optimal point [ 10.20701    4.715271   4.348623  -1.335423  -4.686859  -5.324359   1.722165  -3.852374  -4.715246  14.102833  -0.94256   15.874928   3.11939   -1.961334   0.64572   -2.93424   -1.191223   0.238632  -1.234346  -0.951591   7.88422   -6.583655  -0.299168 -20.343728]
+2024-10-22 01:04:30,045:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 01:04:30,064:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 01:04:30,092:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 01:04:30,092:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 01:04:30,093:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.224596095894
+  - computed part:      -0.224596095894
+~ Nuclear repulsion energy (Hartree): -241.329172972694
+> Total ground state energy (Hartree): -241.553769068588
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+
+2024-10-22 01:04:30,093:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000003, -0.000838, -0.000703, -0.000017,  0.000001],
+       [-0.000838,  0.999679, -0.000002,  0.011919, -0.000027],
+       [-0.000703, -0.000002,  1.000023,  0.001092, -0.001365],
+       [-0.000017,  0.011919,  0.001092,  0.000291,  0.000006],
+       [ 0.000001, -0.000027, -0.001365,  0.000006,  0.000004]])
+
+2024-10-22 01:04:30,094:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 01:04:31,461:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 01:04:31,461:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 01:04:31,461:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29320115115098
+2024-10-22 01:04:31,461:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148813 -0.00005  -0.000083  0.000086  0.00017 ]
+ [-0.00005  -0.111838  0.000267 -0.000069  0.000062]
+ [-0.000083  0.000267 -0.111229  0.000127  0.000308]
+ [ 0.000086 -0.000069  0.000127 -0.12295  -0.000215]
+ [ 0.00017   0.000062  0.000308 -0.000215 -0.123351]]
+2024-10-22 01:04:31,462:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 01:04:31,462:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 01:04:31,462:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 01:04:31,462:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 01:04:31,462:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 01:10:57,366:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 384.0599889755249 seconds.
+Found optimal point [  9.446389   6.287341   4.961339  -1.575877  -3.147839  -6.286675   3.151787  -3.143212  -4.722818  12.853032  -0.47465   16.015275   4.160392  -2.024577   0.61832   -2.960083  -1.295587   0.324666  -1.279572  -1.254062   7.897145  -6.538763  -0.236166 -20.263483]
+2024-10-22 01:11:13,606:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 01:11:13,626:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 01:11:13,657:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 01:11:13,657:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 01:11:13,659:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.203082497464
+  - computed part:      -0.203082497464
+~ Nuclear repulsion energy (Hartree): -241.293201151151
+> Total ground state energy (Hartree): -241.496283648615
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.618 S^2: 1.000 M: -0.000
+
+2024-10-22 01:11:13,659:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.999841,  0.002804,  0.005217, -0.000425, -0.009125],
+       [ 0.002804,  0.000496,  0.000104, -0.020926, -0.005341],
+       [ 0.005217,  0.000104,  0.000044, -0.004028, -0.001071],
+       [-0.000425, -0.020926, -0.004028,  0.938825,  0.238652],
+       [-0.009125, -0.005341, -0.001071,  0.238652,  0.060794]])
+
+2024-10-22 01:11:13,659:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 01:11:15,063:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 01:11:15,063:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 01:11:15,063:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29216341096932
+2024-10-22 01:11:15,064:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.11324   0.000309  0.000161  0.000062 -0.000182]
+ [ 0.000309 -0.14744   0.000291 -0.001162 -0.000142]
+ [ 0.000161  0.000291 -0.146881 -0.000083  0.000342]
+ [ 0.000062 -0.001162 -0.000083 -0.091509  0.008044]
+ [-0.000182 -0.000142  0.000342  0.008044 -0.121142]]
+2024-10-22 01:11:15,064:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 01:11:15,064:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 01:11:15,064:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 01:11:15,064:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 01:11:15,064:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 01:18:47,319:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 450.2939829826355 seconds.
+Found optimal point [ 11.014587   6.848133   4.81854   -1.426563  -3.334322  -7.651568   2.966329  -4.723699  -4.710473  13.132269  -0.056468  15.969084   4.732413  -2.045181   1.199669  -2.993043  -1.159712   0.255054  -1.269227  -1.261021   7.882686  -6.379485  -0.17916  -20.270666]
+2024-10-22 01:19:03,720:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 01:19:03,740:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 01:19:03,767:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 01:19:03,767:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 01:19:03,769:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.225062431583
+  - computed part:      -0.225062431583
+~ Nuclear repulsion energy (Hartree): -241.292163410969
+> Total ground state energy (Hartree): -241.517225842552
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+
+2024-10-22 01:19:03,769:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000005,  0.000151, -0.001592, -0.000005,  0.000028],
+       [ 0.000151,  0.999515, -0.000163,  0.020663, -0.000787],
+       [-0.001592, -0.000163,  0.999838,  0.005187, -0.010983],
+       [-0.000005,  0.020663,  0.005187,  0.000462, -0.00007 ],
+       [ 0.000028, -0.000787, -0.010983, -0.00007 ,  0.00018 ]])
+
+2024-10-22 01:19:03,770:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 01:19:05,157:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 01:19:05,158:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 01:19:05,158:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29320211036406
+2024-10-22 01:19:05,158:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148814 -0.000015 -0.000115  0.000089  0.00017 ]
+ [-0.000015 -0.111844  0.000261  0.000233  0.000034]
+ [-0.000115  0.000261 -0.111236  0.000268 -0.000023]
+ [ 0.000089  0.000233  0.000268 -0.122944 -0.000217]
+ [ 0.00017   0.000034 -0.000023 -0.000217 -0.123344]]
+2024-10-22 01:19:05,158:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 01:19:05,158:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 01:19:05,158:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 01:19:05,158:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 01:19:05,159:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 01:38:02,082:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 1135.014496564865 seconds.
+Found optimal point [ 15.731464   6.306172   6.30409   -1.565302   1.769116  18.28026    1.619666  -3.610507  -3.13448    9.261559   8.300078  -0.802899  -1.409749  -1.684886   1.609002  -2.905956  -1.602977  -0.102882  -1.331717  -1.401301   7.854302  -6.177962  -0.170736 -18.873039]
+2024-10-22 01:38:18,531:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 01:38:18,550:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 01:38:18,578:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 01:38:18,578:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 01:38:18,580:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.222411490151
+  - computed part:      -0.222411490151
+~ Nuclear repulsion energy (Hartree): -241.293202110364
+> Total ground state energy (Hartree): -241.515613600516
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.000 S^2: 0.000 M: 0.000
+
+2024-10-22 01:38:18,580:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 1.995363, -0.005088, -0.000393,  0.001052, -0.007048],
+       [-0.005088,  0.001115,  0.000072, -0.000187,  0.000096],
+       [-0.000393,  0.000072,  0.001055,  0.000009,  0.000186],
+       [ 0.001052, -0.000187,  0.000009,  0.000908,  0.000272],
+       [-0.007048,  0.000096,  0.000186,  0.000272,  0.001559]])
+
+2024-10-22 01:38:18,580:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 01:38:19,979:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 01:38:19,980:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 01:38:19,980:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.32917201917508
+2024-10-22 01:38:19,980:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.07724   0.000089 -0.000021  0.000086 -0.000105]
+ [ 0.000089 -0.147327  0.000354 -0.000585  0.000031]
+ [-0.000021  0.000354 -0.14655   0.000069  0.000463]
+ [ 0.000086 -0.000585  0.000069 -0.123163 -0.000016]
+ [-0.000105  0.000031  0.000463 -0.000016 -0.123286]]
+2024-10-22 01:38:19,980:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 01:38:19,980:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 01:38:19,980:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 01:38:19,980:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 01:38:19,980:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 01:45:27,048:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 425.24723649024963 seconds.
+Found optimal point [ 18.065104   7.854406   7.255907  -1.313919   1.582549  18.016292   1.670899  -3.639992  -1.573429   7.853828   8.316353  -0.577597  -0.030786  -0.468066   1.525246  -2.934906  -1.609337  -0.100747  -1.319224  -1.380165   7.93608   -6.319627  -0.391097 -20.130016]
+2024-10-22 01:45:43,246:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 01:45:43,266:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 01:45:43,293:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 01:45:43,293:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 01:45:43,295:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.224597441191
+  - computed part:      -0.224597441191
+~ Nuclear repulsion energy (Hartree): -241.329172019175
+> Total ground state energy (Hartree): -241.553769460367
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+
+2024-10-22 01:45:43,295:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.      ,  0.000346,  0.000376,  0.000007, -0.000003],
+       [ 0.000346,  0.99974 ,  0.000041,  0.011404, -0.001098],
+       [ 0.000376,  0.000041,  0.999936,  0.002243, -0.002805],
+       [ 0.000007,  0.011404,  0.002243,  0.000305, -0.000014],
+       [-0.000003, -0.001098, -0.002805, -0.000014,  0.000018]])
+
+2024-10-22 01:45:43,296:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 01:45:44,672:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 01:45:44,673:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 01:45:44,673:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29319982469016
+2024-10-22 01:45:44,673:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148813 -0.000008 -0.000044  0.000087  0.00017 ]
+ [-0.000008 -0.111836  0.000269 -0.000087  0.000025]
+ [-0.000044  0.000269 -0.111232  0.000166  0.000258]
+ [ 0.000087 -0.000087  0.000166 -0.122949 -0.000215]
+ [ 0.00017   0.000025  0.000258 -0.000215 -0.12335 ]]
+2024-10-22 01:45:44,673:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 01:45:44,673:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 01:45:44,673:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 01:45:44,674:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 01:45:44,674:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:03:42,398:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 1075.895984172821 seconds.
+Found optimal point [ 18.87741    9.443582   6.303441  -1.565611   5.214805  18.768552   1.591072  -3.622941  -0.055709  11.539969   7.605333  -0.097135  -8.572366  -1.663463   1.592642  -2.877838  -1.808927   0.017337  -0.876688  -1.341392   7.853193  -6.241449  -0.504569 -18.872245]
+2024-10-22 02:03:58,695:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 02:03:58,714:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 02:03:58,742:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 02:03:58,742:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 02:03:58,743:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.222409723029
+  - computed part:      -0.222409723029
+~ Nuclear repulsion energy (Hartree): -241.29319982469
+> Total ground state energy (Hartree): -241.515609547719
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.000 S^2: 0.000 M: 0.000
+
+2024-10-22 02:03:58,744:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 1.995304, -0.004659, -0.000017,  0.002616, -0.00841 ],
+       [-0.004659,  0.001232,  0.000008, -0.000288, -0.000111],
+       [-0.000017,  0.000008,  0.000909,  0.000014,  0.00023 ],
+       [ 0.002616, -0.000288,  0.000014,  0.000953,  0.000424],
+       [-0.00841 , -0.000111,  0.00023 ,  0.000424,  0.001602]])
+
+2024-10-22 02:03:58,744:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 02:04:00,208:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 02:04:00,208:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 02:04:00,208:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.3291686021136
+2024-10-22 02:04:00,208:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.077242  0.000105 -0.000008  0.000139 -0.000152]
+ [ 0.000105 -0.147322  0.000352 -0.000588  0.000024]
+ [-0.000008  0.000352 -0.146556  0.000069  0.000465]
+ [ 0.000139 -0.000588  0.000069 -0.123161 -0.000011]
+ [-0.000152  0.000024  0.000465 -0.000011 -0.123284]]
+2024-10-22 02:04:00,209:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 02:04:00,209:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 02:04:00,209:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 02:04:00,209:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:04:00,209:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:09:19,286:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 317.2537977695465 seconds.
+Found optimal point [ 23.555033  11.034625   7.981653  -1.155348   3.875999  18.530421   1.572478  -4.167665  -1.573552  11.359977   7.884224  -0.024693  -7.851925  -1.64171    1.597772  -2.918534  -2.21437    0.057485  -0.946873  -1.251542   7.84567   -6.487339  -0.966278 -21.491015]
+2024-10-22 02:09:35,626:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 02:09:35,647:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 02:09:35,679:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 02:09:35,679:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 02:09:35,680:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.224597953378
+  - computed part:      -0.224597953378
+~ Nuclear repulsion energy (Hartree): -241.329168602114
+> Total ground state energy (Hartree): -241.553766555491
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: -0.000
+
+2024-10-22 02:09:35,681:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.      ,  0.000006,  0.000442,  0.      , -0.00001 ],
+       [ 0.000006,  0.999954, -0.000035,  0.001406, -0.00079 ],
+       [ 0.000442, -0.000035,  0.999741,  0.002626, -0.011217],
+       [ 0.      ,  0.001406,  0.002626,  0.000032,  0.000003],
+       [-0.00001 , -0.00079 , -0.011217,  0.000003,  0.000273]])
+
+2024-10-22 02:09:35,681:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 02:09:37,187:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 02:09:37,187:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 02:09:37,187:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29320035495505
+2024-10-22 02:09:37,187:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148813 -0.000021 -0.000042  0.000088  0.000171]
+ [-0.000021 -0.111828  0.000266 -0.000434  0.000035]
+ [-0.000042  0.000266 -0.111239  0.000179 -0.000032]
+ [ 0.000088 -0.000434  0.000179 -0.122959 -0.000215]
+ [ 0.000171  0.000035 -0.000032 -0.000215 -0.123342]]
+2024-10-22 02:09:37,188:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 02:09:37,188:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 02:09:37,188:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 02:09:37,188:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:09:37,188:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:12:59,414:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 200.32154417037964 seconds.
+Found optimal point [ 21.996073  12.557869   7.861962  -1.181106   3.145369  18.850446   0.005519  -3.144045  -1.594639  12.485906   7.271491  -1.903567  -7.950606  -1.813489   1.583335  -2.725427  -2.708123   0.029994  -0.94289   -1.430014   7.856075  -6.487231  -0.966233 -21.491752]
+2024-10-22 02:13:15,746:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 02:13:15,766:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 02:13:15,797:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 02:13:15,797:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 02:13:15,798:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.20307120364
+  - computed part:      -0.20307120364
+~ Nuclear repulsion energy (Hartree): -241.293200354955
+> Total ground state energy (Hartree): -241.496271558595
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.618 S^2: 1.000 M: 0.000
+
+2024-10-22 02:13:15,798:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.999939, -0.003396,  0.000939,  0.001938, -0.00501 ],
+       [-0.003396,  0.000064, -0.000045,  0.004927,  0.000044],
+       [ 0.000939, -0.000045,  0.000073, -0.008499, -0.000068],
+       [ 0.001938,  0.004927, -0.008499,  0.999833,  0.00736 ],
+       [-0.00501 ,  0.000044, -0.000068,  0.00736 ,  0.00009 ]])
+
+2024-10-22 02:13:15,799:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 02:13:17,199:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 02:13:17,199:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 02:13:17,199:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29209561656202
+2024-10-22 02:13:17,199:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.113255  0.000109  0.000011  0.000134 -0.000029]
+ [ 0.000109 -0.147428  0.000323 -0.00027   0.000049]
+ [ 0.000011  0.000323 -0.146893 -0.000232  0.000382]
+ [ 0.000134 -0.00027  -0.000232 -0.089478  0.000239]
+ [-0.000029  0.000049  0.000382  0.000239 -0.123206]]
+2024-10-22 02:13:17,199:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 02:13:17,200:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 02:13:17,200:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 02:13:17,200:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:13:17,200:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:16:56,158:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 217.05228352546692 seconds.
+Found optimal point [ 23.560068  11.311942   7.683404  -1.162387   5.851294  19.587084   0.274175  -4.711039  -1.583028  12.261322   6.971081  -2.001667  -7.847203  -1.754239   1.568594  -2.793904  -2.691342   0.033168  -0.94155   -1.406332   7.852058  -6.487047  -0.965758 -21.491747]
+2024-10-22 02:17:12,453:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 02:17:12,476:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 02:17:12,509:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 02:17:12,509:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 02:17:12,511:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.225039560146
+  - computed part:      -0.225039560146
+~ Nuclear repulsion energy (Hartree): -241.292095616562
+> Total ground state energy (Hartree): -241.517135176708
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: -0.000
+
+2024-10-22 02:17:12,511:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000001, -0.000011,  0.000607,  0.000003, -0.000012],
+       [-0.000011,  0.999993, -0.000021,  0.001754, -0.000791],
+       [ 0.000607, -0.000021,  0.999797,  0.002179, -0.010061],
+       [ 0.000003,  0.001754,  0.002179,  0.000018, -0.000051],
+       [-0.000012, -0.000791, -0.010061, -0.000051,  0.000191]])
+
+2024-10-22 02:17:12,511:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 02:17:14,006:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 02:17:14,006:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 02:17:14,006:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29320297764048
+2024-10-22 02:17:14,006:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148813 -0.000021 -0.000036  0.000087  0.00017 ]
+ [-0.000021 -0.111826  0.000267 -0.000421  0.000035]
+ [-0.000036  0.000267 -0.111237  0.000164  0.000008]
+ [ 0.000087 -0.000421  0.000164 -0.12296  -0.000217]
+ [ 0.00017   0.000035  0.000008 -0.000217 -0.123345]]
+2024-10-22 02:17:14,007:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 02:17:14,007:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 02:17:14,007:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 02:17:14,007:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:17:14,007:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:20:19,652:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 183.74642252922058 seconds.
+Found optimal point [ 21.995025  12.559194   7.875745  -1.350614   6.286762  18.850984   0.005531  -3.144171  -1.563716  11.219606   7.040499  -2.823924  -7.639422  -1.24061    1.711809  -2.671872  -2.739673  -0.047124  -0.950165  -1.434771   7.81393   -6.486138  -0.979936 -21.488229]
+2024-10-22 02:20:36,224:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 02:20:36,244:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 02:20:36,271:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 02:20:36,271:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 02:20:36,273:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.203072020621
+  - computed part:      -0.203072020621
+~ Nuclear repulsion energy (Hartree): -241.29320297764
+> Total ground state energy (Hartree): -241.496274998261
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.618 S^2: 1.000 M: 0.000
+
+2024-10-22 02:20:36,273:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.999925, -0.003221,  0.001358,  0.001902, -0.004978],
+       [-0.003221,  0.000082, -0.000032,  0.003884,  0.000083],
+       [ 0.001358, -0.000032,  0.000053, -0.007171, -0.000159],
+       [ 0.001902,  0.003884, -0.007171,  0.999453,  0.021209],
+       [-0.004978,  0.000083, -0.000159,  0.021209,  0.000486]])
+
+2024-10-22 02:20:36,274:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 02:20:37,645:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 02:20:37,646:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 02:20:37,646:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29209744362151
+2024-10-22 02:20:37,646:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.113254  0.000114  0.000025  0.000133 -0.000029]
+ [ 0.000114 -0.147428  0.000321 -0.000306  0.00005 ]
+ [ 0.000025  0.000321 -0.146894 -0.000187  0.000379]
+ [ 0.000133 -0.000306 -0.000187 -0.08949   0.000706]
+ [-0.000029  0.00005   0.000379  0.000706 -0.123192]]
+2024-10-22 02:20:37,646:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 02:20:37,646:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 02:20:37,646:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 02:20:37,647:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:20:37,647:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:26:05,679:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 326.1255338191986 seconds.
+Found optimal point [ 23.579608  11.083579   7.104453  -1.193279  10.736368  19.422758  -0.472738  -7.851194  -1.570665  11.612098   6.422978  -2.885915  -7.830387  -1.551637   1.776219  -2.717819  -2.730457  -0.066087  -0.940595  -1.418679   7.813812  -6.495303  -0.982881 -21.488976]
+2024-10-22 02:26:22,226:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 02:26:22,245:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 02:26:22,273:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 02:26:22,273:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 02:26:22,274:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.225041046875
+  - computed part:      -0.225041046875
+~ Nuclear repulsion energy (Hartree): -241.292097443622
+> Total ground state energy (Hartree): -241.517138490496
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: -0.000
+
+2024-10-22 02:26:22,275:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000001, -0.000046,  0.000644,  0.000003, -0.000007],
+       [-0.000046,  0.999981,  0.000026,  0.002127,  0.001595],
+       [ 0.000644,  0.000026,  0.999793,  0.003822, -0.009376],
+       [ 0.000003,  0.002127,  0.003822,  0.000029, -0.000038],
+       [-0.000007,  0.001595, -0.009376, -0.000038,  0.000196]])
+
+2024-10-22 02:26:22,275:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 02:26:23,633:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 02:26:23,633:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 02:26:23,633:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.2932024224414
+2024-10-22 02:26:23,633:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148813 -0.000022 -0.000035  0.000087  0.00017 ]
+ [-0.000022 -0.111827  0.000269 -0.000408  0.000117]
+ [-0.000035  0.000269 -0.111237  0.000221  0.000031]
+ [ 0.000087 -0.000408  0.000221 -0.122959 -0.000216]
+ [ 0.00017   0.000117  0.000031 -0.000216 -0.123345]]
+2024-10-22 02:26:23,634:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 02:26:23,634:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 02:26:23,634:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 02:26:23,634:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:26:23,634:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:32:57,870:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 392.3828372955322 seconds.
+Found optimal point [ 18.85075   12.559829   8.093102  -1.568034   9.422575  18.845352  -0.006976  -6.28797   -1.537109  11.965335   6.005368  -1.022811  -7.821322  -1.378719   1.547298  -2.443578  -2.802711  -0.027379  -0.948186  -1.495403   7.788984  -6.477487  -1.011003 -21.487741]
+2024-10-22 02:33:14,516:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 02:33:14,535:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 02:33:14,562:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 02:33:14,562:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 02:33:14,564:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.203084015328
+  - computed part:      -0.203084015328
+~ Nuclear repulsion energy (Hartree): -241.293202422441
+> Total ground state energy (Hartree): -241.49628643777
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.618 S^2: 1.000 M: 0.000
+
+2024-10-22 02:33:14,564:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.999906, -0.000734,  0.00419 ,  0.002693, -0.006044],
+       [-0.000734,  0.000032, -0.000011,  0.001159,  0.000282],
+       [ 0.00419 , -0.000011,  0.00006 , -0.006341, -0.001574],
+       [ 0.002693,  0.001159, -0.006341,  0.943846,  0.230063],
+       [-0.006044,  0.000282, -0.001574,  0.230063,  0.056154]])
+
+2024-10-22 02:33:14,565:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 02:33:15,942:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 02:33:15,942:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 02:33:15,942:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29215871433405
+2024-10-22 02:33:15,942:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.113241  0.000185  0.000124  0.000169 -0.000077]
+ [ 0.000185 -0.147455  0.000288 -0.000399  0.000051]
+ [ 0.000124  0.000288 -0.146881 -0.000161  0.000326]
+ [ 0.000169 -0.000399 -0.000161 -0.09134   0.007754]
+ [-0.000077  0.000051  0.000326  0.007754 -0.121298]]
+2024-10-22 02:33:15,943:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 02:33:15,943:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 02:33:15,943:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 02:33:15,943:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:33:15,943:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:37:53,479:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 275.7411448955536 seconds.
+Found optimal point [ 23.559658   8.248017   8.796966  -1.145507  13.07001   16.968456  -0.094993  -4.71741   -1.575699  11.295279   6.328967  -0.403673  -7.846542   2.629719   1.548163  -2.45294   -2.80233   -0.051131  -0.942869  -1.502185   7.664641  -4.913473  -0.773806 -21.522931]
+2024-10-22 02:38:09,848:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 02:38:09,868:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 02:38:09,895:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 02:38:09,895:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 02:38:09,897:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.225054820902
+  - computed part:      -0.225054820902
+~ Nuclear repulsion energy (Hartree): -241.292158714334
+> Total ground state energy (Hartree): -241.517213535236
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+
+2024-10-22 02:38:09,897:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000002, -0.000172, -0.001045, -0.000006,  0.000017],
+       [-0.000172,  0.999984, -0.000014,  0.002937, -0.000055],
+       [-0.001045, -0.000014,  0.999818,  0.003514, -0.008697],
+       [-0.000006,  0.002937,  0.003514,  0.000043, -0.000055],
+       [ 0.000017, -0.000055, -0.008697, -0.000055,  0.000154]])
+
+2024-10-22 02:38:09,897:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 02:38:11,385:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 02:38:11,385:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 02:38:11,385:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29320300949064
+2024-10-22 02:38:11,385:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148813 -0.000027 -0.000095  0.000087  0.000171]
+ [-0.000027 -0.111827  0.000267 -0.00038   0.000061]
+ [-0.000095  0.000267 -0.111236  0.00021   0.000055]
+ [ 0.000087 -0.00038   0.00021  -0.122959 -0.000217]
+ [ 0.000171  0.000061  0.000055 -0.000217 -0.123346]]
+2024-10-22 02:38:11,385:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 02:38:11,386:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 02:38:11,386:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 02:38:11,386:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:38:11,386:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:44:04,606:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 351.4223153591156 seconds.
+Found optimal point [ 25.132476   9.418487   8.091685  -1.567947  12.566904  18.853681   0.006684  -3.148213  -1.604908  11.214694   6.15615   -2.74137   -5.740331   2.896489   1.570239  -2.403106  -2.796865  -0.075475  -0.944805  -1.513662   7.66277   -4.91001   -0.773867 -21.514548]
+2024-10-22 02:44:21,183:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 02:44:21,202:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 02:44:21,229:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 02:44:21,230:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 02:44:21,231:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.203084118949
+  - computed part:      -0.203084118949
+~ Nuclear repulsion energy (Hartree): -241.293203009491
+> Total ground state energy (Hartree): -241.496287128439
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.618 S^2: 1.000 M: -0.000
+
+2024-10-22 02:44:21,231:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.999894,  0.001109,  0.004179,  0.003857, -0.005395],
+       [ 0.001109,  0.000045,  0.000005,  0.000267,  0.000049],
+       [ 0.004179,  0.000005,  0.000057, -0.006098, -0.001504],
+       [ 0.003857,  0.000267, -0.006098,  0.944485,  0.228812],
+       [-0.005395,  0.000049, -0.001504,  0.228812,  0.055519]])
+
+2024-10-22 02:44:21,232:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 02:44:22,621:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 02:44:22,621:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 02:44:22,621:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.2921576888861
+2024-10-22 02:44:22,622:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.113241  0.000251  0.000124  0.000209 -0.000054]
+ [ 0.000251 -0.147455  0.000289 -0.000429  0.000043]
+ [ 0.000124  0.000289 -0.146881 -0.000153  0.000328]
+ [ 0.000209 -0.000429 -0.000153 -0.091319  0.007711]
+ [-0.000054  0.000043  0.000328  0.007711 -0.12132 ]]
+2024-10-22 02:44:22,622:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 02:44:22,622:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 02:44:22,622:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 02:44:22,622:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:44:22,622:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:49:44,802:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 320.38262701034546 seconds.
+Found optimal point [ 22.799121   7.851777   3.980544  -1.24889   17.28115   20.380965  -0.066543 -11.352649  -1.572073  10.790923   6.313263  -3.057726  -6.064887   2.913953   1.512301  -2.43535   -2.890267  -0.112208  -0.956623  -1.458871   7.709338  -4.792093  -0.77641  -21.51942 ]
+2024-10-22 02:50:01,592:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 02:50:01,611:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 02:50:01,639:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 02:50:01,639:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 02:50:01,640:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.225054757255
+  - computed part:      -0.225054757255
+~ Nuclear repulsion energy (Hartree): -241.292157688886
+> Total ground state energy (Hartree): -241.517212446141
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+
+2024-10-22 02:50:01,641:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.      ,  0.000016,  0.000211,  0.      ,  0.      ],
+       [ 0.000016,  0.999971, -0.000026,  0.003801,  0.000553],
+       [ 0.000211, -0.000026,  0.999822,  0.003985, -0.00875 ],
+       [ 0.      ,  0.003801,  0.003985,  0.00005 , -0.000057],
+       [ 0.      ,  0.000553, -0.00875 , -0.000057,  0.000157]])
+
+2024-10-22 02:50:01,641:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 02:50:02,996:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 02:50:02,996:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 02:50:02,996:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29320288747573
+2024-10-22 02:50:02,996:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148813 -0.00002  -0.00005   0.000087  0.000171]
+ [-0.00002  -0.111827  0.000267 -0.000351  0.000081]
+ [-0.00005   0.000267 -0.111236  0.000226  0.000053]
+ [ 0.000087 -0.000351  0.000226 -0.122958 -0.000217]
+ [ 0.000171  0.000081  0.000053 -0.000217 -0.123346]]
+2024-10-22 02:50:02,997:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 02:50:02,997:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 02:50:02,997:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 02:50:02,997:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 02:50:02,997:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 03:10:33,578:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 1228.753966331482 seconds.
+Found optimal point [ 21.996088   9.451965   3.124235  -1.572557  15.799477  19.846481  -1.271594 -11.046756  -1.242125  13.785398   6.071551  -2.594766  -2.979408   3.211639   1.843206  -3.392287  -2.832166  -0.755161  -0.959622  -1.449657   7.887813  -4.818253  -0.546653 -21.858958]
+2024-10-22 03:10:49,726:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 03:10:49,745:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 03:10:49,773:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 03:10:49,773:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 03:10:49,774:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.222369188397
+  - computed part:      -0.222369188397
+~ Nuclear repulsion energy (Hartree): -241.293202887476
+> Total ground state energy (Hartree): -241.515572075872
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.000 S^2: 0.000 M: 0.000
+
+2024-10-22 03:10:49,774:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 1.996253, -0.000117, -0.00163 ,  0.000782, -0.008186],
+       [-0.000117,  0.000021,  0.000088, -0.000103,  0.000023],
+       [-0.00163 ,  0.000088,  0.001074, -0.000072,  0.000161],
+       [ 0.000782, -0.000103, -0.000072,  0.001018,  0.0004  ],
+       [-0.008186,  0.000023,  0.000161,  0.0004  ,  0.001634]])
+
+2024-10-22 03:10:49,775:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 03:10:51,144:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 03:10:51,145:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 03:10:51,145:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.32923647879323
+2024-10-22 03:10:51,145:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.077208  0.000267 -0.000065  0.000077 -0.000144]
+ [ 0.000267 -0.147366  0.000355 -0.000582  0.000029]
+ [-0.000065  0.000355 -0.14655   0.000066  0.000463]
+ [ 0.000077 -0.000582  0.000066 -0.123159 -0.000011]
+ [-0.000144  0.000029  0.000463 -0.000011 -0.123283]]
+2024-10-22 03:10:51,145:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 03:10:51,145:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 03:10:51,145:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 03:10:51,145:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 03:10:51,146:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 03:15:35,424:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 282.38178610801697 seconds.
+Found optimal point [ 22.79564   14.144182   1.868224  -1.684895  17.270109  18.783843   0.765833  -9.64426   -1.56742   13.946002   6.241159  -3.028734  -3.315322   3.333542   1.708297  -3.429635  -2.76965   -0.753175  -0.942979  -1.743453   7.743727  -4.527658  -0.089301 -25.154521]
+2024-10-22 03:15:51,781:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 03:15:51,801:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 03:15:51,828:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 03:15:51,828:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 03:15:51,830:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.224642943362
+  - computed part:      -0.224642943362
+~ Nuclear repulsion energy (Hartree): -241.329236478793
+> Total ground state energy (Hartree): -241.553879422156
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+
+2024-10-22 03:15:51,830:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000037, -0.002966,  0.002968, -0.000068, -0.000078],
+       [-0.002966,  0.999751,  0.000073,  0.011997,  0.002032],
+       [ 0.002968,  0.000073,  0.999689, -0.00363 , -0.011685],
+       [-0.000068,  0.011997, -0.00363 ,  0.000247,  0.000053],
+       [-0.000078,  0.002032, -0.011685,  0.000053,  0.000277]])
+
+2024-10-22 03:15:51,830:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 03:15:53,184:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 03:15:53,184:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 03:15:53,184:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29319731873272
+2024-10-22 03:15:53,184:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148813 -0.000126  0.000048  0.000085  0.000168]
+ [-0.000126 -0.111835  0.000271 -0.000067  0.000132]
+ [ 0.000048  0.000271 -0.11124  -0.000035 -0.000048]
+ [ 0.000085 -0.000067 -0.000035 -0.122951 -0.000213]
+ [ 0.000168  0.000132 -0.000048 -0.000213 -0.123342]]
+2024-10-22 03:15:53,185:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 03:15:53,185:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 03:15:53,185:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 03:15:53,185:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 03:15:53,185:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 03:20:21,042:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 266.0290710926056 seconds.
+Found optimal point [ 22.014742  15.720984   1.833135  -1.567992  15.70546   18.854323   0.004369  -9.432242  -1.573456  13.113696   6.265758  -2.863024  -2.564833   3.333474   1.708654  -3.406     -2.764006  -0.726609  -0.958689  -1.763524   7.7456    -4.530918  -0.091639 -25.155439]
+2024-10-22 03:20:37,664:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 03:20:37,683:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 03:20:37,711:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 03:20:37,711:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 03:20:37,712:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.203083749003
+  - computed part:      -0.203083749003
+~ Nuclear repulsion energy (Hartree): -241.293197318733
+> Total ground state energy (Hartree): -241.496281067736
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.618 S^2: 1.000 M: 0.000
+
+2024-10-22 03:20:37,712:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.999899,  0.003779,  0.004162, -0.000466, -0.005731],
+       [ 0.003779,  0.000599, -0.000292, -0.022768, -0.006122],
+       [ 0.004162, -0.000292,  0.000187,  0.01257 ,  0.003352],
+       [-0.000466, -0.022768,  0.01257 ,  0.93203 ,  0.250264],
+       [-0.005731, -0.006122,  0.003352,  0.250264,  0.067285]])
+
+2024-10-22 03:20:37,713:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 03:20:39,071:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 03:20:39,071:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 03:20:39,071:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.2921672250142
+2024-10-22 03:20:39,072:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.113236  0.000343  0.000122  0.000061 -0.000067]
+ [ 0.000343 -0.147438  0.000275 -0.001226 -0.000171]
+ [ 0.000122  0.000275 -0.146874  0.000487  0.000494]
+ [ 0.000061 -0.001226  0.000487 -0.091736  0.008436]
+ [-0.000067 -0.000171  0.000494  0.008436 -0.120922]]
+2024-10-22 03:20:39,072:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 03:20:39,072:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 03:20:39,072:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 03:20:39,072:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 03:20:39,072:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 03:31:03,471:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 622.6057968139648 seconds.
+Found optimal point [ 33.27684   23.594437  -5.362468  -0.907186  23.573924  19.906062  -0.422346 -23.685889  -1.575819  13.405642   6.274117  -3.112035  -4.263793   2.80475    0.82572   -3.509707  -2.972214  -1.469872  -0.749686  -1.873415   7.326458  -4.477422  -0.135514 -25.173663]
+2024-10-22 03:31:20,211:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 03:31:20,231:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 03:31:20,258:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 03:31:20,258:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 03:31:20,260:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.225060684179
+  - computed part:      -0.225060684179
+~ Nuclear repulsion energy (Hartree): -241.292167225014
+> Total ground state energy (Hartree): -241.517227909194
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+
+2024-10-22 03:31:20,260:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000014, -0.000176, -0.001999,  0.000011, -0.000001],
+       [-0.000176,  0.999432,  0.000167,  0.021221,  0.000286],
+       [-0.001999,  0.000167,  0.999831, -0.005974, -0.011764],
+       [ 0.000011,  0.021221, -0.005974,  0.000491,  0.000067],
+       [-0.000001,  0.000286, -0.011764,  0.000067,  0.000232]])
+
+2024-10-22 03:31:20,261:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 03:31:21,619:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 03:31:21,619:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 03:31:21,619:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29320078817787
+2024-10-22 03:31:21,619:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148814 -0.000027 -0.000129  0.000089  0.00017 ]
+ [-0.000027 -0.111847  0.000273  0.000252  0.000072]
+ [-0.000129  0.000273 -0.111236 -0.000116 -0.00005 ]
+ [ 0.000089  0.000252 -0.000116 -0.122942 -0.000213]
+ [ 0.00017   0.000072 -0.00005  -0.000213 -0.123343]]
+2024-10-22 03:31:21,620:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 03:31:21,620:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 03:31:21,620:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 03:31:21,620:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 03:31:21,620:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 03:35:40,502:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 256.988792181015 seconds.
+Found optimal point [ 34.602629  22.004481  -4.697598  -1.235581  21.99006   18.857794  -0.002226 -25.141518  -2.107384  13.092827   7.091342  -0.40699   -4.912652   4.806321   1.20925   -3.597191  -3.457028   2.049124  -0.695225  -1.842058   7.343076  -4.490073  -0.134956 -25.162511]
+2024-10-22 03:35:56,628:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 03:35:56,647:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 03:35:56,674:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 03:35:56,674:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 03:35:56,676:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.203087711216
+  - computed part:      -0.203087711216
+~ Nuclear repulsion energy (Hartree): -241.293200788178
+> Total ground state energy (Hartree): -241.496288499394
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.618 S^2: 1.000 M: 0.000
+
+2024-10-22 03:35:56,676:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.999826, -0.000755,  0.003551, -0.003567, -0.009253],
+       [-0.000755,  0.002108, -0.000576, -0.045017, -0.000646],
+       [ 0.003551, -0.000576,  0.000203,  0.013296,  0.000146],
+       [-0.003567, -0.045017,  0.013296,  0.997541,  0.013964],
+       [-0.009253, -0.000646,  0.000146,  0.013964,  0.000323]])
+
+2024-10-22 03:35:56,677:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 03:35:58,055:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 03:35:58,056:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 03:35:58,056:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29209671002556
+2024-10-22 03:35:58,056:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.113254  0.0002    0.000104 -0.000057 -0.000175]
+ [ 0.0002   -0.147354  0.000304 -0.001997  0.000027]
+ [ 0.000104  0.000304 -0.146888  0.000516  0.000387]
+ [-0.000057 -0.001997  0.000516 -0.089558  0.000462]
+ [-0.000175  0.000027  0.000387  0.000462 -0.1232  ]]
+2024-10-22 03:35:58,056:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 03:35:58,056:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 03:35:58,056:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 03:35:58,056:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 03:35:58,056:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 03:49:10,837:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 790.938408613205 seconds.
+Found optimal point [ 42.358347  26.60459   -4.65002   -1.166846  21.035219  15.767378   1.57227  -31.09      -1.571803  16.714728   4.104123   0.018602  -4.798109   6.180441   1.314157  -3.140728  -3.073609   1.713804  -0.748887  -2.04007    7.385737  -4.497327  -0.127463 -25.160523]
+2024-10-22 03:49:27,402:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 03:49:27,422:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 03:49:27,449:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 03:49:27,449:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 03:49:27,451:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.225032924044
+  - computed part:      -0.225032924044
+~ Nuclear repulsion energy (Hartree): -241.292096710026
+> Total ground state energy (Hartree): -241.51712963407
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+
+2024-10-22 03:49:27,451:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000001,  0.000027, -0.000492,  0.000005,  0.00001 ],
+       [ 0.000027,  0.998783,  0.000286,  0.034569,  0.00083 ],
+       [-0.000492,  0.000286,  0.999748, -0.008135, -0.010184],
+       [ 0.000005,  0.034569, -0.008135,  0.001283,  0.00011 ],
+       [ 0.00001 ,  0.00083 , -0.010184,  0.00011 ,  0.000185]])
+
+2024-10-22 03:49:27,452:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 03:49:28,804:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 03:49:28,804:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 03:49:28,804:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29319924038813
+2024-10-22 03:49:28,804:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148815 -0.000019 -0.000075  0.00009   0.00017 ]
+ [-0.000019 -0.111871  0.000277  0.000713  0.00009 ]
+ [-0.000075  0.000277 -0.111239 -0.000189  0.000005]
+ [ 0.00009   0.000713 -0.000189 -0.122915 -0.000211]
+ [ 0.00017   0.00009   0.000005 -0.000211 -0.123343]]
+2024-10-22 03:49:28,805:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 03:49:28,805:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 03:49:28,805:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 03:49:28,805:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 03:49:28,805:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 03:54:30,664:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 299.96367955207825 seconds.
+Found optimal point [ 47.045253  25.151701  -4.702341  -1.188388  21.992273  15.714043  -0.001494 -31.426427  -1.582395  17.908756   2.663158   2.750803  -2.577943   6.18407    1.325507  -3.145761  -3.108029   1.85452   -0.756648  -2.042576   7.38499   -4.494891  -0.125985 -25.160097]
+2024-10-22 03:54:47,076:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 03:54:47,096:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 03:54:47,123:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 03:54:47,124:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 03:54:47,125:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.2031207105
+  - computed part:      -0.2031207105
+~ Nuclear repulsion energy (Hartree): -241.293199240388
+> Total ground state energy (Hartree): -241.496319950888
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.618 S^2: 1.000 M: -0.000
+
+2024-10-22 03:54:47,125:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.999836, -0.000727,  0.001585, -0.003553, -0.009481],
+       [-0.000727,  0.006238, -0.001468, -0.078283, -0.000743],
+       [ 0.001585, -0.001468,  0.00037 ,  0.018834,  0.000159],
+       [-0.003553, -0.078283,  0.018834,  0.993332,  0.009284],
+       [-0.009481, -0.000743,  0.000159,  0.009284,  0.000224]])
+
+2024-10-22 03:54:47,126:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 03:54:48,478:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 03:54:48,478:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 03:54:48,478:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.2921018756835
+2024-10-22 03:54:48,478:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.113251  0.0002    0.000033 -0.000059 -0.000181]
+ [ 0.0002   -0.147206  0.000273 -0.003148  0.000026]
+ [ 0.000033  0.000273 -0.146881  0.000705  0.000386]
+ [-0.000059 -0.003148  0.000705 -0.089701  0.000303]
+ [-0.000181  0.000026  0.000386  0.000303 -0.123206]]
+2024-10-22 03:54:48,479:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 03:54:48,479:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 03:54:48,479:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 03:54:48,479:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 03:54:48,479:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 04:04:07,350:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 557.0298407077789 seconds.
+Found optimal point [-25.990476  45.562439  -5.006244  -1.018192  36.180177   2.339072   5.621872 -61.0698    -1.571663  16.950243   3.107974   3.017856  -2.810095   5.831239   2.015331  -3.650271  -3.081177   1.652279  -0.442274  -2.117857   7.320252  -4.480967  -0.122818 -25.172119]
+2024-10-22 04:04:23,803:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 04:04:23,822:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 04:04:23,850:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 04:04:23,850:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 04:04:23,851:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.224984670949
+  - computed part:      -0.224984670949
+~ Nuclear repulsion energy (Hartree): -241.292101875683
+> Total ground state energy (Hartree): -241.517086546632
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: -0.000
+
+2024-10-22 04:04:23,851:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.00003 , -0.002523, -0.00355 , -0.000101,  0.000056],
+       [-0.002523,  0.996953,  0.000588,  0.054802, -0.001028],
+       [-0.00355 ,  0.000588,  0.999695, -0.011173, -0.010103],
+       [-0.000101,  0.054802, -0.011173,  0.003154,  0.000058],
+       [ 0.000056, -0.001028, -0.010103,  0.000058,  0.000168]])
+
+2024-10-22 04:04:23,852:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 04:04:25,209:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 04:04:25,209:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 04:04:25,209:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.2931962708102
+2024-10-22 04:04:25,209:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148816 -0.000109 -0.000184  0.000087  0.000171]
+ [-0.000109 -0.111936  0.000287  0.001413  0.000025]
+ [-0.000184  0.000287 -0.111242 -0.000293  0.000009]
+ [ 0.000087  0.001413 -0.000293 -0.122851 -0.000212]
+ [ 0.000171  0.000025  0.000009 -0.000212 -0.123343]]
+2024-10-22 04:04:25,209:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 04:04:25,209:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 04:04:25,210:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 04:04:25,210:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 04:04:25,210:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 04:08:20,285:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 233.30141425132751 seconds.
+Found optimal point [ -9.553274  34.530244  -7.847431  -1.098013  21.9929    -0.001443   9.437673 -53.411389  -1.069631  21.081213   3.665147   3.262146  -1.3305     6.82101    2.489596  -3.232622  -2.920233  -1.054628   1.655989  -3.674326   6.83544   -4.083534   0.293177 -25.798938]
+2024-10-22 04:08:36,423:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 04:08:36,443:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 04:08:36,470:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 04:08:36,470:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 04:08:36,472:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.203208040034
+  - computed part:      -0.203208040034
+~ Nuclear repulsion energy (Hartree): -241.29319627081
+> Total ground state energy (Hartree): -241.496404310844
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.618 S^2: 1.000 M: -0.000
+
+2024-10-22 04:08:36,472:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.999824,  0.002419,  0.000928, -0.003687, -0.010185],
+       [ 0.002419,  0.01646 , -0.003439, -0.127031, -0.00075 ],
+       [ 0.000928, -0.003439,  0.000772,  0.026804,  0.000161],
+       [-0.003687, -0.127031,  0.026804,  0.982732,  0.005717],
+       [-0.010185, -0.00075 ,  0.000161,  0.005717,  0.000212]])
+
+2024-10-22 04:08:36,473:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 04:08:37,828:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 04:08:37,828:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 04:08:37,828:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29211582879023
+2024-10-22 04:08:37,828:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.113245  0.00031   0.000008 -0.000067 -0.000202]
+ [ 0.00031  -0.14684   0.000204 -0.004835  0.000029]
+ [ 0.000008  0.000204 -0.146864  0.000978  0.000383]
+ [-0.000067 -0.004835  0.000978 -0.090059  0.000181]
+ [-0.000202  0.000029  0.000383  0.000181 -0.123211]]
+2024-10-22 04:08:37,828:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 04:08:37,828:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 04:08:37,828:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 04:08:37,829:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 04:08:37,829:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 04:21:03,119:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 743.4620497226715 seconds.
+Found optimal point [-14.075561  33.073202  -7.978868  -1.080305  21.405916  -0.59906   10.990208 -51.737129  -1.57241   23.08327    4.960402   3.129214  -1.717082   6.680553   1.28839   -3.123247  -3.377468  -1.53635    1.633611  -3.419719   6.989729  -4.126669   0.327172 -25.793841]
+2024-10-22 04:21:19,979:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 04:21:19,998:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 04:21:20,026:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 04:21:20,026:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 04:21:20,028:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.224848299547
+  - computed part:      -0.224848299547
+~ Nuclear repulsion energy (Hartree): -241.29211582879
+> Total ground state energy (Hartree): -241.516964128337
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: -0.000
+
+2024-10-22 04:21:20,028:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000002, -0.000085,  0.000392, -0.000013, -0.000005],
+       [-0.000085,  0.992683,  0.001363,  0.085155,  0.000831],
+       [ 0.000392,  0.001363,  0.99958 , -0.016003, -0.010193],
+       [-0.000013,  0.085155, -0.016003,  0.007566,  0.000233],
+       [-0.000005,  0.000831, -0.010193,  0.000233,  0.000169]])
+
+2024-10-22 04:21:20,028:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 04:21:21,382:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 04:21:21,383:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 04:21:21,383:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.2931887922797
+2024-10-22 04:21:21,383:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148821 -0.00002  -0.000042  0.000092  0.000166]
+ [-0.00002  -0.11209   0.000315  0.002463  0.000087]
+ [-0.000042  0.000315 -0.111247 -0.000458  0.000008]
+ [ 0.000092  0.002463 -0.000458 -0.122702 -0.000206]
+ [ 0.000166  0.000087  0.000008 -0.000206 -0.123341]]
+2024-10-22 04:21:21,383:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 04:21:21,383:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 04:21:21,383:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 04:21:21,383:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 04:21:21,384:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 04:26:22,406:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 299.24790954589844 seconds.
+Found optimal point [-12.768067  34.517426  -7.844459  -1.091814  21.990201  -3.142505   9.415286 -50.2732    -1.798106  24.323247   3.842594   2.215679   3.783689   6.652508   0.867653  -3.09318   -3.412274  -1.626896   1.6441    -3.408901   6.980537  -4.109028   0.328793 -25.790685]
+2024-10-22 04:26:38,555:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 04:26:38,575:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 04:26:38,603:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 04:26:38,603:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 04:26:38,604:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.203422560094
+  - computed part:      -0.203422560094
+~ Nuclear repulsion energy (Hartree): -241.29318879228
+> Total ground state energy (Hartree): -241.496611352374
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.618 S^2: 1.000 M: 0.000
+
+2024-10-22 04:26:38,604:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.99984 ,  0.000678,  0.001046, -0.004047, -0.009596],
+       [ 0.000678,  0.040187, -0.007848, -0.196087, -0.00166 ],
+       [ 0.001046, -0.007848,  0.001566,  0.038435,  0.000313],
+       [-0.004047, -0.196087,  0.038435,  0.958199,  0.008098],
+       [-0.009596, -0.00166 ,  0.000313,  0.008098,  0.000209]])
+
+2024-10-22 04:26:38,605:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 04:26:39,958:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 04:26:39,958:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 04:26:39,958:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29215167625415
+2024-10-22 04:26:39,958:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.113232  0.000242  0.000009 -0.000084 -0.000178]
+ [ 0.000242 -0.145993  0.000046 -0.007226  0.000002]
+ [ 0.000009  0.000046 -0.146828  0.001376  0.000383]
+ [-0.000084 -0.007226  0.001376 -0.090885  0.000258]
+ [-0.000178  0.000002  0.000383  0.000258 -0.123219]]
+2024-10-22 04:26:39,959:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 04:26:39,959:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 04:26:39,959:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 04:26:39,959:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 04:26:39,959:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 04:35:53,558:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 551.7501108646393 seconds.
+Found optimal point [-29.828139  29.863741  -7.333071  -1.021742  18.994952  -8.603209  13.65552  -48.699157  -4.750767  21.871461   4.368831   2.672279   4.525194   6.201884   0.699997  -3.206542  -3.332117  -1.590092   2.227475  -3.331464   7.034457  -4.185679   0.322026 -25.805143]
+2024-10-22 04:36:10,389:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 04:36:10,409:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 04:36:10,436:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 04:36:10,436:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 04:36:10,438:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.224511832233
+  - computed part:      -0.224511832233
+~ Nuclear repulsion energy (Hartree): -241.292151676254
+> Total ground state energy (Hartree): -241.516663508487
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+
+2024-10-22 04:36:10,438:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000002, -0.00005 ,  0.000976, -0.000029, -0.000015],
+       [-0.00005 ,  0.983149,  0.003075,  0.128775,  0.000875],
+       [ 0.000976,  0.003075,  0.999291, -0.023331, -0.008109],
+       [-0.000029,  0.128775, -0.023331,  0.017436,  0.000304],
+       [-0.000015,  0.000875, -0.008109,  0.000304,  0.000122]])
+
+2024-10-22 04:36:10,439:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 04:36:11,793:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 04:36:11,793:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 04:36:11,793:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.2931733189393
+2024-10-22 04:36:11,793:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148826 -0.000016 -0.00002   0.000094  0.000164]
+ [-0.000016 -0.112431  0.000376  0.003973  0.000086]
+ [-0.00002   0.000376 -0.11126  -0.000709  0.000083]
+ [ 0.000094  0.003973 -0.000709 -0.122368 -0.000202]
+ [ 0.000164  0.000086  0.000083 -0.000202 -0.123338]]
+2024-10-22 04:36:11,794:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 04:36:11,794:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 04:36:11,794:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 04:36:11,794:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 04:36:11,794:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 04:41:41,945:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 328.3826928138733 seconds.
+Found optimal point [-28.575394  28.214982  -7.846033  -1.318843  15.708318  -6.279958  15.697911 -50.27081   -4.813224  25.397883   1.70142    1.003558  25.135462   5.714399   0.722675  -3.213526  -3.301063  -1.976817   2.197941  -3.316716   7.028209  -4.176655   0.321788 -25.805617]
+2024-10-22 04:41:58,615:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 04:41:58,634:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 04:41:58,662:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 04:41:58,662:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 04:41:58,664:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.203890418218
+  - computed part:      -0.203890418218
+~ Nuclear repulsion energy (Hartree): -241.293173318939
+> Total ground state energy (Hartree): -241.497063737157
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.618 S^2: 1.000 M: -0.000
+
+2024-10-22 04:41:58,664:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.999867, -0.000396, -0.002358, -0.005931, -0.006758],
+       [-0.000396,  0.087961, -0.016765, -0.282662, -0.002151],
+       [-0.002358, -0.016765,  0.00325 ,  0.053995,  0.000432],
+       [-0.005931, -0.282662,  0.053995,  0.90876 ,  0.006994],
+       [-0.006758, -0.002151,  0.000432,  0.006994,  0.000163]])
+
+2024-10-22 04:41:58,664:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 04:42:00,022:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 04:42:00,022:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 04:42:00,023:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.29222285633958
+2024-10-22 04:42:00,023:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.11321   0.000194 -0.00012  -0.000153 -0.000076]
+ [ 0.000194 -0.144288 -0.000274 -0.010225 -0.00001 ]
+ [-0.00012  -0.000274 -0.146753  0.001909  0.000382]
+ [-0.000153 -0.010225  0.001909 -0.092546  0.000214]
+ [-0.000076 -0.00001   0.000382  0.000214 -0.123235]]
+2024-10-22 04:42:00,023:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 04:42:00,023:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 04:42:00,023:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 04:42:00,023:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 04:42:00,023:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 04:49:48,483:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 466.6397759914398 seconds.
+Found optimal point [-32.183184  26.894293  -7.893924  -1.319127  17.165195  -4.727176  14.986517 -50.463922  -4.711068  23.711029   1.406813   0.92012   24.981566   5.644175   1.642869  -3.073204  -1.670598  -1.700362   2.372361  -3.313467   7.061777  -4.189277   0.308566 -25.82374 ]
+2024-10-22 04:50:04,823:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 04:50:04,843:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 04:50:04,870:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 04:50:04,870:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 04:50:04,872:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.223799605238
+  - computed part:      -0.223799605238
+~ Nuclear repulsion energy (Hartree): -241.29222285634
+> Total ground state energy (Hartree): -241.516022461578
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+
+2024-10-22 04:50:04,872:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 0.000004,  0.000707, -0.000365,  0.000149,  0.000003],
+       [ 0.000707,  0.963729,  0.006471,  0.18682 , -0.001504],
+       [-0.000365,  0.006471,  0.9988  , -0.033399, -0.005849],
+       [ 0.000149,  0.18682 , -0.033399,  0.037423, -0.000089],
+       [ 0.000003, -0.001504, -0.005849, -0.000089,  0.000043]])
+
+2024-10-22 04:50:04,872:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 04:50:06,248:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-10-22 04:50:06,249:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-10-22 04:50:06,249:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -241.2931451058614
+2024-10-22 04:50:06,249:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.148836  0.000015 -0.000065  0.000104  0.000162]
+ [ 0.000015 -0.113124  0.000497  0.005982  0.000001]
+ [-0.000065  0.000497 -0.111284 -0.001054  0.000164]
+ [ 0.000104  0.005982 -0.001054 -0.121695 -0.000212]
+ [ 0.000162  0.000001  0.000164 -0.000212 -0.123334]]
+2024-10-22 04:50:06,249:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-10-22 04:50:06,249:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-10-22 04:50:06,249:qiskit_nature_cp2k.cp2k_integration:INFO: (np.int32(1), np.int32(1))
+2024-10-22 04:50:06,249:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 04:50:06,250:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-10-22 05:00:38,007:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 629.8587539196014 seconds.
+Found optimal point [-28.270101  21.967226  -7.496541  -1.57092   18.85192   -1.947414  15.041965 -48.715458  -4.161971  20.533182   1.072903   0.987226  29.860516   6.350323   1.410608  -3.053631  -0.693625  -1.567764   2.87796   -3.430402   6.283055  -3.478402   0.075988 -25.261886]
+2024-10-22 05:00:54,603:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 05:00:54,622:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 05:00:54,649:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 05:00:54,649:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 05:00:54,651:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.22241372633
+  - computed part:      -0.22241372633
+~ Nuclear repulsion energy (Hartree): -241.293145105861
+> Total ground state energy (Hartree): -241.515558832191
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.000 S^2: 0.000 M: -0.000
+
+2024-10-22 05:00:54,651:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[ 1.996237, -0.000055, -0.000095, -0.005481, -0.002028],
+       [-0.000055,  0.000043, -0.000022, -0.000186, -0.000138],
+       [-0.000095, -0.000022,  0.001046,  0.000022,  0.000489],
+       [-0.005481, -0.000186,  0.000022,  0.001023,  0.00043 ],
+       [-0.002028, -0.000138,  0.000489,  0.00043 ,  0.001651]])
+
+2024-10-22 05:00:54,652:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-10-22 05:00:56,004:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'QUIT        '
+2024-10-22 05:00:56,005:__main__:INFO: Removing the ElectronicDensity property before starting QEOM
+2024-10-22 05:01:07,905:qiskit_nature_cp2k.stateful_vqe:INFO: Optimization complete in 8.348498821258545 seconds.
+Found optimal point [-28.270101  21.967226  -7.496541  -1.57092   18.85192   -1.947414  15.041965 -48.715458  -4.161971  20.533182   1.072903   0.987226  29.860516   6.350323   1.410608  -3.053631  -0.693625  -1.567764   2.87796   -3.430402   6.283055  -3.478402   0.075988 -25.261886]
+2024-10-22 05:01:09,175:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has the following gates: OrderedDict({'cx': 1448, 'u2': 1358, 'u1': 621, 'u': 5, 'r': 1})
+2024-10-22 05:01:09,194:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a depth of 1996
+2024-10-22 05:01:09,221:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has a 2-qubit gate depth of 1431
+2024-10-22 05:01:09,221:qiskit_nature_cp2k.stateful_vqe:INFO: The circuit has 24 paramters
+2024-10-22 05:01:09,222:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: Building expansion basis data...
+2024-10-22 05:01:09,222:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Gathering excitation generators...
+2024-10-22 05:01:09,222:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Generating excitation list...
+2024-10-22 05:01:09,222:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(1),))
+2024-10-22 05:01:09,222:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(2),))
+2024-10-22 05:01:09,222:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(3),))
+2024-10-22 05:01:09,222:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(4),))
+2024-10-22 05:01:09,222:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(6),))
+2024-10-22 05:01:09,222:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(7),))
+2024-10-22 05:01:09,222:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(8),))
+2024-10-22 05:01:09,222:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(9),))
+2024-10-22 05:01:09,223:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(1),))
+2024-10-22 05:01:09,223:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(2),))
+2024-10-22 05:01:09,223:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(3),))
+2024-10-22 05:01:09,223:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(4),))
+2024-10-22 05:01:09,223:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(6),))
+2024-10-22 05:01:09,223:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(7),))
+2024-10-22 05:01:09,223:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(8),))
+2024-10-22 05:01:09,223:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(9),))
+2024-10-22 05:01:09,223:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Checking excitation list...
+2024-10-22 05:01:09,223:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Converting excitations into SparseLabelOps...
+2024-10-22 05:01:09,223:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Converting second-quantized into qubit operators...
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Gathering excitation generators...
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Generating excitation list...
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(1),))
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(2),))
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(3),))
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(4),))
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(6),))
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(7),))
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(8),))
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (np.int32(9),))
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(1),))
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(2),))
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(3),))
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(4),))
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(6),))
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(7),))
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(8),))
+2024-10-22 05:01:09,238:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((np.int32(5),), (np.int32(9),))
+2024-10-22 05:01:09,469:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: Build qEOM pseudoeigenvalue problem...
+2024-10-22 05:01:09,470:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:INFO: Building all commutators:
+2024-10-22 05:04:14,226:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: 
+Q:=========================
+[[ 0.000001 -0.       -0.000015 -0.000007  0.        0.        0.        0.        0.        0.        0.        0.        0.001709  0.000004 -0.000126 -0.000016]
+ [-0.        0.000082 -0.        0.000022  0.        0.        0.        0.        0.        0.        0.        0.        0.000001  0.001584 -0.000041  0.000104]
+ [-0.000015 -0.        0.00005   0.00002   0.        0.        0.        0.        0.        0.        0.        0.       -0.000119 -0.000045  0.000832  0.000146]
+ [-0.000007  0.000022  0.00002   0.000079  0.        0.        0.        0.        0.        0.        0.        0.       -0.000022  0.000115  0.000149  0.001082]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.       -0.001708  0.000001  0.000103  0.000017  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.       -0.000005 -0.001503  0.000045 -0.0001    0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.000114  0.000039 -0.000782 -0.00013   0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.000005 -0.000073 -0.000125 -0.001002  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.       -0.001708 -0.000005  0.000114  0.000005  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.000001 -0.001503  0.000039 -0.000073  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.000103  0.000045 -0.000782 -0.000125  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.000017 -0.0001   -0.00013  -0.001002  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.001709  0.000001 -0.000119 -0.000022  0.        0.        0.        0.        0.        0.        0.        0.        0.000002  0.       -0.000014 -0.000009]
+ [ 0.000004  0.001584 -0.000045  0.000115  0.        0.        0.        0.        0.        0.        0.        0.        0.        0.000081 -0.000002  0.000024]
+ [-0.000126 -0.000041  0.000832  0.000149  0.        0.        0.        0.        0.        0.        0.        0.       -0.000014 -0.000002  0.000049  0.000019]
+ [-0.000016  0.000104  0.000146  0.001082  0.        0.        0.        0.        0.        0.        0.        0.       -0.000009  0.000024  0.000019  0.00008 ]]
+2024-10-22 05:04:14,227:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: 
+W:=========================
+[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+2024-10-22 05:04:14,228:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: 
+M:=========================
+[[ 0.031787  0.000536  0.00633  -0.000013  0.        0.        0.        0.        0.        0.        0.        0.        0.00182   0.000004 -0.000149 -0.000028]
+ [ 0.000536  0.033567 -0.001111 -0.000144  0.        0.        0.        0.        0.        0.        0.        0.        0.000004  0.001806 -0.000042  0.000152]
+ [ 0.00633  -0.001111  0.020557 -0.000046  0.        0.        0.        0.        0.        0.        0.        0.       -0.000148 -0.000041  0.001085  0.00018 ]
+ [-0.000013 -0.000144 -0.000046  0.019535  0.        0.        0.        0.        0.        0.        0.        0.       -0.000027  0.000152  0.00018   0.001369]
+ [ 0.        0.        0.        0.        0.029968  0.000531  0.00648   0.000014  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.000531  0.031762 -0.001069 -0.000293  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.00648  -0.001069  0.019472 -0.000227  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.000014 -0.000293 -0.000227  0.018165  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.029967  0.000532  0.006478  0.000014  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.000532  0.031763 -0.001069 -0.000298  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.006478 -0.001069  0.019471 -0.000227  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.000014 -0.000298 -0.000227  0.018169  0.        0.        0.        0.      ]
+ [ 0.00182   0.000004 -0.000148 -0.000027  0.        0.        0.        0.        0.        0.        0.        0.        0.031787  0.000535  0.006331 -0.000014]
+ [ 0.000004  0.001806 -0.000041  0.000152  0.        0.        0.        0.        0.        0.        0.        0.        0.000535  0.03357  -0.001111 -0.000143]
+ [-0.000149 -0.000042  0.001085  0.00018   0.        0.        0.        0.        0.        0.        0.        0.        0.006331 -0.001111  0.020557 -0.000047]
+ [-0.000028  0.000152  0.00018   0.001369  0.        0.        0.        0.        0.        0.        0.        0.       -0.000014 -0.000143 -0.000047  0.019536]]
+2024-10-22 05:04:14,229:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: 
+V:=========================
+[[ 0.998083  0.000029  0.000077  0.000095  0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.000029  0.997553 -0.000021 -0.000256  0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.000077 -0.000021  0.997565 -0.000222  0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.000095 -0.000256 -0.000222  0.997302  0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.998076 -0.000007  0.000109  0.000044  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.       -0.000007  0.997602 -0.000001 -0.000233  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.000109 -0.000001  0.997613 -0.000207  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.000044 -0.000233 -0.000207  0.997248  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.998119  0.000029  0.000077  0.000095  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.000029  0.997589 -0.000021 -0.000256  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.000077 -0.000021  0.997601 -0.000222  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.000095 -0.000256 -0.000222  0.997338  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.998112 -0.000007  0.000109  0.000044]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.       -0.000007  0.997638 -0.000001 -0.000233]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.000109 -0.000001  0.997649 -0.000207]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.000044 -0.000233 -0.000207  0.997284]]
+2024-10-22 05:04:14,231:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: Diagonalizing qeom matrices for excited states...
+2024-10-22 05:04:14,232:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: ... [ 0.036266+0.j  0.033086+0.j  0.035516+0.j  0.031901+0.j  0.016262+0.j  0.020937+0.j  0.018924+0.j  0.018211+0.j -0.036266+0.j -0.033086+0.j -0.035516+0.j -0.031901+0.j -0.016262+0.j -0.020937+0.j -0.018924+0.j -0.018211+0.j  0.033087+0.j  0.0319  +0.j  0.016261+0.j  0.01821 +0.j -0.016262+0.j -0.018212+0.j -0.033085+0.j -0.031901+0.j  0.033085+0.j  0.031901+0.j  0.016262+0.j  0.018212+0.j -0.016261+0.j -0.01821 +0.j -0.033087+0.j -0.0319  +0.j]
+2024-10-22 05:04:14,232:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: Sorted real parts [-0.016261 -0.016262 -0.016262 -0.01821  -0.018211 -0.018212 -0.018924 -0.020937 -0.0319   -0.031901 -0.031901 -0.033085 -0.033086 -0.033087 -0.035516 -0.036266]
+2024-10-22 05:04:14,233:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:INFO: Gamma square = [0.995238 0.995249 0.99526  0.995827 0.995872 0.995917 0.995874 0.995617 0.996493 0.996491 0.996489 0.996965 0.996965 0.996965 0.996487 0.997145]
+2024-10-22 05:08:52,051:__main__:INFO: QEOM result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.22241372633
+  - computed part:      -0.22241372633
+~ Nuclear repulsion energy (Hartree): -241.293145105861
+> Total ground state energy (Hartree): -241.515558832191
+ 
+=== EXCITED STATE ENERGIES ===
+ 
+  1: 
+* Electronic excited state energy (Hartree): -0.206152425834
+> Total excited state energy (Hartree): -241.499297531696
+  2: 
+* Electronic excited state energy (Hartree): -0.206151725588
+> Total excited state energy (Hartree): -241.499296831449
+  3: 
+* Electronic excited state energy (Hartree): -0.206151356431
+> Total excited state energy (Hartree): -241.499296462293
+  4: 
+* Electronic excited state energy (Hartree): -0.20420356602
+> Total excited state energy (Hartree): -241.497348671881
+  5: 
+* Electronic excited state energy (Hartree): -0.204202712234
+> Total excited state energy (Hartree): -241.497347818095
+  6: 
+* Electronic excited state energy (Hartree): -0.204202011853
+> Total excited state energy (Hartree): -241.497347117714
+  7: 
+* Electronic excited state energy (Hartree): -0.203489566779
+> Total excited state energy (Hartree): -241.49663467264
+  8: 
+* Electronic excited state energy (Hartree): -0.201476744485
+> Total excited state energy (Hartree): -241.494621850346
+  9: 
+* Electronic excited state energy (Hartree): -0.190513813522
+> Total excited state energy (Hartree): -241.483658919383
+ 10: 
+* Electronic excited state energy (Hartree): -0.190513182988
+> Total excited state energy (Hartree): -241.48365828885
+ 11: 
+* Electronic excited state energy (Hartree): -0.190512634716
+> Total excited state energy (Hartree): -241.483657740577
+ 12: 
+* Electronic excited state energy (Hartree): -0.189329054545
+> Total excited state energy (Hartree): -241.482474160407
+ 13: 
+* Electronic excited state energy (Hartree): -0.189327728782
+> Total excited state energy (Hartree): -241.482472834644
+ 14: 
+* Electronic excited state energy (Hartree): -0.189326510934
+> Total excited state energy (Hartree): -241.482471616795
+ 15: 
+* Electronic excited state energy (Hartree): -0.186898060738
+> Total excited state energy (Hartree): -241.480043166599
+ 16: 
+* Electronic excited state energy (Hartree): -0.186147682976
+> Total excited state energy (Hartree): -241.479292788837
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.000 S^2: 0.000 M: -0.000
+  1:  # Particles: 2.001 S: 1.000 S^2: 2.001 M: -1.000
+  2:  # Particles: 2.001 S: 1.000 S^2: 2.001 M: 0.000
+  3:  # Particles: 2.001 S: 1.000 S^2: 2.001 M: 1.000
+  4:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: -1.000
+  5:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 0.000
+  6:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 1.000
+  7:  # Particles: 2.000 S: 0.000 S^2: 0.000 M: -0.000
+  8:  # Particles: 2.000 S: 0.000 S^2: 0.000 M: -0.000
+  9:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: -1.000
+ 10:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: -0.000
+ 11:  # Particles: 2.000 S: 1.000 S^2: 2.000 M: 1.000
+ 12:  # Particles: 2.001 S: 1.000 S^2: 2.001 M: 1.001
+ 13:  # Particles: 2.001 S: 1.000 S^2: 2.001 M: -0.000
+ 14:  # Particles: 2.001 S: 1.000 S^2: 2.001 M: -1.001
+ 15:  # Particles: 2.000 S: 0.000 S^2: 0.000 M: 0.000
+ 16:  # Particles: 2.001 S: 0.000 S^2: 0.000 M: 0.000
+
+2024-10-22 05:08:52,052:__main__:INFO: Excitation Energies:
+
+[0.016261 0.016262 0.016262 0.01821  0.018211 0.018212 0.018924 0.020937 0.0319   0.031901 0.031901 0.033085 0.033086 0.033087 0.035516 0.036266]
+
+2024-10-22 05:08:52,053:__main__:INFO: Transition Amplitudes
+2024-10-22 05:08:52,053:__main__:INFO: (np.int64(0), np.int64(1))
+2024-10-22 05:08:52,053:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: (np.int64(0), np.int64(2))
+2024-10-22 05:08:52,053:__main__:INFO: 	AngularMomentum: -0.007480427914054743
+2024-10-22 05:08:52,053:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: (np.int64(0), np.int64(3))
+2024-10-22 05:08:52,053:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: (np.int64(0), np.int64(4))
+2024-10-22 05:08:52,053:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: (np.int64(0), np.int64(5))
+2024-10-22 05:08:52,053:__main__:INFO: 	AngularMomentum: 0.0020687991495701814
+2024-10-22 05:08:52,053:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	ParticleNumber: -0.0
+2024-10-22 05:08:52,053:__main__:INFO: (np.int64(0), np.int64(6))
+2024-10-22 05:08:52,053:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: (np.int64(0), np.int64(7))
+2024-10-22 05:08:52,053:__main__:INFO: 	AngularMomentum: 2.889416636744579e-06
+2024-10-22 05:08:52,053:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	ParticleNumber: -0.0
+2024-10-22 05:08:52,053:__main__:INFO: (np.int64(0), np.int64(8))
+2024-10-22 05:08:52,053:__main__:INFO: 	AngularMomentum: 2.0331884872481257e-06
+2024-10-22 05:08:52,053:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: (np.int64(0), np.int64(9))
+2024-10-22 05:08:52,053:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: (np.int64(0), np.int64(10))
+2024-10-22 05:08:52,053:__main__:INFO: 	AngularMomentum: -0.0004120368067043487
+2024-10-22 05:08:52,053:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: (np.int64(0), np.int64(11))
+2024-10-22 05:08:52,053:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,053:__main__:INFO: (np.int64(0), np.int64(12))
+2024-10-22 05:08:52,054:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: (np.int64(0), np.int64(13))
+2024-10-22 05:08:52,054:__main__:INFO: 	AngularMomentum: -0.0034472214268587605
+2024-10-22 05:08:52,054:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	ParticleNumber: -8.940869820232774e-09
+2024-10-22 05:08:52,054:__main__:INFO: (np.int64(0), np.int64(14))
+2024-10-22 05:08:52,054:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: (np.int64(0), np.int64(15))
+2024-10-22 05:08:52,054:__main__:INFO: 	AngularMomentum: -4.411019016326431e-06
+2024-10-22 05:08:52,054:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	ParticleNumber: 1.505299156432926e-08
+2024-10-22 05:08:52,054:__main__:INFO: (np.int64(0), np.int64(16))
+2024-10-22 05:08:52,054:__main__:INFO: 	AngularMomentum: -5.804138245540291e-06
+2024-10-22 05:08:52,054:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: (np.int64(1), np.int64(2))
+2024-10-22 05:08:52,054:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: (np.int64(1), np.int64(3))
+2024-10-22 05:08:52,054:__main__:INFO: 	AngularMomentum: -0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: (np.int64(1), np.int64(4))
+2024-10-22 05:08:52,054:__main__:INFO: 	AngularMomentum: -0.00019058723939335137
+2024-10-22 05:08:52,054:__main__:INFO: 	Magnetization: 9.529361969667135e-05
+2024-10-22 05:08:52,054:__main__:INFO: 	ParticleNumber: -0.00019058723939332535
+2024-10-22 05:08:52,054:__main__:INFO: (np.int64(1), np.int64(5))
+2024-10-22 05:08:52,054:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: (np.int64(1), np.int64(6))
+2024-10-22 05:08:52,054:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: (np.int64(1), np.int64(7))
+2024-10-22 05:08:52,054:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: (np.int64(1), np.int64(8))
+2024-10-22 05:08:52,054:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,054:__main__:INFO: (np.int64(1), np.int64(9))
+2024-10-22 05:08:52,054:__main__:INFO: 	AngularMomentum: -2.9442767857976754e-05
+2024-10-22 05:08:52,054:__main__:INFO: 	Magnetization: 1.4721383928929864e-05
+2024-10-22 05:08:52,054:__main__:INFO: 	ParticleNumber: -2.944276785779885e-05
+2024-10-22 05:08:52,054:__main__:INFO: (np.int64(1), np.int64(10))
+2024-10-22 05:08:52,054:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: (np.int64(1), np.int64(11))
+2024-10-22 05:08:52,055:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: (np.int64(1), np.int64(12))
+2024-10-22 05:08:52,055:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: (np.int64(1), np.int64(13))
+2024-10-22 05:08:52,055:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: (np.int64(1), np.int64(14))
+2024-10-22 05:08:52,055:__main__:INFO: 	AngularMomentum: -0.0009387620874730624
+2024-10-22 05:08:52,055:__main__:INFO: 	Magnetization: 0.0004693808944937309
+2024-10-22 05:08:52,055:__main__:INFO: 	ParticleNumber: -0.0009387623672388756
+2024-10-22 05:08:52,055:__main__:INFO: (np.int64(1), np.int64(15))
+2024-10-22 05:08:52,055:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: (np.int64(1), np.int64(16))
+2024-10-22 05:08:52,055:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: (np.int64(2), np.int64(3))
+2024-10-22 05:08:52,055:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: (np.int64(2), np.int64(4))
+2024-10-22 05:08:52,055:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: (np.int64(2), np.int64(5))
+2024-10-22 05:08:52,055:__main__:INFO: 	AngularMomentum: 0.0001464057106422337
+2024-10-22 05:08:52,055:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	ParticleNumber: 0.00013435460801190964
+2024-10-22 05:08:52,055:__main__:INFO: (np.int64(2), np.int64(6))
+2024-10-22 05:08:52,055:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: (np.int64(2), np.int64(7))
+2024-10-22 05:08:52,055:__main__:INFO: 	AngularMomentum: -0.0007333529853127308
+2024-10-22 05:08:52,055:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	ParticleNumber: 4.884492553079093e-05
+2024-10-22 05:08:52,055:__main__:INFO: (np.int64(2), np.int64(8))
+2024-10-22 05:08:52,055:__main__:INFO: 	AngularMomentum: 6.074731601595808e-05
+2024-10-22 05:08:52,055:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,055:__main__:INFO: 	ParticleNumber: 4.2379460319319495e-05
+2024-10-22 05:08:52,055:__main__:INFO: (np.int64(2), np.int64(9))
+2024-10-22 05:08:52,056:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: (np.int64(2), np.int64(10))
+2024-10-22 05:08:52,056:__main__:INFO: 	AngularMomentum: -5.651997975708817e-06
+2024-10-22 05:08:52,056:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	ParticleNumber: -3.388182758825355e-06
+2024-10-22 05:08:52,056:__main__:INFO: (np.int64(2), np.int64(11))
+2024-10-22 05:08:52,056:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: (np.int64(2), np.int64(12))
+2024-10-22 05:08:52,056:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: (np.int64(2), np.int64(13))
+2024-10-22 05:08:52,056:__main__:INFO: 	AngularMomentum: -0.0009494894520481785
+2024-10-22 05:08:52,056:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	ParticleNumber: -0.0009300961698192945
+2024-10-22 05:08:52,056:__main__:INFO: (np.int64(2), np.int64(14))
+2024-10-22 05:08:52,056:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: (np.int64(2), np.int64(15))
+2024-10-22 05:08:52,056:__main__:INFO: 	AngularMomentum: 5.843366465826308e-05
+2024-10-22 05:08:52,056:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	ParticleNumber: 3.1004495389716346e-05
+2024-10-22 05:08:52,056:__main__:INFO: (np.int64(2), np.int64(16))
+2024-10-22 05:08:52,056:__main__:INFO: 	AngularMomentum: 0.00012604469122173747
+2024-10-22 05:08:52,056:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	ParticleNumber: 8.872136299710478e-06
+2024-10-22 05:08:52,056:__main__:INFO: (np.int64(3), np.int64(4))
+2024-10-22 05:08:52,056:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	ParticleNumber: -0.0
+2024-10-22 05:08:52,056:__main__:INFO: (np.int64(3), np.int64(5))
+2024-10-22 05:08:52,056:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: (np.int64(3), np.int64(6))
+2024-10-22 05:08:52,056:__main__:INFO: 	AngularMomentum: -7.934016948960747e-05
+2024-10-22 05:08:52,056:__main__:INFO: 	Magnetization: -3.9670084744805253e-05
+2024-10-22 05:08:52,056:__main__:INFO: 	ParticleNumber: -7.934016948956193e-05
+2024-10-22 05:08:52,056:__main__:INFO: (np.int64(3), np.int64(7))
+2024-10-22 05:08:52,056:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: (np.int64(3), np.int64(8))
+2024-10-22 05:08:52,056:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,056:__main__:INFO: (np.int64(3), np.int64(9))
+2024-10-22 05:08:52,057:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: (np.int64(3), np.int64(10))
+2024-10-22 05:08:52,057:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: (np.int64(3), np.int64(11))
+2024-10-22 05:08:52,057:__main__:INFO: 	AngularMomentum: -3.755576070735949e-05
+2024-10-22 05:08:52,057:__main__:INFO: 	Magnetization: -1.8777880353704283e-05
+2024-10-22 05:08:52,057:__main__:INFO: 	ParticleNumber: -3.75557607073961e-05
+2024-10-22 05:08:52,057:__main__:INFO: (np.int64(3), np.int64(12))
+2024-10-22 05:08:52,057:__main__:INFO: 	AngularMomentum: -0.0009218490933036905
+2024-10-22 05:08:52,057:__main__:INFO: 	Magnetization: -0.0004609189628906409
+2024-10-22 05:08:52,057:__main__:INFO: 	ParticleNumber: -0.0009218381098744031
+2024-10-22 05:08:52,057:__main__:INFO: (np.int64(3), np.int64(13))
+2024-10-22 05:08:52,057:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: (np.int64(3), np.int64(14))
+2024-10-22 05:08:52,057:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: (np.int64(3), np.int64(15))
+2024-10-22 05:08:52,057:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: (np.int64(3), np.int64(16))
+2024-10-22 05:08:52,057:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: (np.int64(4), np.int64(5))
+2024-10-22 05:08:52,057:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: (np.int64(4), np.int64(6))
+2024-10-22 05:08:52,057:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	ParticleNumber: -0.0
+2024-10-22 05:08:52,057:__main__:INFO: (np.int64(4), np.int64(7))
+2024-10-22 05:08:52,057:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: (np.int64(4), np.int64(8))
+2024-10-22 05:08:52,057:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,057:__main__:INFO: (np.int64(4), np.int64(9))
+2024-10-22 05:08:52,057:__main__:INFO: 	AngularMomentum: -8.798051783227845e-06
+2024-10-22 05:08:52,057:__main__:INFO: 	Magnetization: 4.399095427790002e-06
+2024-10-22 05:08:52,057:__main__:INFO: 	ParticleNumber: -8.798269103315551e-06
+2024-10-22 05:08:52,057:__main__:INFO: (np.int64(4), np.int64(10))
+2024-10-22 05:08:52,058:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: (np.int64(4), np.int64(11))
+2024-10-22 05:08:52,058:__main__:INFO: 	AngularMomentum: -0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	ParticleNumber: -0.0
+2024-10-22 05:08:52,058:__main__:INFO: (np.int64(4), np.int64(12))
+2024-10-22 05:08:52,058:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	ParticleNumber: -0.0
+2024-10-22 05:08:52,058:__main__:INFO: (np.int64(4), np.int64(13))
+2024-10-22 05:08:52,058:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: (np.int64(4), np.int64(14))
+2024-10-22 05:08:52,058:__main__:INFO: 	AngularMomentum: 0.0002447929568705717
+2024-10-22 05:08:52,058:__main__:INFO: 	Magnetization: -0.00012238762284024222
+2024-10-22 05:08:52,058:__main__:INFO: 	ParticleNumber: 0.00024479916333195405
+2024-10-22 05:08:52,058:__main__:INFO: (np.int64(4), np.int64(15))
+2024-10-22 05:08:52,058:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: (np.int64(4), np.int64(16))
+2024-10-22 05:08:52,058:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: (np.int64(5), np.int64(6))
+2024-10-22 05:08:52,058:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: (np.int64(5), np.int64(7))
+2024-10-22 05:08:52,058:__main__:INFO: 	AngularMomentum: 0.0010999062655043849
+2024-10-22 05:08:52,058:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	ParticleNumber: 4.9652600052436414e-05
+2024-10-22 05:08:52,058:__main__:INFO: (np.int64(5), np.int64(8))
+2024-10-22 05:08:52,058:__main__:INFO: 	AngularMomentum: 0.0005022560879918009
+2024-10-22 05:08:52,058:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	ParticleNumber: 3.4605965638596914e-05
+2024-10-22 05:08:52,058:__main__:INFO: (np.int64(5), np.int64(9))
+2024-10-22 05:08:52,058:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: (np.int64(5), np.int64(10))
+2024-10-22 05:08:52,058:__main__:INFO: 	AngularMomentum: -5.0656608490603225e-06
+2024-10-22 05:08:52,058:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	ParticleNumber: -5.638184182835083e-06
+2024-10-22 05:08:52,058:__main__:INFO: (np.int64(5), np.int64(11))
+2024-10-22 05:08:52,058:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: (np.int64(5), np.int64(12))
+2024-10-22 05:08:52,058:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,058:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: (np.int64(5), np.int64(13))
+2024-10-22 05:08:52,059:__main__:INFO: 	AngularMomentum: -0.0001762141056174513
+2024-10-22 05:08:52,059:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	ParticleNumber: -0.00018157810141852045
+2024-10-22 05:08:52,059:__main__:INFO: (np.int64(5), np.int64(14))
+2024-10-22 05:08:52,059:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: (np.int64(5), np.int64(15))
+2024-10-22 05:08:52,059:__main__:INFO: 	AngularMomentum: -0.00010320319933552138
+2024-10-22 05:08:52,059:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	ParticleNumber: -4.426589598549029e-06
+2024-10-22 05:08:52,059:__main__:INFO: (np.int64(5), np.int64(16))
+2024-10-22 05:08:52,059:__main__:INFO: 	AngularMomentum: -1.7837846710278187e-05
+2024-10-22 05:08:52,059:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	ParticleNumber: 5.280435639456175e-05
+2024-10-22 05:08:52,059:__main__:INFO: (np.int64(6), np.int64(7))
+2024-10-22 05:08:52,059:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: (np.int64(6), np.int64(8))
+2024-10-22 05:08:52,059:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: (np.int64(6), np.int64(9))
+2024-10-22 05:08:52,059:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	ParticleNumber: -0.0
+2024-10-22 05:08:52,059:__main__:INFO: (np.int64(6), np.int64(10))
+2024-10-22 05:08:52,059:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: (np.int64(6), np.int64(11))
+2024-10-22 05:08:52,059:__main__:INFO: 	AngularMomentum: 2.421960304897948e-06
+2024-10-22 05:08:52,059:__main__:INFO: 	Magnetization: 1.210882641881645e-06
+2024-10-22 05:08:52,059:__main__:INFO: 	ParticleNumber: 2.4218819878558603e-06
+2024-10-22 05:08:52,059:__main__:INFO: (np.int64(6), np.int64(12))
+2024-10-22 05:08:52,059:__main__:INFO: 	AngularMomentum: 0.00011844173464156362
+2024-10-22 05:08:52,059:__main__:INFO: 	Magnetization: 5.921797349904063e-05
+2024-10-22 05:08:52,059:__main__:INFO: 	ParticleNumber: 0.00011845132927290039
+2024-10-22 05:08:52,059:__main__:INFO: (np.int64(6), np.int64(13))
+2024-10-22 05:08:52,059:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: (np.int64(6), np.int64(14))
+2024-10-22 05:08:52,059:__main__:INFO: 	AngularMomentum: -0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: (np.int64(6), np.int64(15))
+2024-10-22 05:08:52,059:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,059:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: (np.int64(6), np.int64(16))
+2024-10-22 05:08:52,060:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: (np.int64(7), np.int64(8))
+2024-10-22 05:08:52,060:__main__:INFO: 	AngularMomentum: 6.359023447076581e-06
+2024-10-22 05:08:52,060:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	ParticleNumber: 1.1745283723466234e-05
+2024-10-22 05:08:52,060:__main__:INFO: (np.int64(7), np.int64(9))
+2024-10-22 05:08:52,060:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: (np.int64(7), np.int64(10))
+2024-10-22 05:08:52,060:__main__:INFO: 	AngularMomentum: 0.00012944320161155438
+2024-10-22 05:08:52,060:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	ParticleNumber: 2.4633983432982353e-05
+2024-10-22 05:08:52,060:__main__:INFO: (np.int64(7), np.int64(11))
+2024-10-22 05:08:52,060:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: (np.int64(7), np.int64(12))
+2024-10-22 05:08:52,060:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: (np.int64(7), np.int64(13))
+2024-10-22 05:08:52,060:__main__:INFO: 	AngularMomentum: -3.970607562121497e-05
+2024-10-22 05:08:52,060:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	ParticleNumber: -2.6863383778043555e-05
+2024-10-22 05:08:52,060:__main__:INFO: (np.int64(7), np.int64(14))
+2024-10-22 05:08:52,060:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: (np.int64(7), np.int64(15))
+2024-10-22 05:08:52,060:__main__:INFO: 	AngularMomentum: -9.63153707643516e-07
+2024-10-22 05:08:52,060:__main__:INFO: 	Magnetization: 8.774616856170455e-09
+2024-10-22 05:08:52,060:__main__:INFO: 	ParticleNumber: -3.739356273390195e-05
+2024-10-22 05:08:52,060:__main__:INFO: (np.int64(7), np.int64(16))
+2024-10-22 05:08:52,060:__main__:INFO: 	AngularMomentum: 5.5336820973638555e-06
+2024-10-22 05:08:52,060:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	ParticleNumber: 0.0006882681842942359
+2024-10-22 05:08:52,060:__main__:INFO: (np.int64(8), np.int64(9))
+2024-10-22 05:08:52,060:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: (np.int64(8), np.int64(10))
+2024-10-22 05:08:52,060:__main__:INFO: 	AngularMomentum: 9.34716426375439e-06
+2024-10-22 05:08:52,060:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	ParticleNumber: -7.828955758436458e-06
+2024-10-22 05:08:52,060:__main__:INFO: (np.int64(8), np.int64(11))
+2024-10-22 05:08:52,060:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: (np.int64(8), np.int64(12))
+2024-10-22 05:08:52,060:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,060:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: (np.int64(8), np.int64(13))
+2024-10-22 05:08:52,061:__main__:INFO: 	AngularMomentum: 7.243799458026813e-05
+2024-10-22 05:08:52,061:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	ParticleNumber: -5.553289430373828e-05
+2024-10-22 05:08:52,061:__main__:INFO: (np.int64(8), np.int64(14))
+2024-10-22 05:08:52,061:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: (np.int64(8), np.int64(15))
+2024-10-22 05:08:52,061:__main__:INFO: 	AngularMomentum: 4.1512964303729657e-07
+2024-10-22 05:08:52,061:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	ParticleNumber: -4.428083689488498e-06
+2024-10-22 05:08:52,061:__main__:INFO: (np.int64(8), np.int64(16))
+2024-10-22 05:08:52,061:__main__:INFO: 	AngularMomentum: -3.0445931579719857e-06
+2024-10-22 05:08:52,061:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	ParticleNumber: 3.2183448176360756e-06
+2024-10-22 05:08:52,061:__main__:INFO: (np.int64(9), np.int64(10))
+2024-10-22 05:08:52,061:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: (np.int64(9), np.int64(11))
+2024-10-22 05:08:52,061:__main__:INFO: 	AngularMomentum: -0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	ParticleNumber: -0.0
+2024-10-22 05:08:52,061:__main__:INFO: (np.int64(9), np.int64(12))
+2024-10-22 05:08:52,061:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	ParticleNumber: -0.0
+2024-10-22 05:08:52,061:__main__:INFO: (np.int64(9), np.int64(13))
+2024-10-22 05:08:52,061:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: (np.int64(9), np.int64(14))
+2024-10-22 05:08:52,061:__main__:INFO: 	AngularMomentum: 4.125465109995399e-05
+2024-10-22 05:08:52,061:__main__:INFO: 	Magnetization: -2.0621008692679827e-05
+2024-10-22 05:08:52,061:__main__:INFO: 	ParticleNumber: 4.1241817322841046e-05
+2024-10-22 05:08:52,061:__main__:INFO: (np.int64(9), np.int64(15))
+2024-10-22 05:08:52,061:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: (np.int64(9), np.int64(16))
+2024-10-22 05:08:52,061:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: (np.int64(10), np.int64(11))
+2024-10-22 05:08:52,061:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: (np.int64(10), np.int64(12))
+2024-10-22 05:08:52,061:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,061:__main__:INFO: (np.int64(10), np.int64(13))
+2024-10-22 05:08:52,061:__main__:INFO: 	AngularMomentum: -1.2700491019199439e-06
+2024-10-22 05:08:52,062:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	ParticleNumber: -2.098618515985661e-07
+2024-10-22 05:08:52,062:__main__:INFO: (np.int64(10), np.int64(14))
+2024-10-22 05:08:52,062:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: (np.int64(10), np.int64(15))
+2024-10-22 05:08:52,062:__main__:INFO: 	AngularMomentum: -4.39607043357967e-05
+2024-10-22 05:08:52,062:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	ParticleNumber: -2.822636725749685e-05
+2024-10-22 05:08:52,062:__main__:INFO: (np.int64(10), np.int64(16))
+2024-10-22 05:08:52,062:__main__:INFO: 	AngularMomentum: 3.205610231372785e-05
+2024-10-22 05:08:52,062:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	ParticleNumber: 3.530962296721416e-05
+2024-10-22 05:08:52,062:__main__:INFO: (np.int64(11), np.int64(12))
+2024-10-22 05:08:52,062:__main__:INFO: 	AngularMomentum: 4.1870310703200924e-05
+2024-10-22 05:08:52,062:__main__:INFO: 	Magnetization: 2.0936918780661365e-05
+2024-10-22 05:08:52,062:__main__:INFO: 	ParticleNumber: 4.187817882648604e-05
+2024-10-22 05:08:52,062:__main__:INFO: (np.int64(11), np.int64(13))
+2024-10-22 05:08:52,062:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: (np.int64(11), np.int64(14))
+2024-10-22 05:08:52,062:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	ParticleNumber: -0.0
+2024-10-22 05:08:52,062:__main__:INFO: (np.int64(11), np.int64(15))
+2024-10-22 05:08:52,062:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: (np.int64(11), np.int64(16))
+2024-10-22 05:08:52,062:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: (np.int64(12), np.int64(13))
+2024-10-22 05:08:52,062:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: (np.int64(12), np.int64(14))
+2024-10-22 05:08:52,062:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: (np.int64(12), np.int64(15))
+2024-10-22 05:08:52,062:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: (np.int64(12), np.int64(16))
+2024-10-22 05:08:52,062:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: (np.int64(13), np.int64(14))
+2024-10-22 05:08:52,062:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,062:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,063:__main__:INFO: (np.int64(13), np.int64(15))
+2024-10-22 05:08:52,063:__main__:INFO: 	AngularMomentum: 0.0002791507024798697
+2024-10-22 05:08:52,063:__main__:INFO: 	Magnetization: -0.0
+2024-10-22 05:08:52,063:__main__:INFO: 	ParticleNumber: -4.212695600455887e-05
+2024-10-22 05:08:52,063:__main__:INFO: (np.int64(13), np.int64(16))
+2024-10-22 05:08:52,063:__main__:INFO: 	AngularMomentum: 0.00042553192225311355
+2024-10-22 05:08:52,063:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,063:__main__:INFO: 	ParticleNumber: 5.440866458038881e-05
+2024-10-22 05:08:52,063:__main__:INFO: (np.int64(14), np.int64(15))
+2024-10-22 05:08:52,063:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,063:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,063:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,063:__main__:INFO: (np.int64(14), np.int64(16))
+2024-10-22 05:08:52,063:__main__:INFO: 	AngularMomentum: 0.0
+2024-10-22 05:08:52,063:__main__:INFO: 	Magnetization: 0.0
+2024-10-22 05:08:52,063:__main__:INFO: 	ParticleNumber: 0.0
+2024-10-22 05:08:52,063:__main__:INFO: (np.int64(15), np.int64(16))
+2024-10-22 05:08:52,063:__main__:INFO: 	AngularMomentum: 4.4502817059886954e-07
+2024-10-22 05:08:52,063:__main__:INFO: 	Magnetization: 6.407775105594328e-09
+2024-10-22 05:08:52,063:__main__:INFO: 	ParticleNumber: -5.2803544500696825e-05
