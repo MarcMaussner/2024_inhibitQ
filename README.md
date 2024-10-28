@@ -1,7 +1,67 @@
 # 2024_inhibitQ
 - repository to store papers, thoughts and proof-of-concept examples for the 2024 Airbus Coating challenge
 
+## the linux environment
+```bash
+docker
+uname -a
+sudo apt update
+sudo apt upgrade
+sudo reboot
+docker run hello-world
+sudo reboot
+lscpu
+sudo apt install ca-certificates curl
+sudo apt install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+docker
+docker images
+docker pull cp2k/cp2k:latest
+sudo apt install make build-essential libssl-dev zlib1g-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libffi-dev python-openssl git
+sudo apt install make build-essential libssl-dev zlib1g-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libffi-dev python3-openssl git
+curl https://pyenv.run | bash
+echo -e '\n# Pyenv setup' >> ~/.bashrc
+echo 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(pyenv init --path)"' >> ~/.bashrc
+echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+source ~/.bashrc
+pyenv --version
+pyenv 
+sudo reboot
+sudo apt install liblzma-dev
+pyenv install 3.12.7
+pyenv versions
+pyenv global 3.12.7 
+pip list
+pip -V
+git clone -b fix-qiskit1.x-compatibility https://github.com/KarimElgammal/qiskit-nature-cp2k.git
+cd qiskit-nature-cp2k/
+pip install -e .
+pip install --upgrade pip
+pip list
+pip install qiskit-aer
+pip install qiskit-braket-provider
+pip install amazon-braket-default-simulator
+pip install amazon-braket-schemas
+pip install amazon-braket-sdk
+pip list
+pip freeze
+pip list
+sudo reboot
+```
 ## the python environment
+```bash
 ubuntu@ip-172-31-36-110:~/qiskit-nature-cp2k$ pip list
 Package                           Version     Editable project location
 --------------------------------- ----------- -------------------------------
@@ -62,6 +122,7 @@ typing_extensions                 4.12.2
 urllib3                           2.2.3
 zipp                              3.20.2
 ubuntu@ip-172-31-36-110:~/qiskit-nature-cp2k$ 
+```
 
 # OLD text
 
