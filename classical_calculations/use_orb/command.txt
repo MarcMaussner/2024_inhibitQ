@@ -1,0 +1,1 @@
+(inhibitQ) karim@m1 use_orb % python use_orb.py al_slab_with_triazole_4x4x6_v10.0.xyz --fmax 0.01 --max-steps 1000 >> run.out
