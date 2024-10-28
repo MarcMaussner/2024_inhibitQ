@@ -1,0 +1,28 @@
+
+  maxiter=1000
+  broydamp=0.2
+  mixing=adiis
+  econv=1e-4
+  acc=1.0
+  scfconv=1e-4
+  electronic_temperature=10000.0
+  max_scc_iter=1000
+
+
+
+  cell periodic=2
+
+
+
+  mixer=damp
+  mixing=0.1
+  maxiterations=1000
+
+
+
+   maxcycle=500
+   optlevel=crude
+   microcycle=100
+   maxdispl=0.1
+   hlow=0.01
+
