@@ -2,8 +2,6 @@
 
 # Set AWS credentials and region
 export AWS_DEFAULT_REGION=us-east-1  #eu-north-1
-export AWS_ACCESS_KEY_ID=AKIAQLVQQSYW27WSICDH
-export AWS_SECRET_ACCESS_KEY=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
 
 # Set the current directory as the working directory
 WORK_DIR=$(pwd)
