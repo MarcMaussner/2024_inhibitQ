@@ -59,6 +59,15 @@ pip list
 pip freeze
 pip list
 sudo reboot
+#installing AWS CLI tools
+sudo apt update
+sudo apt install -y unzip curl
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+aws --version
+sudo reboot
+aws configure
 ```
 ## the python environment
 ```bash
