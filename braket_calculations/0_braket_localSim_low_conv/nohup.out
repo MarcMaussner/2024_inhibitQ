@@ -1,3 +1,0 @@
-chmod: changing permissions of '/home/ubuntu/calculations/0_braket_localSim/Al111_4x4_active_space_adsorbate-1_0.fcidump': Operation not permitted
-chmod: changing permissions of '/home/ubuntu/calculations/0_braket_localSim/Al111_4x4_active_space_adsorbate-RESTART.wfn': Operation not permitted
-chmod: changing permissions of '/home/ubuntu/calculations/0_braket_localSim/Al111_4x4_active_space_adsorbate-RESTART.wfn.bak-1': Operation not permitted

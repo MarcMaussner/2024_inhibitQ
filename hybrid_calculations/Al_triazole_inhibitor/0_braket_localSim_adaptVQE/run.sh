@@ -16,7 +16,7 @@ check_success() {
 
 # Run CP2K in Docker
 echo "Starting CP2K calculation..." >> $WORK_DIR/run.log
-docker run --volume-driver local -v $WORK_DIR:/mnt --shm-size=1g --rm --user root cp2k/cp2k sh -c "umask 0000 && mpiexec -genv OMP_NUM_THREADS=2 -np 104 cp2k Al111_active_space.inp" > $WORK_DIR/cp2k.log 2>&1 &
+docker run --volume-driver local -v $WORK_DIR:/mnt --shm-size=1g --rm --user root cp2k/cp2k sh -c "umask 0000 && mpiexec -genv OMP_NUM_THREADS=1 -np 96 cp2k Al111_active_space.inp" > $WORK_DIR/cp2k.log 2>&1 &
 
 # Store the Docker process ID
 DOCKER_PID=$!
@@ -28,7 +28,7 @@ done
 
 # Run the Python script
 echo "Starting Python VQE calculation..." >> $WORK_DIR/run.log
-python -u client-vqe-ucc.py --nalpha 1 --nbeta 1 --norbs 5 --braket > $WORK_DIR/python_output.log 2>&1 &
+python -u client-vqe-ucc.py --nalpha 1 --nbeta 1 --norbs 5 --braket --adapt > $WORK_DIR/python_output.log 2>&1 &
 
 #PYTHON_PID=$!
 
