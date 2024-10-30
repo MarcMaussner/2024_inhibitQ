@@ -13,6 +13,7 @@ import logging
 import numpy as np
 import socket
 import time
+import sys
 
 import numpy as np
 from qiskit_algorithms.optimizers import L_BFGS_B, SPSA
@@ -45,6 +46,16 @@ from qiskit_braket_provider import BraketProvider
 from qiskit_braket_provider import BraketLocalBackend
 
 np.set_printoptions(linewidth=500, precision=6, suppress=True)
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('quantum_calculation.log'),
+        logging.StreamHandler(sys.stdout)
+    ]
+)
 
 logger = logging.getLogger(__name__)
 
@@ -109,13 +120,15 @@ if __name__ == "__main__":
     ansatz._check_ucc_configuration = _no_fail
 
     if args.adapt:
+        logger.info("=== ADAPT-VQE mode activated ===")
         operator_pool = []
         for op in ansatz.operators:
             for pauli, coeff in zip(op.paulis, op.coeffs):
                 if sum(pauli.x & pauli.z) % 2 == 0:
                     continue
                 operator_pool.append(SparsePauliOp([pauli], coeffs=[coeff]))
-
+        
+        logger.info(f"Created operator pool with {len(operator_pool)} operators")
         ansatz = EvolvedOperatorAnsatz(
             operators=operator_pool,
             initial_state=initial_state,
@@ -132,42 +145,31 @@ if __name__ == "__main__":
             estimator = Estimator()
 
     if args.braket:
-        # # Configure the SV1-Braket backend with desired shots
-        # provider = BraketProvider()
-        
-        # online_simulators = provider.backends(statuses=["ONLINE"], types=["SIMULATOR"])
-                
-        # logger.info("Available backends: %s", [backend.name for backend in online_simulators])
-        
-        # sv1_backends = [b for b in online_simulators if b.name == "SV1"]
-        
-        # if not sv1_backends:
-        #     logger.error("SV1 backend not found. Available backends: %s", 
-        #                 [b.name for b in online_simulators])
-        #     raise ValueError("SV1 backend not available")
-            
-        # backend = sv1_backends[0]
-        
-        # # Use the primitive Estimator (V1) for compatibility with VQE
-        # from qiskit.primitives import Estimator as EstimatorV1
-        # estimator = EstimatorV1()
-
+        logger.info("=== Amazon Braket backend activated ===")
         backend = BraketLocalBackend()
-        esimator = BackendEstimator(backend=backend)
-        estimator.options.default_shots = 10
-        
-        # Configure the estimator options if needed
-        # estimator.options.execution.shots = 1000  # if you need to set shots
+        logger.info("Using Braket Local Simulator backend")
+        from qiskit.primitives import Estimator as EstimatorV1
+        estimator = EstimatorV1()
+        estimator.options.default_shots = 1000
+        logger.info(f"Configured estimator with {estimator.options.default_shots} shots")
 
     def callback(nfev, parameters, energy, stepsize):
-        logger.info(f"Iteration {nfev}: Energy = {energy:.6f}")
+        logger.info(f"Iteration {nfev}: Energy = {energy:.6f}, Parameters = {parameters}")
         return False
 
-    # Try using SPSA optimizer
-    optimizer = SPSA(maxiter=1000, learning_rate=0.01, perturbation=0.1)
+    # Initialize optimizer with more conservative settings
+    optimizer = SPSA(
+        maxiter=100,
+        learning_rate=0.005,
+        perturbation=0.05,
+        last_avg=1
+    )
+    logger.info("Configured SPSA optimizer with conservative parameters")
 
-    # Use random initial parameters
-    initial_point = np.random.rand(ansatz.num_parameters)
+    # Ensure initial point matches the number of parameters
+    num_parameters = ansatz.num_parameters
+    initial_point = np.zeros(num_parameters)  # Start with zeros instead of random
+    logger.info(f"Initialized {num_parameters} parameters to zero")
 
     solver = StatefulVQE(
         estimator,
@@ -176,6 +178,7 @@ if __name__ == "__main__":
         callback=callback,
         initial_point=initial_point
     )
+    logger.info("Initialized StatefulVQE with matched parameter count")
 
     if args.adapt:
         class CustomAdaptVQE(StatefulAdaptVQE):
@@ -184,28 +187,43 @@ if __name__ == "__main__":
                 self.previous_energies = []
                 self.convergence_window = 3
                 self.convergence_threshold = 1e-6
+                self._theta = np.array([])  # Initialize empty parameter array
+                logger.info(f"""ADAPT-VQE Configuration:
+                    - Convergence window: {self.convergence_window}
+                    - Convergence threshold: {self.convergence_threshold}
+                    - Initial parameters: {self._theta}""")
 
             def solve(self, problem):
-                result = super().solve(problem)
-                
-                self.previous_energies.append(result.total_energies[-1])
-                if len(self.previous_energies) > self.convergence_window:
-                    self.previous_energies.pop(0)
-                
-                if len(self.previous_energies) == self.convergence_window:
-                    energy_range = max(self.previous_energies) - min(self.previous_energies)
-                    if energy_range < self.convergence_threshold:
-                        logger.info("ADAPT-VQE Convergence achieved!")
-                        self._converged = True
-                
-                return result
+                logger.info("Starting ADAPT-VQE solve iteration")
+                try:
+                    result = super().solve(problem)
+                    self.previous_energies.append(result.total_energies[-1])
+                    if len(self.previous_energies) > self.convergence_window:
+                        self.previous_energies.pop(0)
+                    
+                    if len(self.previous_energies) == self.convergence_window:
+                        energy_range = max(self.previous_energies) - min(self.previous_energies)
+                        logger.info(f"Current energy range in window: {energy_range}")
+                        if energy_range < self.convergence_threshold:
+                            logger.info("ADAPT-VQE Convergence achieved!")
+                            self._converged = True
+                    
+                    return result
+                except Exception as e:
+                    logger.error(f"Error in ADAPT-VQE solve: {str(e)}")
+                    raise
 
+        logger.info("Initializing CustomAdaptVQE solver")
         solver = CustomAdaptVQE(
             solver,
             eigenvalue_threshold=1e-6,
             gradient_threshold=1e-4,
             max_iterations=20,
         )
+        logger.info("""ADAPT-VQE solver parameters:
+            - Eigenvalue threshold: 1e-6
+            - Gradient threshold: 1e-4
+            - Maximum iterations: 20""")
 
     if args.numpy:
         solver = NumPyMinimumEigensolver()
@@ -251,18 +269,72 @@ if __name__ == "__main__":
 
     excited_state_result = qeom.solve(problem)
 
-    logger.info("QEOM result: \n\n%s\n", excited_state_result)
+    # Print clear separation for results
+    summary = f"""
+{'='*80}
+                         QUANTUM CALCULATION RESULTS
+{'='*80}
 
-    logger.info("Excitation Energies:\n\n%s\n",
-        excited_state_result.raw_result.excitation_energies)
-    logger.info("Transition Amplitudes")
-    for (
-        key,
-        values,
-    ) in excited_state_result.raw_result.transition_amplitudes.items():
-        logger.info(key)
+CONFIGURATION:
+-------------
+Backend: {'Amazon Braket Local Simulator with ADAPT-VQE' if args.adapt else 'Amazon Braket Local Simulator'}
+Number of alpha electrons: {num_alpha}
+Number of beta electrons: {num_beta}
+Number of orbitals: {num_orbs}
+Number of shots: {estimator.options.default_shots}
+
+CALCULATION RESULTS:
+------------------
+Ground State Energy: {excited_state_result.groundstate_energy if hasattr(excited_state_result, 'groundstate_energy') else 'N/A'}
+
+Excitation Energies:
+{excited_state_result.raw_result.excitation_energies}
+
+Transition Amplitudes:
+"""
+    for key, values in excited_state_result.raw_result.transition_amplitudes.items():
+        summary += f"\nState {key}:\n"
         for name, val in values.items():
-            logger.info(f"\t{name}: {val[0]}")
+            summary += f"  {name}: {val[0]:.6f}\n"
+
+    summary += f"""
+{'='*80}
+                         CALCULATION COMPLETED
+{'='*80}
+Total Iterations: {solver._eval_count if hasattr(solver, '_eval_count') else 'N/A'}
+Final Energy: {excited_state_result.groundstate_energy if hasattr(excited_state_result, 'groundstate_energy') else 'N/A'}
+Convergence Status: {'Converged' if hasattr(solver, '_converged') and solver._converged else 'Completed'}
+{'='*80}
+"""
+
+    # Print to both console and log file
+    print(summary)
+    logger.info(summary)
+
+    # Save results to a JSON file
+    results_dict = {
+        "configuration": {
+            "backend": "Amazon Braket Local Simulator",
+            "method": "ADAPT-VQE" if args.adapt else "VQE",
+            "num_alpha": num_alpha,
+            "num_beta": num_beta,
+            "num_orbs": num_orbs,
+            "num_shots": estimator.options.default_shots
+        },
+        "results": {
+            "ground_state_energy": float(excited_state_result.groundstate_energy) if hasattr(excited_state_result, 'groundstate_energy') else None,
+            "excitation_energies": excited_state_result.raw_result.excitation_energies.tolist(),
+            "transition_amplitudes": {
+                str(key): {str(name): float(val[0]) for name, val in values.items()}
+                for key, values in excited_state_result.raw_result.transition_amplitudes.items()
+            }
+        }
+    }
+
+    with open('quantum_calculation_results.json', 'w') as f:
+        json.dump(results_dict, f, indent=4)
+
+    logger.info("Results have been saved to 'quantum_calculation_results.json'")
 
 class CP2KIntegration:
     def __init__(self, algo):
@@ -298,19 +370,3 @@ class CP2KIntegration:
         logger.info("Attempting to reconnect to the socket...")
         time.sleep(5)  # Wait before attempting to reconnect
         self.connect_to_socket(HOST, PORT, UNIX)
-
-
-
-
-# ###    if args.braket:
-#         # Configure the SV1-Braket backend with desired shots
-#         #backend = BraketProvider().get_backend("SV1")
-#         provider = BraketProvider()
-#         online_simulators_backends = provider.backends(statuses=["ONLINE"], types=["SIMULATOR"])
-#         backend = provider.get_backend("SV1")
-#         #backend = BraketLocalBackend()
-#         esimator = BackendEstimator(backend=backend)
-#         estimator.options.default_shots = 10
-
-
-
