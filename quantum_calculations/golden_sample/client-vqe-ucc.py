@@ -131,12 +131,15 @@ if __name__ == "__main__":
 
     if args.aer:
         # Configure the Aer simulator with the desired number of shots
-        estimator = AerEstimator(run_options={"shots":1000})
-
-    if args.sv_estimator:
-        estimator = StatevectorEstimator()
+        logger.info("=== AER backend activated with 100 shots ===")
+        estimator = AerEstimator(run_options={"shots":100})
     else:
-        estimator = Estimator()
+        if args.sv_estimator:
+            logger.info("=== StatevectorEstimator backend activated with 100 shots ===")
+            estimator = StatevectorEstimator()
+        else:
+            logger.info("=== Estimator backend activated with 100 shots ===")
+            estimator = Estimator()
 
     if args.braket:
         if args.local:
@@ -224,7 +227,7 @@ if __name__ == "__main__":
             estimator,
             ansatz,
             optimizer,
-            callback=callback
+            callback=callback,
             initial_point=initial_point
         )
     else:
