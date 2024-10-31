@@ -67,6 +67,8 @@ if __name__ == "__main__":
     HOST = "embedding_socket"
     PORT = 12345
     UNIX = True #True
+    shots = 0
+    backend_name = ""
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--nalpha", type=int, default=None)
@@ -133,12 +135,16 @@ if __name__ == "__main__":
         # Configure the Aer simulator with the desired number of shots
         logger.info("=== AER backend activated with 100 shots ===")
         estimator = AerEstimator(run_options={"shots":100})
+        backend_name = "AER"
+        shots = 100
     else:
         if args.sv_estimator:
             logger.info("=== StatevectorEstimator backend activated with 100 shots ===")
             estimator = StatevectorEstimator()
+            backend_name = "Qiskit Statevector"
         else:
             logger.info("=== Estimator backend activated with 100 shots ===")
+            backend_name = "Qiskit Estimator"
             estimator = Estimator()
 
     if args.braket:
@@ -148,6 +154,8 @@ if __name__ == "__main__":
             backend = BraketLocalBackend()
             logger.info("Using Braket Local Simulator backend")
             estimator = BackendEstimator(backend=backend, options={"shots":1000})
+            shots = 1000
+            backend_name = "Braket Local"
             logger.info(f"Configured estimator with 1000 shots")
 
         if args.sv1:
@@ -169,6 +177,8 @@ if __name__ == "__main__":
             backend = sv1_backends[0]
             logger.info("Using Braket SV1 Simulator backend")
             estimator = BackendEstimator(backend=backend, options={"shots":1000})
+            shots = 1000
+            backend_name = "Braket SV1"
             logger.info(f"Configured estimator with 1000 shots")
         if args.aria1:
             # Configure aria1 backend with desired shots
@@ -190,6 +200,8 @@ if __name__ == "__main__":
 
             logger.info("Using IONQ aria 1 backend")
             estimator = BackendEstimator(backend=backend, options={"shots":1000})
+            shots = 1000
+            backend_name = "Braket IONQ Aria 1"
             logger.info(f"Configured estimator with 1000 shots")
             pass
 
@@ -210,6 +222,8 @@ if __name__ == "__main__":
         backend = service.least_busy(operational=True, simulator=False, min_num_qubits=127)
         logger.info(f"Running on IBM hw {backend.name}")
         estimator = BackendEstimator(backend=backend, options={"shots":100})
+        shots = 100
+        backend_name = "Qiskit HW"
 
 
     def callback(nfev, parameters, energy, stepsize):
@@ -217,7 +231,13 @@ if __name__ == "__main__":
         return False
 
     # Try using SPSA optimizer
-    optimizer = SPSA(maxiter=1000, learning_rate=0.01, perturbation=0.1)
+    optimizer = SPSA(
+        maxiter=100,
+        learning_rate=0.005,
+        perturbation=0.05,
+        last_avg=1
+    )
+
 
     # Use random initial parameters
     initial_point = np.random.rand(ansatz.num_parameters)
@@ -321,11 +341,11 @@ if __name__ == "__main__":
 
 CONFIGURATION:
 -------------
-Backend: {'Amazon Braket Local Simulator with ADAPT-VQE' if args.adapt else 'Amazon Braket Local Simulator'}
+Backend: { backend_name}
 Number of alpha electrons: {num_alpha}
 Number of beta electrons: {num_beta}
 Number of orbitals: {num_orbs}
-Number of shots: {estimator.options.default_shots}
+Number of shots: {shots}
 
 CALCULATION RESULTS:
 ------------------
@@ -357,12 +377,12 @@ Convergence Status: {'Converged' if hasattr(solver, '_converged') and solver._co
     # Save results to a JSON file
     results_dict = {
         "configuration": {
-            "backend": "Amazon Braket Local Simulator",
+            "backend": backend_name,
             "method": "ADAPT-VQE" if args.adapt else "VQE",
             "num_alpha": num_alpha,
             "num_beta": num_beta,
             "num_orbs": num_orbs,
-            "num_shots": estimator.options.default_shots
+            "num_shots": shots
         },
         "results": {
             "ground_state_energy": float(excited_state_result.groundstate_energy) if hasattr(excited_state_result, 'groundstate_energy') else None,
