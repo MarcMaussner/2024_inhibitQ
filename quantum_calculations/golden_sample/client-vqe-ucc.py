@@ -232,7 +232,7 @@ if __name__ == "__main__":
 
     # Try using SPSA optimizer
     optimizer = SPSA(
-        maxiter=100,
+        maxiter=1000,
         learning_rate=0.005,
         perturbation=0.05,
         last_avg=1
