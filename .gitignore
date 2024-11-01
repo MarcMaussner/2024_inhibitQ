@@ -1,8 +1,8 @@
 .DS_Store
-*-RESTART.wfn
-*RESTART.wfn.bak-1
-*.restart
-*.restart.bak-1
-*BFGS.Hessian
-*.cube
-*.pdos
+# *-RESTART.wfn
+# *RESTART.wfn.bak-1
+# *.restart
+# *.restart.bak-1
+# *BFGS.Hessian
+# *.cube
+# *.pdos
