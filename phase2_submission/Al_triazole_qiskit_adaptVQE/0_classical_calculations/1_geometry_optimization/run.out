@@ -1,0 +1,15 @@
+Successfully loaded structure with 104 atoms
+Output directory created: orb_opt_al_slab_with_triazole_4x4x6_v10.0_20241028_091857
+Initializing ORB-D3 model on cpu...
+Initial energy: -418.904 eV
+Initial molecule-surface distance: 3.160 Å
+Starting geometry optimization...
+
+Optimization complete!
+Status: Converged
+Final energy: -419.836 eV
+Energy change: -0.932 eV
+Final molecule-surface distance: 3.540 Å
+Maximum atomic displacement: 3.295 Å
+Optimized structure saved to orb_opt_al_slab_with_triazole_4x4x6_v10.0_20241028_091857/optimized_structure.xyz
+Full optimization details available in orb_opt_al_slab_with_triazole_4x4x6_v10.0_20241028_091857

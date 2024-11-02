@@ -1,0 +1,1639 @@
+2024-11-01 20:57:13,922:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Gathering excitation generators...
+2024-11-01 20:57:13,922:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Generating excitation list...
+2024-11-01 20:57:13,922:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single alpha excitations: [(0, 1), (0, 2), (0, 3), (0, 4)]
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single beta excitations: [(5, 6), (5, 7), (5, 8), (5, 9)]
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (1,))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (2,))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (3,))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (4,))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (6,))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (7,))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (8,))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (9,))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single alpha excitations: [(0, 1), (0, 2), (0, 3), (0, 4)]
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Generated list of single beta excitations: [(5, 6), (5, 7), (5, 8), (5, 9)]
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 6))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 7))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 8))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (1, 9))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 6))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 7))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 8))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (2, 9))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 6))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 7))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 8))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (3, 9))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 6))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 7))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 8))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0, 5), (4, 9))
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Checking excitation list...
+2024-11-01 20:57:13,923:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Converting excitations into SparseLabelOps...
+2024-11-01 20:57:13,924:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Converting second-quantized into qubit operators...
+2024-11-01 20:57:13,969:__main__:INFO: === Estimator backend activated with 100 shots ===
+/home/ubuntu/clean_calculations/Al_triazole_qiskit_adaptVQE/inhibitor/client-vqe-ucc.py:148: DeprecationWarning: The class ``qiskit.primitives.estimator.Estimator`` is deprecated as of qiskit 1.2. It will be removed no earlier than 3 months after the release date. All implementations of the `BaseEstimatorV1` interface have been deprecated in favor of their V2 counterparts. The V2 alternative for the `Estimator` class is `StatevectorEstimator`.
+  estimator = Estimator()
+2024-11-01 20:57:14,024:__main__:INFO: Starting CP2KIntegration
+2024-11-01 20:57:14,024:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ---------- STARTING CP2K INTEGRATION ----------
+
+2024-11-01 20:57:14,024:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: connecting to socket
+2024-11-01 20:57:58,720:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: connected
+2024-11-01 20:57:58,720:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-11-01 20:57:58,721:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'TWOBODY     '
+2024-11-01 20:57:58,721:qiskit_nature_cp2k.cp2k_integration:INFO: nspins = 1
+2024-11-01 20:57:58,722:qiskit_nature_cp2k.cp2k_integration:INFO: nmo_active = 5
+2024-11-01 20:57:58,722:qiskit_nature_cp2k.cp2k_integration:INFO: nelec_active = 2
+2024-11-01 20:57:58,722:qiskit_nature_cp2k.cp2k_integration:INFO: multiplicity = 1
+2024-11-01 20:57:58,722:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'STATUS      '
+2024-11-01 20:57:58,723:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'ONEBODY     '
+2024-11-01 20:57:58,723:qiskit_nature_cp2k.cp2k_integration:INFO: e_inactive = -42.031399128268404
+2024-11-01 20:57:58,723:qiskit_nature_cp2k.cp2k_integration:INFO: h1_a = 
+[[-0.701444 -0.000753  0.003746  0.024486 -0.004555]
+ [-0.000753 -0.651489  0.011975  0.022123  0.001442]
+ [ 0.003746  0.011975 -0.707789  0.008788 -0.008438]
+ [ 0.024486  0.022123  0.008788 -0.368127 -0.020712]
+ [-0.004555  0.001442 -0.008438 -0.020712 -0.403379]]
+2024-11-01 20:57:58,724:qiskit_nature_cp2k.cp2k_integration:INFO: 
+
+ ------------------  SOLVE  -----------------
+
+2024-11-01 20:57:58,724:qiskit_nature_cp2k.cp2k_integration:INFO: 5
+2024-11-01 20:57:58,725:qiskit_nature_cp2k.cp2k_integration:INFO: (1, 1)
+2024-11-01 20:57:58,725:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-11-01 20:57:58,725:qiskit_nature_cp2k.cp2k_integration:INFO: [1. 0. 0. 0. 0.]
+2024-11-01 20:58:01,030:qiskit_nature_cp2k.stateful_adapt_vqe:INFO: --- Iteration #1 ---
+2024-11-01 20:58:01,031:qiskit_nature_cp2k.stateful_adapt_vqe:DEBUG: Computing gradients
+2024-11-01 20:58:11,128:qiskit_nature_cp2k.stateful_adapt_vqe:INFO: Found maximum gradient 0.004155917195324256 at index 56
+2024-11-01 20:58:11,128:qiskit_nature_cp2k.stateful_adapt_vqe:WARNING: All gradients have been evaluated to lie below the convergence threshold during the first iteration of the algorithm. Try to either tighten the convergence threshold or pick a different ansatz.
+2024-11-01 20:58:11,195:qiskit_nature_cp2k.stateful_adapt_vqe:INFO: The final eigenvalue is: -0.9392904638075162
+2024-11-01 20:58:11,213:qiskit_nature_cp2k.stateful_adapt_vqe:INFO: The current circuit has the following gates: OrderedDict({'u': 5})
+2024-11-01 20:58:11,213:qiskit_nature_cp2k.stateful_adapt_vqe:INFO: The current circuit has a depth of 1
+2024-11-01 20:58:11,213:qiskit_nature_cp2k.stateful_adapt_vqe:INFO: The current circuit has a 2-qubit gate depth of 0
+2024-11-01 20:58:11,214:qiskit_nature_cp2k.stateful_adapt_vqe:INFO: The current circuit has 0 paramters
+2024-11-01 20:58:11,216:qiskit_nature_cp2k.cp2k_integration:INFO: Active space result: 
+
+=== GROUND STATE ENERGY ===
+ 
+* Electronic ground state energy (Hartree): -0.939290463808
+  - computed part:      -0.939290463808
+~ Nuclear repulsion energy (Hartree): -42.031399128268
+> Total ground state energy (Hartree): -42.970689592076
+ 
+=== MEASURED OBSERVABLES ===
+ 
+  0:  # Particles: 2.000 S: 0.000 S^2: 0.000 M: 0.000
+
+2024-11-01 20:58:11,217:qiskit_nature_cp2k.cp2k_integration:INFO: Active space density: 
+
+array([[2., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0.]])
+
+2024-11-01 20:58:11,217:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'GETDENSITY  '
+2024-11-01 20:58:12,185:qiskit_nature_cp2k.cp2k_integration:INFO: @CLIENT: Message from server: b'QUIT        '
+2024-11-01 20:58:12,185:__main__:INFO: Creating QEOM
+2024-11-01 20:58:12,185:__main__:INFO: Removing the ElectronicDensity property before starting QEOM
+2024-11-01 20:58:16,701:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: Building expansion basis data...
+2024-11-01 20:58:16,701:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Gathering excitation generators...
+2024-11-01 20:58:16,701:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Generating excitation list...
+2024-11-01 20:58:16,701:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (1,))
+2024-11-01 20:58:16,701:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (2,))
+2024-11-01 20:58:16,701:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (3,))
+2024-11-01 20:58:16,701:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (4,))
+2024-11-01 20:58:16,701:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (6,))
+2024-11-01 20:58:16,701:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (7,))
+2024-11-01 20:58:16,701:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (8,))
+2024-11-01 20:58:16,701:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (9,))
+2024-11-01 20:58:16,701:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (1,))
+2024-11-01 20:58:16,701:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (2,))
+2024-11-01 20:58:16,701:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (3,))
+2024-11-01 20:58:16,701:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (4,))
+2024-11-01 20:58:16,702:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (6,))
+2024-11-01 20:58:16,702:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (7,))
+2024-11-01 20:58:16,702:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (8,))
+2024-11-01 20:58:16,702:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (9,))
+2024-11-01 20:58:16,702:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Checking excitation list...
+2024-11-01 20:58:16,702:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Converting excitations into SparseLabelOps...
+2024-11-01 20:58:16,702:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Converting second-quantized into qubit operators...
+2024-11-01 20:58:16,720:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Gathering excitation generators...
+2024-11-01 20:58:16,720:qiskit_nature.second_q.circuit.library.ansatzes.ucc:DEBUG: Generating excitation list...
+2024-11-01 20:58:16,720:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (1,))
+2024-11-01 20:58:16,720:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (2,))
+2024-11-01 20:58:16,720:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (3,))
+2024-11-01 20:58:16,721:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (4,))
+2024-11-01 20:58:16,721:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (6,))
+2024-11-01 20:58:16,721:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (7,))
+2024-11-01 20:58:16,721:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (8,))
+2024-11-01 20:58:16,721:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((0,), (9,))
+2024-11-01 20:58:16,721:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (1,))
+2024-11-01 20:58:16,721:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (2,))
+2024-11-01 20:58:16,721:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (3,))
+2024-11-01 20:58:16,721:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (4,))
+2024-11-01 20:58:16,721:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (6,))
+2024-11-01 20:58:16,721:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (7,))
+2024-11-01 20:58:16,721:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (8,))
+2024-11-01 20:58:16,721:qiskit_nature.second_q.circuit.library.ansatzes.utils.fermionic_excitation_generator:DEBUG: Added the excitation: ((5,), (9,))
+2024-11-01 20:58:17,003:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: Build qEOM pseudoeigenvalue problem...
+2024-11-01 20:58:17,003:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:INFO: Building all commutators:
+2024-11-01 20:58:45,828:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: 
+Q:=========================
+[[ 0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.008434 -0.00201  -0.000831 -0.000425]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.       -0.00201   0.016624  0.000099  0.000632]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.       -0.000831  0.000099  0.005397  0.00089 ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.       -0.000425  0.000632  0.00089   0.006709]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.       -0.008434  0.00201   0.000831  0.000425  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.00201  -0.016624 -0.000099 -0.000632  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.000831 -0.000099 -0.005397 -0.00089   0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.000425 -0.000632 -0.00089  -0.006709  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.       -0.008434  0.00201   0.000831  0.000425  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.00201  -0.016624 -0.000099 -0.000632  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.000831 -0.000099 -0.005397 -0.00089   0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.000425 -0.000632 -0.00089  -0.006709  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.008434 -0.00201  -0.000831 -0.000425  0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [-0.00201   0.016624  0.000099  0.000632  0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [-0.000831  0.000099  0.005397  0.00089   0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [-0.000425  0.000632  0.00089   0.006709  0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.        0.      ]]
+2024-11-01 20:58:45,830:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: 
+W:=========================
+[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+2024-11-01 20:58:45,831:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: 
+M:=========================
+[[-0.106638  0.004983  0.010646  0.000509  0.        0.        0.        0.        0.        0.        0.        0.        0.008434 -0.00201  -0.000831 -0.000425]
+ [ 0.004983 -0.106913  0.004444 -0.003903  0.        0.        0.        0.        0.        0.        0.        0.       -0.00201   0.016624  0.000099  0.000632]
+ [ 0.010646  0.004444  0.079322 -0.009911  0.        0.        0.        0.        0.        0.        0.        0.       -0.000831  0.000099  0.005397  0.00089 ]
+ [ 0.000509 -0.003903 -0.009911  0.092175  0.        0.        0.        0.        0.        0.        0.        0.       -0.000425  0.000632  0.00089   0.006709]
+ [ 0.        0.        0.        0.       -0.115073  0.006993  0.011477  0.000934  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.006993 -0.123537  0.004345 -0.004535  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.011477  0.004345  0.073925 -0.010801  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.000934 -0.004535 -0.010801  0.085466  0.        0.        0.        0.        0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.       -0.115073  0.006993  0.011477  0.000934  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.006993 -0.123537  0.004345 -0.004535  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.011477  0.004345  0.073925 -0.010801  0.        0.        0.        0.      ]
+ [ 0.        0.        0.        0.        0.        0.        0.        0.        0.000934 -0.004535 -0.010801  0.085466  0.        0.        0.        0.      ]
+ [ 0.008434 -0.00201  -0.000831 -0.000425  0.        0.        0.        0.        0.        0.        0.        0.       -0.106638  0.004983  0.010646  0.000509]
+ [-0.00201   0.016624  0.000099  0.000632  0.        0.        0.        0.        0.        0.        0.        0.        0.004983 -0.106913  0.004444 -0.003903]
+ [-0.000831  0.000099  0.005397  0.00089   0.        0.        0.        0.        0.        0.        0.        0.        0.010646  0.004444  0.079322 -0.009911]
+ [-0.000425  0.000632  0.00089   0.006709  0.        0.        0.        0.        0.        0.        0.        0.        0.000509 -0.003903 -0.009911  0.092175]]
+2024-11-01 20:58:45,832:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: 
+V:=========================
+[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+2024-11-01 20:58:45,833:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: Diagonalizing qeom matrices for excited states...
+2024-11-01 20:58:45,834:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: ... [ 0.126504+0.j  0.067745+0.j  0.111543+0.j  0.080615+0.j  0.103319+0.j  0.098919+0.j  0.092084+0.j  0.088288+0.j -0.126504+0.j -0.111543+0.j -0.067745+0.j -0.098919+0.j -0.103319+0.j -0.080615+0.j -0.088288+0.j -0.092084+0.j  0.126504+0.j  0.067745+0.j  0.111543+0.j  0.092084+0.j -0.126504+0.j -0.111543+0.j -0.067745+0.j -0.092084+0.j  0.126504+0.j  0.067745+0.j  0.111543+0.j  0.092084+0.j -0.126504+0.j -0.111543+0.j -0.067745+0.j -0.092084+0.j]
+2024-11-01 20:58:45,835:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:DEBUG: Sorted real parts [-0.067745 -0.067745 -0.067745 -0.080615 -0.088288 -0.092084 -0.092084 -0.092084 -0.098919 -0.103319 -0.111543 -0.111543 -0.111543 -0.126504 -0.126504 -0.126504]
+2024-11-01 20:58:45,835:qiskit_nature.second_q.algorithms.excited_states_solvers.qeom:INFO: Gamma square = [0.994803 0.994803 0.994803 0.989662 0.982075 0.998018 0.998018 0.998018 0.987635 0.996242 0.996313 0.996313 0.996313 0.991185 0.991185 0.991185]
+
+================================================================================
+                         QUANTUM CALCULATION RESULTS
+================================================================================
+
+CONFIGURATION:
+-------------
+Backend: Qiskit Estimator
+Number of alpha electrons: 1
+Number of beta electrons: 1
+Number of orbitals: 5
+Number of shots: 0
+
+CALCULATION RESULTS:
+------------------
+Ground State Energy: N/A
+
+Excitation Energies:
+[0.067745 0.067745 0.067745 0.080615 0.088288 0.092084 0.092084 0.092084 0.098919 0.103319 0.111543 0.111543 0.111543 0.126504 0.126504 0.126504]
+
+Transition Amplitudes:
+
+State (0, 1):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 2):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 3):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 4):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 5):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 6):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 7):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 8):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 10):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 12):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 2):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 3):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 4):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 5):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 6):
+  AngularMomentum: 0.000981
+  Magnetization: 0.000490
+  ParticleNumber: 0.000981
+
+State (1, 7):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 8):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 10):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 11):
+  AngularMomentum: 0.022014
+  Magnetization: 0.011007
+  ParticleNumber: 0.022014
+
+State (1, 12):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 14):
+  AngularMomentum: -0.026645
+  Magnetization: -0.013322
+  ParticleNumber: -0.026645
+
+State (1, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (2, 3):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (2, 4):
+  AngularMomentum: -0.000000
+  Magnetization: 0.000000
+  ParticleNumber: -0.000000
+
+State (2, 5):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: -0.000000
+
+State (2, 6):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (2, 7):
+  AngularMomentum: -0.000981
+  Magnetization: -0.000000
+  ParticleNumber: -0.000981
+
+State (2, 8):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (2, 9):
+  AngularMomentum: 0.000000
+  Magnetization: -0.000000
+  ParticleNumber: 0.000000
+
+State (2, 10):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: 0.000000
+
+State (2, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (2, 12):
+  AngularMomentum: 0.022014
+  Magnetization: 0.000000
+  ParticleNumber: 0.022014
+
+State (2, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (2, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (2, 15):
+  AngularMomentum: 0.026645
+  Magnetization: 0.000000
+  ParticleNumber: 0.026645
+
+State (2, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 4):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 5):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 6):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 7):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 8):
+  AngularMomentum: -0.000981
+  Magnetization: 0.000490
+  ParticleNumber: -0.000981
+
+State (3, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 10):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 12):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 13):
+  AngularMomentum: 0.022014
+  Magnetization: -0.011007
+  ParticleNumber: 0.022014
+
+State (3, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 16):
+  AngularMomentum: -0.026645
+  Magnetization: 0.013322
+  ParticleNumber: -0.026645
+
+State (4, 5):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: -0.066994
+
+State (4, 6):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (4, 7):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: -0.000000
+
+State (4, 8):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (4, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: -0.101684
+
+State (4, 10):
+  AngularMomentum: 0.000000
+  Magnetization: -0.000000
+  ParticleNumber: 0.003212
+
+State (4, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (4, 12):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: 0.000000
+
+State (4, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (4, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (4, 15):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: 0.000000
+
+State (4, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (5, 6):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (5, 7):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: 0.000000
+
+State (5, 8):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (5, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.009554
+
+State (5, 10):
+  AngularMomentum: 0.000000
+  Magnetization: -0.000000
+  ParticleNumber: -0.032529
+
+State (5, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (5, 12):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: -0.000000
+
+State (5, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (5, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (5, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: -0.000000
+
+State (5, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 7):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 8):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 10):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 11):
+  AngularMomentum: -0.011062
+  Magnetization: -0.005531
+  ParticleNumber: -0.011062
+
+State (6, 12):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 14):
+  AngularMomentum: -0.010123
+  Magnetization: -0.005062
+  ParticleNumber: -0.010123
+
+State (6, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (7, 8):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (7, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: -0.000000
+
+State (7, 10):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: 0.000000
+
+State (7, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (7, 12):
+  AngularMomentum: 0.011062
+  Magnetization: -0.000000
+  ParticleNumber: 0.011062
+
+State (7, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (7, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (7, 15):
+  AngularMomentum: -0.010123
+  Magnetization: 0.000000
+  ParticleNumber: -0.010123
+
+State (7, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (8, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (8, 10):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (8, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (8, 12):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (8, 13):
+  AngularMomentum: 0.011062
+  Magnetization: -0.005531
+  ParticleNumber: 0.011062
+
+State (8, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (8, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (8, 16):
+  AngularMomentum: 0.010123
+  Magnetization: -0.005062
+  ParticleNumber: 0.010123
+
+State (9, 10):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: -0.057908
+
+State (9, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (9, 12):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (9, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (9, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (9, 15):
+  AngularMomentum: 0.000000
+  Magnetization: -0.000000
+  ParticleNumber: -0.000000
+
+State (9, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (10, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (10, 12):
+  AngularMomentum: -0.000000
+  Magnetization: 0.000000
+  ParticleNumber: -0.000000
+
+State (10, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (10, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (10, 15):
+  AngularMomentum: -0.000000
+  Magnetization: 0.000000
+  ParticleNumber: -0.000000
+
+State (10, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (11, 12):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (11, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (11, 14):
+  AngularMomentum: 0.002024
+  Magnetization: 0.001012
+  ParticleNumber: 0.002024
+
+State (11, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (11, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (12, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (12, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (12, 15):
+  AngularMomentum: -0.002024
+  Magnetization: 0.000000
+  ParticleNumber: -0.002024
+
+State (12, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (13, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (13, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (13, 16):
+  AngularMomentum: 0.002024
+  Magnetization: -0.001012
+  ParticleNumber: 0.002024
+
+State (14, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (14, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (15, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+================================================================================
+                         CALCULATION COMPLETED
+================================================================================
+Total Iterations: 0
+Final Energy: N/A
+Convergence Status: Completed
+================================================================================
+
+2024-11-01 21:01:02,471:__main__:INFO: 
+================================================================================
+                         QUANTUM CALCULATION RESULTS
+================================================================================
+
+CONFIGURATION:
+-------------
+Backend: Qiskit Estimator
+Number of alpha electrons: 1
+Number of beta electrons: 1
+Number of orbitals: 5
+Number of shots: 0
+
+CALCULATION RESULTS:
+------------------
+Ground State Energy: N/A
+
+Excitation Energies:
+[0.067745 0.067745 0.067745 0.080615 0.088288 0.092084 0.092084 0.092084 0.098919 0.103319 0.111543 0.111543 0.111543 0.126504 0.126504 0.126504]
+
+Transition Amplitudes:
+
+State (0, 1):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 2):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 3):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 4):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 5):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 6):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 7):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 8):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 10):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 12):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (0, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 2):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 3):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 4):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 5):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 6):
+  AngularMomentum: 0.000981
+  Magnetization: 0.000490
+  ParticleNumber: 0.000981
+
+State (1, 7):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 8):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 10):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 11):
+  AngularMomentum: 0.022014
+  Magnetization: 0.011007
+  ParticleNumber: 0.022014
+
+State (1, 12):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 14):
+  AngularMomentum: -0.026645
+  Magnetization: -0.013322
+  ParticleNumber: -0.026645
+
+State (1, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (1, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (2, 3):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (2, 4):
+  AngularMomentum: -0.000000
+  Magnetization: 0.000000
+  ParticleNumber: -0.000000
+
+State (2, 5):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: -0.000000
+
+State (2, 6):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (2, 7):
+  AngularMomentum: -0.000981
+  Magnetization: -0.000000
+  ParticleNumber: -0.000981
+
+State (2, 8):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (2, 9):
+  AngularMomentum: 0.000000
+  Magnetization: -0.000000
+  ParticleNumber: 0.000000
+
+State (2, 10):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: 0.000000
+
+State (2, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (2, 12):
+  AngularMomentum: 0.022014
+  Magnetization: 0.000000
+  ParticleNumber: 0.022014
+
+State (2, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (2, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (2, 15):
+  AngularMomentum: 0.026645
+  Magnetization: 0.000000
+  ParticleNumber: 0.026645
+
+State (2, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 4):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 5):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 6):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 7):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 8):
+  AngularMomentum: -0.000981
+  Magnetization: 0.000490
+  ParticleNumber: -0.000981
+
+State (3, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 10):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 12):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 13):
+  AngularMomentum: 0.022014
+  Magnetization: -0.011007
+  ParticleNumber: 0.022014
+
+State (3, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (3, 16):
+  AngularMomentum: -0.026645
+  Magnetization: 0.013322
+  ParticleNumber: -0.026645
+
+State (4, 5):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: -0.066994
+
+State (4, 6):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (4, 7):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: -0.000000
+
+State (4, 8):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (4, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: -0.101684
+
+State (4, 10):
+  AngularMomentum: 0.000000
+  Magnetization: -0.000000
+  ParticleNumber: 0.003212
+
+State (4, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (4, 12):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: 0.000000
+
+State (4, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (4, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (4, 15):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: 0.000000
+
+State (4, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (5, 6):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (5, 7):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: 0.000000
+
+State (5, 8):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (5, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.009554
+
+State (5, 10):
+  AngularMomentum: 0.000000
+  Magnetization: -0.000000
+  ParticleNumber: -0.032529
+
+State (5, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (5, 12):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: -0.000000
+
+State (5, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (5, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (5, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: -0.000000
+
+State (5, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 7):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 8):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 10):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 11):
+  AngularMomentum: -0.011062
+  Magnetization: -0.005531
+  ParticleNumber: -0.011062
+
+State (6, 12):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 14):
+  AngularMomentum: -0.010123
+  Magnetization: -0.005062
+  ParticleNumber: -0.010123
+
+State (6, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (6, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (7, 8):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (7, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: -0.000000
+
+State (7, 10):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: 0.000000
+
+State (7, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (7, 12):
+  AngularMomentum: 0.011062
+  Magnetization: -0.000000
+  ParticleNumber: 0.011062
+
+State (7, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (7, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (7, 15):
+  AngularMomentum: -0.010123
+  Magnetization: 0.000000
+  ParticleNumber: -0.010123
+
+State (7, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (8, 9):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (8, 10):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (8, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (8, 12):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (8, 13):
+  AngularMomentum: 0.011062
+  Magnetization: -0.005531
+  ParticleNumber: 0.011062
+
+State (8, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (8, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (8, 16):
+  AngularMomentum: 0.010123
+  Magnetization: -0.005062
+  ParticleNumber: 0.010123
+
+State (9, 10):
+  AngularMomentum: -0.000000
+  Magnetization: -0.000000
+  ParticleNumber: -0.057908
+
+State (9, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (9, 12):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (9, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (9, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (9, 15):
+  AngularMomentum: 0.000000
+  Magnetization: -0.000000
+  ParticleNumber: -0.000000
+
+State (9, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (10, 11):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (10, 12):
+  AngularMomentum: -0.000000
+  Magnetization: 0.000000
+  ParticleNumber: -0.000000
+
+State (10, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (10, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (10, 15):
+  AngularMomentum: -0.000000
+  Magnetization: 0.000000
+  ParticleNumber: -0.000000
+
+State (10, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (11, 12):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (11, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (11, 14):
+  AngularMomentum: 0.002024
+  Magnetization: 0.001012
+  ParticleNumber: 0.002024
+
+State (11, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (11, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (12, 13):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (12, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (12, 15):
+  AngularMomentum: -0.002024
+  Magnetization: 0.000000
+  ParticleNumber: -0.002024
+
+State (12, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (13, 14):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (13, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (13, 16):
+  AngularMomentum: 0.002024
+  Magnetization: -0.001012
+  ParticleNumber: 0.002024
+
+State (14, 15):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (14, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+State (15, 16):
+  AngularMomentum: 0.000000
+  Magnetization: 0.000000
+  ParticleNumber: 0.000000
+
+================================================================================
+                         CALCULATION COMPLETED
+================================================================================
+Total Iterations: 0
+Final Energy: N/A
+Convergence Status: Completed
+================================================================================
+
+2024-11-01 21:01:02,473:__main__:INFO: Results have been saved to 'quantum_calculation_results.json'

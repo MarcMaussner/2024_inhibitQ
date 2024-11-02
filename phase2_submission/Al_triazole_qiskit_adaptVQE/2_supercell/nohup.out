@@ -1,0 +1,3 @@
+chmod: changing permissions of '/home/ubuntu/clean_calculations/Al_triazole_qiskit_adaptVQE/Al111_4x4_active_space_adsorbate-1_0.fcidump': Operation not permitted
+chmod: changing permissions of '/home/ubuntu/clean_calculations/Al_triazole_qiskit_adaptVQE/Al111_4x4_active_space_adsorbate-RESTART.wfn': Operation not permitted
+chmod: changing permissions of '/home/ubuntu/clean_calculations/Al_triazole_qiskit_adaptVQE/Al111_4x4_active_space_adsorbate-RESTART.wfn.bak-1': Operation not permitted

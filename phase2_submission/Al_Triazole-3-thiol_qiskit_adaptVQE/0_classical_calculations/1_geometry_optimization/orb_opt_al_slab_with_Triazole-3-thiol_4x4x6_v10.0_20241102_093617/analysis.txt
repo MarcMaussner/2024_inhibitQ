@@ -1,0 +1,1897 @@
+Initial structure analysis:
+energy: -422.863281
+avg_mol_surf_distance: 3.191609
+max_force: 3.206396
+avg_force: 0.170351
+max_displacement: 0.000000
+
+Step 0:
+energy: -422.863281
+avg_mol_surf_distance: 3.191609
+max_force: 3.206396
+avg_force: 0.170351
+max_displacement: 0.000000
+
+Step 1:
+energy: -423.002991
+avg_mol_surf_distance: 3.193053
+max_force: 2.281473
+avg_force: 0.125941
+max_displacement: 0.045806
+
+Step 2:
+energy: -423.033936
+avg_mol_surf_distance: 3.195729
+max_force: 0.912336
+avg_force: 0.051277
+max_displacement: 0.046139
+
+Step 3:
+energy: -423.041260
+avg_mol_surf_distance: 3.198708
+max_force: 0.327014
+avg_force: 0.036667
+max_displacement: 0.072502
+
+Step 4:
+energy: -423.034241
+avg_mol_surf_distance: 3.202493
+max_force: 0.219088
+avg_force: 0.029529
+max_displacement: 0.091673
+
+Step 5:
+energy: -423.017426
+avg_mol_surf_distance: 3.207265
+max_force: 0.214816
+avg_force: 0.026745
+max_displacement: 0.107595
+
+Step 6:
+energy: -423.050598
+avg_mol_surf_distance: 3.214313
+max_force: 0.364995
+avg_force: 0.028077
+max_displacement: 0.122956
+
+Step 7:
+energy: -423.088989
+avg_mol_surf_distance: 3.223318
+max_force: 0.411855
+avg_force: 0.030696
+max_displacement: 0.132513
+
+Step 8:
+energy: -423.312256
+avg_mol_surf_distance: 3.249147
+max_force: 0.505113
+avg_force: 0.039475
+max_displacement: 0.151845
+
+Step 9:
+energy: -423.797302
+avg_mol_surf_distance: 3.311509
+max_force: 1.232788
+avg_force: 0.074028
+max_displacement: 0.240319
+
+Step 10:
+energy: -423.757385
+avg_mol_surf_distance: 3.294770
+max_force: 0.499123
+avg_force: 0.035453
+max_displacement: 0.206136
+
+Step 11:
+energy: -423.894196
+avg_mol_surf_distance: 3.304853
+max_force: 0.221565
+avg_force: 0.025018
+max_displacement: 0.228786
+
+Step 12:
+energy: -423.934631
+avg_mol_surf_distance: 3.307398
+max_force: 0.133470
+avg_force: 0.017983
+max_displacement: 0.237051
+
+Step 13:
+energy: -423.946503
+avg_mol_surf_distance: 3.307901
+max_force: 0.114395
+avg_force: 0.016770
+max_displacement: 0.240731
+
+Step 14:
+energy: -423.982239
+avg_mol_surf_distance: 3.312551
+max_force: 0.323505
+avg_force: 0.026099
+max_displacement: 0.258432
+
+Step 15:
+energy: -424.029297
+avg_mol_surf_distance: 3.337047
+max_force: 1.427248
+avg_force: 0.081174
+max_displacement: 0.339176
+
+Step 16:
+energy: -424.015747
+avg_mol_surf_distance: 3.318725
+max_force: 0.434131
+avg_force: 0.031570
+max_displacement: 0.282219
+
+Step 17:
+energy: -424.039948
+avg_mol_surf_distance: 3.322895
+max_force: 0.404467
+avg_force: 0.028687
+max_displacement: 0.294579
+
+Step 18:
+energy: -424.082886
+avg_mol_surf_distance: 3.343847
+max_force: 0.428442
+avg_force: 0.028796
+max_displacement: 0.360822
+
+Step 19:
+energy: -424.082489
+avg_mol_surf_distance: 3.346550
+max_force: 0.248050
+avg_force: 0.022752
+max_displacement: 0.376661
+
+Step 20:
+energy: -424.084747
+avg_mol_surf_distance: 3.343784
+max_force: 0.191276
+avg_force: 0.017124
+max_displacement: 0.374494
+
+Step 21:
+energy: -424.124695
+avg_mol_surf_distance: 3.344741
+max_force: 0.165334
+avg_force: 0.015205
+max_displacement: 0.382312
+
+Step 22:
+energy: -424.145081
+avg_mol_surf_distance: 3.348705
+max_force: 0.152566
+avg_force: 0.013425
+max_displacement: 0.408538
+
+Step 23:
+energy: -424.169983
+avg_mol_surf_distance: 3.350255
+max_force: 0.245009
+avg_force: 0.021224
+max_displacement: 0.428689
+
+Step 24:
+energy: -424.189026
+avg_mol_surf_distance: 3.344130
+max_force: 0.365530
+avg_force: 0.028387
+max_displacement: 0.423077
+
+Step 25:
+energy: -424.212158
+avg_mol_surf_distance: 3.340476
+max_force: 0.318716
+avg_force: 0.022034
+max_displacement: 0.413517
+
+Step 26:
+energy: -424.221558
+avg_mol_surf_distance: 3.336255
+max_force: 0.239004
+avg_force: 0.022117
+max_displacement: 0.442691
+
+Step 27:
+energy: -424.224915
+avg_mol_surf_distance: 3.329378
+max_force: 0.208972
+avg_force: 0.019179
+max_displacement: 0.451919
+
+Step 28:
+energy: -424.226257
+avg_mol_surf_distance: 3.324499
+max_force: 0.157442
+avg_force: 0.015104
+max_displacement: 0.461389
+
+Step 29:
+energy: -424.243408
+avg_mol_surf_distance: 3.322836
+max_force: 0.121344
+avg_force: 0.012441
+max_displacement: 0.466901
+
+Step 30:
+energy: -424.263885
+avg_mol_surf_distance: 3.323479
+max_force: 0.098740
+avg_force: 0.011720
+max_displacement: 0.473346
+
+Step 31:
+energy: -424.306519
+avg_mol_surf_distance: 3.326880
+max_force: 0.121996
+avg_force: 0.012146
+max_displacement: 0.481461
+
+Step 32:
+energy: -424.352631
+avg_mol_surf_distance: 3.332293
+max_force: 0.146686
+avg_force: 0.012246
+max_displacement: 0.488603
+
+Step 33:
+energy: -424.399689
+avg_mol_surf_distance: 3.338783
+max_force: 0.135979
+avg_force: 0.011380
+max_displacement: 0.497164
+
+Step 34:
+energy: -424.424622
+avg_mol_surf_distance: 3.340787
+max_force: 0.103186
+avg_force: 0.010221
+max_displacement: 0.501585
+
+Step 35:
+energy: -424.441345
+avg_mol_surf_distance: 3.339557
+max_force: 0.110128
+avg_force: 0.010156
+max_displacement: 0.508435
+
+Step 36:
+energy: -424.449127
+avg_mol_surf_distance: 3.336318
+max_force: 0.149977
+avg_force: 0.011908
+max_displacement: 0.517963
+
+Step 37:
+energy: -424.459839
+avg_mol_surf_distance: 3.330067
+max_force: 0.218318
+avg_force: 0.014748
+max_displacement: 0.529992
+
+Step 38:
+energy: -424.463989
+avg_mol_surf_distance: 3.321993
+max_force: 0.219406
+avg_force: 0.016378
+max_displacement: 0.542416
+
+Step 39:
+energy: -424.476257
+avg_mol_surf_distance: 3.318565
+max_force: 0.102878
+avg_force: 0.009928
+max_displacement: 0.547946
+
+Step 40:
+energy: -424.474182
+avg_mol_surf_distance: 3.319321
+max_force: 0.078080
+avg_force: 0.008248
+max_displacement: 0.541889
+
+Step 41:
+energy: -424.467224
+avg_mol_surf_distance: 3.321406
+max_force: 0.087778
+avg_force: 0.008279
+max_displacement: 0.529361
+
+Step 42:
+energy: -424.464966
+avg_mol_surf_distance: 3.323419
+max_force: 0.086706
+avg_force: 0.008164
+max_displacement: 0.525172
+
+Step 43:
+energy: -424.481293
+avg_mol_surf_distance: 3.324550
+max_force: 0.107521
+avg_force: 0.008651
+max_displacement: 0.534304
+
+Step 44:
+energy: -424.501526
+avg_mol_surf_distance: 3.326941
+max_force: 0.653570
+avg_force: 0.042496
+max_displacement: 0.612620
+
+Step 45:
+energy: -424.515381
+avg_mol_surf_distance: 3.325435
+max_force: 0.154582
+avg_force: 0.012553
+max_displacement: 0.552241
+
+Step 46:
+energy: -424.529663
+avg_mol_surf_distance: 3.326400
+max_force: 0.131202
+avg_force: 0.011214
+max_displacement: 0.563879
+
+Step 47:
+energy: -424.572571
+avg_mol_surf_distance: 3.330031
+max_force: 0.123374
+avg_force: 0.010588
+max_displacement: 0.599589
+
+Step 48:
+energy: -424.591034
+avg_mol_surf_distance: 3.333275
+max_force: 0.074341
+avg_force: 0.009813
+max_displacement: 0.622877
+
+Step 49:
+energy: -424.605225
+avg_mol_surf_distance: 3.334840
+max_force: 0.071771
+avg_force: 0.009382
+max_displacement: 0.633740
+
+Step 50:
+energy: -424.608521
+avg_mol_surf_distance: 3.338606
+max_force: 0.072865
+avg_force: 0.009626
+max_displacement: 0.637845
+
+Step 51:
+energy: -424.609589
+avg_mol_surf_distance: 3.340451
+max_force: 0.073858
+avg_force: 0.009389
+max_displacement: 0.632254
+
+Step 52:
+energy: -424.601990
+avg_mol_surf_distance: 3.343513
+max_force: 0.081477
+avg_force: 0.008977
+max_displacement: 0.613024
+
+Step 53:
+energy: -424.600494
+avg_mol_surf_distance: 3.344303
+max_force: 0.084765
+avg_force: 0.007063
+max_displacement: 0.607785
+
+Step 54:
+energy: -424.595612
+avg_mol_surf_distance: 3.346655
+max_force: 0.066507
+avg_force: 0.006193
+max_displacement: 0.613811
+
+Step 55:
+energy: -424.599060
+avg_mol_surf_distance: 3.350094
+max_force: 0.114392
+avg_force: 0.007322
+max_displacement: 0.625202
+
+Step 56:
+energy: -424.589691
+avg_mol_surf_distance: 3.355914
+max_force: 0.137293
+avg_force: 0.009112
+max_displacement: 0.641738
+
+Step 57:
+energy: -424.579620
+avg_mol_surf_distance: 3.360715
+max_force: 0.109856
+avg_force: 0.008739
+max_displacement: 0.639712
+
+Step 58:
+energy: -424.571930
+avg_mol_surf_distance: 3.363362
+max_force: 0.070676
+avg_force: 0.007956
+max_displacement: 0.621045
+
+Step 59:
+energy: -424.572693
+avg_mol_surf_distance: 3.360463
+max_force: 0.056594
+avg_force: 0.005756
+max_displacement: 0.613121
+
+Step 60:
+energy: -424.566895
+avg_mol_surf_distance: 3.360636
+max_force: 0.047731
+avg_force: 0.005412
+max_displacement: 0.605225
+
+Step 61:
+energy: -424.557068
+avg_mol_surf_distance: 3.362628
+max_force: 0.069138
+avg_force: 0.006540
+max_displacement: 0.597354
+
+Step 62:
+energy: -424.544708
+avg_mol_surf_distance: 3.367335
+max_force: 0.143956
+avg_force: 0.008682
+max_displacement: 0.592752
+
+Step 63:
+energy: -424.525696
+avg_mol_surf_distance: 3.374949
+max_force: 0.187698
+avg_force: 0.011215
+max_displacement: 0.590168
+
+Step 64:
+energy: -424.516846
+avg_mol_surf_distance: 3.381983
+max_force: 0.134404
+avg_force: 0.011055
+max_displacement: 0.597335
+
+Step 65:
+energy: -424.475159
+avg_mol_surf_distance: 3.394254
+max_force: 0.118177
+avg_force: 0.014406
+max_displacement: 0.607393
+
+Step 66:
+energy: -424.477722
+avg_mol_surf_distance: 3.393622
+max_force: 0.097082
+avg_force: 0.012024
+max_displacement: 0.616813
+
+Step 67:
+energy: -424.457703
+avg_mol_surf_distance: 3.395953
+max_force: 0.092681
+avg_force: 0.012988
+max_displacement: 0.628301
+
+Step 68:
+energy: -424.429871
+avg_mol_surf_distance: 3.390805
+max_force: 0.188927
+avg_force: 0.016177
+max_displacement: 0.644690
+
+Step 69:
+energy: -424.439728
+avg_mol_surf_distance: 3.384772
+max_force: 0.155021
+avg_force: 0.013819
+max_displacement: 0.635300
+
+Step 70:
+energy: -424.441956
+avg_mol_surf_distance: 3.379924
+max_force: 0.175930
+avg_force: 0.012838
+max_displacement: 0.638152
+
+Step 71:
+energy: -424.404938
+avg_mol_surf_distance: 3.378815
+max_force: 0.319930
+avg_force: 0.018709
+max_displacement: 0.651781
+
+Step 72:
+energy: -424.370850
+avg_mol_surf_distance: 3.375526
+max_force: 0.300714
+avg_force: 0.023977
+max_displacement: 0.657358
+
+Step 73:
+energy: -424.389740
+avg_mol_surf_distance: 3.371425
+max_force: 0.130428
+avg_force: 0.013921
+max_displacement: 0.654477
+
+Step 74:
+energy: -424.413727
+avg_mol_surf_distance: 3.373759
+max_force: 0.064034
+avg_force: 0.008625
+max_displacement: 0.655239
+
+Step 75:
+energy: -424.423767
+avg_mol_surf_distance: 3.375237
+max_force: 0.065226
+avg_force: 0.007984
+max_displacement: 0.661606
+
+Step 76:
+energy: -424.451691
+avg_mol_surf_distance: 3.378852
+max_force: 0.100364
+avg_force: 0.008061
+max_displacement: 0.668103
+
+Step 77:
+energy: -424.469177
+avg_mol_surf_distance: 3.384267
+max_force: 0.120390
+avg_force: 0.009260
+max_displacement: 0.669372
+
+Step 78:
+energy: -424.457001
+avg_mol_surf_distance: 3.390710
+max_force: 0.106804
+avg_force: 0.012603
+max_displacement: 0.678303
+
+Step 79:
+energy: -424.438049
+avg_mol_surf_distance: 3.388228
+max_force: 0.083672
+avg_force: 0.010462
+max_displacement: 0.678083
+
+Step 80:
+energy: -424.407745
+avg_mol_surf_distance: 3.385454
+max_force: 0.112045
+avg_force: 0.013466
+max_displacement: 0.700875
+
+Step 81:
+energy: -424.402740
+avg_mol_surf_distance: 3.377528
+max_force: 0.099961
+avg_force: 0.011891
+max_displacement: 0.706244
+
+Step 82:
+energy: -424.422668
+avg_mol_surf_distance: 3.372973
+max_force: 0.086789
+avg_force: 0.008135
+max_displacement: 0.699443
+
+Step 83:
+energy: -424.427673
+avg_mol_surf_distance: 3.373150
+max_force: 0.048181
+avg_force: 0.006584
+max_displacement: 0.706932
+
+Step 84:
+energy: -424.439972
+avg_mol_surf_distance: 3.374199
+max_force: 0.073798
+avg_force: 0.009202
+max_displacement: 0.735131
+
+Step 85:
+energy: -424.424377
+avg_mol_surf_distance: 3.374486
+max_force: 0.070792
+avg_force: 0.010292
+max_displacement: 0.744532
+
+Step 86:
+energy: -424.390076
+avg_mol_surf_distance: 3.373842
+max_force: 0.119240
+avg_force: 0.010836
+max_displacement: 0.754563
+
+Step 87:
+energy: -424.381378
+avg_mol_surf_distance: 3.372975
+max_force: 0.090737
+avg_force: 0.008605
+max_displacement: 0.751660
+
+Step 88:
+energy: -424.374146
+avg_mol_surf_distance: 3.371781
+max_force: 0.054711
+avg_force: 0.007619
+max_displacement: 0.755375
+
+Step 89:
+energy: -424.389679
+avg_mol_surf_distance: 3.373220
+max_force: 0.070025
+avg_force: 0.007709
+max_displacement: 0.746736
+
+Step 90:
+energy: -424.403687
+avg_mol_surf_distance: 3.375844
+max_force: 0.073433
+avg_force: 0.007956
+max_displacement: 0.739540
+
+Step 91:
+energy: -424.407654
+avg_mol_surf_distance: 3.379646
+max_force: 0.068357
+avg_force: 0.007116
+max_displacement: 0.742159
+
+Step 92:
+energy: -424.374573
+avg_mol_surf_distance: 3.386954
+max_force: 0.145333
+avg_force: 0.012828
+max_displacement: 0.770291
+
+Step 93:
+energy: -424.343201
+avg_mol_surf_distance: 3.385403
+max_force: 0.107750
+avg_force: 0.009568
+max_displacement: 0.775073
+
+Step 94:
+energy: -424.262329
+avg_mol_surf_distance: 3.382363
+max_force: 0.176692
+avg_force: 0.011357
+max_displacement: 0.807553
+
+Step 95:
+energy: -424.276337
+avg_mol_surf_distance: 3.377717
+max_force: 0.057806
+avg_force: 0.006900
+max_displacement: 0.802853
+
+Step 96:
+energy: -424.277130
+avg_mol_surf_distance: 3.379747
+max_force: 0.044241
+avg_force: 0.005808
+max_displacement: 0.807993
+
+Step 97:
+energy: -424.254944
+avg_mol_surf_distance: 3.385704
+max_force: 0.113615
+avg_force: 0.010389
+max_displacement: 0.839328
+
+Step 98:
+energy: -424.241028
+avg_mol_surf_distance: 3.386636
+max_force: 0.097092
+avg_force: 0.011402
+max_displacement: 0.854232
+
+Step 99:
+energy: -424.215393
+avg_mol_surf_distance: 3.384827
+max_force: 0.098414
+avg_force: 0.012298
+max_displacement: 0.880982
+
+Step 100:
+energy: -424.231018
+avg_mol_surf_distance: 3.384667
+max_force: 0.075750
+avg_force: 0.009384
+max_displacement: 0.867062
+
+Step 101:
+energy: -424.242981
+avg_mol_surf_distance: 3.385362
+max_force: 0.038448
+avg_force: 0.006783
+max_displacement: 0.857953
+
+Step 102:
+energy: -424.245789
+avg_mol_surf_distance: 3.386840
+max_force: 0.039871
+avg_force: 0.006055
+max_displacement: 0.856191
+
+Step 103:
+energy: -424.252777
+avg_mol_surf_distance: 3.386999
+max_force: 0.080029
+avg_force: 0.006583
+max_displacement: 0.861283
+
+Step 104:
+energy: -424.256042
+avg_mol_surf_distance: 3.385647
+max_force: 0.098887
+avg_force: 0.007521
+max_displacement: 0.880562
+
+Step 105:
+energy: -424.234528
+avg_mol_surf_distance: 3.383292
+max_force: 0.093794
+avg_force: 0.009830
+max_displacement: 0.936194
+
+Step 106:
+energy: -424.212524
+avg_mol_surf_distance: 3.381963
+max_force: 0.051170
+avg_force: 0.009893
+max_displacement: 0.977647
+
+Step 107:
+energy: -424.214844
+avg_mol_surf_distance: 3.382509
+max_force: 0.040213
+avg_force: 0.007658
+max_displacement: 0.979426
+
+Step 108:
+energy: -424.235168
+avg_mol_surf_distance: 3.384165
+max_force: 0.063919
+avg_force: 0.009719
+max_displacement: 1.002961
+
+Step 109:
+energy: -424.154480
+avg_mol_surf_distance: 3.393095
+max_force: 0.648370
+avg_force: 0.072902
+max_displacement: 1.173078
+
+Step 110:
+energy: -424.254944
+avg_mol_surf_distance: 3.384463
+max_force: 0.078686
+avg_force: 0.009758
+max_displacement: 1.011549
+
+Step 111:
+energy: -424.260254
+avg_mol_surf_distance: 3.384863
+max_force: 0.079921
+avg_force: 0.010474
+max_displacement: 1.019049
+
+Step 112:
+energy: -424.329803
+avg_mol_surf_distance: 3.393620
+max_force: 0.406864
+avg_force: 0.045286
+max_displacement: 1.200804
+
+Step 113:
+energy: -424.285767
+avg_mol_surf_distance: 3.387044
+max_force: 0.139129
+avg_force: 0.014975
+max_displacement: 1.060702
+
+Step 114:
+energy: -424.299866
+avg_mol_surf_distance: 3.388179
+max_force: 0.131302
+avg_force: 0.015296
+max_displacement: 1.081498
+
+Step 115:
+energy: -424.341125
+avg_mol_surf_distance: 3.400966
+max_force: 0.320390
+avg_force: 0.028317
+max_displacement: 1.254895
+
+Step 116:
+energy: -424.349030
+avg_mol_surf_distance: 3.398573
+max_force: 0.097720
+avg_force: 0.012566
+max_displacement: 1.192738
+
+Step 117:
+energy: -424.308716
+avg_mol_surf_distance: 3.398478
+max_force: 0.188728
+avg_force: 0.011963
+max_displacement: 1.164965
+
+Step 118:
+energy: -424.308899
+avg_mol_surf_distance: 3.401447
+max_force: 0.038686
+avg_force: 0.006828
+max_displacement: 1.167906
+
+Step 119:
+energy: -424.316101
+avg_mol_surf_distance: 3.402913
+max_force: 0.051810
+avg_force: 0.007486
+max_displacement: 1.166195
+
+Step 120:
+energy: -424.326965
+avg_mol_surf_distance: 3.403139
+max_force: 0.071546
+avg_force: 0.007628
+max_displacement: 1.166462
+
+Step 121:
+energy: -424.334320
+avg_mol_surf_distance: 3.403090
+max_force: 0.049964
+avg_force: 0.006018
+max_displacement: 1.172435
+
+Step 122:
+energy: -424.353363
+avg_mol_surf_distance: 3.404819
+max_force: 0.057191
+avg_force: 0.006116
+max_displacement: 1.194199
+
+Step 123:
+energy: -424.398041
+avg_mol_surf_distance: 3.408378
+max_force: 0.180968
+avg_force: 0.010592
+max_displacement: 1.247026
+
+Step 124:
+energy: -424.409821
+avg_mol_surf_distance: 3.409458
+max_force: 0.094473
+avg_force: 0.009173
+max_displacement: 1.260362
+
+Step 125:
+energy: -424.440613
+avg_mol_surf_distance: 3.416534
+max_force: 0.176408
+avg_force: 0.012852
+max_displacement: 1.321042
+
+Step 126:
+energy: -424.456848
+avg_mol_surf_distance: 3.443750
+max_force: 0.943748
+avg_force: 0.053933
+max_displacement: 1.495175
+
+Step 127:
+energy: -424.405518
+avg_mol_surf_distance: 3.426204
+max_force: 0.182834
+avg_force: 0.014386
+max_displacement: 1.335436
+
+Step 128:
+energy: -424.475220
+avg_mol_surf_distance: 3.418106
+max_force: 0.401167
+avg_force: 0.015496
+max_displacement: 1.340685
+
+Step 129:
+energy: -424.449402
+avg_mol_surf_distance: 3.422989
+max_force: 0.088920
+avg_force: 0.008040
+max_displacement: 1.343488
+
+Step 130:
+energy: -424.457764
+avg_mol_surf_distance: 3.425696
+max_force: 0.055935
+avg_force: 0.007068
+max_displacement: 1.359618
+
+Step 131:
+energy: -424.487244
+avg_mol_surf_distance: 3.433327
+max_force: 0.079774
+avg_force: 0.007052
+max_displacement: 1.399093
+
+Step 132:
+energy: -424.509277
+avg_mol_surf_distance: 3.439795
+max_force: 0.045492
+avg_force: 0.005984
+max_displacement: 1.425007
+
+Step 133:
+energy: -424.547485
+avg_mol_surf_distance: 3.445190
+max_force: 0.043453
+avg_force: 0.006360
+max_displacement: 1.456079
+
+Step 134:
+energy: -424.596313
+avg_mol_surf_distance: 3.450120
+max_force: 0.071156
+avg_force: 0.008412
+max_displacement: 1.500262
+
+Step 135:
+energy: -424.583862
+avg_mol_surf_distance: 3.448988
+max_force: 0.071729
+avg_force: 0.007831
+max_displacement: 1.514069
+
+Step 136:
+energy: -424.585236
+avg_mol_surf_distance: 3.448856
+max_force: 0.076093
+avg_force: 0.008186
+max_displacement: 1.547144
+
+Step 137:
+energy: -424.569794
+avg_mol_surf_distance: 3.448908
+max_force: 0.043079
+avg_force: 0.006261
+max_displacement: 1.543586
+
+Step 138:
+energy: -424.553650
+avg_mol_surf_distance: 3.452137
+max_force: 0.023696
+avg_force: 0.005456
+max_displacement: 1.553874
+
+Step 139:
+energy: -424.550781
+avg_mol_surf_distance: 3.462009
+max_force: 0.193531
+avg_force: 0.012186
+max_displacement: 1.604887
+
+Step 140:
+energy: -424.537750
+avg_mol_surf_distance: 3.457850
+max_force: 0.070558
+avg_force: 0.006535
+max_displacement: 1.564928
+
+Step 141:
+energy: -424.547791
+avg_mol_surf_distance: 3.458097
+max_force: 0.039085
+avg_force: 0.005763
+max_displacement: 1.564875
+
+Step 142:
+energy: -424.577972
+avg_mol_surf_distance: 3.460926
+max_force: 0.039969
+avg_force: 0.005536
+max_displacement: 1.581981
+
+Step 143:
+energy: -424.634766
+avg_mol_surf_distance: 3.467972
+max_force: 0.114108
+avg_force: 0.012865
+max_displacement: 1.631506
+
+Step 144:
+energy: -424.675537
+avg_mol_surf_distance: 3.474422
+max_force: 0.247178
+avg_force: 0.022154
+max_displacement: 1.686266
+
+Step 145:
+energy: -424.665527
+avg_mol_surf_distance: 3.475977
+max_force: 0.155180
+avg_force: 0.012439
+max_displacement: 1.701795
+
+Step 146:
+energy: -424.667511
+avg_mol_surf_distance: 3.489377
+max_force: 0.501107
+avg_force: 0.018481
+max_displacement: 1.763235
+
+Step 147:
+energy: -424.650391
+avg_mol_surf_distance: 3.485923
+max_force: 0.061597
+avg_force: 0.006749
+max_displacement: 1.737410
+
+Step 148:
+energy: -424.654877
+avg_mol_surf_distance: 3.483630
+max_force: 0.068642
+avg_force: 0.005899
+max_displacement: 1.726386
+
+Step 149:
+energy: -424.660156
+avg_mol_surf_distance: 3.482581
+max_force: 0.108996
+avg_force: 0.006181
+max_displacement: 1.725277
+
+Step 150:
+energy: -424.657623
+avg_mol_surf_distance: 3.479913
+max_force: 0.172141
+avg_force: 0.009500
+max_displacement: 1.717606
+
+Step 151:
+energy: -424.636230
+avg_mol_surf_distance: 3.475058
+max_force: 0.136960
+avg_force: 0.009830
+max_displacement: 1.706868
+
+Step 152:
+energy: -424.621643
+avg_mol_surf_distance: 3.471896
+max_force: 0.046662
+avg_force: 0.006720
+max_displacement: 1.719832
+
+Step 153:
+energy: -424.618835
+avg_mol_surf_distance: 3.472841
+max_force: 0.032066
+avg_force: 0.005709
+max_displacement: 1.740864
+
+Step 154:
+energy: -424.621063
+avg_mol_surf_distance: 3.473637
+max_force: 0.038016
+avg_force: 0.005231
+max_displacement: 1.753214
+
+Step 155:
+energy: -424.612335
+avg_mol_surf_distance: 3.473460
+max_force: 0.052731
+avg_force: 0.006522
+max_displacement: 1.762353
+
+Step 156:
+energy: -424.577423
+avg_mol_surf_distance: 3.469268
+max_force: 0.202124
+avg_force: 0.013124
+max_displacement: 1.764833
+
+Step 157:
+energy: -424.525116
+avg_mol_surf_distance: 3.459256
+max_force: 0.329605
+avg_force: 0.022143
+max_displacement: 1.741403
+
+Step 158:
+energy: -424.509613
+avg_mol_surf_distance: 3.450909
+max_force: 0.205739
+avg_force: 0.016053
+max_displacement: 1.716773
+
+Step 159:
+energy: -424.557007
+avg_mol_surf_distance: 3.450879
+max_force: 0.110239
+avg_force: 0.007582
+max_displacement: 1.707578
+
+Step 160:
+energy: -424.563721
+avg_mol_surf_distance: 3.450286
+max_force: 0.048562
+avg_force: 0.006358
+max_displacement: 1.724098
+
+Step 161:
+energy: -424.566650
+avg_mol_surf_distance: 3.451466
+max_force: 0.056062
+avg_force: 0.005872
+max_displacement: 1.732102
+
+Step 162:
+energy: -424.550781
+avg_mol_surf_distance: 3.451455
+max_force: 0.104296
+avg_force: 0.007849
+max_displacement: 1.744370
+
+Step 163:
+energy: -424.570068
+avg_mol_surf_distance: 3.448766
+max_force: 0.135156
+avg_force: 0.010005
+max_displacement: 1.749458
+
+Step 164:
+energy: -424.444641
+avg_mol_surf_distance: 3.417999
+max_force: 1.093625
+avg_force: 0.063887
+max_displacement: 1.764699
+
+Step 165:
+energy: -424.589844
+avg_mol_surf_distance: 3.437245
+max_force: 0.099356
+avg_force: 0.008027
+max_displacement: 1.760378
+
+Step 166:
+energy: -424.587769
+avg_mol_surf_distance: 3.432478
+max_force: 0.164911
+avg_force: 0.010799
+max_displacement: 1.773337
+
+Step 167:
+energy: -424.282990
+avg_mol_surf_distance: 3.398410
+max_force: 3.121893
+avg_force: 0.114887
+max_displacement: 1.962264
+
+Step 168:
+energy: -424.145111
+avg_mol_surf_distance: 3.412746
+max_force: 7.834225
+avg_force: 0.202335
+max_displacement: 1.776891
+
+Step 169:
+energy: -424.162415
+avg_mol_surf_distance: 3.427286
+max_force: 1.334043
+avg_force: 0.057735
+max_displacement: 1.770279
+
+Step 170:
+energy: -424.479706
+avg_mol_surf_distance: 3.383899
+max_force: 0.808828
+avg_force: 0.046673
+max_displacement: 1.776795
+
+Step 171:
+energy: -424.384430
+avg_mol_surf_distance: 3.402188
+max_force: 0.076125
+avg_force: 0.010288
+max_displacement: 1.780710
+
+Step 172:
+energy: -424.389130
+avg_mol_surf_distance: 3.405634
+max_force: 0.055164
+avg_force: 0.008183
+max_displacement: 1.772703
+
+Step 173:
+energy: -424.429077
+avg_mol_surf_distance: 3.410635
+max_force: 0.069541
+avg_force: 0.008155
+max_displacement: 1.770191
+
+Step 174:
+energy: -424.472168
+avg_mol_surf_distance: 3.414848
+max_force: 0.093389
+avg_force: 0.010105
+max_displacement: 1.772592
+
+Step 175:
+energy: -424.500793
+avg_mol_surf_distance: 3.415125
+max_force: 0.076553
+avg_force: 0.008402
+max_displacement: 1.778931
+
+Step 176:
+energy: -424.545959
+avg_mol_surf_distance: 3.411049
+max_force: 0.112887
+avg_force: 0.009896
+max_displacement: 1.801612
+
+Step 177:
+energy: -424.535126
+avg_mol_surf_distance: 3.407159
+max_force: 0.134247
+avg_force: 0.011640
+max_displacement: 1.813571
+
+Step 178:
+energy: -424.496887
+avg_mol_surf_distance: 3.404229
+max_force: 0.112085
+avg_force: 0.010347
+max_displacement: 1.820405
+
+Step 179:
+energy: -424.482971
+avg_mol_surf_distance: 3.406714
+max_force: 0.059144
+avg_force: 0.007227
+max_displacement: 1.817425
+
+Step 180:
+energy: -424.499664
+avg_mol_surf_distance: 3.412197
+max_force: 0.088785
+avg_force: 0.007796
+max_displacement: 1.817400
+
+Step 181:
+energy: -424.498627
+avg_mol_surf_distance: 3.415613
+max_force: 0.118487
+avg_force: 0.010899
+max_displacement: 1.815877
+
+Step 182:
+energy: -424.546326
+avg_mol_surf_distance: 3.417863
+max_force: 0.179903
+avg_force: 0.015460
+max_displacement: 1.798309
+
+Step 183:
+energy: -424.575378
+avg_mol_surf_distance: 3.412494
+max_force: 0.098730
+avg_force: 0.012062
+max_displacement: 1.771052
+
+Step 184:
+energy: -424.553162
+avg_mol_surf_distance: 3.404736
+max_force: 0.040989
+avg_force: 0.006311
+max_displacement: 1.743981
+
+Step 185:
+energy: -424.538208
+avg_mol_surf_distance: 3.400033
+max_force: 0.042270
+avg_force: 0.005587
+max_displacement: 1.729356
+
+Step 186:
+energy: -424.506470
+avg_mol_surf_distance: 3.393574
+max_force: 0.053400
+avg_force: 0.005650
+max_displacement: 1.716217
+
+Step 187:
+energy: -424.492310
+avg_mol_surf_distance: 3.389291
+max_force: 0.048114
+avg_force: 0.005477
+max_displacement: 1.713491
+
+Step 188:
+energy: -424.480682
+avg_mol_surf_distance: 3.387830
+max_force: 0.045755
+avg_force: 0.005085
+max_displacement: 1.717058
+
+Step 189:
+energy: -424.489777
+avg_mol_surf_distance: 3.388997
+max_force: 0.034384
+avg_force: 0.004869
+max_displacement: 1.720786
+
+Step 190:
+energy: -424.467468
+avg_mol_surf_distance: 3.390396
+max_force: 0.059658
+avg_force: 0.005594
+max_displacement: 1.727763
+
+Step 191:
+energy: -424.473389
+avg_mol_surf_distance: 3.390659
+max_force: 0.102419
+avg_force: 0.007035
+max_displacement: 1.724795
+
+Step 192:
+energy: -424.472900
+avg_mol_surf_distance: 3.381705
+max_force: 1.270015
+avg_force: 0.057246
+max_displacement: 1.657323
+
+Step 193:
+energy: -424.464478
+avg_mol_surf_distance: 3.387465
+max_force: 0.098363
+avg_force: 0.006664
+max_displacement: 1.714435
+
+Step 194:
+energy: -424.454895
+avg_mol_surf_distance: 3.384341
+max_force: 0.092495
+avg_force: 0.006399
+max_displacement: 1.709647
+
+Step 195:
+energy: -424.406158
+avg_mol_surf_distance: 3.367671
+max_force: 0.058396
+avg_force: 0.007614
+max_displacement: 1.681160
+
+Step 196:
+energy: -424.410583
+avg_mol_surf_distance: 3.368838
+max_force: 0.058889
+avg_force: 0.006888
+max_displacement: 1.678922
+
+Step 197:
+energy: -424.403259
+avg_mol_surf_distance: 3.365833
+max_force: 0.052154
+avg_force: 0.006131
+max_displacement: 1.670325
+
+Step 198:
+energy: -424.396301
+avg_mol_surf_distance: 3.364002
+max_force: 0.047447
+avg_force: 0.006226
+max_displacement: 1.672294
+
+Step 199:
+energy: -424.386230
+avg_mol_surf_distance: 3.362774
+max_force: 0.090320
+avg_force: 0.008385
+max_displacement: 1.693284
+
+Step 200:
+energy: -424.361603
+avg_mol_surf_distance: 3.365018
+max_force: 0.261200
+avg_force: 0.012459
+max_displacement: 1.740259
+
+Step 201:
+energy: -424.363922
+avg_mol_surf_distance: 3.365593
+max_force: 0.103472
+avg_force: 0.007190
+max_displacement: 1.736473
+
+Step 202:
+energy: -424.367035
+avg_mol_surf_distance: 3.364233
+max_force: 0.068538
+avg_force: 0.005633
+max_displacement: 1.734584
+
+Step 203:
+energy: -424.380127
+avg_mol_surf_distance: 3.362048
+max_force: 0.050398
+avg_force: 0.005569
+max_displacement: 1.729139
+
+Step 204:
+energy: -424.381042
+avg_mol_surf_distance: 3.361816
+max_force: 0.032714
+avg_force: 0.005390
+max_displacement: 1.731571
+
+Step 205:
+energy: -424.367645
+avg_mol_surf_distance: 3.363620
+max_force: 0.049731
+avg_force: 0.006181
+max_displacement: 1.745737
+
+Step 206:
+energy: -424.362946
+avg_mol_surf_distance: 3.362721
+max_force: 0.054570
+avg_force: 0.007154
+max_displacement: 1.739615
+
+Step 207:
+energy: -424.346100
+avg_mol_surf_distance: 3.357651
+max_force: 0.201280
+avg_force: 0.011396
+max_displacement: 1.698144
+
+Step 208:
+energy: -424.337952
+avg_mol_surf_distance: 3.356681
+max_force: 0.137994
+avg_force: 0.009212
+max_displacement: 1.686578
+
+Step 209:
+energy: -424.343201
+avg_mol_surf_distance: 3.352955
+max_force: 0.064409
+avg_force: 0.006266
+max_displacement: 1.653978
+
+Step 210:
+energy: -424.335358
+avg_mol_surf_distance: 3.347699
+max_force: 0.049385
+avg_force: 0.005067
+max_displacement: 1.627774
+
+Step 211:
+energy: -424.318359
+avg_mol_surf_distance: 3.342054
+max_force: 0.064758
+avg_force: 0.004656
+max_displacement: 1.615412
+
+Step 212:
+energy: -424.303101
+avg_mol_surf_distance: 3.338250
+max_force: 0.073109
+avg_force: 0.004928
+max_displacement: 1.602364
+
+Step 213:
+energy: -424.281708
+avg_mol_surf_distance: 3.325861
+max_force: 0.145110
+avg_force: 0.011665
+max_displacement: 1.549378
+
+Step 214:
+energy: -424.288177
+avg_mol_surf_distance: 3.326826
+max_force: 0.087962
+avg_force: 0.006739
+max_displacement: 1.550319
+
+Step 215:
+energy: -424.277557
+avg_mol_surf_distance: 3.321161
+max_force: 0.072649
+avg_force: 0.006660
+max_displacement: 1.529574
+
+Step 216:
+energy: -424.264618
+avg_mol_surf_distance: 3.315012
+max_force: 0.032754
+avg_force: 0.005680
+max_displacement: 1.512544
+
+Step 217:
+energy: -424.265472
+avg_mol_surf_distance: 3.315681
+max_force: 0.026901
+avg_force: 0.005499
+max_displacement: 1.512963
+
+Step 218:
+energy: -424.278442
+avg_mol_surf_distance: 3.318746
+max_force: 0.083951
+avg_force: 0.006524
+max_displacement: 1.509688
+
+Step 219:
+energy: -424.279449
+avg_mol_surf_distance: 3.313281
+max_force: 0.066114
+avg_force: 0.007306
+max_displacement: 1.473937
+
+Step 220:
+energy: -424.279053
+avg_mol_surf_distance: 3.298587
+max_force: 0.125179
+avg_force: 0.010282
+max_displacement: 1.416930
+
+Step 221:
+energy: -424.262695
+avg_mol_surf_distance: 3.275433
+max_force: 0.170709
+avg_force: 0.012347
+max_displacement: 1.351833
+
+Step 222:
+energy: -424.236328
+avg_mol_surf_distance: 3.273930
+max_force: 0.044269
+avg_force: 0.006541
+max_displacement: 1.367608
+
+Step 223:
+energy: -424.247131
+avg_mol_surf_distance: 3.284071
+max_force: 0.103788
+avg_force: 0.006453
+max_displacement: 1.405238
+
+Step 224:
+energy: -424.262085
+avg_mol_surf_distance: 3.299575
+max_force: 0.051375
+avg_force: 0.004417
+max_displacement: 1.462736
+
+Step 225:
+energy: -424.268005
+avg_mol_surf_distance: 3.301044
+max_force: 0.036567
+avg_force: 0.003780
+max_displacement: 1.482662
+
+Step 226:
+energy: -424.271698
+avg_mol_surf_distance: 3.295253
+max_force: 0.049785
+avg_force: 0.005010
+max_displacement: 1.545934
+
+Step 227:
+energy: -424.248840
+avg_mol_surf_distance: 3.275149
+max_force: 0.051811
+avg_force: 0.004982
+max_displacement: 1.495489
+
+Step 228:
+energy: -424.233459
+avg_mol_surf_distance: 3.268925
+max_force: 0.036847
+avg_force: 0.004506
+max_displacement: 1.491890
+
+Step 229:
+energy: -424.196167
+avg_mol_surf_distance: 3.247891
+max_force: 0.062263
+avg_force: 0.006832
+max_displacement: 1.454796
+
+Step 230:
+energy: -424.191650
+avg_mol_surf_distance: 3.248574
+max_force: 0.047875
+avg_force: 0.005623
+max_displacement: 1.435989
+
+Step 231:
+energy: -424.210815
+avg_mol_surf_distance: 3.255227
+max_force: 0.025961
+avg_force: 0.004759
+max_displacement: 1.431340
+
+Step 232:
+energy: -424.206482
+avg_mol_surf_distance: 3.250897
+max_force: 0.017253
+avg_force: 0.004535
+max_displacement: 1.424389
+
+Step 233:
+energy: -424.203979
+avg_mol_surf_distance: 3.247285
+max_force: 0.018283
+avg_force: 0.004181
+max_displacement: 1.416895
+
+Step 234:
+energy: -424.204010
+avg_mol_surf_distance: 3.245732
+max_force: 0.021331
+avg_force: 0.004468
+max_displacement: 1.410191
+
+Step 235:
+energy: -424.204498
+avg_mol_surf_distance: 3.239933
+max_force: 0.050245
+avg_force: 0.005441
+max_displacement: 1.376448
+
+Step 236:
+energy: -424.202911
+avg_mol_surf_distance: 3.236604
+max_force: 0.051914
+avg_force: 0.005148
+max_displacement: 1.358954
+
+Step 237:
+energy: -424.205322
+avg_mol_surf_distance: 3.235155
+max_force: 0.050980
+avg_force: 0.005026
+max_displacement: 1.355900
+
+Step 238:
+energy: -424.207855
+avg_mol_surf_distance: 3.234201
+max_force: 0.105334
+avg_force: 0.005751
+max_displacement: 1.359850
+
+Step 239:
+energy: -424.210266
+avg_mol_surf_distance: 3.214656
+max_force: 0.148939
+avg_force: 0.010036
+max_displacement: 1.332404
+
+Step 240:
+energy: -424.218506
+avg_mol_surf_distance: 3.221914
+max_force: 0.058782
+avg_force: 0.005804
+max_displacement: 1.337390
+
+Step 241:
+energy: -424.230682
+avg_mol_surf_distance: 3.223732
+max_force: 0.033143
+avg_force: 0.004567
+max_displacement: 1.331378
+
+Step 242:
+energy: -424.248383
+avg_mol_surf_distance: 3.225831
+max_force: 0.037238
+avg_force: 0.004069
+max_displacement: 1.330664
+
+Step 243:
+energy: -424.256927
+avg_mol_surf_distance: 3.225110
+max_force: 0.035098
+avg_force: 0.004309
+max_displacement: 1.325519
+
+Step 244:
+energy: -424.275726
+avg_mol_surf_distance: 3.225667
+max_force: 0.029358
+avg_force: 0.005052
+max_displacement: 1.317980
+
+Step 245:
+energy: -424.276855
+avg_mol_surf_distance: 3.228848
+max_force: 0.029989
+avg_force: 0.004604
+max_displacement: 1.322545
+
+Step 246:
+energy: -424.270813
+avg_mol_surf_distance: 3.235452
+max_force: 0.032009
+avg_force: 0.003818
+max_displacement: 1.341619
+
+Step 247:
+energy: -424.266754
+avg_mol_surf_distance: 3.240094
+max_force: 0.039495
+avg_force: 0.003858
+max_displacement: 1.357372
+
+Step 248:
+energy: -424.258423
+avg_mol_surf_distance: 3.246369
+max_force: 0.040146
+avg_force: 0.003611
+max_displacement: 1.387648
+
+Step 249:
+energy: -424.258362
+avg_mol_surf_distance: 3.246307
+max_force: 0.027439
+avg_force: 0.003211
+max_displacement: 1.395896
+
+Step 250:
+energy: -424.267670
+avg_mol_surf_distance: 3.232418
+max_force: 0.079267
+avg_force: 0.006459
+max_displacement: 1.401172
+
+Step 251:
+energy: -424.272675
+avg_mol_surf_distance: 3.227816
+max_force: 0.075063
+avg_force: 0.005893
+max_displacement: 1.372396
+
+Step 252:
+energy: -424.276764
+avg_mol_surf_distance: 3.215105
+max_force: 0.161300
+avg_force: 0.007335
+max_displacement: 1.298368
+
+Step 253:
+energy: -424.256836
+avg_mol_surf_distance: 3.222404
+max_force: 0.048275
+avg_force: 0.004697
+max_displacement: 1.306145
+
+Step 254:
+energy: -424.258759
+avg_mol_surf_distance: 3.229086
+max_force: 0.076902
+avg_force: 0.004466
+max_displacement: 1.343227
+
+Step 255:
+energy: -424.276428
+avg_mol_surf_distance: 3.235689
+max_force: 0.073639
+avg_force: 0.006231
+max_displacement: 1.421181
+
+Step 256:
+energy: -424.275146
+avg_mol_surf_distance: 3.228468
+max_force: 0.011555
+avg_force: 0.002729
+max_displacement: 1.362503
+
+Step 257:
+energy: -424.282990
+avg_mol_surf_distance: 3.223880
+max_force: 0.025051
+avg_force: 0.003405
+max_displacement: 1.348076
+
+Step 258:
+energy: -424.323029
+avg_mol_surf_distance: 3.187973
+max_force: 0.426392
+avg_force: 0.021028
+max_displacement: 1.232357
+
+Step 259:
+energy: -424.296814
+avg_mol_surf_distance: 3.222155
+max_force: 0.034842
+avg_force: 0.003451
+max_displacement: 1.329715
+
+Step 260:
+energy: -424.293610
+avg_mol_surf_distance: 3.218456
+max_force: 0.036870
+avg_force: 0.003424
+max_displacement: 1.328769
+
+Step 261:
+energy: -424.296234
+avg_mol_surf_distance: 3.199886
+max_force: 0.126200
+avg_force: 0.005986
+max_displacement: 1.300544
+
+Step 262:
+energy: -424.329163
+avg_mol_surf_distance: 3.169839
+max_force: 0.343622
+avg_force: 0.014930
+max_displacement: 1.235300
+
+Step 263:
+energy: -424.326233
+avg_mol_surf_distance: 3.191710
+max_force: 0.158180
+avg_force: 0.006882
+max_displacement: 1.265785
+
+Step 264:
+energy: -424.332306
+avg_mol_surf_distance: 3.192999
+max_force: 0.053803
+avg_force: 0.004555
+max_displacement: 1.267862
+
+Step 265:
+energy: -424.346191
+avg_mol_surf_distance: 3.200675
+max_force: 0.040256
+avg_force: 0.004232
+max_displacement: 1.289456
+
+Step 266:
+energy: -424.351959
+avg_mol_surf_distance: 3.206456
+max_force: 0.042988
+avg_force: 0.004198
+max_displacement: 1.294280
+
+Step 267:
+energy: -424.354553
+avg_mol_surf_distance: 3.215223
+max_force: 0.024980
+avg_force: 0.003780
+max_displacement: 1.297824
+
+Step 268:
+energy: -424.348907
+avg_mol_surf_distance: 3.213610
+max_force: 0.014635
+avg_force: 0.003023
+max_displacement: 1.296554
+
+Step 269:
+energy: -424.344238
+avg_mol_surf_distance: 3.209302
+max_force: 0.009540
+avg_force: 0.002693
+max_displacement: 1.298185
+
