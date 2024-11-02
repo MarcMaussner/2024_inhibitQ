@@ -1,0 +1,713 @@
+{
+    "configuration": {
+        "backend": "Qiskit Estimator",
+        "method": "ADAPT-VQE",
+        "num_alpha": 1,
+        "num_beta": 1,
+        "num_orbs": 5,
+        "num_shots": 0
+    },
+    "results": {
+        "ground_state_energy": null,
+        "excitation_energies": [
+            0.0,
+            0.0,
+            0.0,
+            0.01688986966693995,
+            0.03397682203288455,
+            0.033976822032884615,
+            0.03397682203288486,
+            0.039147844512172576,
+            0.05710790976471,
+            0.0630279057638823,
+            0.06302790576388238,
+            0.06302790576388238,
+            0.15648073927458195,
+            0.169851985815539,
+            0.16985198581553904,
+            0.16985198581553926
+        ],
+        "transition_amplitudes": {
+            "(0, 1)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(0, 2)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(0, 3)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(0, 4)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(0, 5)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(0, 6)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(0, 7)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(0, 8)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(0, 9)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(0, 10)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(0, 11)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(0, 12)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(0, 13)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(0, 14)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(0, 15)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(0, 16)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(1, 2)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(1, 3)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(1, 4)": {
+                "AngularMomentum": 2.1891901269555092e-07,
+                "Magnetization": -9.313225746154785e-10,
+                "ParticleNumber": 2.062879502773285e-07
+            },
+            "(1, 5)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(1, 6)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(1, 7)": {
+                "AngularMomentum": -1526190.012934453,
+                "Magnetization": 2.3283064365386963e-10,
+                "ParticleNumber": -1526190.0129344617
+            },
+            "(1, 8)": {
+                "AngularMomentum": -4.400499165058136e-08,
+                "Magnetization": 0.0,
+                "ParticleNumber": 4.6566128730773926e-09
+            },
+            "(1, 9)": {
+                "AngularMomentum": 1.4606484910473228e-09,
+                "Magnetization": 2.2919266484677792e-10,
+                "ParticleNumber": 1.0557414498180151e-08
+            },
+            "(1, 10)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(1, 11)": {
+                "AngularMomentum": 875238.339996129,
+                "Magnetization": 0.0,
+                "ParticleNumber": 875238.3399961246
+            },
+            "(1, 12)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(1, 13)": {
+                "AngularMomentum": 4.0745362639427185e-10,
+                "Magnetization": 2.9103830456733704e-11,
+                "ParticleNumber": -1.1641532182693481e-09
+            },
+            "(1, 14)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(1, 15)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(1, 16)": {
+                "AngularMomentum": -213505.65506990495,
+                "Magnetization": 2.1827872842550278e-11,
+                "ParticleNumber": -213505.65506990638
+            },
+            "(2, 3)": {
+                "AngularMomentum": 2077610616675555.8,
+                "Magnetization": -1038805308337777.2,
+                "ParticleNumber": 2077610616675554.0
+            },
+            "(2, 4)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(2, 5)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(2, 6)": {
+                "AngularMomentum": 2068139.621231962,
+                "Magnetization": -1034069.8106159838,
+                "ParticleNumber": 2068139.6212319592
+            },
+            "(2, 7)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(2, 8)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(2, 9)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(2, 10)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(2, 11)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(2, 12)": {
+                "AngularMomentum": 1891952.371286289,
+                "Magnetization": -945976.1856431491,
+                "ParticleNumber": 1891952.3712862981
+            },
+            "(2, 13)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(2, 14)": {
+                "AngularMomentum": -471791.3060153146,
+                "Magnetization": 235895.6530076562,
+                "ParticleNumber": -471791.30601531686
+            },
+            "(2, 15)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(2, 16)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(3, 4)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(3, 5)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(3, 6)": {
+                "AngularMomentum": 2068139.621231962,
+                "Magnetization": -1034069.8106159838,
+                "ParticleNumber": 2068139.6212319592
+            },
+            "(3, 7)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(3, 8)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(3, 9)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(3, 10)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(3, 11)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(3, 12)": {
+                "AngularMomentum": 1891952.371286289,
+                "Magnetization": -945976.1856431491,
+                "ParticleNumber": 1891952.3712862981
+            },
+            "(3, 13)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(3, 14)": {
+                "AngularMomentum": -471791.3060153146,
+                "Magnetization": 235895.6530076562,
+                "ParticleNumber": -471791.30601531686
+            },
+            "(3, 15)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(3, 16)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(4, 5)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(4, 6)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(4, 7)": {
+                "AngularMomentum": -0.0,
+                "Magnetization": -0.0,
+                "ParticleNumber": 0.0
+            },
+            "(4, 8)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.02098768138164943
+            },
+            "(4, 9)": {
+                "AngularMomentum": -0.0,
+                "Magnetization": -0.0,
+                "ParticleNumber": 0.06971731014447008
+            },
+            "(4, 10)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(4, 11)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": -0.0,
+                "ParticleNumber": -0.0
+            },
+            "(4, 12)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(4, 13)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": -0.0,
+                "ParticleNumber": 0.01589114839465156
+            },
+            "(4, 14)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(4, 15)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(4, 16)": {
+                "AngularMomentum": -0.0,
+                "Magnetization": -0.0,
+                "ParticleNumber": 0.0
+            },
+            "(5, 6)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(5, 7)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(5, 8)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(5, 9)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(5, 10)": {
+                "AngularMomentum": -0.06831759615938973,
+                "Magnetization": -0.034158798079694755,
+                "ParticleNumber": -0.06831759615938948
+            },
+            "(5, 11)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(5, 12)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(5, 13)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(5, 14)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(5, 15)": {
+                "AngularMomentum": 0.009120823257225782,
+                "Magnetization": 0.004560411628612888,
+                "ParticleNumber": 0.009120823257225769
+            },
+            "(5, 16)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(6, 7)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(6, 8)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(6, 9)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(6, 10)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(6, 11)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(6, 12)": {
+                "AngularMomentum": 0.06831759615938893,
+                "Magnetization": -0.03415879807969432,
+                "ParticleNumber": 0.06831759615938865
+            },
+            "(6, 13)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(6, 14)": {
+                "AngularMomentum": -0.009120823257225704,
+                "Magnetization": 0.004560411628612859,
+                "ParticleNumber": -0.009120823257225722
+            },
+            "(6, 15)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(6, 16)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(7, 8)": {
+                "AngularMomentum": -0.0,
+                "Magnetization": -0.0,
+                "ParticleNumber": -0.0
+            },
+            "(7, 9)": {
+                "AngularMomentum": -0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": -0.0
+            },
+            "(7, 10)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(7, 11)": {
+                "AngularMomentum": -0.06831759615939018,
+                "Magnetization": 0.0,
+                "ParticleNumber": -0.06831759615939016
+            },
+            "(7, 12)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(7, 13)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": -0.0
+            },
+            "(7, 14)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(7, 15)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(7, 16)": {
+                "AngularMomentum": 0.009120823257225814,
+                "Magnetization": -0.0,
+                "ParticleNumber": 0.009120823257225831
+            },
+            "(8, 9)": {
+                "AngularMomentum": -0.0,
+                "Magnetization": -0.0,
+                "ParticleNumber": 0.12860727967205493
+            },
+            "(8, 10)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(8, 11)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": -0.0,
+                "ParticleNumber": -0.0
+            },
+            "(8, 12)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(8, 13)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": -0.0,
+                "ParticleNumber": 0.013248945214943516
+            },
+            "(8, 14)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(8, 15)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(8, 16)": {
+                "AngularMomentum": -0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(9, 10)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(9, 11)": {
+                "AngularMomentum": -0.0,
+                "Magnetization": -0.0,
+                "ParticleNumber": -0.0
+            },
+            "(9, 12)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(9, 13)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0020325737109473186
+            },
+            "(9, 14)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(9, 15)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(9, 16)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(10, 11)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(10, 12)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(10, 13)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(10, 14)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(10, 15)": {
+                "AngularMomentum": -0.001254207219417736,
+                "Magnetization": -0.000627103609708771,
+                "ParticleNumber": -0.0012542072194173404
+            },
+            "(10, 16)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(11, 12)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(11, 13)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": -0.0,
+                "ParticleNumber": 0.0
+            },
+            "(11, 14)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(11, 15)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(11, 16)": {
+                "AngularMomentum": -0.0012542072194176499,
+                "Magnetization": -0.0,
+                "ParticleNumber": -0.001254207219416411
+            },
+            "(12, 13)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(12, 14)": {
+                "AngularMomentum": -0.0012542072194175688,
+                "Magnetization": 0.0006271036097087641,
+                "ParticleNumber": -0.001254207219417277
+            },
+            "(12, 15)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(12, 16)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(13, 14)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(13, 15)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(13, 16)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": -0.0
+            },
+            "(14, 15)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(14, 16)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(15, 16)": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            }
+        }
+    }
+}

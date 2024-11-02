@@ -1,0 +1,9 @@
+Energy Results (eV):
+Supercell energy:  -419.835510
+Substrate energy:  -369.635071
+Inhibitor energy:  -53.003811
+
+Binding Energy:
+E_binding = 2.803371 eV
+E_binding = 0.103022 Hartree
+E_binding = 64.64854853439331 kcal/mol
