@@ -1,0 +1,31 @@
+Geometry = GenFormat { 
+    <<< "geo_end.gen" 
+} 
+ 
+Hamiltonian = DFTB{ 
+      Damping = BJ 
+      a1 = 0.5719 
+      a2 = 3.6017 
+      s6 = 1.0 
+      s8 = 0.5883 
+   } 
+   Dispersion = DftD3 
+   MaxAngularMomentum = { 
+      Al = p 
+      C = p 
+      H = s 
+      N = p 
+   } 
+   SlaterKosterFiles = Type2FileNames{ 
+      Prefix = ./ 
+      Separator = "-" 
+      Suffix = ".skf" 
+      } 
+   } 
+Options { 
+   WriteResultsTag = Yes 
+   } 
+ParserOptions { 
+   IgnoreUnprocessedNodes = Yes 
+   ParserVersion = 1 
+} 
