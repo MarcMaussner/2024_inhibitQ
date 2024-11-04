@@ -1,0 +1,39 @@
+Successfully loaded structure with 105 atoms
+Output directory created: orb_opt_al_slab_with_Triazole-3-thiol_4x4x6_v10.0_20241102_093300
+Initializing ORB-D3 model on cpu...
+Successfully loaded structure with 105 atoms
+Output directory created: orb_opt_al_slab_with_Triazole-3-thiol_4x4x6_v10.0_20241102_093357
+Initializing ORB-D3 model on cpu...
+Initial energy: -422.863 eV
+Initial molecule-surface distance: 3.192 Å
+Starting geometry optimization...
+Successfully loaded structure with 105 atoms
+Output directory created: orb_opt_al_slab_with_Triazole-3-thiol_4x4x6_v10.0_20241102_093617
+Initializing ORB-D3 model on cpu...
+Initial energy: -422.863 eV
+Initial molecule-surface distance: 3.192 Å
+Starting geometry optimization...
+
+Optimization complete!
+Status: Converged
+Final energy: -424.344 eV
+Energy change: -1.481 eV
+Final molecule-surface distance: 3.209 Å
+Maximum atomic displacement: 1.298 Å
+Optimized structure saved to orb_opt_al_slab_with_Triazole-3-thiol_4x4x6_v10.0_20241102_093617/optimized_structure.xyz
+Full optimization details available in orb_opt_al_slab_with_Triazole-3-thiol_4x4x6_v10.0_20241102_093617
+Successfully loaded structure with 110 atoms
+Output directory created: orb_opt_al_slab_with_1H-Benzotriazole_4x4x6_v10.0_20241102_193031
+Initializing ORB-D3 model on cpu...
+Initial energy: -460.892 eV
+Initial molecule-surface distance: 3.207 Å
+Starting geometry optimization...
+
+Optimization complete!
+Status: Converged
+Final energy: -461.767 eV
+Energy change: -0.875 eV
+Final molecule-surface distance: 4.580 Å
+Maximum atomic displacement: 11.747 Å
+Optimized structure saved to orb_opt_al_slab_with_1H-Benzotriazole_4x4x6_v10.0_20241102_193031/optimized_structure.xyz
+Full optimization details available in orb_opt_al_slab_with_1H-Benzotriazole_4x4x6_v10.0_20241102_193031
