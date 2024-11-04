@@ -14,3 +14,5 @@
   - Notebooks created for resource esimtation of our workflow for requesting further AWS credits
     - old estimates: old files for estimating resources without use of hybrid jobs
     files in folder are using hybridjob feature
+- qeom_poc:
+  - Notebooks to see if workflow (VQE + qeom for H2) can by applied to braket localSim, SV1, IonQ Aria1, IQM Garnet

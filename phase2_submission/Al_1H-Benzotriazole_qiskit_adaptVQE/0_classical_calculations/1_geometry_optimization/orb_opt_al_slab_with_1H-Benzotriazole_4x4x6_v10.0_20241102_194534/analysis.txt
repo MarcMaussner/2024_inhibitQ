@@ -1,0 +1,14 @@
+Initial structure analysis:
+energy: -461.767456
+avg_mol_surf_distance: 4.579849
+max_force: 0.008199
+avg_force: 0.002207
+max_displacement: 0.000000
+
+Step 0:
+energy: -461.767456
+avg_mol_surf_distance: 4.579849
+max_force: 0.008199
+avg_force: 0.002207
+max_displacement: 0.000000
+
