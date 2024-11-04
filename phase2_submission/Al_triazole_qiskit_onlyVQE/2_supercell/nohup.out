@@ -1,0 +1,9 @@
+chmod: changing permissions of '/home/ubuntu/calculations/0_braket_localSim_adaptVQE/Al111_4x4_active_space_adsorbate-1_0.fcidump': Operation not permitted
+chmod: changing permissions of '/home/ubuntu/calculations/0_braket_localSim_adaptVQE/Al111_4x4_active_space_adsorbate-RESTART.wfn': Operation not permitted
+chmod: changing permissions of '/home/ubuntu/calculations/0_braket_localSim_adaptVQE/Al111_4x4_active_space_adsorbate-RESTART.wfn.bak-1': Operation not permitted
+chmod: changing permissions of '/home/ubuntu/calculations/0_qiskit_localSim_VQE_only/Al111_4x4_active_space_adsorbate-RESTART.wfn': Operation not permitted
+chmod: changing permissions of '/home/ubuntu/calculations/0_qiskit_localSim_VQE_only/Al111_4x4_active_space_adsorbate-RESTART.wfn.bak-1': Operation not permitted
+chmod: changing permissions of '/home/ubuntu/calculations/0_qiskit_localSim_VQE_only/Al111_4x4_active_space_adsorbate-RESTART.wfn': Operation not permitted
+chmod: changing permissions of '/home/ubuntu/calculations/0_qiskit_localSim_VQE_only/Al111_4x4_active_space_adsorbate-RESTART.wfn.bak-1': Operation not permitted
+chmod: changing permissions of '/home/ubuntu/calculations/0_qiskit_localSim_VQE_only/Al111_4x4_active_space_adsorbate-RESTART.wfn': Operation not permitted
+chmod: changing permissions of '/home/ubuntu/calculations/0_qiskit_localSim_VQE_only/Al111_4x4_active_space_adsorbate-RESTART.wfn.bak-1': Operation not permitted

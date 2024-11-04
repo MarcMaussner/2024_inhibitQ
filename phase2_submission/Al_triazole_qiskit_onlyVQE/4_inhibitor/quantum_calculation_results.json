@@ -1,0 +1,713 @@
+{
+    "configuration": {
+        "backend": "Qiskit Estimator",
+        "method": "VQE",
+        "num_alpha": 1,
+        "num_beta": 1,
+        "num_orbs": 5,
+        "num_shots": 0
+    },
+    "results": {
+        "ground_state_energy": null,
+        "excitation_energies": [
+            0.024075588120912816,
+            0.15831213477954148,
+            0.21867259561138702,
+            0.40699318903475834,
+            0.4122404619263593,
+            0.4122404619263594,
+            0.46533521142670226,
+            0.46883496309870437,
+            0.4885955914811726,
+            0.4993173634707644,
+            0.5074953030470323,
+            0.6010766864003984,
+            0.6010766864003984,
+            0.6103674523294255,
+            2.428843392760242,
+            2.9668339452045256
+        ],
+        "transition_amplitudes": {
+            "(np.int64(0), np.int64(1))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(0), np.int64(2))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(0), np.int64(3))": {
+                "AngularMomentum": -0.014891905879053065,
+                "Magnetization": 0.0,
+                "ParticleNumber": 1.2476121563154488e-08
+            },
+            "(np.int64(0), np.int64(4))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(0), np.int64(5))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(0), np.int64(6))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(0), np.int64(7))": {
+                "AngularMomentum": -0.003184934760730407,
+                "Magnetization": -0.0,
+                "ParticleNumber": -2.7333992794892348e-09
+            },
+            "(np.int64(0), np.int64(8))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(0), np.int64(9))": {
+                "AngularMomentum": -0.0025596463382226288,
+                "Magnetization": 0.0,
+                "ParticleNumber": -1.653596198251256e-08
+            },
+            "(np.int64(0), np.int64(10))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(0), np.int64(11))": {
+                "AngularMomentum": -0.0043205018009575625,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(0), np.int64(12))": {
+                "AngularMomentum": 16466904.308394747,
+                "Magnetization": 2.4136816446652445e-12,
+                "ParticleNumber": 7.518512809776331e-09
+            },
+            "(np.int64(0), np.int64(13))": {
+                "AngularMomentum": 16466904.308395537,
+                "Magnetization": 7.19285614281131e-12,
+                "ParticleNumber": -9.86603232188998e-09
+            },
+            "(np.int64(0), np.int64(14))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(0), np.int64(15))": {
+                "AngularMomentum": -0.34897539595567967,
+                "Magnetization": 0.0,
+                "ParticleNumber": -9.906299529455502e-09
+            },
+            "(np.int64(0), np.int64(16))": {
+                "AngularMomentum": 0.004091991985353288,
+                "Magnetization": -0.0,
+                "ParticleNumber": -9.714040320502222e-09
+            },
+            "(np.int64(1), np.int64(2))": {
+                "AngularMomentum": -0.21937168599603107,
+                "Magnetization": -0.10968584299792289,
+                "ParticleNumber": -0.21937168599649542
+            },
+            "(np.int64(1), np.int64(3))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(1), np.int64(4))": {
+                "AngularMomentum": -0.31577726674502415,
+                "Magnetization": -0.15788863340196585,
+                "ParticleNumber": -0.3157772665566539
+            },
+            "(np.int64(1), np.int64(5))": {
+                "AngularMomentum": -302056.82217015343,
+                "Magnetization": -151028.41147041603,
+                "ParticleNumber": -302056.81987611396
+            },
+            "(np.int64(1), np.int64(6))": {
+                "AngularMomentum": -302056.82217301446,
+                "Magnetization": -151028.41147041976,
+                "ParticleNumber": -302056.81987609906
+            },
+            "(np.int64(1), np.int64(7))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(1), np.int64(8))": {
+                "AngularMomentum": 0.15069169756855633,
+                "Magnetization": 0.07534584877516905,
+                "ParticleNumber": 0.15069169762429127
+            },
+            "(np.int64(1), np.int64(9))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(1), np.int64(10))": {
+                "AngularMomentum": -0.11131850316938824,
+                "Magnetization": -0.055659251577040325,
+                "ParticleNumber": -0.11131850321656464
+            },
+            "(np.int64(1), np.int64(11))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(1), np.int64(12))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(1), np.int64(13))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(1), np.int64(14))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(1), np.int64(15))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(1), np.int64(16))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(2), np.int64(3))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(2), np.int64(4))": {
+                "AngularMomentum": 0.04831169341110667,
+                "Magnetization": 0.02415584664977894,
+                "ParticleNumber": 0.048311693792872895
+            },
+            "(np.int64(2), np.int64(5))": {
+                "AngularMomentum": 95798.31269304051,
+                "Magnetization": 47899.15610720869,
+                "ParticleNumber": 95798.31405823182
+            },
+            "(np.int64(2), np.int64(6))": {
+                "AngularMomentum": 95798.31269351921,
+                "Magnetization": 47899.156108162366,
+                "ParticleNumber": 95798.31405823182
+            },
+            "(np.int64(2), np.int64(7))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(2), np.int64(8))": {
+                "AngularMomentum": -0.011544110797171648,
+                "Magnetization": -0.005772055414464845,
+                "ParticleNumber": -0.011544110696620327
+            },
+            "(np.int64(2), np.int64(9))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(2), np.int64(10))": {
+                "AngularMomentum": 0.007869858705442458,
+                "Magnetization": 0.003934929366939813,
+                "ParticleNumber": 0.00786985861393952
+            },
+            "(np.int64(2), np.int64(11))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(2), np.int64(12))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(2), np.int64(13))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(2), np.int64(14))": {
+                "AngularMomentum": -0.0,
+                "Magnetization": -0.0,
+                "ParticleNumber": -0.0
+            },
+            "(np.int64(2), np.int64(15))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(2), np.int64(16))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(3), np.int64(4))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(3), np.int64(5))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(3), np.int64(6))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(3), np.int64(7))": {
+                "AngularMomentum": -0.003822545086418173,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0002000858578618507
+            },
+            "(np.int64(3), np.int64(8))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(3), np.int64(9))": {
+                "AngularMomentum": -0.0024859150706897336,
+                "Magnetization": 0.0,
+                "ParticleNumber": 4.149130716677666e-05
+            },
+            "(np.int64(3), np.int64(10))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(3), np.int64(11))": {
+                "AngularMomentum": -0.0012698330220059938,
+                "Magnetization": 0.0,
+                "ParticleNumber": 8.69338077359341e-05
+            },
+            "(np.int64(3), np.int64(12))": {
+                "AngularMomentum": -462253.1585383033,
+                "Magnetization": 8.775190418752743e-06,
+                "ParticleNumber": -158861.58868070095
+            },
+            "(np.int64(3), np.int64(13))": {
+                "AngularMomentum": -462253.15853851655,
+                "Magnetization": 8.777159034245585e-06,
+                "ParticleNumber": -158861.58868066643
+            },
+            "(np.int64(3), np.int64(14))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(3), np.int64(15))": {
+                "AngularMomentum": 0.0035182034136488176,
+                "Magnetization": 0.0,
+                "ParticleNumber": -0.011321400964215567
+            },
+            "(np.int64(3), np.int64(16))": {
+                "AngularMomentum": 0.0045830099098864855,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0024209603191941045
+            },
+            "(np.int64(4), np.int64(5))": {
+                "AngularMomentum": 4040963.0118672308,
+                "Magnetization": 2020481.486543427,
+                "ParticleNumber": 4040963.1135958196
+            },
+            "(np.int64(4), np.int64(6))": {
+                "AngularMomentum": 4040963.011928266,
+                "Magnetization": 2020481.4866654973,
+                "ParticleNumber": 4040963.113595816
+            },
+            "(np.int64(4), np.int64(7))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(4), np.int64(8))": {
+                "AngularMomentum": 0.2703260151507561,
+                "Magnetization": 0.13516300619252852,
+                "ParticleNumber": 0.2703260227952971
+            },
+            "(np.int64(4), np.int64(9))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(4), np.int64(10))": {
+                "AngularMomentum": -0.24500564217415566,
+                "Magnetization": -0.12250281989939077,
+                "ParticleNumber": -0.24500564898870733
+            },
+            "(np.int64(4), np.int64(11))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(4), np.int64(12))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(4), np.int64(13))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(4), np.int64(14))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": -0.0
+            },
+            "(np.int64(4), np.int64(15))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(4), np.int64(16))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(5), np.int64(6))": {
+                "AngularMomentum": -26950835085874.78,
+                "Magnetization": -13475417629266.05,
+                "ParticleNumber": -26950834530827.17
+            },
+            "(np.int64(5), np.int64(7))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(5), np.int64(8))": {
+                "AngularMomentum": 1063234.4943966744,
+                "Magnetization": 531617.2418365972,
+                "ParticleNumber": 1063234.5211878344
+            },
+            "(np.int64(5), np.int64(9))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(5), np.int64(10))": {
+                "AngularMomentum": -935811.0086725999,
+                "Magnetization": -467905.50013552065,
+                "ParticleNumber": -935811.0327314094
+            },
+            "(np.int64(5), np.int64(11))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(5), np.int64(12))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(5), np.int64(13))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(5), np.int64(14))": {
+                "AngularMomentum": 2.0003025624770743e-10,
+                "Magnetization": 7.237682675409474e-12,
+                "ParticleNumber": 2.5542401527189895e-11
+            },
+            "(np.int64(5), np.int64(15))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(5), np.int64(16))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(6), np.int64(7))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(6), np.int64(8))": {
+                "AngularMomentum": 1063234.4943814157,
+                "Magnetization": 531617.2418518562,
+                "ParticleNumber": 1063234.5211878363
+            },
+            "(np.int64(6), np.int64(9))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(6), np.int64(10))": {
+                "AngularMomentum": -935811.0086802293,
+                "Magnetization": -467905.50013552065,
+                "ParticleNumber": -935811.0327314094
+            },
+            "(np.int64(6), np.int64(11))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(6), np.int64(12))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(6), np.int64(13))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(6), np.int64(14))": {
+                "AngularMomentum": 2.6899125982193794e-10,
+                "Magnetization": -4.873906833680053e-12,
+                "ParticleNumber": 3.339467591345624e-11
+            },
+            "(np.int64(6), np.int64(15))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(6), np.int64(16))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(7), np.int64(8))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(7), np.int64(9))": {
+                "AngularMomentum": -0.40119102965691794,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.00013332113777015514
+            },
+            "(np.int64(7), np.int64(10))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(7), np.int64(11))": {
+                "AngularMomentum": -0.13283216905596057,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.00018545638459237582
+            },
+            "(np.int64(7), np.int64(12))": {
+                "AngularMomentum": -499016.32357596623,
+                "Magnetization": 1.873771608984498e-05,
+                "ParticleNumber": -244060.1623055036
+            },
+            "(np.int64(7), np.int64(13))": {
+                "AngularMomentum": -499016.3235721031,
+                "Magnetization": 1.8752593376802906e-05,
+                "ParticleNumber": -244060.1623053852
+            },
+            "(np.int64(7), np.int64(14))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(7), np.int64(15))": {
+                "AngularMomentum": -0.0020113087149415823,
+                "Magnetization": -1.857494924328628e-12,
+                "ParticleNumber": -0.015746638358072808
+            },
+            "(np.int64(7), np.int64(16))": {
+                "AngularMomentum": 0.007429729679994316,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.009718379125261517
+            },
+            "(np.int64(8), np.int64(9))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(8), np.int64(10))": {
+                "AngularMomentum": -0.07947577426150026,
+                "Magnetization": -0.03973788683478377,
+                "ParticleNumber": -0.0794757761309085
+            },
+            "(np.int64(8), np.int64(11))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(8), np.int64(12))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(8), np.int64(13))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(8), np.int64(14))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(8), np.int64(15))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(8), np.int64(16))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(9), np.int64(10))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(9), np.int64(11))": {
+                "AngularMomentum": -0.06965877635830776,
+                "Magnetization": -0.0,
+                "ParticleNumber": 6.335736014927151e-05
+            },
+            "(np.int64(9), np.int64(12))": {
+                "AngularMomentum": 337946.90358494583,
+                "Magnetization": -3.384509568604699e-06,
+                "ParticleNumber": 30022.660348924033
+            },
+            "(np.int64(9), np.int64(13))": {
+                "AngularMomentum": 337946.90358426876,
+                "Magnetization": -3.3632423992457916e-06,
+                "ParticleNumber": 30022.660349453425
+            },
+            "(np.int64(9), np.int64(14))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(9), np.int64(15))": {
+                "AngularMomentum": -0.0087548201750229,
+                "Magnetization": 0.0,
+                "ParticleNumber": -0.0001509733120304947
+            },
+            "(np.int64(9), np.int64(16))": {
+                "AngularMomentum": -0.0034641871386820356,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.00848468685577209
+            },
+            "(np.int64(10), np.int64(11))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(10), np.int64(12))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(10), np.int64(13))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(10), np.int64(14))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": -0.0,
+                "ParticleNumber": -0.0
+            },
+            "(np.int64(10), np.int64(15))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(10), np.int64(16))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(11), np.int64(12))": {
+                "AngularMomentum": 656791.18091285,
+                "Magnetization": 1.7706502973169336e-05,
+                "ParticleNumber": -132064.62887420628
+            },
+            "(np.int64(11), np.int64(13))": {
+                "AngularMomentum": 656791.1809125626,
+                "Magnetization": 1.78007720990081e-05,
+                "ParticleNumber": -132064.62887304515
+            },
+            "(np.int64(11), np.int64(14))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(11), np.int64(15))": {
+                "AngularMomentum": -0.01760801810595333,
+                "Magnetization": 6.3289850588583625e-09,
+                "ParticleNumber": -0.007839447784292292
+            },
+            "(np.int64(11), np.int64(16))": {
+                "AngularMomentum": -0.010334752167614248,
+                "Magnetization": -0.0,
+                "ParticleNumber": 0.005905166529932932
+            },
+            "(np.int64(12), np.int64(13))": {
+                "AngularMomentum": 241821549184020.06,
+                "Magnetization": 34516.49358999729,
+                "ParticleNumber": 515387241668748.44
+            },
+            "(np.int64(12), np.int64(14))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(12), np.int64(15))": {
+                "AngularMomentum": 6422906.476356607,
+                "Magnetization": -0.004682290562365521,
+                "ParticleNumber": 22895414.876024373
+            },
+            "(np.int64(12), np.int64(16))": {
+                "AngularMomentum": -2181616.1941068685,
+                "Magnetization": 1.9443600278903905e-05,
+                "ParticleNumber": -161399.4719516153
+            },
+            "(np.int64(13), np.int64(14))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(13), np.int64(15))": {
+                "AngularMomentum": 6422906.476112466,
+                "Magnetization": -0.004682290303001657,
+                "ParticleNumber": 22895414.876024373
+            },
+            "(np.int64(13), np.int64(16))": {
+                "AngularMomentum": -2181616.1940801656,
+                "Magnetization": 1.944386053261138e-05,
+                "ParticleNumber": -161399.47195161151
+            },
+            "(np.int64(14), np.int64(15))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(14), np.int64(16))": {
+                "AngularMomentum": 0.0,
+                "Magnetization": 0.0,
+                "ParticleNumber": 0.0
+            },
+            "(np.int64(15), np.int64(16))": {
+                "AngularMomentum": -0.11334285842245612,
+                "Magnetization": 2.5090577978789726e-12,
+                "ParticleNumber": -0.04918605460911044
+            }
+        }
+    }
+}

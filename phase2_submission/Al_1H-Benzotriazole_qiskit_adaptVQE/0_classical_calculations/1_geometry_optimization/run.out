@@ -1,0 +1,30 @@
+Successfully loaded structure with 110 atoms
+Output directory created: orb_opt_al_slab_with_1H-Benzotriazole_4x4x6_v10.0_20241102_194534
+Initializing ORB-D3 model on cpu...
+Initial energy: -461.767 eV
+Initial molecule-surface distance: 4.580 Å
+Starting geometry optimization...
+
+Optimization complete!
+Status: Converged
+Final energy: -461.767 eV
+Energy change: 0.000 eV
+Final molecule-surface distance: 4.580 Å
+Maximum atomic displacement: 0.000 Å
+Optimized structure saved to orb_opt_al_slab_with_1H-Benzotriazole_4x4x6_v10.0_20241102_194534/optimized_structure.xyz
+Full optimization details available in orb_opt_al_slab_with_1H-Benzotriazole_4x4x6_v10.0_20241102_194534
+Successfully loaded structure with 110 atoms
+Output directory created: orb_opt_al_slab_with_1H-Benzotriazole_4x4x6_v10.0_20241102_194614
+Initializing ORB-D3 model on cpu...
+Initial energy: -461.767 eV
+Initial molecule-surface distance: 4.580 Å
+Starting geometry optimization...
+
+Optimization complete!
+Status: Converged
+Final energy: -461.798 eV
+Energy change: -0.030 eV
+Final molecule-surface distance: 4.941 Å
+Maximum atomic displacement: 3.636 Å
+Optimized structure saved to orb_opt_al_slab_with_1H-Benzotriazole_4x4x6_v10.0_20241102_194614/optimized_structure.xyz
+Full optimization details available in orb_opt_al_slab_with_1H-Benzotriazole_4x4x6_v10.0_20241102_194614
