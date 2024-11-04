@@ -2,6 +2,7 @@
 - repository to store papers, thoughts and proof-of-concept examples for the 2024 Airbus Coating challenge
 
 ## the linux environment
+This is a detailed walkthrough on how to set up the linux environment on an AWS EC2 instance to be able to run CP2K calculations with Qiskit and Braket as we are using it.
 ```bash
 docker
 uname -a
