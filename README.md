@@ -1,5 +1,12 @@
 # InhibitQ Project
 
+**Authors:**
+- Hazem Abdelhafiz [hazem.AbdElhafiz@gmail.com](mailto:hazem.AbdElhafiz@gmail.com)
+- Karim Elgammal [egkarim@gmail.com](mailto:egkarim@gmail.com)
+- Marc Maußner [marc.maussner@infoteam.de](mailto:marc.maussner@infoteam.de)
+
+*Authors listed in alphabetical order.*
+
 This repository contains quantum chemistry calculations and quantum computing simulations for corrosion inhibitor molecules on aluminum surfaces. The repository is organized into two main sections: phase2_submission (containing files for official submission) and calculational_details (containing supporting research and development work that we carried out during the project).
 
 ## Repository Structure
