@@ -41,3 +41,37 @@ The `calculational_details` folder contains:
 
 #### CP2K Calculations
 You can run CP2K calculations using either local installation or Docker:
+
+## How to Cite
+
+### Dataset Citation
+If you use this dataset in your research, please cite:
+```bibtex
+@misc{inhibitq2024dataset,
+title={InhibitQ: Quantum Computing Simulations of Corrosion Inhibitors},
+author={Abdelhafiz, Hazem and Elgammal, Karim and Maußner, Marc},
+year={2024},
+doi={10.24435/materialscloud:e2-dr},
+url={https://doi.org/10.24435/materialscloud:e2-dr}
+}
+```
+
+
+### Associated Publication
+This dataset supports the following publication:
+- Karim Elgammal and Marc Maußner (2024). A Quantum Computing Approach to Simulating Corrosion Inhibition. *arXiv preprint* arXiv:2412.00951.
+  - Preprint: https://arxiv.org/abs/2412.00951
+  - Field: Condensed Matter > Materials Science
+
+```bibtex
+@misc{elgammal2024,
+title={A Quantum Computing Approach to Simulating Corrosion Inhibition},
+author={Karim Elgammal and Marc Maußner},
+year={2024},
+eprint={2412.00951},
+archivePrefix={arXiv},
+primaryClass={cond-mat.mtrl-sci},
+url={https://arxiv.org/abs/2412.00951},
+}
+
+```
