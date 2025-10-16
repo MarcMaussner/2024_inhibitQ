@@ -1,7 +1,6 @@
 # InhibitQ Project
 
 **Authors:**
-- Hazem Abdelhafiz [hazem.AbdElhafiz@gmail.com](mailto:hazem.AbdElhafiz@gmail.com)
 - Karim Elgammal [egkarim@gmail.com](mailto:egkarim@gmail.com)
 - Marc Maußner [marc.maussner@infoteam.de](mailto:marc.maussner@infoteam.de)
 
